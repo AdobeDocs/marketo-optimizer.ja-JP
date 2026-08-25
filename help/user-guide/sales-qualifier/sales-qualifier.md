@@ -75,9 +75,9 @@ Sales Qualifierにアクセスするには、標準BDR ユーザーが`Sales Qua
 
 左側のナビゲーションで「**[!UICONTROL 見込み客]**」を選択して、アクセス可能なすべてのリードのリストを表示します。 リードのステータスや最後のアクティビティなど、情報を素早く確認できます。
 
-リードのステータスと見込み客の管理の最後のアクティビティを表示する![見込み客テーブル ](assets/prospects.png){width="800" zoomable="yes"}
+リードのステータスと見込み客の管理の最後のアクティビティを表示する![見込み客テーブル &#x200B;](assets/prospects.png){width="800" zoomable="yes"}
 
-_フィルター_ ![ フィルターアイコン ](../assets/do-not-localize/icon_filter-outline.svg) アイコンをクリックして、表示されているリストをリードステータスでフィルタリングします。
+_フィルター_ ![&#x200B; フィルターアイコン &#x200B;](../assets/do-not-localize/icon_filter-outline.svg) アイコンをクリックして、表示されているリストをリードステータスでフィルタリングします。
 
 ## アウトバウンドワークフロー {#outbound-workflows}
 
@@ -96,7 +96,7 @@ _アウトバウンドワークフロー_&#x200B;は、Sales Qualifierが目標�
 
 目標は、あらゆる要素を下流に導きます。AIは、ターゲティングフィルターの提案、ケイデンスの設計、タッチポイントプロンプトのドラフト、生成される電子メールのパーソナライゼーションの設定などにAIを活用します。
 
-![ アウトバウンドワークフローの概要タブ ](assets/outbound-workflow-overview.png){width="800" zoomable="yes"}
+![&#x200B; アウトバウンドワークフローの概要タブ &#x200B;](assets/outbound-workflow-overview.png){width="800" zoomable="yes"}
 
 ### 主要概念 {#key-concepts}
 
@@ -142,7 +142,7 @@ _アウトバウンドワークフロー_&#x200B;は、Sales Qualifierが目標�
 
 1. 下向き矢印をクリックして、**[!UICONTROL フィルターを追加]** リストを表示し、適用するフィルターを選択します。
 
-   ![ アウトバウンドワークフローのターゲティングフィルターの作成](assets/outbound-workflow-create-targeting-filter-list.png){width="700" zoomable="yes"}
+   ![&#x200B; アウトバウンドワークフローのターゲティングフィルターの作成](assets/outbound-workflow-create-targeting-filter-list.png){width="700" zoomable="yes"}
 
 1. フィルターの値を設定します。
 
@@ -156,7 +156,7 @@ _アウトバウンドワークフロー_&#x200B;は、Sales Qualifierが目標�
 
 ターゲティングを設定すると、AIは&#x200B;**_ケイデンス_**&#x200B;を作成します。目標とターゲティングを分析し、タッチポイントシーケンスを定義し、各ステップに&#x200B;**_タッチポイントプロンプト_**&#x200B;を書き込みます。 特定の日に各顧客接点でマルチステップのケイデンスが表示されます。 メール、電話、LinkedInMailのステップを組み合わせることができます。
 
-![ アウトバウンドワークフローがタッチポイントのケイデンスとプロンプトを生成しました](assets/outbound-workflow-create-touchpoints.png){width="700" zoomable="yes"}
+![&#x200B; アウトバウンドワークフローがタッチポイントのケイデンスとプロンプトを生成しました](assets/outbound-workflow-create-touchpoints.png){width="700" zoomable="yes"}
 
 メールのタッチポイントを拡大し、プロンプトを読む。 この手順では、トーン、長さ、焦点、_call to action_&#x200B;など、各見込み客の電子メールを作成する際のAIをガイドします。
 
@@ -180,7 +180,7 @@ AIは、指示に基づいてケイデンス全体を書き換えます。
 
 **設定**&#x200B;手順は、ワークフローの実行方法を制御します。
 
-![ アウトバウンドワークフロー設定](assets/outbound-workflow-create-settings.png){width="700" zoomable="yes"}
+![&#x200B; アウトバウンドワークフロー設定](assets/outbound-workflow-create-settings.png){width="700" zoomable="yes"}
 
 1. **[!UICONTROL ワークフロー名]**&#x200B;を確認し、より明確なラベルを付けたい場合は変更します。
 1. ワークフローごとに&#x200B;**[!UICONTROL 最大の見込み客]**&#x200B;で、ワークフローが一度に管理できる見込み客の数の上限を確認します。
@@ -193,7 +193,7 @@ AIは、指示に基づいてケイデンス全体を書き換えます。
 
 保存すると、手順2のターゲティングで既にフィルタリングされている見込み客の選択ビューが開きます。
 
-![ アウトバウンドワークフローで見込み客を追加](assets/outbound-workflow-create-add-prospects.png){width="700" zoomable="yes"}
+![&#x200B; アウトバウンドワークフローで見込み客を追加](assets/outbound-workflow-create-add-prospects.png){width="700" zoomable="yes"}
 
 1. リストを確認します。
 
@@ -211,7 +211,7 @@ AIは、選択した見込み客一人ひとりに対して、ケイデンスの
 
 生成が完了すると、ワークフローの詳細ビューにドラフトをレビューするためのバナーが表示されます。 審査が必要です。承認するまで何も送信しません。
 
-![送信ワークフローのレビューが生成されたメール ](assets/outbound-workflow-create-review-generated-emails.png){width="700" zoomable="yes"}
+![送信ワークフローのレビューが生成されたメール &#x200B;](assets/outbound-workflow-create-review-generated-emails.png){width="700" zoomable="yes"}
 
 1. ワークフローの詳細ビューで、バナーの「**[!UICONTROL 下書きを確認]**」をクリックします。
 1. **[!UICONTROL タッチポイントのレビュー]** ステップには、次の2つのタブがあります。
@@ -224,7 +224,7 @@ AIは、選択した見込み客一人ひとりに対して、ケイデンスの
 
 生成された各電子メールについて、**[!UICONTROL 推論]**&#x200B;は、AIがメッセージをどのように作成したかを説明しています。これには、コンテンツとcall to actionを形作ったシグナル、属性、ソースが含まれます。 承認する前に、この情報を確認し、パーソナライゼーションを検証してください。
 
-![ アウトバウンドワークフローが生成したメール AIの推論](assets/outbound-workflow-create-review-generated-email-reasoning.png){width="600" zoomable="yes"}
+![&#x200B; アウトバウンドワークフローが生成したメール AIの推論](assets/outbound-workflow-create-review-generated-email-reasoning.png){width="600" zoomable="yes"}
 
 #### メールを直接編集
 
@@ -260,7 +260,7 @@ AIは、選択した見込み客一人ひとりに対して、ケイデンスの
 1. 左側の見込み客リストで、メールを確認し、送信する準備ができている見込み客を選択します。
 1. 「**[!UICONTROL 見込み客の承認と登録]**」をクリックします（右下）。
 
-![ アウトバウンドワークフローで見込み客を選択して承認](assets/outbound-workflow-create-approve-enroll-prospects.png){width="700" zoomable="yes"}
+![&#x200B; アウトバウンドワークフローで見込み客を選択して承認](assets/outbound-workflow-create-approve-enroll-prospects.png){width="700" zoomable="yes"}
 
 承認された電子メールは、登録に関連する各タッチポイントのスケジュールされた日に、設定された&#x200B;**タイムゾーン**&#x200B;のワークフロー&#x200B;**送信ウィンドウ**&#x200B;中に送信されます。 承認していない見込み客は、行動するまで&#x200B;**[!UICONTROL レビューの準備状態]**&#x200B;のままです。 承認後、定義したケイデンスに従ってワークフローが実行されます。
 
@@ -303,7 +303,7 @@ Sales Qualifierの&#x200B;_タスク_ エリアでは、Business Development Rep
 
 左側のナビゲーションバーで「**[!UICONTROL タスク]**」を選択して、完全なタスクページを開きます。 このページは、タスクを1つずつ処理するためのプライマリワークスペースです。
 
-タスクキューと詳細パネルを表示する![ タスクページ ](assets/tasks.png){width="800" zoomable="yes"}
+タスクキューと詳細パネルを表示する![&#x200B; タスクページ &#x200B;](assets/tasks.png){width="800" zoomable="yes"}
 
 <!--
 **Homepage feed** - The homepage displays a running feed of your most urgent tasks, with overdue items at the top followed by today's tasks. Each item in the feed has an "Open" button that takes you directly to that task in the Tasks page with the detail panel already loaded.
@@ -480,7 +480,7 @@ Sales Qualifierを接続する前に、CRM管理者と連携してください�
 
 #### Salesforce
 
-Salesforceでは、組織のセキュリティ基準に従って、OAuthを有効にし、IDとデータへのAPI アクセスを許可するスコープを含む外部クライアントアプリ ](https://help.salesforce.com/s/articleView?id=xcloud.create_a_local_external_client_app.htm&type=5) （または&#x200B;_接続アプリ_）を[作成します。 統合ユーザー（クライアント資格情報スタイル設定を使用する場合など）は、リード、アカウント、取引先責任者、タスク、イベント、商談、関連する商談オブジェクトなどのオブジェクトに対する読み取りアクセス権を持っている必要があります。 管理タスクでは、作成後にコンシューマーキーとシークレットを表示するために、**[!UICONTROL 接続されたアプリを管理]**&#x200B;するユーザー（その他の権限を含む）が必要になることがよくあります。
+Salesforceでは、組織のセキュリティ基準に従って、OAuthを有効にし、IDとデータへのAPI アクセスを許可するスコープを含む外部クライアントアプリ [&#128279;](https://help.salesforce.com/s/articleView?id=xcloud.create_a_local_external_client_app.htm&type=5) （または&#x200B;_接続アプリ_）を作成します。 統合ユーザー（クライアント資格情報スタイル設定を使用する場合など）は、リード、アカウント、取引先責任者、タスク、イベント、商談、関連する商談オブジェクトなどのオブジェクトに対する読み取りアクセス権を持っている必要があります。 管理タスクでは、作成後にコンシューマーキーとシークレットを表示するために、**[!UICONTROL 接続されたアプリを管理]**&#x200B;するユーザー（その他の権限を含む）が必要になることがよくあります。
 
 >[!PREREQUISITES]
 >
@@ -531,7 +531,7 @@ Salesforceでは、組織のセキュリティ基準に従って、OAuthを有�
 
    SalesforceとMicrosoft Dynamicsのカードが表示されます。
 
-   ![SalesforceとDynamicsの連携カードを使用した連携ページ ](assets/integrations-crm-connections.png){width="800" zoomable="yes"}
+   ![SalesforceとDynamicsの連携カードを使用した連携ページ &#x200B;](assets/integrations-crm-connections.png){width="800" zoomable="yes"}
 
 1. 使用しているCRMの&#x200B;**[!UICONTROL Connect]**&#x200B;をクリックします。
 
@@ -610,7 +610,7 @@ _[!UICONTROL ナレッジセンター]_&#x200B;では、AQAがお客様のドキ
 
 「**[!UICONTROL メール設定]**」タブで、メール接続を設定します。
 
-メール接続オプションとメール署名設定を表示する![ メール設定タブ ](assets/email-settings.png)
+メール接続オプションとメール署名設定を表示する![&#x200B; メール設定タブ &#x200B;](assets/email-settings.png)
 
 * **[!UICONTROL メール接続]** - **[!UICONTROL Connect]**&#x200B;をクリックし、Microsoft ログイン手順に従います。
 

@@ -20,7 +20,7 @@ ht-degree: 0%
 
 _個人ジャーニーのイベントベースのオーディエンスを定義するには&#x200B;:_
 
-1. [_人物オーディエンス_ ノード ](../marketing/person-audience-node.md)を選択します。
+1. [_人物オーディエンス_ ノード &#x200B;](../marketing/person-audience-node.md)を選択します。
 
 1. 右側のノードプロパティで、エントリタイプとして「**[!UICONTROL イベントオーディエンス]**」を選択します。
 
@@ -40,7 +40,7 @@ _個人ジャーニーのイベントベースのオーディエンスを定義�
 
    各アクティビティの一致する演算子と値を設定します。
 
-   ![ イベントベースのオーディエンスのアクティビティトリガー](./assets/event-based-audience-triggers.png){width="700" zoomable="yes"}
+   ![&#x200B; イベントベースのオーディエンスのアクティビティトリガー](./assets/event-based-audience-triggers.png){width="700" zoomable="yes"}
 
    設定されたアクティビティのいずれかがリード用にログに記録されると、ジャーニーの対象となります。
 
@@ -49,7 +49,7 @@ _個人ジャーニーのイベントベースのオーディエンスを定義�
    * 「**[!UICONTROL フィルター]**」タブを選択します。
    * 各フィルターをドラッグして、一致する条件を設定します。
 
-   ![ イベントベースのオーディエンスの人物フィルター](./assets/event-based-audience-filters.png){width="700" zoomable="yes"}
+   ![&#x200B; イベントベースのオーディエンスの人物フィルター](./assets/event-based-audience-filters.png){width="700" zoomable="yes"}
 
    フィルターを追加する場合、ユーザーは少なくとも1つの設定されたアクティビティ条件と設定されたフィルターを満たす必要があります。
 

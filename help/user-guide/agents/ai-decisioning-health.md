@@ -22,7 +22,7 @@ AIによる意思決定の正常性を使用して、[!DNL Marketo Engage]から
 * _ホーム_ ページで、クイックアクセス行の&#x200B;**[!UICONTROL AI-decisioning health]** カードを選択します。 カードは列をリードし、929件のストーリー、32%のペルソナの分類など、ストーリーの数とペルソナ分類の進捗状況を示します。
 * 共同作業者のチャットボックスで、パーソナライゼーションデータについて直接尋ねるか、`/`と入力して、**[!UICONTROL AI-decisioning health]**&#x200B;を選択します。
 
-![ ホームページのクイックアクセス行。最初にAIによる意思決定のヘルスカードが表示され、次にマーケティング、Assets、レポートが表示されます。](./assets/ai-decisioning-health-quick-access.png){width="600"}
+![&#x200B; ホームページのクイックアクセス行。最初にAIによる意思決定のヘルスカードが表示され、次にマーケティング、Assets、レポートが表示されます。](./assets/ai-decisioning-health-quick-access.png){width="600"}
 
 両方のパスがCoworker ワークスペース内でレポートを開きます。
 
@@ -57,7 +57,7 @@ AIによる意思決定の正常性に関するウェルカムメッセージ、
 
 カテゴリーリストの上にある検索フィールドを使用して、名前で直接カテゴリまたは属性にジャンプします。
 
-デモグラフィック カテゴリが展開された![ カバレッジ セクションで、個人の詳細、エンゲージメント スコアリング、場所などの属性グループが表示されます。](./assets/ai-decisioning-health-coverage.png){width="800" zoomable="yes"}
+デモグラフィック カテゴリが展開された![&#x200B; カバレッジ セクションで、個人の詳細、エンゲージメント スコアリング、場所などの属性グループが表示されます。](./assets/ai-decisioning-health-coverage.png){width="800" zoomable="yes"}
 
 ## フラグ {#flags}
 

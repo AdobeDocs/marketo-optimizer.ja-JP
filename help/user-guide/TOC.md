@@ -66,7 +66,7 @@ ht-degree: 47%
 + コンテンツ {#content}
   + アセット {#assets}
     + [概要](./content/digital-asset-management.md)
-    + {hide-from-toc}[C2PA メタデータ ](./content/c2pa-metadata.md)
+    + {hide-from-toc}[C2PA メタデータ &#x200B;](./content/c2pa-metadata.md)
   + テンプレート {#templates}
     + [概要](./content/templates.md)
     + [テンプレートの作成](./content/templates-create.md)

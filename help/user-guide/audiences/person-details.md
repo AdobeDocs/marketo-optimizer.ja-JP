@@ -11,7 +11,7 @@ ht-degree: 8%
 
 # 顧客の詳細
 
-[!DNL Adobe Marketo Optimizer]で、[人リスト ](./people-lists.md)の&#x200B;_[!UICONTROL メンバー]_ タブにある人物の名前をクリックすると、その人物の統合ビューが表示され、人物の詳細ページが開きます。 このページでは、次の機能を提供します。
+[!DNL Adobe Marketo Optimizer]で、[人リスト &#x200B;](./people-lists.md)の&#x200B;_[!UICONTROL メンバー]_ タブにある人物の名前をクリックすると、その人物の統合ビューが表示され、人物の詳細ページが開きます。 このページでは、次の機能を提供します。
 
 * AIが生成したペルソナ、エンゲージメント、インテントの概要
 * 完全な活動履歴
@@ -28,7 +28,7 @@ ht-degree: 8%
 
 1. リスト内の人物の&#x200B;**[!UICONTROL 名前]**&#x200B;をクリックします。
 
-   ![静的な人物リスト – 「メンバー」タブ ](./assets/people-list-members-tab.png){width="600" zoomable="yes"}
+   ![静的な人物リスト – 「メンバー」タブ &#x200B;](./assets/people-list-members-tab.png){width="600" zoomable="yes"}
 
 ユーザーの詳細ページが開き、**[!UICONTROL 概要]**、**[!UICONTROL 属性]**、**[!UICONTROL 会社]**&#x200B;の3つのタブが表示されます。
 
@@ -47,7 +47,7 @@ ht-degree: 8%
 
 「**[!UICONTROL 概要]**」タブには、リードの概要カードとアクティビティのタイムラインが含まれています。
 
-![人物の詳細 – 概要タブ ](./assets/people-list-person-details-overview-tab.png){width="700" zoomable="yes"}
+![人物の詳細 – 概要タブ &#x200B;](./assets/people-list-person-details-overview-tab.png){width="700" zoomable="yes"}
 
 ### リードサマリー {#lead-summary}
 
@@ -55,8 +55,8 @@ ht-degree: 8%
 
 | カード | 目次 |
 |---|---|
-| **[!UICONTROL ペルソナ]** | [派生したペルソナ ](./personas.md)と、その人物の役割、企業、業界を説明する短いストーリー。 詳しくは、情報アイコンをクリックします。 |
-| **[!UICONTROL エンゲージメント]** | [人のエンゲージメントスコア ](./engagement-scores.md)、傾向（_増加_&#x200B;など）、レベル（_低_、_Medium_、_高_）です。 |
+| **[!UICONTROL ペルソナ]** | [派生したペルソナ &#x200B;](./personas.md)と、その人物の役割、企業、業界を説明する短いストーリー。 詳しくは、情報アイコンをクリックします。 |
+| **[!UICONTROL エンゲージメント]** | [人のエンゲージメントスコア &#x200B;](./engagement-scores.md)、傾向（_増加_&#x200B;など）、レベル（_低_、_Medium_、_高_）です。 |
 | **[!UICONTROL インテント]** | 商品の購入意思を示すコンテキストのガイダンスとリンクが表示され、_購入意思を検出または_&#x200B;なし検出されました。 |
 
 ### アクティビティ {#activities}
@@ -72,7 +72,7 @@ ht-degree: 8%
 
 ## 「属性」タブ {#attributes-tab}
 
-![人物の詳細 – 属性タブ ](./assets/people-list-person-details-attributes-tab.png){width="700" zoomable="yes"}
+![人物の詳細 – 属性タブ &#x200B;](./assets/people-list-person-details-attributes-tab.png){width="700" zoomable="yes"}
 
 「**[!UICONTROL 属性]**」タブには、個人の保存されたプロファイルフィールドがラベル/値リストとして表示されます。
 
@@ -92,7 +92,7 @@ ht-degree: 8%
 
 ## 「会社」タブ {#company-tab}
 
-![人物の詳細 – 会社タブ ](./assets/people-list-person-details-company-tab.png){width="700" zoomable="yes"}
+![人物の詳細 – 会社タブ &#x200B;](./assets/people-list-person-details-company-tab.png){width="700" zoomable="yes"}
 
 「**[!UICONTROL 会社]**」タブには、個人の会社に関連付けられた企業特性データが表示されます。
 
@@ -118,13 +118,13 @@ ht-degree: 8%
 人物の詳細ページからパネルを開くと、Coworkerは、コンテキストに即したようこそメッセージと、次のようなデフォルトの提案プロンプトを表示します。
 
 * _[人名]_&#x200B;の理解に役立つ
-* _人物の名前]のペルソナ_&#x200B;について教えてください[
-* _ユーザー名]のエンゲージメント アクティビティ_&#x200B;を要約[します
+* _人物の名前&rbrack;のペルソナ_&#x200B;について教えてください&lbrack;
+* _ユーザー名&rbrack;のエンゲージメント アクティビティ_&#x200B;を要約&lbrack;します
 
 提案されたプロンプトをクリックするか、パネルの下部にある入力ボックスに独自の質問を入力します。
 
 ### 応答を見る {#review-response}
 
-プロンプトを選択すると、複数のステップ [ スキル ](../agents/skills.md)が実行され、連続したステータスのステップとして表示されます（例：_IDでユーザーを検索_&#x200B;および&#x200B;_ユーザーのストーリーを取得_）。一方、同僚が回答を構成します。 応答は、プロファイルの詳細、エンゲージメント履歴、メールのパフォーマンスを含めることができる、構造化された要約です。
+プロンプトを選択すると、複数のステップ [&#x200B; スキル &#x200B;](../agents/skills.md)が実行され、連続したステータスのステップとして表示されます（例：_IDでユーザーを検索_&#x200B;および&#x200B;_ユーザーのストーリーを取得_）。一方、同僚が回答を構成します。 応答は、プロファイルの詳細、エンゲージメント履歴、メールのパフォーマンスを含めることができる、構造化された要約です。
 
-サムズアップ/サムズダウンコントロールを使用して、応答を評価します。 すべての同僚の出力と同様に、使用する前に応答を確認してください。 詳しくは、[Adobe生成AI ユーザーガイドライン ](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}を参照してください。
+サムズアップ/サムズダウンコントロールを使用して、応答を評価します。 すべての同僚の出力と同様に、使用する前に応答を確認してください。 詳しくは、[Adobe生成AI ユーザーガイドライン &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}を参照してください。

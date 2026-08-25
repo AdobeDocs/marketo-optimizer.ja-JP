@@ -20,7 +20,7 @@ ht-degree: 0%
 
 <!-- A split based on a people filter is automatically closed with a merge paths node so that all people can move forward to the next step. Split by people paths can include only people actions. These paths cannot be split again and automatically join back. _not currently true_ -->
 
-_**ユーザー別の分割パスの仕組み**_
+_&#x200B;**ユーザー別の分割パスの仕組み**&#x200B;_
 
 * 各パスの評価は上から下まで行われます。 人が最初と2番目のパスに一致した場合、最初のパスに沿ってのみ進みます。
 * ノードは、_その他のユーザー_ パスの定義をサポートしています。このパスでは、定義されたセグメントまたはパスのいずれかに一致しないユーザーのアクションまたはイベントを追加できます。
@@ -42,7 +42,7 @@ _**ユーザー別の分割パスの仕組み**_
 
 1. パスのプラス（**+**）アイコンをクリックし、「**[!UICONTROL パスを分割]**」を選択します。
 
-   ![ ジャーニーパスの追加アイコンをクリック ](./assets/person-journey-canvas-add-node.png){width="200"}
+   ![&#x200B; ジャーニーパスの追加アイコンをクリック &#x200B;](./assets/person-journey-canvas-add-node.png){width="200"}
 
 1. _[!UICONTROL パス 1]_&#x200B;に適用できる条件を定義するには、「**[!UICONTROL 条件を適用]**」をクリックします。
 

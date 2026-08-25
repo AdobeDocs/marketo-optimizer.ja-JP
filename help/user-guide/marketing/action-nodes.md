@@ -40,7 +40,7 @@ removed? | **[!UICONTROL Change Program Data]** | <li>Select program attribute <
 
 1. パスのプラス（**+**）アイコンをクリックし、**[!UICONTROL アクションを実行]**&#x200B;を選択します。
 
-   ![ ジャーニーパスの追加アイコンをクリック ](./assets/person-journey-canvas-add-node.png){width="200"}
+   ![&#x200B; ジャーニーパスの追加アイコンをクリック &#x200B;](./assets/person-journey-canvas-add-node.png){width="200"}
 
 1. 右側のノードプロパティで、リストからアクションを選択し、アクションの値を設定します。
 
@@ -52,7 +52,7 @@ removed? | **[!UICONTROL Change Program Data]** | <li>Select program attribute <
 >
 >_宛先_ ジャーニーノードに対するアクティブ化を設定する前に、[!DNL Marketo Optimizer] サンドボックスに1つ以上の[設定された宛先](../audiences/destinations.md)が必要です。
 
-![ アクションを実行 – 宛先に対してアクティブ化](./assets/person-action-node-activate-to-destination.png){width="450"}
+![&#x200B; アクションを実行 – 宛先に対してアクティブ化](./assets/person-action-node-activate-to-destination.png){width="450"}
 
 「**[!UICONTROL リストに追加]**」で、次のいずれかのオプションを選択します。
 
@@ -60,20 +60,20 @@ removed? | **[!UICONTROL Change Program Data]** | <li>Select program attribute <
 
   リストの親プログラムを選択し、**[!UICONTROL 名前]** （必須）と&#x200B;**[!UICONTROL 説明]** （オプション）を入力します。 「**[!UICONTROL 作成]**」をクリックして、ノードの新しいリストを追加します。
 
-  ![ ジャーニーノードに使用する静的リストを作成する](./assets/person-action-node-destination-create-list.png){width="375"}
+  ![&#x200B; ジャーニーノードに使用する静的リストを作成する](./assets/person-action-node-destination-create-list.png){width="375"}
 
 * **[!UICONTROL 選択]** — ノードに到達するユーザーを追加する既存の静的リストを選択します。
 
   既存の静的リストのチェックボックスを選択し、**[!UICONTROL 保存]**&#x200B;をクリックします。
 
-  ![ ジャーニーノードに使用する静的リストを選択](./assets/person-action-node-destination-select-list.png){width="700" zoomable="yes"}
+  ![&#x200B; ジャーニーノードに使用する静的リストを選択](./assets/person-action-node-destination-select-list.png){width="700" zoomable="yes"}
 
 ノードに到達したユーザーは選択した静的リストに追加されますが、リストが宛先にアクティベートされるまでアクションは完了しません。
 
 * 選択したリストが既にアクティブ化されている場合、その宛先は&#x200B;**[!UICONTROL 宛先]**&#x200B;の下に表示され、アクションの準備が整っています。
 * それ以外の場合は、_少なくとも1つの宛先が必要です_ メッセージが表示されます。 「**[!UICONTROL 宛先にリストをアクティブ化]**」をクリックし、宛先を選択して「**[!UICONTROL 保存]**」をクリックします。 確認ダイアログで「**[!UICONTROL アクティブ化]**」をクリックします。
 
-![ アクティブ化に使用できる設定済みの宛先](../audiences/assets/static-list-activate-destination-select.png){width="600" zoomable="yes"}
+![&#x200B; アクティブ化に使用できる設定済みの宛先](../audiences/assets/static-list-activate-destination-select.png){width="600" zoomable="yes"}
 
 アクティベーションが完了すると、宛先が&#x200B;**[!UICONTROL 宛先]**&#x200B;の下に表示され、アクションの準備が整います。 必要に応じて、リストを追加の宛先にアクティベートできます。
 
@@ -81,19 +81,19 @@ removed? | **[!UICONTROL Change Program Data]** | <li>Select program attribute <
 
 +++
 
-+++[!UICONTROL  ユーザーをジャーニーに追加]
++++[!UICONTROL &#x200B; ユーザーをジャーニーに追加]
 
 このアクションを使用して、他のスケジュール済みジャーニーまたはライブジャーニーにユーザーを追加します。 このアクションを通じて追加された人物は、ターゲットジャーニーのオーディエンスにすぐに追加されます。ターゲットジャーニーのオーディエンス条件は適用されません。
 
-![ アクションを実行 – ジャーニーにユーザーを追加](./assets/person-action-node-add-to-journey.png){width="450"}
+![&#x200B; アクションを実行 – ジャーニーにユーザーを追加](./assets/person-action-node-add-to-journey.png){width="450"}
 
 +++
 
-+++[!UICONTROL  リストに追加]
++++[!UICONTROL &#x200B; リストに追加]
 
 Marketo Optimizerの静的リストにユーザーを追加するには、このアクションを使用します。
 
-![ アクションを実行 – リストに追加](./assets/person-action-node-add-to-list.png){width="450"}
+![&#x200B; アクションを実行 – リストに追加](./assets/person-action-node-add-to-list.png){width="450"}
 
 次のいずれかのオプションを選択します。
 
@@ -106,11 +106,11 @@ Marketo Optimizerの静的リストにユーザーを追加するには、この
 
 Marketo Engageの静的リストにユーザーを追加するには、このアクションを使用します。
 
-![ アクションを実行 – Marketo リストに追加](./assets/person-action-node-add-to-marketo-list.png){width="450"}
+![&#x200B; アクションを実行 – Marketo リストに追加](./assets/person-action-node-add-to-marketo-list.png){width="450"}
 
 +++
 
-+++[!UICONTROL  データ値の変更]
++++[!UICONTROL &#x200B; データ値の変更]
 
 このアクションを使用して、人物レコードの属性の値を更新します。 属性を選択し、新しい値を設定します。
 
@@ -118,31 +118,31 @@ Marketo Engageの静的リストにユーザーを追加するには、このア
 >
 >属性の値をクリアするには、値を`NULL`に設定します。
 
-![ アクションを実行 – データ値を変更](./assets/person-action-node-change-data-value.png){width="450"}
+![&#x200B; アクションを実行 – データ値を変更](./assets/person-action-node-change-data-value.png){width="450"}
 
 +++
 
-+++[!UICONTROL  プログラムのステータスの変更]
++++[!UICONTROL &#x200B; プログラムのステータスの変更]
 
 Marketo Engage プログラムのユーザーのステータスを変更するには、このアクションを使用します。 プログラムを選択し、新しいステータスを選択します。
 
-![ アクションを実行 – プログラムの状態を変更](./assets/person-action-node-change-status-program.png){width="450"}
+![&#x200B; アクションを実行 – プログラムの状態を変更](./assets/person-action-node-change-status-program.png){width="450"}
 
 +++
 
-+++[!UICONTROL  ウェビナーメンバーのステータスを変更]
++++[!UICONTROL &#x200B; ウェビナーメンバーのステータスを変更]
 
 このアクションを使用して、インタラクティブウェビナーに関連するユーザーのステータスを変更します。 ウェビナーを選択し、新しいステータスを選択します。
 
-![ アクションを実行 – プログラムの状態を変更](./assets/person-action-node-change-webinar-status.png){width="450"}
+![&#x200B; アクションを実行 – プログラムの状態を変更](./assets/person-action-node-change-webinar-status.png){width="450"}
 
 +++
 
-+++[!UICONTROL  リストから削除]
++++[!UICONTROL &#x200B; リストから削除]
 
 Marketo Optimizerの静的リストからユーザーを削除するには、このアクションを使用します。 ユーザーが現在リストのメンバーではない場合、そのユーザーのアクションはスキップされます。
 
-![ アクションを実行 – リストから削除](./assets/person-action-node-remove-from-list.png){width="450"}
+![&#x200B; アクションを実行 – リストから削除](./assets/person-action-node-remove-from-list.png){width="450"}
 
 +++
 
@@ -150,23 +150,23 @@ Marketo Optimizerの静的リストからユーザーを削除するには、こ
 
 Marketo Engageの静的リストからユーザーを削除するには、この操作を使用します。 ユーザーが現在リストのメンバーではない場合、そのユーザーのアクションはスキップされます。
 
-![ アクションを実行 – Marketo リストから削除](./assets/person-action-node-remove-from-marketo-list.png){width="450"}
+![&#x200B; アクションを実行 – Marketo リストから削除](./assets/person-action-node-remove-from-marketo-list.png){width="450"}
 
 +++
 
-+++[!UICONTROL  ジャーニーからユーザーを削除]
++++[!UICONTROL &#x200B; ジャーニーからユーザーを削除]
 
 このアクションを使用して、他のライブ人物ジャーニーから人物を削除します。 その人物はターゲットジャーニーからすぐに削除され、それ以上のアクションは実行されません。 ユーザーが現在ターゲットジャーニーのメンバーではない場合、そのユーザーのアクションはスキップされます。
 
-![ アクションを実行 – ジャーニーからユーザーを削除](./assets/person-action-node-remove-from-journey.png){width="450"}
+![&#x200B; アクションを実行 – ジャーニーからユーザーを削除](./assets/person-action-node-remove-from-journey.png){width="450"}
 
 +++
 
-+++[!UICONTROL Marketo Engage キャンペーンをリクエスト ]
++++[!UICONTROL Marketo Engage キャンペーンをリクエスト &#x200B;]
 
 このアクションを使用して、接続されたMarketo Engage インスタンスでリクエストキャンペーンにユーザーを追加します。 リクエストするMarketo Engage キャンペーンを選択します。
 
-![ アクションを実行 – Marketo キャンペーンをリクエスト ](./assets/person-action-node-request-marketo-campaign.png){width="450"}
+![&#x200B; アクションを実行 – Marketo キャンペーンをリクエスト &#x200B;](./assets/person-action-node-request-marketo-campaign.png){width="450"}
 
 +++
 
@@ -174,9 +174,9 @@ Marketo Engageの静的リストからユーザーを削除するには、この
 
 このアクションを使用して、オプトインしたユーザーにメールを送信します。 購読解除、リストへの登録をブロック、メール配信の停止、マーケティング配信の停止を受けたユーザーは、このアクションをスキップします。
 
-![ アクションを実行 – メールを送信](./assets/person-action-node-send-email.png){width="450"}
+![&#x200B; アクションを実行 – メールを送信](./assets/person-action-node-send-email.png){width="450"}
 
-電子メールを作成したり、既存の電子メールを編集したり、AIによってパーソナライズされた電子メールを使用したりできます。 電子メールの作成と編集について詳しくは、[電子メールチャネル ](./email-channel.md)を参照してください。 既存のメールのペルソナベースのバリエーションを生成するには、[ ペルソナ別のメールコンテンツのパーソナライズ ](../agents/personalize-content.md)を参照してください。
+電子メールを作成したり、既存の電子メールを編集したり、AIによってパーソナライズされた電子メールを使用したりできます。 電子メールの作成と編集について詳しくは、[電子メールチャネル &#x200B;](./email-channel.md)を参照してください。 既存のメールのペルソナベースのバリエーションを生成するには、[&#x200B; ペルソナ別のメールコンテンツのパーソナライズ &#x200B;](../agents/personalize-content.md)を参照してください。
 
 [送信時間の最適化](./email-send-time-optimization.md)を使用して、各プロファイルがエンゲージする可能性が最も高いタイミングを予測し、メール配信のタイミングをパーソナライズできます。
 
@@ -184,8 +184,8 @@ Marketo Engageの静的リストからユーザーを削除するには、この
 
 +++[!UICONTROL WhatsAppを送信]
 
-このアクションを使用して、WhatsApp メッセージを送信します。 ビジュアルデザイン空間でWhatsApp メッセージを作成、パーソナライズ、プレビューできます（[WhatsApp オーサリング ](../content/whatsapp-authoring.md)を参照）。
+このアクションを使用して、WhatsApp メッセージを送信します。 ビジュアルデザイン空間でWhatsApp メッセージを作成、パーソナライズ、プレビューできます（[WhatsApp オーサリング &#x200B;](../content/whatsapp-authoring.md)を参照）。
 
-![ アクションを実行 – WhatsAppを送信](./assets/person-action-node-send-whatsapp.png){width="450"}
+![&#x200B; アクションを実行 – WhatsAppを送信](./assets/person-action-node-send-whatsapp.png){width="450"}
 
 +++

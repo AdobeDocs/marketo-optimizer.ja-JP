@@ -12,7 +12,7 @@ ht-degree: 3%
 
 _ホーム_ ページは、Adobe Marketo Optimizerの起動パッドです。 左側のナビゲーションの上部にある「_ホーム_」アイコンを選択して開きます。 **ようこそ[name]様、今日から何を作れますか？** ワンクリックでアイデアからアクションへと導くように設計されています。
 
-![ ホームページ ](./assets/home-page.png){width="800" zoomable="yes"}
+![&#x200B; ホームページ &#x200B;](./assets/home-page.png){width="800" zoomable="yes"}
 
 ## 入力ボックス
 

@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # ランディングページのデザイン
 
-[ ランディングページを作成した後](./landing-pages-create-publish.md#create-landing-page)、ビジュアルデザインスペースを使用して、ページ内の構造コンポーネントとコンテンツコンポーネントをオーサリングします。
+[&#x200B; ランディングページを作成した後](./landing-pages-create-publish.md#create-landing-page)、ビジュアルデザインスペースを使用して、ページ内の構造コンポーネントとコンテンツコンポーネントをオーサリングします。
 
 ## 構造とコンテンツの追加 {#structure-content-landing-page}
 
@@ -24,15 +24,15 @@ ht-degree: 2%
 
 キャンバス内に少なくとも1つのコンテンツコンポーネントがある場合は、左側のナビゲーションツリーで&#x200B;**[!UICONTROL Body]** コンポーネントを選択して、カスタム CSS エディターにアクセスします。
 
-![ ボディスタイルにアクセス ](assets/landing-page-body-styles-css.png){width="800" zoomable="yes"}
+![&#x200B; ボディスタイルにアクセス &#x200B;](assets/landing-page-body-styles-css.png){width="800" zoomable="yes"}
 
-手順、構文ルール、およびトラブルシューティングについては、[ コンテンツ用カスタム CSSの追加](./design-custom-css.md)を参照してください。
+手順、構文ルール、およびトラブルシューティングについては、[&#x200B; コンテンツ用カスタム CSSの追加](./design-custom-css.md)を参照してください。
 
 ### アセットの追加 {#add-assets}
 
-ビジュアルデザイン領域で、左側のナビゲーションバーの&#x200B;_Assets_ （![Assetsアイコン ](../assets/do-not-localize/icon-assets-me.svg)）アイコンを選択し、[!DNL Marketo Optimizer] アセットライブラリから画像アセットを参照して選択します。
+ビジュアルデザイン領域で、左側のナビゲーションバーの&#x200B;_Assets_ （![Assetsアイコン &#x200B;](../assets/do-not-localize/icon-assets-me.svg)）アイコンを選択し、[!DNL Marketo Optimizer] アセットライブラリから画像アセットを参照して選択します。
 
-画像アセットを選択、置換、またはアップロードする手順については、[ コンテンツのオーサリングにアセットを使用](./digital-asset-management.md#assets-authoring)を参照してください。
+画像アセットを選択、置換、またはアップロードする手順については、[&#x200B; コンテンツのオーサリングにアセットを使用](./digital-asset-management.md#assets-authoring)を参照してください。
 
 ### フォームを追加 {#add-forms}
 
@@ -48,7 +48,7 @@ ht-degree: 2%
 
 _パーソナライゼーションを追加するには&#x200B;:_
 
-1. テキストコンポーネントを選択し、ツールバーの「_パーソナライゼーションを追加_」（![ パーソナライズのアイコン ](../assets/do-not-localize/icon-personalize.svg)）アイコンをクリックします。
+1. テキストコンポーネントを選択し、ツールバーの「_パーソナライゼーションを追加_」（![&#x200B; パーソナライズのアイコン &#x200B;](../assets/do-not-localize/icon-personalize.svg)）アイコンをクリックします。
 1. パーソナライゼーションダイアログで、左側のスキーマツリーを参照し、属性を選択します。 対応するHandlebars式が挿入されます。
 1. 必要に応じて、欠落しているデータを処理するフォールバック値を追加します。
 1. **[!UICONTROL 確認]**&#x200B;または&#x200B;**[!UICONTROL 挿入]**&#x200B;をクリックします。 式がフィールド内にインラインで表示されます。
@@ -59,7 +59,7 @@ _パーソナライゼーションを追加するには&#x200B;:_
 
 {{$include /help/_includes/content-design-links.md}}
 
-![編集アイコンをクリックしてリンク追跡にアクセス ](assets/landing-page-link-tracking.png){width="400"}
+![編集アイコンをクリックしてリンク追跡にアクセス &#x200B;](assets/landing-page-link-tracking.png){width="400"}
 
 **[!UICONTROL トラッキングタイプ]**&#x200B;を使用して、リンクのトラッキングを制御します。
 
@@ -86,7 +86,7 @@ _パーソナライゼーションを追加するには&#x200B;:_
 
 ビジュアルデザインスペースの上部にある「_[!UICONTROL その他…]_」メニューから、次の操作を実行できます。
 
-![詳細をクリックしてランディングページのアクションにアクセス ](assets/landing-page-designer-more-menu.png){width="500"}
+![詳細をクリックしてランディングページのアクションにアクセス &#x200B;](assets/landing-page-designer-more-menu.png){width="500"}
 
 * **[!UICONTROL ランディングページをリセット]** – このオプションをクリックすると、ビジュアルデザインキャンバスが空白のスレートに消去され、ページコンテンツの作成が再開されます。
 * **[!UICONTROL デザインを変更]** - _[!UICONTROL メインのランディングページの作成]_&#x200B;のホームページに戻ります。 そこから、別のテンプレートを選択してデザインプロセスを再開するか、空白のキャンバスでページをゼロからデザインするかを選択できます。

@@ -16,10 +16,10 @@ ht-degree: 1%
 
 管理者が設定した次の構成要素を、通常は次の順序で使用します。
 
-1. [1つ以上のサブドメイン ](#subdomain-delegation)をAdobeにデリゲートします。
-1. [各サブドメインでDMARC、SPF、DKIM レコード ](#dmarc-spf-dkim)を設定します。
-1. [ サブドメインのメール送信に使用するIP プール ](#ip-pools)を確認します。
-1. [ サブドメイン、IP プール、送信者IDをバインドする1つ以上の電子メールチャネル設定](../admin/email-channel-configuration.md#create-email-channel-configuration)を作成します。
+1. [1つ以上のサブドメイン &#x200B;](#subdomain-delegation)をAdobeにデリゲートします。
+1. [各サブドメインでDMARC、SPF、DKIM レコード &#x200B;](#dmarc-spf-dkim)を設定します。
+1. [&#x200B; サブドメインのメール送信に使用するIP プール &#x200B;](#ip-pools)を確認します。
+1. [&#x200B; サブドメイン、IP プール、送信者IDをバインドする1つ以上の電子メールチャネル設定](../admin/email-channel-configuration.md#create-email-channel-configuration)を作成します。
 
 ![Marketo Optimizerのメール配信品質の設定](./assets/email-deliverability-diagram.svg){width="550" zoomable="yes"}
 
@@ -30,8 +30,8 @@ ht-degree: 1%
 > メールチャネルについて詳しくは、次のトピックを参照してください。
 >
 >* 電子メールチャネルの設定 – [電子メールチャネル設定](../admin/email-channel-configuration.md)
->* メールの作成 – [ ジャーニーにメールを追加](../marketing/email-channel.md)
->* 電子メールコンテンツのデザイン - [電子メールコンテンツのオーサリング ](../content/email-authoring.md)
+>* メールの作成 – [&#x200B; ジャーニーにメールを追加](../marketing/email-channel.md)
+>* 電子メールコンテンツのデザイン - [電子メールコンテンツのオーサリング &#x200B;](../content/email-authoring.md)
 
 ## 現在の制限事項 {#limitations}
 

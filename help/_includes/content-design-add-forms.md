@@ -16,7 +16,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL 目次]** セクションの下で、**[!UICONTROL フォーム]**&#x200B;項目をドラッグして、ページデザインスペースの構造コンポーネントにドロップします。
 
-   ![ フォームコンポーネントをビジュアルデザインスペースにドラッグします](../user-guide/content/assets/content-design-add-form.png){width="600"}
+   ![&#x200B; フォームコンポーネントをビジュアルデザインスペースにドラッグします](../user-guide/content/assets/content-design-add-form.png){width="600"}
 
    >[!TIP]
    >
@@ -40,7 +40,7 @@ ht-degree: 0%
      >
      >フォームを使用してファイルをダウンロードする場合は、ホストされているファイルのURLを指定できます。 この設定では、送信ボタンはダウンロードボタンとして機能します。
 
-     ![ フォローアップ設定の変更](../user-guide/content/assets/content-design-add-form-follow-up.png){width="280"}
+     ![&#x200B; フォローアップ設定の変更](../user-guide/content/assets/content-design-add-form-follow-up.png){width="280"}
 
 1. デバイスの種類ごとにフォームの表示を制限する場合は、**[!UICONTROL 表示オプション]**&#x200B;設定を変更します。
 

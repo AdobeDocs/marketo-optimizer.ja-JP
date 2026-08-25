@@ -10,9 +10,9 @@ ht-degree: 9%
 
 # コンテンツ作成 – ナビゲーション
 
-ビジュアルデザイン空間でコンテンツを操作する際は、ナビゲーションツリーを使用して、コンポーネント、列、コンテンツ要素にアクセスできます。 左側の&#x200B;_[!UICONTROL ナビゲーションツリー]_ アイコン（![ ナビゲーションツリーアイコン ](../user-guide/assets/do-not-localize/icon-navigation-tree.svg)）をクリックすると、ツリーが表示されます。
+ビジュアルデザイン空間でコンテンツを操作する際は、ナビゲーションツリーを使用して、コンポーネント、列、コンテンツ要素にアクセスできます。 左側の&#x200B;_[!UICONTROL ナビゲーションツリー]_ アイコン（![&#x200B; ナビゲーションツリーアイコン &#x200B;](../user-guide/assets/do-not-localize/icon-navigation-tree.svg)）をクリックすると、ツリーが表示されます。
 
-![ コンテンツレイヤーにアクセス ](../user-guide/content/assets/content-design-layers.png){width="800" zoomable="yes"}
+![&#x200B; コンテンツレイヤーにアクセス &#x200B;](../user-guide/content/assets/content-design-layers.png){width="800" zoomable="yes"}
 
 次の例では、構造コンポーネント内のパディングと垂直方向の整列を列で調整する手順の概要を示します。
 
@@ -22,7 +22,7 @@ ht-degree: 9%
 
    構造ツリーから選択することもできます。 その列の編集可能なパラメーターは、右側の&#x200B;_[!UICONTROL 設定]_ タブと&#x200B;_[!UICONTROL スタイル]_ タブに表示されます。
 
-   ビジュアルデザイナーに表示される![列コンポーネント ](../user-guide/content/assets/content-design-layers-column-select.png){width="800" zoomable="yes"}
+   ビジュアルデザイナーに表示される![列コンポーネント &#x200B;](../user-guide/content/assets/content-design-layers-column-select.png){width="800" zoomable="yes"}
 
 1. 列のプロパティを編集するには、右側の「_[!UICONTROL スタイル]_」タブをクリックし、必要に応じて変更します。
 
