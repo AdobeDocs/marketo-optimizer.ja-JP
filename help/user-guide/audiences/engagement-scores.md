@@ -136,7 +136,7 @@ _[!UICONTROL 人物エンゲージメントスコア]_ フィルターは、**[!
 
 [!DNL Marketo Optimizer]では、[同僚チャットインターフェイス &#x200B;](../agents/chat-interface.md)から直接エンゲージメントスコアの重み付けを設定できます。
 
-エンゲージメントスコアモデル、重み付けバンド、アクティビティの重みづけの背景については、[&#x200B; カスタムエンゲージメントスコアの重み付けの設定](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/configurations/engagement-score-weighting)を参照してください。
+エンゲージメントスコアモデル、重み付けバンド、アクティビティの重みづけの背景については、[&#x200B; カスタムエンゲージメントスコアの重み付けの設定](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/admin/configurations/engagement-score-weighting)を参照してください。
 
 1. 画面（チャットアイコン）の左側から&#x200B;**[!UICONTROL 同僚]** チャットパネルを開きます。
 
