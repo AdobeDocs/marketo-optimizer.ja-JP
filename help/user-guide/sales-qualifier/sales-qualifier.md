@@ -14,7 +14,7 @@ Sales Qualifierは、[!DNL Adobe Marketo Optimizer]で使用できるAI駆動型
 
 BDRは、ブラウザーとメールのプラグインを使用して、CRMやOutlook内で直接ビジネスインテリジェンスにアクセスできます。 次のビデオでは、Sales QualifierとAccount Qualification Agentの簡単なデモを示します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476550)
+>[!VIDEO](https://video.tv.adobe.com/v/3476562?captions=jpn)
 
 ## アプリケーションホーム {#application-home}
 
