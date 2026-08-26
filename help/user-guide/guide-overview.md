@@ -1,7 +1,7 @@
 ---
 title: Adobe Marketo Optimizerのドキュメント
 description: Marketo Optimizerの詳細に関するドキュメント – オンボーディング、AIを活用したマーケティングオートメーション、ユーザージャーニー、オーディエンス管理に関する利用可能なリソースをご確認ください。
-source-git-commit: 8ca954d9cd08d8c1938aaf1e1a0d1a4a0c439b11
+source-git-commit: 6264cadee61cb4a9366df655611803214110cccf
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 3%
@@ -52,7 +52,7 @@ ht-degree: 3%
 :::: landing-cards-container
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 Get Started
 
@@ -63,7 +63,7 @@ Complete initial setup and configuration, then learn how to navigate the applica
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg)
 
 Coworker
 
@@ -74,17 +74,17 @@ Use natural language to plan programs, build journeys, manage audiences, and cre
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg)
 
 Sales Qualifier
 
 Qualify prospects with AI, run outbound workflows, and connect CRM tasks with BDR activities.
 
-[Learn about Sales Qualifier](./sales-qualifier/sales-qualifier.md)
+[Learn about Sales Qualifier](https://experienceleague.adobe.com/en/docs/sales-qualifier/using/home){target="_blank"}
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 Marketing Management
 
@@ -95,7 +95,7 @@ Organize campaigns into programs, design person journeys with multi-channel cont
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/users.svg)
 
 Audiences
 
@@ -106,7 +106,7 @@ Build and maintain people lists, define event-based audiences, and track engagem
 :::
 
 :::
-![icon](https://cdn.experienceleague.adobe.com/icons/image.svg?lang=ja)
+![icon](https://cdn.experienceleague.adobe.com/icons/image.svg)
 
 Content
 
@@ -159,15 +159,15 @@ Author emails and WhatsApp messages, manage templates and assets, create landing
 
 <table style="table-layout:fixed">
 <tr><td><strong>Adobe Journey Optimizer B2B Edition</strong><br/>
-<a href="https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Videos and tutorials</a> - <a href="https://helpx.adobe.com/jp/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Product description</a>
+<a href="https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b-learn/tutorials/overview" target="_blank">Videos and tutorials</a> - <a href="https://helpx.adobe.com/legal/product-descriptions/adobe-journey-optimizer-b2b.html" target="_blank">Product description</a>
 </td>
 <td><strong>Adobe Experience Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/ja/docs/experience-platform/landing/home" target="_blank">Documentation</a> - <a href="https://business.adobe.com/jp/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Developer resources</a>
+<a href="https://experienceleague.adobe.com/en/docs/experience-platform/landing/home" target="_blank">Documentation</a> - <a href="https://business.adobe.com/products/experience-platform/documentation-and-developer-resources.html" target="_blank">Developer resources</a>
 </td></tr>
 <tr><td><strong>Adobe Real-Time Customer Data Platform</strong><br/>
-<a href="https://experienceleague.adobe.com/ja/docs/experience-platform/rtcdp/home" target="_blank">Documentation</a> - <a href="https://experienceleague.adobe.com/ja/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">Developer tutorials</a>
+<a href="https://experienceleague.adobe.com/en/docs/experience-platform/rtcdp/home" target="_blank">Documentation</a> - <a href="https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/overview" target="_blank">Developer tutorials</a>
 </td><td><strong>Adobe Marketo Engage</strong><br/>
-<a href="https://experienceleague.adobe.com/ja/docs/marketo/using/home" target="_blank">User documentation</a> - <a href="https://experienceleague.adobe.com/ja/docs/marketo-developer/marketo/home" target="_blank">Developer documentation</a>
+<a href="https://experienceleague.adobe.com/en/docs/marketo/using/home" target="_blank">User documentation</a> - <a href="https://experienceleague.adobe.com/en/docs/marketo-developer/marketo/home" target="_blank">Developer documentation</a>
 </td>
 </tr></table>
 
