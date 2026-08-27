@@ -16,7 +16,7 @@ ht-degree: 20%
 
 >[!NOTE]
 >
->初めて電子メールを送信する場合は、[電子メールの配信品質](../start/email-deliverability.md)と必要な[電子メールチャネル ](../admin/email-channel-configuration.md)が設定されていることを確認してください。
+>初めて電子メールを送信する場合は、[電子メールの配信品質](../start/email-deliverability.md)と必要な[電子メールチャネル &#x200B;](../admin/email-channel-configuration.md)が設定されていることを確認してください。
 
 <!-- 
 * **Email channel configurations** - Manage the sender identity, reply behavior, marketing vs. transactional message types, and tracking.
@@ -51,13 +51,13 @@ ht-degree: 20%
 
 ## ジャーニーからのメールの追加
 
-ジャーニーから電子メールを送信するには、[ アクションを実行&#x200B;_ノード_&#x200B;を追加し、電子メールを送信するように設定します](action-nodes.md#add-an-action-node)。
+ジャーニーから電子メールを送信するには、[&#x200B; アクションを実行&#x200B;_ノード_&#x200B;を追加し、電子メールを送信するように設定します](action-nodes.md#add-an-action-node)。
 
 1. ジャーニーキャンバスで、**+** アイコンをクリックし、**[!UICONTROL アクションを実行]**&#x200B;を選択します。
 
 1. 右側のノードプロパティで、アクションを&#x200B;**[!UICONTROL メールを送信]**&#x200B;に設定します。
 
-   ![ アクションを実行 – メールを送信](./assets/person-action-node-send-email.png){width="500"}
+   ![&#x200B; アクションを実行 – メールを送信](./assets/person-action-node-send-email.png){width="500"}
 
 1. メールのソースを選択：
 
@@ -95,19 +95,19 @@ ht-degree: 20%
 
    * **[!UICONTROL アクションの追跡]** – 電子メールで追跡するアクションのチェックボックスをオンにします。
 
-   ![電子メールチャネル – 「アクション」タブ ](./assets/email-channel-actions-tab.png){width="600" zoomable="yes"}
+   ![電子メールチャネル – 「アクション」タブ &#x200B;](./assets/email-channel-actions-tab.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL コンテンツを編集]**」をクリックするか、「**[!UICONTROL コンテンツ]**」タブを選択します。
 
 1. 電子メールの件名フィールドに表示する&#x200B;**[!UICONTROL 件名]** テキストを入力します。
 
-   _パーソナライズ_ アイコン（![ パーソナライズアイコン ](../assets/do-not-localize/icon-personalize.svg)）をクリックして、フィールドでパーソナライゼーショントークンを使用します。
+   _パーソナライズ_ アイコン（![&#x200B; パーソナライズアイコン &#x200B;](../assets/do-not-localize/icon-personalize.svg)）をクリックして、フィールドでパーソナライゼーショントークンを使用します。
 
 1. （オプション）公開プロセス中にメール HTMLのサイズを小さくするには、「**[!UICONTROL HTML サイズを最適化]**」チェックボックスをオンにします。
 
    これにより、100 KB を超えるメッセージを切り捨てる Gmail などのクライアントでのメールクリッピングを防ぐことができます。 詳しくは、[_電子メールのHTML サイズの最適化_](#optimize-html-size)&#x200B;を参照してください。
 
-1. **[!UICONTROL メール本文を編集]**&#x200B;をクリックしてビジュアルデザインツールにアクセスし、[ コンテンツの作成を開始](../content/email-authoring.md)します。
+1. **[!UICONTROL メール本文を編集]**&#x200B;をクリックしてビジュアルデザインツールにアクセスし、[&#x200B; コンテンツの作成を開始](../content/email-authoring.md)します。
 
    または、**[!UICONTROL コードエディター]**&#x200B;をクリックして、プレーンHTMLで独自のコンテンツをコーディングすることもできます。 既存のHTMLをメールデザインに再利用する場合は、それをコピーしてエディターに貼り付けることができます。
 
