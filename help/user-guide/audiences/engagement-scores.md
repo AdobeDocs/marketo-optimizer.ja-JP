@@ -21,9 +21,9 @@ ht-degree: 8%
 
 エンゲージメントスコアデータは、**[!UICONTROL レポート]**&#x200B;から入手できます。
 
-![人物エンゲージメントスコアレポートデータ &#x200B;](./assets/engagement-score-reporting.png){width="800" zoomable="yes"}
+![人物エンゲージメントスコアレポートデータ ](./assets/engagement-score-reporting.png){width="800" zoomable="yes"}
 
-人物エンゲージメントスコアは、人物ジャーニーの人物リストおよび分割パスノードで[&#x200B; フィルター条件](#engagement-score-filter)として使用できる属性です。
+人物エンゲージメントスコアは、人物ジャーニーの人物リストおよび分割パスノードで[ フィルター条件](#engagement-score-filter)として使用できる属性です。
 
 ## エンゲージメントスコアリングに使用されるアクティビティ {#activities}
 
@@ -54,7 +54,7 @@ ht-degree: 8%
 
 >[!NOTE]
 >
->エンゲージメントスコアアクティビティは、個人のMarketo Engage アクティビティログに記録されます。 このログには、関連付けられているMarketo Engage インスタンスからアクセスできます。 詳しくは、Marketo Engage ドキュメントの「[&#x200B; ユーザーのアクティビティログを探す](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}」を参照してください。
+>エンゲージメントスコアアクティビティは、個人のMarketo Engage アクティビティログに記録されます。 このログには、関連付けられているMarketo Engage インスタンスからアクセスできます。 詳しくは、Marketo Engage ドキュメントの「[ ユーザーのアクティビティログを探す](https://experienceleague.adobe.com/ja/docs/marketo/using/product-docs/core-marketo-concepts/smart-lists-and-static-lists/managing-people-in-smart-lists/locate-the-activity-log-for-a-person){target="_blank"}」を参照してください。
 
 ## スコアリングロジック {#scoring-logic}
 
@@ -88,9 +88,9 @@ _[!UICONTROL 人物エンゲージメントスコア]_ フィルターは、**[!
 
 ### ユーザーリスト {#people-lists}
 
-[静的な人物リスト &#x200B;](./people-lists.md#static-lists)のメンバーを管理する場合、または[動的な人物リスト &#x200B;](./people-lists.md#dynamic-lists)のルールを定義する場合、人物エンゲージメントスコアでフィルタリングして、条件に一致する人物をターゲットにすることができます。
+[静的な人物リスト ](./people-lists.md#static-lists)のメンバーを管理する場合、または[動的な人物リスト ](./people-lists.md#dynamic-lists)のルールを定義する場合、人物エンゲージメントスコアでフィルタリングして、条件に一致する人物をターゲットにすることができます。
 
-![人物リストの人物エンゲージメントスコアのフィルタリング &#x200B;](./assets/engagement-score-filter-people-list.png){width="700" zoomable="yes"}
+![人物リストの人物エンゲージメントスコアのフィルタリング ](./assets/engagement-score-filter-people-list.png){width="700" zoomable="yes"}
 
 **静的リスト – メンバーを追加**
 
@@ -118,9 +118,9 @@ _[!UICONTROL 人物エンゲージメントスコア]_ フィルターは、**[!
 
 ### 顧客ジャーニー {#person-journeys}
 
-[_分割パス_ ノード &#x200B;](../marketing/split-merge-paths-nodes.md)で個人ジャーニーのセグメント化を設定する場合、個人プロファイルフィルターとして個人エンゲージメントスコアを使用して、ジャーニーパスに入るユーザーを制御できます。
+[_分割パス_ ノード ](../marketing/split-merge-paths-nodes.md)で個人ジャーニーのセグメント化を設定する場合、個人プロファイルフィルターとして個人エンゲージメントスコアを使用して、ジャーニーパスに入るユーザーを制御できます。
 
-![分割パス条件の人物エンゲージメントフィルタリング &#x200B;](./assets/engagement-score-filter-split-path.png){width="700" zoomable="yes"}
+![分割パス条件の人物エンゲージメントフィルタリング ](./assets/engagement-score-filter-split-path.png){width="700" zoomable="yes"}
 
 1. ジャーニーキャンバスの「**[!UICONTROL パスを分割]**」ノードをクリックします。
 
@@ -134,9 +134,9 @@ _[!UICONTROL 人物エンゲージメントスコア]_ フィルターは、**[!
 
 ## エンゲージメントスコアの重み付けを設定 {#configure-weighting}
 
-[!DNL Marketo Optimizer]では、[同僚チャットインターフェイス &#x200B;](../agents/chat-interface.md)から直接エンゲージメントスコアの重み付けを設定できます。
+[!DNL Marketo Optimizer]では、[同僚チャットインターフェイス ](../agents/chat-interface.md)から直接エンゲージメントスコアの重み付けを設定できます。
 
-エンゲージメントスコアモデル、重み付けバンド、アクティビティの重みづけの背景については、[&#x200B; カスタムエンゲージメントスコアの重み付けの設定](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/user/admin/configurations/engagement-score-weighting)を参照してください。
+エンゲージメントスコアモデル、重み付けバンド、アクティビティの重みづけの背景については、[ カスタムエンゲージメントスコアの重み付けの設定](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/user/admin/configurations/engagement-score-weighting)を参照してください。
 
 1. 画面（チャットアイコン）の左側から&#x200B;**[!UICONTROL 同僚]** チャットパネルを開きます。
 
@@ -146,7 +146,7 @@ _[!UICONTROL 人物エンゲージメントスコア]_ フィルターは、**[!
 
    `/`を入力すると、Coworkerは使用可能なスラッシュコマンドとスキルのリストを表示します。 エンゲージメント設定コマンドは、エンゲージメントスコアの重み付けページに直接ルーティングします。
 
-   ![同僚のエンゲージメント設定スキルにアクセス &#x200B;](./assets/engagement-score-weighting-coworker-skill.png){width="700" zoomable="yes"}
+   ![同僚のエンゲージメント設定スキルにアクセス ](./assets/engagement-score-weighting-coworker-skill.png){width="700" zoomable="yes"}
 
 1. _送信_ （上向き矢印）アイコンをクリックするか、Enter キーを押します。
 
@@ -164,7 +164,7 @@ _[!UICONTROL 人物エンゲージメントスコア]_ フィルターは、**[!
 | **最終更新日** | 最新の保存タイムスタンプ |
 | **最終更新者** | 最後に変更を保存したユーザー |
 
-![&#x200B; エンゲージメントスコアの重み付けモデル &#x200B;](./assets/engagement-score-weighting-coworker-config.png){width="700" zoomable="yes"}
+![ エンゲージメントスコアの重み付けモデル ](./assets/engagement-score-weighting-coworker-config.png){width="700" zoomable="yes"}
 
 任意の時点で、アクティブにできるのは&#x200B;**one** モデルのみです。 現在アクティブなモデルは、すべてのエンゲージメントスコア計算に適用されます。
 
@@ -178,7 +178,7 @@ _[!UICONTROL 人物エンゲージメントスコア]_ フィルターは、**[!
 * アクティビティリストをフィルタリングする&#x200B;_検索_ フィールド
 * **[!UICONTROL エンゲージメントアクティビティ]**、**[!UICONTROL 重み付け]**、**[!UICONTROL 最終更新日]**、**[!UICONTROL 最終更新日]**&#x200B;列を含む完全なアクティビティテーブル
 
-![&#x200B; エンゲージメントスコア重み付けモデルの詳細](./assets/engagement-score-activity-weighting-model.png){width="700" zoomable="yes"}
+![ エンゲージメントスコア重み付けモデルの詳細](./assets/engagement-score-activity-weighting-model.png){width="700" zoomable="yes"}
 
 アーカイブされたモデルの場合、**[!UICONTROL 削除]**&#x200B;と&#x200B;**[!UICONTROL 重複]**&#x200B;が右上に表示されます。 ドラフトモデルの場合は、**[!UICONTROL Activate]**&#x200B;も表示されます。
 

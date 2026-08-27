@@ -27,11 +27,11 @@ ht-degree: 55%
 >
 >このBeta リリースのパーソナライゼーションエディターでは、プロファイル属性のみが使用できます。 アカウントレベルのパーソナライゼーションとカスタムオブジェクトデータは使用できません。 [現在の制限](../marketing/email-channel.md#limitations)を参照してください。
 
-_パーソナライズ_ （![&#x200B; パーソナライズ アイコン &#x200B;](../assets/do-not-localize/icon-personalize.svg)）アイコンを使用すると、任意のフィールドにパーソナライゼーションを追加できます。 詳しくは、次の節を展開します。
+_パーソナライズ_ （![ パーソナライズ アイコン ](../assets/do-not-localize/icon-personalize.svg)）アイコンを使用すると、任意のフィールドにパーソナライゼーションを追加できます。 詳しくは、次の節を展開します。
 
 +++メールとWhatsApp メッセージ
 
-[電子メール &#x200B;](./email-authoring.md#personalize-content)と[WhatsApp メッセージ &#x200B;](./whatsapp-authoring.md#personalize-message-content)では、パーソナライゼーションは、電子メールの&#x200B;**[!UICONTROL 件名]** フィールドや、承認済みのWhatsApp テンプレートの動的パラメーターなど、様々な場所に追加できます。
+[電子メール ](./email-authoring.md#personalize-content)と[WhatsApp メッセージ ](./whatsapp-authoring.md#personalize-message-content)では、パーソナライゼーションは、電子メールの&#x200B;**[!UICONTROL 件名]** フィールドや、承認済みのWhatsApp テンプレートの動的パラメーターなど、様々な場所に追加できます。
 
 また、メール本文のテキスト、プリヘッダー、ボタンのURLなど、コンテンツの他のセクションにも追加することができます。
 
@@ -130,7 +130,7 @@ _パーソナライズ_ （![&#x200B; パーソナライズ アイコン &#x200B
 
 式の検証は、**[!UICONTROL 確認]**&#x200B;または&#x200B;**[!UICONTROL 挿入]**&#x200B;をクリックしてエディターを閉じると自動的に実行されます。 また、**[!UICONTROL 検証]**&#x200B;をクリックして、パーソナライゼーションの構文を閉じる前に確認することもできます。
 
-ジャーニーのアクティベーションをブロックするコンテンツアラートについては、[&#x200B; メールコンテンツの検証](./email-authoring.md#validation)を参照してください。
+ジャーニーのアクティベーションをブロックするコンテンツアラートについては、[ メールコンテンツの検証](./email-authoring.md#validation)を参照してください。
 
 次の節を展開して、パーソナライゼーションの検証時に発生する可能性のある一般的なエラーを確認します。
 

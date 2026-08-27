@@ -15,7 +15,7 @@ ht-degree: 2%
 >title="スコアリングスタジオ"
 >abstract="スコアリングスタジオのスキルを使用して、同僚のチャットインターフェイスでカスタムリードスコアリングモデルを作成、設定、公開できます。"
 
-[!DNL Adobe Marketo Optimizer]の&#x200B;[_Scoring Studio_ スキル &#x200B;](./skills.md#scoring-signals)は、リードスコアリングモデルを作成、設定、公開できるAI ネイティブのリードスコアリングソリューションを提供します。 エージェント駆動型ワークフローとビジュアル UIを組み合わせたこのスタジオでは、[同僚のチャットインターフェイス &#x200B;](./chat-interface.md)で自然言語プロンプトを使用するか、UI コントロールと直接やり取りすることで、スコアリングモデルを構築できます。
+[!DNL Adobe Marketo Optimizer]の&#x200B;[_Scoring Studio_ スキル ](./skills.md#scoring-signals)は、リードスコアリングモデルを作成、設定、公開できるAI ネイティブのリードスコアリングソリューションを提供します。 エージェント駆動型ワークフローとビジュアル UIを組み合わせたこのスタジオでは、[同僚のチャットインターフェイス ](./chat-interface.md)で自然言語プロンプトを使用するか、UI コントロールと直接やり取りすることで、スコアリングモデルを構築できます。
 
 * **スキル** - `scoring-studio`
 * **Invocation** - スラッシュコマンドを使用してScoring Studioを開きます。 例：_&quot;open Scoring Studio.&quot;_
