@@ -1,16 +1,16 @@
 ---
 title: 共同作業スキル
-description: Marketo Optimizerの共同作業スキル – プログラム、ジャーニー、オーディエンス、スコアリング、コンテンツ、送信時間の最適化用にパッケージ化されたワークフローを確認できます。
-source-git-commit: 75b481faf0d66210329f95c8afabdfa59e7bcb79
+description: Marketo Optimizerの大規模な共同作業者のスキル（プログラム、ジャーニー、オーディエンス、スコアリング、コンテンツ、送信時間の最適化用にパッケージ化されたワークフロー）を確認できます。
+source-git-commit: ef30aa7a901c18c7b9b0919d537ad59db9a6c481
 workflow-type: tm+mt
-source-wordcount: '573'
+source-wordcount: '575'
 ht-degree: 11%
 
 ---
 
 # 共同作業者のスキル
 
-_スキル_&#x200B;は、エージェントが実行方法を把握しているパッケージ化されたワークフローです。`/` メニューと自然言語リクエストの両方の背後にある構成要素です。 各スキルには、ステップバイステップの指示と、1つのジョブに必要な特定のツール（例えば、「ジャーニーの公開」、「2人のリストの比較」、「スコアリングモデルの構築」）がバンドルされています。
+_スキル_&#x200B;は、共同作業者が実行方法を認識しているパッケージ化されたワークフローです。`/` メニューと自然言語リクエストの両方の背後にある構成要素です。 各スキルには、ステップバイステップの指示と、1つのジョブに必要な特定のツール（例えば、「ジャーニーの公開」、「2人のリストの比較」、「スコアリングモデルの構築」）がバンドルされています。
 
 >[!NOTE]
 >
@@ -20,7 +20,7 @@ _スキル_&#x200B;は、エージェントが実行方法を把握している�
 
 | スキル | 機能 | アクセス | 製品サーフェス | 影響/データフロー |
 |---|---|---|---|---|
-| `falco-program-creation` | エンドツーエンドの[!DNL Marketo Optimizer] プログラム作成 – プログラム、サブフォルダー、トークン、リスト、ジャーニー。 | 書き込み | [!DNL Marketo Optimizer] | 読み取り+書き込み[!DNL Marketo Optimizer]。 _[概要からプログラムを作成](./program-from-brief.md)_&#x200B;を参照してください。 |
+| `falco-program-creation` | エンドツーエンドの[!DNL Marketo Optimizer] プログラム作成 – プログラム、サブフォルダー、トークン、リスト、ジャーニー。 <p>_[概要からプログラムを作成](./program-from-brief.md)_&#x200B;を参照してください。 | 書き込み | [!DNL Marketo Optimizer] | 読み取り+書き込み[!DNL Marketo Optimizer]。 |
 | `adapt-program` | [!DNL Marketo Optimizer]適応のために[!DNL Marketo Engage] プログラムから移行ストーリーを生成します。 | 読み取り | [!DNL Marketo Optimizer] | [!DNL Marketo Engage]を読み取り、[!DNL Marketo Optimizer]を書き込みます |
 | `folder-creation` | アセットツリーに組織フォルダーを作成します。 | 書き込み | [!DNL Marketo Optimizer] | 読み取り+書き込み[!DNL Marketo Optimizer] |
 | `program-creation` *（ビルド プログラム）* | キャンペーン概要からMarketoプログラムを作成します。 | 書き込み | [!DNL Marketo Engage] | 読み取り+書き込み[!DNL Marketo Engage] |
@@ -43,7 +43,7 @@ _スキル_&#x200B;は、エージェントが実行方法を把握している�
 
 | スキル | 機能 | アクセス | 製品 | バックエンド（データフロー） |
 |---|---|---|---|---|
-| `audience-creation` | [!DNL Marketo Engage] スマートリストの適応、ユーザーリストの作成、ルールの追加/更新。 | 書き込み | [!DNL Marketo Optimizer] | [!DNL Marketo Engage]を読み取り、[!DNL Marketo Optimizer]を読み取り/書き込みます。  「_[プログラムのオーディエンスを作成](./audience-creation.md)_」を参照してください。 |
+| `audience-creation` | [!DNL Marketo Engage] スマートリストの適応、ユーザーリストの作成、ルールの追加/更新。 <p>「_[プログラムのオーディエンスを作成](./audience-creation.md)_」を参照してください。 | 書き込み | [!DNL Marketo Optimizer] | [!DNL Marketo Engage]を読み取り、[!DNL Marketo Optimizer]を読み取り/書き込みます。 |
 | `people-list-comparison` | 2つの人物リストを比較し、重複するメンバーを表示します。 | 読み取り | [!DNL Marketo Optimizer] | [!DNL Marketo Optimizer]を読み取ります |
 | `import-leads` | CSV データ品質を検査し、[!DNL Marketo Engage]へのインポートをコミットします。 | 読み取り/書き込み | 両方 | 読み取り+書き込み[!DNL Marketo Engage] |
 | `lead-investigation` *（リードの調査）* | リードのアクティビティ、スコアリング、クオリフィケーション、ライフサイクルを調査し、 | 読み取り | [!DNL Marketo Engage] | [!DNL Marketo Engage]を読み取ります |
@@ -60,7 +60,7 @@ _スキル_&#x200B;は、エージェントが実行方法を把握している�
 
 | スキル | 機能 | アクセス | 製品 | バックエンド（データフロー） |
 |---|---|---|---|---|
-| `scoring-studio` | スコアリングモデルのリスト作成/取得、構築/公開。 | 読み取り/書き込み | [!DNL Marketo Optimizer] | 読み取り+書き込み[!DNL Marketo Optimizer] （スコアリングサービス）; [!DNL Marketo Engage]個のリードフィールド/アクティビティタイプを読み取ります。 _[カスタムスコアリングモデルの作成](./lead-scoring-model.md)_&#x200B;を参照してください。 |
+| `scoring-studio` | スコアリングモデルのリスト作成/取得、構築/公開。 <p>_[カスタムスコアリングモデルの作成](./lead-scoring-model.md)_&#x200B;を参照してください。 | 読み取り/書き込み | [!DNL Marketo Optimizer] | 読み取り+書き込み[!DNL Marketo Optimizer] （スコアリングサービス）; [!DNL Marketo Engage]個のリードフィールド/アクティビティタイプを読み取ります。 |
 | `engagementconfiguration` | エンゲージメント設定とウェイトの編集/更新を表示します。 | 読み取り/書き込み | [!DNL Marketo Optimizer] | 読み取り+書き込み[!DNL Marketo Optimizer] |
 | `intentconfiguration` | インテント設定とウェイトの設定/更新を表示します。 | 読み取り/書き込み | [!DNL Marketo Optimizer] | 読み取り+書き込み[!DNL Marketo Optimizer] |
 | `intent-query` | 人物/セグメント/リスト別のインテントスコアのクエリと説明。 | 読み取り | [!DNL Marketo Optimizer] | [!DNL Marketo Optimizer]を読み取ります |
@@ -88,4 +88,3 @@ _スキル_&#x200B;は、エージェントが実行方法を把握している�
 - **`scoring-studio`** — [!DNL Marketo Optimizer]個のスコアリングサービスと共に[!DNL Marketo Engage]個のリードフィールド/アクティビティタイプを読み取ります。
 
 すべての`falco-mcp_*`およびジャーニー/トークン/スコアリング/STO/FCS ツールが[!DNL Marketo Optimizer] サービスにヒットし、CSV/プログラム/リードツールが[!DNL Marketo Engage]にヒットしました。
-
