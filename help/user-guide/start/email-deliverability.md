@@ -1,7 +1,7 @@
 ---
 title: メール配信品質の設定
 description: Marketo Optimizerのサブドメインデリゲーション、DMARC、SPF、DKIM、およびIP プールを設定します。
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+source-git-commit: 81d9880cb37bb60301252b48bd89637b6656a993
 workflow-type: tm+mt
 source-wordcount: '2502'
 ht-degree: 1%
@@ -21,7 +21,7 @@ ht-degree: 1%
 1. [&#x200B; サブドメインのメール送信に使用するIP プール &#x200B;](#ip-pools)を確認します。
 1. [&#x200B; サブドメイン、IP プール、送信者IDをバインドする1つ以上の電子メールチャネル設定](../admin/email-channel-configuration.md#create-email-channel-configuration)を作成します。
 
-![Marketo Optimizerのメール配信品質の設定](./assets/email-deliverability-diagram.svg){width="550" zoomable="yes"}
+![Marketo Optimizerのメール配信品質の設定](./assets/email-deliverability-diagram.svg){width="600"}
 
 >[!TIP]
 >
