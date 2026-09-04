@@ -1,9 +1,9 @@
 ---
 title: 共同作業スキル
 description: Marketo Optimizerの大規模な共同作業者のスキル（プログラム、ジャーニー、オーディエンス、スコアリング、コンテンツ、送信時間の最適化用にパッケージ化されたワークフロー）を確認できます。
-source-git-commit: ef30aa7a901c18c7b9b0919d537ad59db9a6c481
+source-git-commit: 9db94582512d95f6c07d4e978a0a27291b471900
 workflow-type: tm+mt
-source-wordcount: '575'
+source-wordcount: '581'
 ht-degree: 11%
 
 ---
@@ -37,7 +37,7 @@ _スキル_&#x200B;は、共同作業者が実行方法を認識しているパ�
 | `journey-stop` | ジャーニーを中断、閉じる、停止、停止、または終了します。 | 書き込み | [!DNL Marketo Optimizer] | 読み取り+書き込み[!DNL Marketo Optimizer] |
 | `journey-reentry` | 再エントリを設定：許可/禁止、クールダウン、最大エントリ。 | 書き込み | [!DNL Marketo Optimizer] | 読み取り+書き込み[!DNL Marketo Optimizer] |
 | `journey-trafficcontrol` | プロファイルのルーティングを示すトラフィック制御シミュレーションを実行します。 | 読み取り | [!DNL Marketo Optimizer] | [!DNL Marketo Optimizer] （シミュレーション）を読み取ります |
-| `journey-observability` | デバッグ/監視の進行状況 – パス、タイミング、分割、ストール、ドウェル。 | 読み取り | [!DNL Marketo Optimizer] | [!DNL Marketo Optimizer] + [!DNL Marketo Engage]を読み取ります（静的リスト チェック） |
+| `journey-observability` | デバッグ/監視の進行状況 – パス、タイミング、分割、ストール、ドウェル。 <p>_[ジャーニーの進行状況のデバッグと監視](./journey-observability.md)_&#x200B;を参照してください。 | 読み取り | [!DNL Marketo Optimizer] | [!DNL Marketo Optimizer] + [!DNL Marketo Engage]を読み取ります（静的リスト チェック） |
 
 ## オーディエンスと人 {#audiences-people}
 
