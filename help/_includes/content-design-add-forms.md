@@ -2,7 +2,8 @@
 title: コンテンツ作成 – フォームの追加
 description: ランディングページおよびテンプレートでのフォームの追加に関する節を再利用
 TQID: 'https://experienceleague.adobe.com/glo6SZqT-pu3uOiIckj0K70xPrjryxuTUaKYAcjv7lA'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 355
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL 目次]** セクションの下で、**[!UICONTROL フォーム]**&#x200B;項目をドラッグして、ページデザインスペースの構造コンポーネントにドロップします。
 
-   ![ フォームコンポーネントをビジュアルデザインスペースにドラッグします](../user-guide/content/assets/content-design-add-form.png){width="600"}
+   ![&#x200B; フォームコンポーネントをビジュアルデザインスペースにドラッグします](../user-guide/content/assets/content-design-add-form.png){width="600"}
 
    >[!TIP]
    >
@@ -42,7 +43,7 @@ ht-degree: 0%
      >
      >フォームを使用してファイルをダウンロードする場合は、ホストされているファイルのURLを指定できます。 この設定では、送信ボタンはダウンロードボタンとして機能します。
 
-     ![ フォローアップ設定の変更](../user-guide/content/assets/content-design-add-form-follow-up.png){width="280"}
+     ![&#x200B; フォローアップ設定の変更](../user-guide/content/assets/content-design-add-form-follow-up.png){width="280"}
 
 1. デバイスの種類ごとにフォームの表示を制限する場合は、**[!UICONTROL 表示オプション]**&#x200B;設定を変更します。
 

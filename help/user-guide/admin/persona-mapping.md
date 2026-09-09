@@ -2,9 +2,16 @@
 title: ペルソナマッピング
 description: Marketo Optimizerでペルソナマッピングを設定する方法について説明します。 人物の属性をマッピングしてペルソナを定義し、人物リストと人物ジャーニーで派生ペルソナフィルタリングを使用します。
 TQID: 'https://experienceleague.adobe.com/JCBtJN4DgQZROVDamM4eKuCiGTwJQPQY3wMxmBPFj74'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 46e599c6-e20f-5f67-9824-93415016f66bid: 64b90904-e4f0-5c1b-a871-8c6a40b204a1id: a659ad61-de21-559d-a901-02e2fb329ff5id: d4203578-d294-5145-b397-f26f4488a904
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 46e599c6-e20f-5f67-9824-93415016f66b
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+  - id: a659ad61-de21-559d-a901-02e2fb329ff5
+  - id: d4203578-d294-5145-b397-f26f4488a904
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 1216
@@ -18,7 +25,7 @@ ht-degree: 1%
 
 ペルソナは、アカウントベースドマーケティング（ABM）アプローチの重要な側面です。マーケターが、ターゲットアカウント内の個人の特定のニーズ、好み、悩みに合わせて戦略を調整するのに役立ちます。 マーケターは、ペルソナの背景、責任、課題、好みのコミュニケーションチャネルなど、各ペルソナの詳細なプロファイルを作成できます。 管理者は、これらの定義により、Marketo Optimizerのユーザー属性に従ってペルソナを設定できるため、ユーザーリストとユーザージャーニーで、これらのペルソナをキャプチャする合理化された一貫したフィルタリングを使用できるようになります。
 
-Marketo Optimizerでは、ペルソナマッピングにより、ロールテンプレートの条件を超える機能が追加されています。**[!UICONTROL 派生ペルソナ]**&#x200B;をフィルター基準として使用して、[人物リスト ](../audiences/people-lists.md)および[人物ジャーニー](../marketing/person-journeys.md)をフィルタリングできます。 _派生ペルソナ_&#x200B;は、設定されたすべてのペルソナ定義に対して属性を評価することで、個人レコードに対して推測されるペルソナです。
+Marketo Optimizerでは、ペルソナマッピングにより、ロールテンプレートの条件を超える機能が追加されています。**[!UICONTROL 派生ペルソナ]**&#x200B;をフィルター基準として使用して、[人物リスト &#x200B;](../audiences/people-lists.md)および[人物ジャーニー](../marketing/person-journeys.md)をフィルタリングできます。 _派生ペルソナ_&#x200B;は、設定されたすべてのペルソナ定義に対して属性を評価することで、個人レコードに対して推測されるペルソナです。
 
 ペルソナの定義と使用に関する制限：
 
@@ -40,13 +47,13 @@ Marketo Optimizerでは、ペルソナマッピングにより、ロールテン
 
 1. 中間パネルの&#x200B;**[!UICONTROL ペルソナマッピング]**&#x200B;をクリックして、ペルソナのリストを表示します。
 
-   ![設定されたペルソナにアクセス ](assets/configuration-persona-mapping.png){width="800" zoomable="yes"}
+   ![設定されたペルソナにアクセス &#x200B;](assets/configuration-persona-mapping.png){width="800" zoomable="yes"}
 
    このページから、[作成](#create-a-persona)、[編集](#edit-a-persona)、または[削除](#delete-a-persona) ペルソナを作成できます。
 
    ペルソナマッピングリストはテーブルとして整理され、最も最近更新されたペルソナが上部に表示されます（_[!UICONTROL 最後の更新]_&#x200B;で並べ替え）。 右上隅の&#x200B;_列設定_ （![列設定](../assets/do-not-localize/icon-column-settings.svg)）アイコンをクリックして、列のチェックボックスを選択またはクリアすると、表示されるテーブルをカスタマイズできます。
 
-   ![ ペルソナマッピングリストに表示する列](assets/configuration-persona-mapping-list-columns.png){width="300"}
+   ![&#x200B; ペルソナマッピングリストに表示する列](assets/configuration-persona-mapping-list-columns.png){width="300"}
 
 1. ペルソナの詳細にアクセスするには、名前をクリックします。
 
@@ -71,7 +78,7 @@ _ペルソナマッピング_ リストには、役職の属性に従って定�
 
 目的のペルソナを見つけるには、検索バーにテキスト文字列を入力して、名前でペルソナを一致させます。
 
-![表示されたペルソナ マッピングをフィルタリング ](assets/configuration-persona-mapping-search.png){width="700" zoomable="yes"}
+![表示されたペルソナ マッピングをフィルタリング &#x200B;](assets/configuration-persona-mapping-search.png){width="700" zoomable="yes"}
 
 ## ペルソナの作成 {#create-a-persona}
 
@@ -83,7 +90,7 @@ _ペルソナマッピング_ リストには、役職の属性に従って定�
 
 1. ペルソナの一意の&#x200B;**[!UICONTROL 名前]**&#x200B;と&#x200B;**[!UICONTROL 説明]** （オプション）を入力します。
 
-   ![ ペルソナマッピングの作成](assets/configuration-persona-mapping-new.png){width="700" zoomable="yes"}
+   ![&#x200B; ペルソナマッピングの作成](assets/configuration-persona-mapping-new.png){width="700" zoomable="yes"}
 
 1. ペルソナのマッチングに使用する属性を選択します。
 
@@ -93,9 +100,9 @@ _ペルソナマッピング_ リストには、役職の属性に従って定�
 
      右上隅の&#x200B;_列設定_ （![列設定](../assets/do-not-localize/icon-column-settings.svg)）アイコンをクリックすると、表示されるテーブルをカスタマイズできます。
 
-     属性リストを名前でフィルタリングするには、検索バーにテキスト文字列を入力します。 左上の&#x200B;_フィルター_ （![ フィルターアイコン ](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックして、表示されるリストをタイプ別、_標準_&#x200B;または&#x200B;_カスタム_&#x200B;でフィルタリングすることもできます。
+     属性リストを名前でフィルタリングするには、検索バーにテキスト文字列を入力します。 左上の&#x200B;_フィルター_ （![&#x200B; フィルターアイコン &#x200B;](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックして、表示されるリストをタイプ別、_標準_&#x200B;または&#x200B;_カスタム_&#x200B;でフィルタリングすることもできます。
 
-     ![ ペルソナ属性を選択ダイアログ ](assets/configuration-persona-mapping-select-attributes.png){width="700" zoomable="yes"}
+     ![&#x200B; ペルソナ属性を選択ダイアログ &#x200B;](assets/configuration-persona-mapping-select-attributes.png){width="700" zoomable="yes"}
 
    * 「**[!UICONTROL 保存]**」をクリックします。
 

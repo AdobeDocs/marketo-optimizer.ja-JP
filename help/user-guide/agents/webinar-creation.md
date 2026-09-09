@@ -4,9 +4,17 @@ description: Marketo Optimizerのチャットインターフェイスを使用�
 keywords: 
 role: User
 TQID: 'https://experienceleague.adobe.com/OKsYvVIcNN-GEMiMPW2mWomstM2MabYcK0jTColgxIQ'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 1650dadf-b034-5ac9-a309-77ad1e2f5035id: 3c1de303-7a7c-59a6-abca-8c534730e19cid: 3cf5f37e-e87e-5179-812b-53ce05d7eebbid: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
-topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: d095671a-1355-40aa-8b5f-06c33c68080b
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+  - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
+  - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 958
@@ -17,7 +25,7 @@ ht-degree: 0%
 
 # ウェビナーの作成とプロモーション
 
-[ チャットインターフェイス ](./chat-interface.md)は、ウェビナーの作成からプロモーション、配信、ウェビナー後のナーチャリング、レポート作成まで、すべて会話ペインを通じてウェビナーを受け取ることができます。 チャットインターフェイスが構築するすべては、[ インタラクティブウェビナーの概要](../marketing/webinars-overview.md)に記載されているウェビナーアセット、ジャーニー、トークンを使用しているため、いつでもチャットとデザインインターフェイスを切り替えることができます。
+[&#x200B; チャットインターフェイス &#x200B;](./chat-interface.md)は、ウェビナーの作成からプロモーション、配信、ウェビナー後のナーチャリング、レポート作成まで、すべて会話ペインを通じてウェビナーを受け取ることができます。 チャットインターフェイスが構築するすべては、[&#x200B; インタラクティブウェビナーの概要](../marketing/webinars-overview.md)に記載されているウェビナーアセット、ジャーニー、トークンを使用しているため、いつでもチャットとデザインインターフェイスを切り替えることができます。
 
 ## エントリポイント
 
@@ -27,7 +35,7 @@ ht-degree: 0%
 * *「今後のウェビナーをすべて表示」*
 * *&quot;ウェビナー[ ウェビナー名]&quot;*&#x200B;の詳細を入力
 
-![ チャットインターフェイスを使用してウェビナー作成ワークフローを開始](./assets/webinar-create-start.png){width="700" zoomable="yes"}
+![&#x200B; チャットインターフェイスを使用してウェビナー作成ワークフローを開始](./assets/webinar-create-start.png){width="700" zoomable="yes"}
 
 プログラム内からチャットペインを開くと、そのプログラムに対してプロンプトが自動的にスコープされます。
 
@@ -39,11 +47,11 @@ ht-degree: 0%
 
 1. チャットペインには、**タスクプラン**&#x200B;のチェックリストが表示され、それを実行します。プログラムを解決し、名前、開始時間、終了時間、タイムゾーン、およびキャパシティを設定してから確認します。
 
-   ![ チャットインターフェイスでウェビナーの名前、日付、時刻を指定](./assets/webinar-create-name-time.png){width="500" zoomable="yes"}
+   ![&#x200B; チャットインターフェイスでウェビナーの名前、日付、時刻を指定](./assets/webinar-create-name-time.png){width="500" zoomable="yes"}
 
 1. チャットペインには、利用可能なウェビナー&#x200B;**ライセンス** （例えば、処理能力の値を持つ大容量アドオン）が一覧表示され、どのウェビナーを使用するかを尋ねられます。 必要なキャパシティで返信します。例：*「1000でウェビナーのキャパシティを使用する」*
 
-   ![ キャパシティに応じてウェビナーのライセンスを設定](./assets/webinar-create-license-capacity.png){width="500" zoomable="yes"}
+   ![&#x200B; キャパシティに応じてウェビナーのライセンスを設定](./assets/webinar-create-license-capacity.png){width="500" zoomable="yes"}
 
 1. チャットペインには、プログラム、名前、開始時間、タイムゾーン、期間、キャパシティが反映され、ウェビナーを作成する前に&#x200B;**確認**&#x200B;するように求められます。
 
@@ -51,19 +59,19 @@ ht-degree: 0%
 
 1. チャットインターフェイスには、**次善のアクション**&#x200B;が表示されます。_ウェビナーをデザイン_、_共同ホストを追加_、_プレゼンターを追加_、_プロモーションジャーニーを設定_、_ウェビナー後のナーチャリングジャーニーを設定_&#x200B;します。
 
-   ![ チャットインターフェイスに、ウェビナー作成に最適な次のステップが表示されます](./assets/webinar-create-next-steps.png){width="500" zoomable="yes"}
+   ![&#x200B; チャットインターフェイスに、ウェビナー作成に最適な次のステップが表示されます](./assets/webinar-create-next-steps.png){width="500" zoomable="yes"}
 
 ### 共同ホストとプレゼンターの追加 {#co-hosts-presenters}
 
 **[!UICONTROL 共同ホストを追加]**&#x200B;または&#x200B;**[!UICONTROL 次の最適なアクションからプレゼンター]**&#x200B;を追加するか、直接お問い合わせください。例：*「共同ホストを追加[名] [姓] [ メール ]」*。 チャットインターフェイスでは、デザイナーで使用されているのと同じ追加ダイアログが開きます。全員が名簿ピッカーから選択するのではなく、同じ方法で追加されているので、名前と電子メールを入力します。 人物が追加されると、確認が表示されます。
 
-![ チャットインターフェイスにウェビナー共同ホストを追加](./assets/webinar-create-add-co-host.png){width="500" zoomable="yes"}
+![&#x200B; チャットインターフェイスにウェビナー共同ホストを追加](./assets/webinar-create-add-co-host.png){width="500" zoomable="yes"}
 
 ### ウェビナーのデザイン
 
-**[!UICONTROL ウェビナーのデザイン]**&#x200B;を選択して、ウェビナーの設定ページを開きます。このページでは、埋め込み[!DNL Adobe Connect] デザインサーフェスでコンテンツ、レイアウト、登録設定を設定します。 そのインターフェイスでデザインの変更を完了します。チャットインターフェイスは、チャットで部屋をデザインするのではなく、そこにリンクされます。 [ ウェビナーのデザイン ](../marketing/create-webinar.md#create-and-design-a-webinar)を参照してください。
+**[!UICONTROL ウェビナーのデザイン]**&#x200B;を選択して、ウェビナーの設定ページを開きます。このページでは、埋め込み[!DNL Adobe Connect] デザインサーフェスでコンテンツ、レイアウト、登録設定を設定します。 そのインターフェイスでデザインの変更を完了します。チャットインターフェイスは、チャットで部屋をデザインするのではなく、そこにリンクされます。 [&#x200B; ウェビナーのデザイン &#x200B;](../marketing/create-webinar.md#create-and-design-a-webinar)を参照してください。
 
-![ チャットインターフェイスからAdobe Connect ウェビナーデザインを開く](./assets/webinar-create-open-design.png){width="500" zoomable="yes"}
+![&#x200B; チャットインターフェイスからAdobe Connect ウェビナーデザインを開く](./assets/webinar-create-open-design.png){width="500" zoomable="yes"}
 
 ## プロモーションジャーニーの構築
 

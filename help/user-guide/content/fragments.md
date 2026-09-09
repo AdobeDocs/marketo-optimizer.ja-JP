@@ -2,8 +2,10 @@
 title: フラグメント
 description: 電子メールやテンプレート用のビジュアルコンテンツフラグメントを作成、管理、再利用します。Marketo Optimizerで、再利用可能なブロックを作成、バージョンを公開、使用状況を追跡します。
 TQID: 'https://experienceleague.adobe.com/dxPI12xu0thTB3eYJiyCY3OtLIxX-8IKKeXitH4C0Ws'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 8881ff95-1653-5fea-82af-ce1549c0d99d
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 2634
@@ -36,7 +38,7 @@ ht-degree: 6%
 
 [!DNL Marketo Optimizer]のビジュアルフラグメントにアクセスするには、左側のナビゲーションに移動し、**[!UICONTROL コンテンツ管理]**&#x200B;を展開します。 次に、**[!UICONTROL フラグメント]**&#x200B;を選択します。 このアクションを実行すると、インスタンスで作成されたすべてのフラグメントがテーブルに一覧表示されたリストページが開きます。
 
-![ フラグメントライブラリにアクセス ](./assets/fragments-list.png){width="700" zoomable="yes"}
+![&#x200B; フラグメントライブラリにアクセス &#x200B;](./assets/fragments-list.png){width="700" zoomable="yes"}
 
 テーブルは&#x200B;_[!UICONTROL Modified]_&#x200B;列で並べ替えられ、デフォルトでは最も最近更新されたフラグメントが先頭に表示されます。 列のタイトルをクリックして、昇順と降順を変更します。
 
@@ -55,15 +57,15 @@ ht-degree: 6%
 
 ### フラグメントリストのフィルタリング {#filter-list}
 
-名前でフラグメントを検索するには、検索バーにテキスト文字列を入力して一致を検索します。 [ フォルダー](#folders)を選択すると、そのフォルダーの階層の最初のレベルにあるすべてのフラグメントまたはフォルダーに検索が適用されます。
+名前でフラグメントを検索するには、検索バーにテキスト文字列を入力して一致を検索します。 [&#x200B; フォルダー](#folders)を選択すると、そのフォルダーの階層の最初のレベルにあるすべてのフラグメントまたはフォルダーに検索が適用されます。
 
-![表示されたフラグメントをフィルタリング ](./assets/fragments-list-filtered.png){width="500" zoomable="yes"}
+![表示されたフラグメントをフィルタリング &#x200B;](./assets/fragments-list-filtered.png){width="500" zoomable="yes"}
 
-_フィルター_ アイコン （![ フィルターの表示または非表示アイコン ](../assets/do-not-localize/icon-filter.svg)）をクリックして、使用可能なフィルターオプションを表示し、設定を変更して、指定した条件に従って表示される項目をフィルタリングします。
+_フィルター_ アイコン （![&#x200B; フィルターの表示または非表示アイコン &#x200B;](../assets/do-not-localize/icon-filter.svg)）をクリックして、使用可能なフィルターオプションを表示し、設定を変更して、指定した条件に従って表示される項目をフィルタリングします。
 
 ### 列表示のカスタマイズ {#column-display}
 
-右上の&#x200B;_テーブルをカスタマイズ_ アイコン （![ テーブルをカスタマイズ アイコン ](../assets/do-not-localize/icon-column-settings.svg)）をクリックして、テーブルに表示する列をカスタマイズします。
+右上の&#x200B;_テーブルをカスタマイズ_ アイコン （![&#x200B; テーブルをカスタマイズ アイコン &#x200B;](../assets/do-not-localize/icon-column-settings.svg)）をクリックして、テーブルに表示する列をカスタマイズします。
 
 ダイアログで、表示する列を選択し、**[!UICONTROL 適用]**&#x200B;をクリックします。
 
@@ -92,7 +94,7 @@ _フィルター_ アイコン （![ フィルターの表示または非表示�
 
    * 予約済みの文字は&#x200B;**_許可されていません_**: `\ / : * ? " < > |`
 
-   ![ フラグメントページの作成](./assets/fragments-create.png){width="700" zoomable="yes"}
+   ![&#x200B; フラグメントページの作成](./assets/fragments-create.png){width="700" zoomable="yes"}
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
@@ -118,7 +120,7 @@ _フィルター_ アイコン （![ フィルターの表示または非表示�
 >
 >公開されたフラグメントが電子メールまたは電子メールテンプレートで使用されている場合、名前を変更したり、コンテンツを編集したりすることはできません。 フラグメントを変更する場合は、ドラフトバージョンを作成できます。
 
-![ フラグメントの詳細を表示](./assets/fragment-details.png){width="700" zoomable="yes"}
+![&#x200B; フラグメントの詳細を表示](./assets/fragment-details.png){width="700" zoomable="yes"}
 
 「**[!UICONTROL フラグメントを編集]**」をクリックして、ビジュアルコンテンツエディターでフラグメントを開きます。
 
@@ -194,7 +196,7 @@ _[!UICONTROL ルート]_ フォルダーを選択して、すべてのサブフ�
 
 1. 必要に応じて、説明を変更します。
 
-   ![ ドラフトステータスを持つフラグメントの詳細](assets/fragment-draft-details.png){width="600" zoomable="yes"}
+   ![&#x200B; ドラフトステータスを持つフラグメントの詳細](assets/fragment-draft-details.png){width="600" zoomable="yes"}
 
 1. ビジュアルデザインスペースのコンテンツを変更するには、右上の「**[!UICONTROL 編集]**」をクリックします。
 
@@ -222,7 +224,7 @@ _[!UICONTROL ルート]_ フォルダーを選択して、すべてのサブフ�
 
 1. ダイアログで、**[!UICONTROL 確認]**&#x200B;をクリックして、フラグメントのドラフトバージョンを作成します。
 
-   ![下書きバージョンの作成ダイアログ ](./assets/fragments-modify-dialog.png){width="300"}
+   ![下書きバージョンの作成ダイアログ &#x200B;](./assets/fragments-modify-dialog.png){width="300"}
 
 1. 右上の「**[!UICONTROL 編集]**」をクリックします。
 
@@ -244,7 +246,7 @@ _[!UICONTROL ルート]_ フォルダーを選択して、すべてのサブフ�
 
 _[!UICONTROL フラグメント]_&#x200B;のリスト ページから編集用のドラフトバージョンを開くには、次の2つの方法があります。
 
-* フラグメント名の横にある&#x200B;_ドラフト_ アイコン（![ ドラフトアイコン ](../assets/do-not-localize/icon-draft.svg)）をクリックします。
+* フラグメント名の横にある&#x200B;_ドラフト_ アイコン（![&#x200B; ドラフトアイコン &#x200B;](../assets/do-not-localize/icon-draft.svg)）をクリックします。
 
 * フラグメント名をクリックして開きます。 次に、右上の&#x200B;_詳細メニュー_ （***...***）アイコンをクリックし、**[!UICONTROL 下書きバージョンを開く]**&#x200B;を選択します。
 
@@ -313,7 +315,7 @@ When you are creating/editing an email or email template in the visual content e
 
 1. ユーザーのジャーニーに移動し、既存の&#x200B;_[!UICONTROL メール送信]_ アクションノードを開くか、[新しいノードを追加](../marketing/action-nodes.md#add-an-action-node)します。
 
-1. 「**[!UICONTROL メール本文を編集]**」をクリックしてメールコンテンツを開くか、引き続き[ オーサリングします](./email-authoring.md)。
+1. 「**[!UICONTROL メール本文を編集]**」をクリックしてメールコンテンツを開くか、引き続き[&#x200B; オーサリングします](./email-authoring.md)。
 
 1. **[!UICONTROL 構造]** メニューから項目をドラッグ&amp;ドロップして、フラグメントに&#x200B;_構造_&#x200B;を指定します。
 
@@ -325,7 +327,7 @@ When you are creating/editing an email or email template in the visual content e
    * カード（サムネール）とリストビューを切り替えます。
    * 最近作成したフラグメントを反映するには、リストを更新します。
 
-   ![ ビジュアルデザイナーでフラグメントを検索](assets/fragments-list-designer-search.png){width="600"}
+   ![&#x200B; ビジュアルデザイナーでフラグメントを検索](assets/fragments-list-designer-search.png){width="600"}
 
 1. 任意のフラグメントを構造コンポーネントのプレースホルダーにドラッグ&amp;ドロップします。
 
@@ -357,7 +359,7 @@ When you are creating/editing an email or email template in the visual content e
    * カード（サムネール）とリストビューを切り替えます。
    * 最近作成したフラグメントを反映するには、リストを更新します。
 
-   ![ ビジュアルデザイナーでフラグメントを検索](assets/fragments-list-designer-search.png){width="600"}
+   ![&#x200B; ビジュアルデザイナーでフラグメントを検索](assets/fragments-list-designer-search.png){width="600"}
 
 1. フラグメントを構造コンポーネントにドラッグ&amp;ドロップします。
 

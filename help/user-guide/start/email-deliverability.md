@@ -2,9 +2,19 @@
 title: メール配信品質の設定
 description: Marketo Optimizerのサブドメインデリゲーション、DMARC、SPF、DKIM、およびIP プールを設定します。
 TQID: 'https://experienceleague.adobe.com/-7yEXTaOrGIfCFw-UzanMqA9VJ1Nk-BmdmE2JJJSoB4'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 3c1de303-7a7c-59a6-abca-8c534730e19cid: 3cf5f37e-e87e-5179-812b-53ce05d7eebbid: 64b90904-e4f0-5c1b-a871-8c6a40b204a1id: a659ad61-de21-559d-a901-02e2fb329ff5id: d4203578-d294-5145-b397-f26f4488a904
-topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: e0eb8757-182f-49f3-94a4-1587d16f5094id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
+  - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+  - id: a659ad61-de21-559d-a901-02e2fb329ff5
+  - id: d4203578-d294-5145-b397-f26f4488a904
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 2502
@@ -20,10 +30,10 @@ ht-degree: 1%
 
 管理者が設定した次の構成要素を、通常は次の順序で使用します。
 
-1. [1つ以上のサブドメイン ](#subdomain-delegation)をAdobeにデリゲートします。
-1. [各サブドメインでDMARC、SPF、DKIM レコード ](#dmarc-spf-dkim)を設定します。
-1. [ サブドメインのメール送信に使用するIP プール ](#ip-pools)を確認します。
-1. [ サブドメイン、IP プール、送信者IDをバインドする1つ以上の電子メールチャネル設定](../admin/email-channel-configuration.md#create-email-channel-configuration)を作成します。
+1. [1つ以上のサブドメイン &#x200B;](#subdomain-delegation)をAdobeにデリゲートします。
+1. [各サブドメインでDMARC、SPF、DKIM レコード &#x200B;](#dmarc-spf-dkim)を設定します。
+1. [&#x200B; サブドメインのメール送信に使用するIP プール &#x200B;](#ip-pools)を確認します。
+1. [&#x200B; サブドメイン、IP プール、送信者IDをバインドする1つ以上の電子メールチャネル設定](../admin/email-channel-configuration.md#create-email-channel-configuration)を作成します。
 
 ![Marketo Optimizerのメール配信品質の設定](./assets/email-deliverability-diagram.svg){width="600"}
 
@@ -34,8 +44,8 @@ ht-degree: 1%
 > メールチャネルについて詳しくは、次のトピックを参照してください。
 >
 >* 電子メールチャネルの設定 – [電子メールチャネル設定](../admin/email-channel-configuration.md)
->* メールの作成 – [ ジャーニーにメールを追加](../marketing/email-channel.md)
->* 電子メールコンテンツのデザイン - [電子メールコンテンツのオーサリング ](../content/email-authoring.md)
+>* メールの作成 – [&#x200B; ジャーニーにメールを追加](../marketing/email-channel.md)
+>* 電子メールコンテンツのデザイン - [電子メールコンテンツのオーサリング &#x200B;](../content/email-authoring.md)
 
 ## 現在の制限事項 {#limitations}
 

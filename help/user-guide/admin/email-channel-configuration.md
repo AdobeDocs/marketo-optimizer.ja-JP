@@ -4,9 +4,15 @@ description: Marketo Optimizerの送信者ID、サブドメイン、IP プール
 feature: Administration
 role: Admin
 TQID: 'https://experienceleague.adobe.com/VDqL3u2vPJ8YGJgZCx5lE0Xt1-WvAEBBwFiMZGj7w90'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 3cf5f37e-e87e-5179-812b-53ce05d7eebbid: 64b90904-e4f0-5c1b-a871-8c6a40b204a1id: a659ad61-de21-559d-a901-02e2fb329ff5id: d4203578-d294-5145-b397-f26f4488a904
-topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+  - id: a659ad61-de21-559d-a901-02e2fb329ff5
+  - id: d4203578-d294-5145-b397-f26f4488a904
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 624
@@ -16,7 +22,7 @@ ht-degree: 0%
 
 # メールチャネル設定
 
-チャネル設定とは、送信者ID、サブドメイン、IP プール、トラッキングの設定を結びつける中心的なオブジェクトのことです。 ジャーニーのメールアクションは、チャネル設定を参照して、メッセージの送信方法を把握します。 設定を作成する前に、[ サブドメインのデリゲーションとIP プールの設定](../start/email-deliverability.md)を完了してください。
+チャネル設定とは、送信者ID、サブドメイン、IP プール、トラッキングの設定を結びつける中心的なオブジェクトのことです。 ジャーニーのメールアクションは、チャネル設定を参照して、メッセージの送信方法を把握します。 設定を作成する前に、[&#x200B; サブドメインのデリゲーションとIP プールの設定](../start/email-deliverability.md)を完了してください。
 
 * **チャネル：**&#x200B;電子メール。
 * **メールの種類：** マーケティングまたはトランザクション。 この設定は、抑制ルールが適用されるかどうかを決定します（マーケティング部門が適用します。トランザクションメッセージは、デフォルトでスパム苦情の抑制を回避し、正当なトランザクションメッセージを表示します）。
@@ -30,8 +36,8 @@ ht-degree: 0%
 
 >[!PREREQUISITES]
 >
->* 少なくとも1つの[ サブドメイン ](../start/email-deliverability.md#subdomain-delegation)をデリゲートしてアクティブにする必要があります。
->* 少なくとも1つの[IP プール ](../start/email-deliverability.md#ip-pools)を組織に割り当てる必要があります。
+>* 少なくとも1つの[&#x200B; サブドメイン &#x200B;](../start/email-deliverability.md#subdomain-delegation)をデリゲートしてアクティブにする必要があります。
+>* 少なくとも1つの[IP プール &#x200B;](../start/email-deliverability.md#ip-pools)を組織に割り当てる必要があります。
 >* 管理者の役割が必要です。
 >* [現在の制限事項](../start/email-deliverability.md#limitations)を確認する – 専用のIP プールはBetaでは利用できません。
 
@@ -76,7 +82,7 @@ ht-degree: 0%
 >
 >チャネル設定の削除は永続的です。 アクティブなジャーニーが参照する設定は削除できません。 最初にすべてのメールアクションを削除または再割り当てします。
 
-設定を削除するには、まず、[ ジャーニーにメールを追加](../marketing/email-channel.md#define-email-properties)で設定を参照するすべてのメールアクションを削除または更新します。 [!DNL Marketo Optimizer]は、アクティブなジャーニーで現在使用されている設定を削除しません。
+設定を削除するには、まず、[&#x200B; ジャーニーにメールを追加](../marketing/email-channel.md#define-email-properties)で設定を参照するすべてのメールアクションを削除または更新します。 [!DNL Marketo Optimizer]は、アクティブなジャーニーで現在使用されている設定を削除しません。
 
 ## 複数のチャネル設定 {#multiple-channel-configurations}
 

@@ -4,9 +4,15 @@ description: Marketo OptimizerでGDPRやCCPAなどのプライバシー規制に
 feature: Setup
 role: Admin
 TQID: 'https://experienceleague.adobe.com/VgnMCjm6l4pWG2-gqMuOmZUqU7E2Wrc-eVxn4kL5rKc'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 18a33a66-85a1-58e4-8e50-418b832ade8bid: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 18a33a66-85a1-58e4-8e50-418b832ade8b
+  - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: f4e6943a-c91a-4134-a2c7-f4f20cfff2f0
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 630
@@ -43,7 +49,7 @@ ht-degree: 2%
 
 >[!BEGINSHADEBOX]
 
-![AEP権限アイコン ](../assets/do-not-localize/icon_permissions-outline.svg)これらの手順を実行するには、[!DNL Privacy Service]製品プロファイルと、Experience Platform](../start/user-management.md#permissions)で割り当てられたユーザーロールに対する次の[権限が必要です。
+![AEP権限アイコン &#x200B;](../assets/do-not-localize/icon_permissions-outline.svg)これらの手順を実行するには、[!DNL Privacy Service]製品プロファイルと、Experience Platform[&#128279;](../start/user-management.md#permissions)で割り当てられたユーザーロールに対する次の権限が必要です。
 
 * **[!UICONTROL Privacy Service権限]** - `Privacy Read Permission`および`Privacy Write Permission`
 * **[!UICONTROL データガバナンス]** - `View Privacy Console`
@@ -56,7 +62,7 @@ ht-degree: 2%
 
 右上の「**[!UICONTROL 規制タイプ]**」オプションを使用して、ジョブを管理またはリクエストを送信する規制の表示ページを変更します。
 
-![ プライバシー要求ジョブ、規制タイプを選択](./assets/privacy-requests.png){width="800" zoomable="yes"}
+![&#x200B; プライバシー要求ジョブ、規制タイプを選択](./assets/privacy-requests.png){width="800" zoomable="yes"}
 
 ### リクエストを送信 {#submit-a-request}
 
@@ -93,7 +99,7 @@ ht-degree: 2%
 
 ### API リクエスト {#api-requests}
 
-[!DNL Privacy Service] APIを使用してプライバシーリクエストを送信することもできます。 一般的なAPIの参照については、[Privacy Service API ドキュメント ](https://developer.adobe.com/experience-platform-apis/references/privacy-service){target="_blank"}を参照してください。
+[!DNL Privacy Service] APIを使用してプライバシーリクエストを送信することもできます。 一般的なAPIの参照については、[Privacy Service API ドキュメント &#x200B;](https://developer.adobe.com/experience-platform-apis/references/privacy-service){target="_blank"}を参照してください。
 
 >[!PREREQUISITES]
 >
@@ -111,7 +117,7 @@ ht-degree: 2%
 | `users.action` | `access` または `delete` |
 | `users.userIDs.namespace` | `Email` |
 | `include` | `marketo`を使用して[!DNL Marketo Optimizer]と[!DNL Marketo Engage] データの両方を含める |
-| `regulation` | 例：`ccpa` <br/>一部のレギュレーション値に状態の略語が含まれるように変更されています（例：`ucpa_ut_usa`）。 古い値は、移行期間でも有効です。 これらの値に対する統合を構築する前に、現在のリストについては、[ プライバシー規制の概要](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/regulations/overview){target="_blank"}を参照してください。 |
+| `regulation` | 例：`ccpa` <br/>一部のレギュレーション値に状態の略語が含まれるように変更されています（例：`ucpa_ut_usa`）。 古い値は、移行期間でも有効です。 これらの値に対する統合を構築する前に、現在のリストについては、[&#x200B; プライバシー規制の概要](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/regulations/overview){target="_blank"}を参照してください。 |
 
 次の例では、[!DNL Marketo Optimizer] データを含むGDPR削除要求を送信します。
 

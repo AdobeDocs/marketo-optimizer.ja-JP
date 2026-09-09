@@ -2,9 +2,14 @@
 title: メールテンプレートの作成
 description: Marketo Optimizerでメールテンプレートを作成する方法（新規作成、ジャーニーからのメールをテンプレートとして保存、デザインイメージをメールテンプレートに変換する方法）を説明します。
 TQID: 'https://experienceleague.adobe.com/Hag-o6Hu-82rqnWHnDBgPD-dKApy5JGsPMD5cGFOCfA'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 8881ff95-1653-5fea-82af-ce1549c0d99d
-topic_v2: id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adebid: cc72dcf1-72e1-48cc-b434-e7c27d62d67cid: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+  - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 873
@@ -38,9 +43,9 @@ ht-degree: 1%
 
 1. 「**[!UICONTROL メール本文を編集]**」をクリックして、コンテンツデザインスペースにアクセスします。
 
-   コンテンツデザインについて詳しくは、[電子メールオーサリング ](email-authoring.md)を参照してください。
+   コンテンツデザインについて詳しくは、[電子メールオーサリング &#x200B;](email-authoring.md)を参照してください。
 
-1. オプションで&#x200B;**[!UICONTROL ガバナンス]**&#x200B;を有効にし、[ コンテンツロック ](template-content-governance.md)を設定して、テンプレート作成者がテンプレートを適用する際に編集できる部分を制限します。
+1. オプションで&#x200B;**[!UICONTROL ガバナンス]**&#x200B;を有効にし、[&#x200B; コンテンツロック &#x200B;](template-content-governance.md)を設定して、テンプレート作成者がテンプレートを適用する際に編集できる部分を制限します。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
@@ -56,9 +61,9 @@ ht-degree: 1%
 
 元のジャーニーメールは影響を受けません。 保存されたテンプレートは、サンドボックス内のすべてのユーザーのテンプレートライブラリで使用できます。 作成したテンプレートを更新して、再利用を最適化できます。
 
-* テキストを編集し、[ パーソナライゼーション ](email-authoring.md#personalize-content) トークンを追加します。
+* テキストを編集し、[&#x200B; パーソナライゼーション &#x200B;](email-authoring.md#personalize-content) トークンを追加します。
 * 画像の更新や置換、リンクの追加。
-* [ コンテンツロック ](template-content-governance.md)を設定します。
+* [&#x200B; コンテンツロック &#x200B;](template-content-governance.md)を設定します。
 
 ## 画像をテンプレートに変換 {#image-to-template}
 
@@ -129,11 +134,11 @@ ht-degree: 1%
 
 変換されたテンプレートコンテンツが、デザイン空間で編集可能なメールテンプレートとして開きます。 標準的なコンテンツデザインツールを使用して、次のことを行います。
 
-* テキストを編集し、[ パーソナライゼーション ](email-authoring.md#personalize-content) トークンを追加します。
+* テキストを編集し、[&#x200B; パーソナライゼーション &#x200B;](email-authoring.md#personalize-content) トークンを追加します。
 * 画像の更新や置換、リンクの追加。
 * 色、フォント、間隔を調整します。
 * コンテンツコンポーネントを追加、削除、並べ替えする。
-* ガバナンスを有効にして、[ コンテンツロック ](template-content-governance.md)を設定します。
+* ガバナンスを有効にして、[&#x200B; コンテンツロック &#x200B;](template-content-governance.md)を設定します。
 
 >[!IMPORTANT]
 >

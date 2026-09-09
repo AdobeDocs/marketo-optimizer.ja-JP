@@ -2,9 +2,13 @@
 title: AIを活用した意思決定
 description: Marketo Optimizerで、AIを活用した意思決定ヘルスチェックによって、リードのカバー範囲、ペルソナの分類、シグナルリッチネスを把握し、欠けている部分をフラグを立てる方法を説明します。
 TQID: 'https://experienceleague.adobe.com/rZy9gOQusGt2mfZ3t0iBS2blVp1PXH-R-TIW5cGWu2Y'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 5229c72e-d79b-574f-a03e-5c4bf48172c3id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 5229c72e-d79b-574f-a03e-5c4bf48172c3
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 801
@@ -26,7 +30,7 @@ AIによる意思決定の正常性を使用して、[!DNL Marketo Engage]から
 * _ホーム_ ページで、クイックアクセス行の&#x200B;**[!UICONTROL AI-decisioning health]** カードを選択します。 カードは列をリードし、929件のストーリー、32%のペルソナの分類など、ストーリーの数とペルソナ分類の進捗状況を示します。
 * 共同作業者のチャットボックスで、パーソナライゼーションデータについて直接尋ねるか、`/`と入力して、**[!UICONTROL AI-decisioning health]**&#x200B;を選択します。
 
-![ ホームページのクイックアクセス行。最初にAIによる意思決定のヘルスカードが表示され、次にマーケティング、Assets、レポートが表示されます。](./assets/ai-decisioning-health-quick-access.png){width="600"}
+![&#x200B; ホームページのクイックアクセス行。最初にAIによる意思決定のヘルスカードが表示され、次にマーケティング、Assets、レポートが表示されます。](./assets/ai-decisioning-health-quick-access.png){width="600"}
 
 両方のパスがCoworker ワークスペース内でレポートを開きます。
 
@@ -61,7 +65,7 @@ AIによる意思決定の正常性に関するウェルカムメッセージ、
 
 カテゴリーリストの上にある検索フィールドを使用して、名前で直接カテゴリまたは属性にジャンプします。
 
-デモグラフィック カテゴリが展開された![ カバレッジ セクションで、個人の詳細、エンゲージメント スコアリング、場所などの属性グループが表示されます。](./assets/ai-decisioning-health-coverage.png){width="800" zoomable="yes"}
+デモグラフィック カテゴリが展開された![&#x200B; カバレッジ セクションで、個人の詳細、エンゲージメント スコアリング、場所などの属性グループが表示されます。](./assets/ai-decisioning-health-coverage.png){width="800" zoomable="yes"}
 
 ## フラグ {#flags}
 

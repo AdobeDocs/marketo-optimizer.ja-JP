@@ -5,9 +5,12 @@ keywords:
 role: User
 feature: Person Journeys
 TQID: 'https://experienceleague.adobe.com/9NJrT-Y66XXF1-mWDO80WpymCB6ujrkjkR87MhKuiB8'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 823
@@ -18,7 +21,7 @@ ht-degree: 0%
 
 # ウェビナーのプロモーションとフォローアップジャーニー
 
-プログラムにウェビナーを追加したら、そのプログラム内に1つ以上の[ ジャーニー](./person-journeys.md)を構築して、ユーザーを招待し、リマインドし、セッションを配信し、その後フォローアップします。
+プログラムにウェビナーを追加したら、そのプログラム内に1つ以上の[&#x200B; ジャーニー](./person-journeys.md)を構築して、ユーザーを招待し、リマインドし、セッションを配信し、その後フォローアップします。
 
 >[!NOTE]
 >
@@ -28,9 +31,9 @@ ht-degree: 0%
 
 一般的なプロモーションジャーニーでは、顧客を招待し、登録を追跡することで、ウェビナーが近づくにつれてリマインドします。
 
-1. [ ユーザージャーニーを作成](./person-journeys.md#create-a-person-journey)。
+1. [&#x200B; ユーザージャーニーを作成](./person-journeys.md#create-a-person-journey)。
 
-1. [ ジャーニーのオーディエンスを選択](./person-audience-node.md)。
+1. [&#x200B; ジャーニーのオーディエンスを選択](./person-audience-node.md)。
 
 1. 招待メールを含む&#x200B;**[!UICONTROL メール送信]** ノードを追加します。
 
@@ -44,7 +47,7 @@ ht-degree: 0%
    >
    >通常、プロモーションジャーニーから&#x200B;_Invited_&#x200B;と&#x200B;_Registered_&#x200B;のみを設定します。 [!DNL Adobe Connect]は通常、_Attended_、_No-Show_、_Attended on Demand_&#x200B;を自動的に設定します。 同じアクションを使用して、必要に応じてジャーニーからこれらの後のステータスを上書きできますが、[_ウェビナーのステータス_](webinars-overview.md#webinar-status)&#x200B;で説明されている線形進行と一致するのは転送のみです。
 
-1. [ ランディングページ ](../content/landing-pages.md)で登録フォームをホストします。
+1. [&#x200B; ランディングページ &#x200B;](../content/landing-pages.md)で登録フォームをホストします。
 
 1. **[!UICONTROL アクション]** ノードを追加し、**[!UICONTROL ウェビナーメンバーのステータスを変更]** アクションを選択し、ウェビナーを選択して、ステータスを&#x200B;_登録済み_ （フォーム送信によってトリガー）に設定します。
 
@@ -59,7 +62,7 @@ ht-degree: 0%
 
 1. ウェビナー&#x200B;_終了日時_ トークンに&#x200B;**[!UICONTROL 待機]** ノードを追加して、ライブセッションが終了するまでジャーニーを一時停止します。
 
-   ここから[ ウェビナー後のジャーニーの構築](#build-post-webinar-journey)を続行します。
+   ここから[&#x200B; ウェビナー後のジャーニーの構築](#build-post-webinar-journey)を続行します。
 
    >[!NOTE]
    >
@@ -67,7 +70,7 @@ ht-degree: 0%
 
 ## Personalise emails
 
-ウェビナートークンは、件名、本文、プリヘッダー、送信者のメールコンテンツでレンダリングされます。 完全なリストについては、[ ウェビナートークン ](webinars-overview.md#webinar-tokens)を参照してください。
+ウェビナートークンは、件名、本文、プリヘッダー、送信者のメールコンテンツでレンダリングされます。 完全なリストについては、[&#x200B; ウェビナートークン &#x200B;](webinars-overview.md#webinar-tokens)を参照してください。
 
 >[!NOTE]
 >
@@ -83,7 +86,7 @@ ht-degree: 0%
 
 * プレゼンターと共同ホストは、ウェビナーの&#x200B;**ウェビナーチーム** セクションの個別のリンクを使用して参加します。
 * 参加者は、個人の&#x200B;**参加URL** トークンを使用して参加します。
-* [!DNL Adobe Connect]は、セッション中のアクティビティ（質問、アンケート回答、リンククリック、アセットのダウンロード、挙手）をキャプチャし、任意のリスニングジャーニーで利用できる[ ウェビナーアクティビティ ](webinars-overview.md#webinar-activities)として[!DNL Marketo Optimizer]に送り返します。
+* [!DNL Adobe Connect]は、セッション中のアクティビティ（質問、アンケート回答、リンククリック、アセットのダウンロード、挙手）をキャプチャし、任意のリスニングジャーニーで利用できる[&#x200B; ウェビナーアクティビティ &#x200B;](webinars-overview.md#webinar-activities)として[!DNL Marketo Optimizer]に送り返します。
 
 ウェビナーが&#x200B;**シミュレーションライブ**&#x200B;に設定されている場合、事前録画されたコンテンツはスケジュールされた時間に自動的に再生され、プレゼンターはチャット、投票、Q&amp;Aを通じてライブでエンゲージします。
 

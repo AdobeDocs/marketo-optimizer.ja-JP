@@ -2,7 +2,8 @@
 title: イベントノードをリッスン
 description: Marketo Optimizerでイベントノードのリッスンを設定 – イベントトリガーを設定し、オプションのフィルターを適用して、アクティビティやデータの変更が発生したときにユーザーを促します。
 TQID: 'https://experienceleague.adobe.com/6v3i6M-Hhr2RAWrS68WaEVb8VJEzJZbD7vXOJOsjgc8'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 354
@@ -39,19 +40,19 @@ ht-degree: 5%
 
 1. パスのプラス（**+**）アイコンをクリックし、**[!UICONTROL イベントをリッスン]**&#x200B;を選択します。
 
-   ![ ジャーニーパスの追加アイコンをクリック ](./assets/person-journey-canvas-add-node.png){width="200"}
+   ![&#x200B; ジャーニーパスの追加アイコンをクリック &#x200B;](./assets/person-journey-canvas-add-node.png){width="200"}
 
 1. 右側のノードプロパティで、**[!UICONTROL イベント条件を追加]**&#x200B;をクリックします。
 
 1. _[!UICONTROL イベントを編集]_ ダイアログで、イベントをトリガーに追加します。
 
-   ![ イベントを編集 – イベントトリガー](./assets/edit-event-triggers.png){width="600" zoomable="yes"}
+   ![&#x200B; イベントを編集 – イベントトリガー](./assets/edit-event-triggers.png){width="600" zoomable="yes"}
 
 1. （オプション）ダイアログで「**[!UICONTROL フィルター]**」タブを選択し、トリガーのフィルター条件を追加します。
 
 1. 「**[!UICONTROL イベントを編集]**」をクリックし、イベントの詳細を定義します。
 
-   ![ イベントを編集 – イベントフィルタリング ](./assets/edit-event-filters.png){width="600" zoomable="yes"}
+   ![&#x200B; イベントを編集 – イベントフィルタリング &#x200B;](./assets/edit-event-filters.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
 

@@ -2,8 +2,11 @@
 title: 条件付きコンテンツ
 description: Marketo Optimizerでパーソナライズされたメールやフラグメントのプロファイル属性とイベントにもとづく条件付きルールを使用して、動的なコンテンツのバリエーションを作成できます。
 TQID: 'https://experienceleague.adobe.com/-zyX02yagsaPV4Oc-1JQWUzSUZWDLiyIiQCyyy0EDiE'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 46e599c6-e20f-5f67-9824-93415016f66bid: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 46e599c6-e20f-5f67-9824-93415016f66b
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 1081
@@ -16,7 +19,7 @@ ht-degree: 8%
 
 条件付きコンテンツを使用すると、条件付きルールに基づいてメールコンテンツやフラグメントコンテンツを適応させることができます。 これらのルールは、プロファイル属性またはコンテキストイベントを使用して定義されます。 ルールビルダーで条件付きルールを作成し、複数のユーザージャーニーにわたって再利用できるように保存できます。
 
-条件付きコンテンツをフラグメントとメールメッセージに追加するには、[!DNL Marketo Optimizer]を使用すると、_条件_ ライブラリに保存されている条件付きルールを適用できます。 [電子メールコンテンツ ](./email-authoring.md)または[ フラグメント ](./fragment-authoring.md)を作成する際に、ビジュアルデザインスペース内で条件付きルールを適用します。
+条件付きコンテンツをフラグメントとメールメッセージに追加するには、[!DNL Marketo Optimizer]を使用すると、_条件_ ライブラリに保存されている条件付きルールを適用できます。 [電子メールコンテンツ &#x200B;](./email-authoring.md)または[&#x200B; フラグメント &#x200B;](./fragment-authoring.md)を作成する際に、ビジュアルデザインスペース内で条件付きルールを適用します。
 
 ## 条件付きコンテンツを追加 {#add-conditional-content}
 
@@ -30,23 +33,23 @@ ht-degree: 8%
 >title="条件付きコンテンツ"
 >abstract="ライブラリに保存されている条件付きルールを使用するか、新しい条件付きルールを作成します。"
 
-ビジュアルデザイン空間で[ フラグメント ](./fragment-authoring.md)または[電子メール ](./email-authoring.md)を作成する場合、条件付きルールを使用して、コンテンツコンポーネントに複数のバリエーションを定義します。
+ビジュアルデザイン空間で[&#x200B; フラグメント &#x200B;](./fragment-authoring.md)または[電子メール &#x200B;](./email-authoring.md)を作成する場合、条件付きルールを使用して、コンテンツコンポーネントに複数のバリエーションを定義します。
 
 1. コンテンツコンポーネントを選択し、コンポーネントツールバーの「**[!UICONTROL コンディショナルコンテンツを有効にする]**」アイコンをクリックします。
 
-   [ コンテンツコンポーネントツールバー](./content-components.md#content-component-toolbars)を参照してください。
+   [&#x200B; コンテンツコンポーネントツールバー](./content-components.md#content-component-toolbars)を参照してください。
 
    コンポーネントは、コンディショナルコンポーネントとしてアクティブ化されていることを示すために、オレンジ色で概略が示されます。 **[!UICONTROL 条件付きコンテンツ]** ペインが左側に表示され、_デフォルトバリアント_&#x200B;と&#x200B;_バリアント - 1_&#x200B;が表示されます。
 
-   ![ テキストコンポーネントの条件付きコンテンツを有効にする](assets/conditions-enable.png){width="700" zoomable="yes"}
+   ![&#x200B; テキストコンポーネントの条件付きコンテンツを有効にする](assets/conditions-enable.png){width="700" zoomable="yes"}
 
    選択してアクティブ化した元のコンテンツはデフォルトであり、定義したバリエーションに対して条件ルールが満たされていない場合に適用されます。
 
    このペインでは、条件付きルールを使用して、選択したコンテンツコンポーネントに複数のバリエーションを定義できます。
 
-1. 最初のバリアント （_バリアント - 1_）にカーソルを合わせ、_条件を選択_ アイコン （![条件アイコン ](../assets/do-not-localize/icon-select-condition.svg)）をクリックします。
+1. 最初のバリアント （_バリアント - 1_）にカーソルを合わせ、_条件を選択_ アイコン （![条件アイコン &#x200B;](../assets/do-not-localize/icon-select-condition.svg)）をクリックします。
 
-   ![ バリアントの条件を選択](assets/conditions-variant-select.png){width="700" zoomable="yes"}
+   ![&#x200B; バリアントの条件を選択](assets/conditions-variant-select.png){width="700" zoomable="yes"}
 
    _[!UICONTROL 条件を選択]_ ダイアログが開き、条件ライブラリが表示されます。
 
@@ -54,7 +57,7 @@ ht-degree: 8%
 
    ![条件ライブラリアクセス条件の詳細](assets/conditions-select-dialog.png){width="600" zoomable="yes"}
 
-   必要な条件が存在しない場合は、**[!UICONTROL 新規作成]**&#x200B;をクリックして[条件付きルール ](#create-conditional-rule)を作成します。
+   必要な条件が存在しない場合は、**[!UICONTROL 新規作成]**&#x200B;をクリックして[条件付きルール &#x200B;](#create-conditional-rule)を作成します。
 
 1. 条件付きルールを選択し、**[!UICONTROL 選択]**&#x200B;をクリックしてバリアントに関連付けます。
 
@@ -74,13 +77,13 @@ ht-degree: 8%
 
    バリエーションとその意図を識別するのに役立つ、バリエーションの意味のある名前を入力します。
 
-   ![ バリアントの名前を変更](assets/conditions-variant-rename.png){width="600" zoomable="yes"}
+   ![&#x200B; バリアントの名前を変更](assets/conditions-variant-rename.png){width="600" zoomable="yes"}
 
 1. 左側のペインでバリアントを選択した状態で、コンポーネントを変更して、条件がtrueの場合にメッセージにどのように表示されるかを変更します。
 
    この例では、テキストコンポーネントのバリアントで、受信者の領域に基づいて異なる説明が使用されています。
 
-   ![ バリアントのコンポーネントを変更](assets/conditions-variant-component-edit.png){width="600" zoomable="yes"}
+   ![&#x200B; バリアントのコンポーネントを変更](assets/conditions-variant-component-edit.png){width="600" zoomable="yes"}
 
 1. 必要に応じて、**[!UICONTROL バリアントを追加]**&#x200B;をクリックして別のバリアントを定義します。
 
@@ -139,7 +142,7 @@ M1.5 info -- out of date?
 
    * **[!UICONTROL Audiences]** - Adobe Experience Platform Segmentation Serviceで作成されたセグメント定義から生成されたすべてのオーディエンスを一覧表示します。
 
-   ![条件を作成ダイアログ ](./assets/conditions-rule-create.png){width="700" zoomable="yes"}
+   ![条件を作成ダイアログ &#x200B;](./assets/conditions-rule-create.png){width="700" zoomable="yes"}
 
 1. 必要に応じて、条件付きルールを作成します。
 

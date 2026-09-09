@@ -2,10 +2,17 @@
 title: WhatsApp オーサリング
 description: Marketo Optimizerで承認済みのMetaテンプレート、パーソナライゼーショントークン、配信設定を使用して、カスタマージャーニー向けのWhatsApp メッセージを作成できます。
 TQID: 'https://experienceleague.adobe.com/BSXYq8UkffBwDDc4wVl4b2MPjNh83-8nrQx-YS57-9U'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 46e599c6-e20f-5f67-9824-93415016f66bid: 64b90904-e4f0-5c1b-a871-8c6a40b204a1id: d4203578-d294-5145-b397-f26f4488a904
-level_v2: id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 46e599c6-e20f-5f67-9824-93415016f66b
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+  - id: d4203578-d294-5145-b397-f26f4488a904
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 801
@@ -56,7 +63,7 @@ ht-degree: 20%
 >
 >**WhatsApp同意管理**: Metaのポリシーと適用可能な規制に従って、すべてのWhatsApp マーケティングメッセージは、メッセージの受信をオプトインした受信者にのみ送信する必要があります。 WhatsAppの受信者は、オプトアウトキーワードを使用して返信することで、いつでもオプトアウトできます。 オプトアウトした応答は自動的に尊重され、対応するプロファイルは今後のマーケティングメッセージのオーディエンスから削除されます。
 
-[ アクションを実行&#x200B;]_ノード ](../marketing/action-nodes.md)を追加し、アクションリストから&#x200B;**[!UICONTROL WhatsAppを送信]**を選択すると、WhatsApp メッセージ配信を個人ジャーニーで設定できます。_[!UICONTROL 
+[ アクションを実行&#x200B;]_ノード (../marketing/action-nodes.md)を追加し、アクションリストから&#x200B;**[!UICONTROL WhatsAppを送信]**&#x200B;を選択すると、WhatsApp メッセージ配信を個人ジャーニーで設定できます。_
 
 ## WhatsApp メッセージの作成 {#create-whatsapp-message}
 
@@ -64,7 +71,7 @@ ht-degree: 20%
 
 1. ダイアログで、WhatsApp メッセージに一意の&#x200B;**[!UICONTROL 名前]** （必須）と&#x200B;**[!UICONTROL 説明]** （オプション）を入力します。
 
-   ![新しいWhatsApp メッセージの作成ダイアログ ](assets/whatsapp-create-dialog.png){width="400"}
+   ![新しいWhatsApp メッセージの作成ダイアログ &#x200B;](assets/whatsapp-create-dialog.png){width="400"}
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
@@ -76,7 +83,7 @@ ht-degree: 20%
 
 1. **[!UICONTROL WhatsApp設定]**&#x200B;で、ニーズに合わせてマーケティングアクションとメッセージ配信設定をサポートする設定を選択します。
 
-   ![WhatsAppの作成 – アクション タブ ](assets/whatsapp-create-actions-tab.png){width="700" zoomable="yes"}
+   ![WhatsAppの作成 – アクション タブ &#x200B;](assets/whatsapp-create-actions-tab.png){width="700" zoomable="yes"}
 
 1. 「**[!UICONTROL コンテンツを編集]**」をクリックして、メッセージパラメーターとテキストに進みます。
 
@@ -94,7 +101,7 @@ WhatsApp メッセージは、Meta WhatsApp Business アカウントの事前承
 
    テンプレートコンテンツがメッセージエディターに読み込まれ、テンプレート構造とパーソナライゼーションに使用できる変数フィールドが表示されます。
 
-   ![ プレビューウィンドウにメッセージが読み込まれたWhatsApp メッセージテンプレートを選択](assets/whatsapp-create-select-template.png){width="700" zoomable="yes"}
+   ![&#x200B; プレビューウィンドウにメッセージが読み込まれたWhatsApp メッセージテンプレートを選択](assets/whatsapp-create-select-template.png){width="700" zoomable="yes"}
 
    このシステムは、カテゴリ （_マーケティング_、_ユーティリティ_、_認証_）およびステータス別にテンプレートを整理します。 選択可能なテンプレートは、**_承認済み_**&#x200B;件のみです。 WhatsApp テンプレートの作成について詳しくは、Meta ドキュメントの「[_WhatsApp Business アカウントのメッセージテンプレートを作成_](https://www.facebook.com/business/help/2055875911147364?id=2129163877102343)」を参照してください。
 
@@ -106,7 +113,7 @@ WhatsApp メッセージは、Meta WhatsApp Business アカウントの事前承
 
 承認済みのWhatsApp テンプレートには、プロファイルデータまたは動的な値を使用して定義した変数プレースホルダーを含めることができます。
 
-テンプレートに表示されている各変数フィールドについて、フィールドの横にある&#x200B;_パーソナライズ_ アイコン （![ パーソナライズ アイコン ](../assets/do-not-localize/icon-personalize.svg)）をクリックします。
+テンプレートに表示されている各変数フィールドについて、フィールドの横にある&#x200B;_パーソナライズ_ アイコン （![&#x200B; パーソナライズ アイコン &#x200B;](../assets/do-not-localize/icon-personalize.svg)）をクリックします。
 
 ![WhatsApp テンプレート内の変数](assets/whatsapp-create-variables.png){width="700" zoomable="yes"}
 

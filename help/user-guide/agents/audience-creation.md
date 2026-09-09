@@ -2,9 +2,15 @@
 title: プログラム用オーディエンスの作成
 description: Marketo Optimizerのオーディエンス作成スキルを使用して、ユーザーリストを作成し、Marketo Engage スマートリストを適応させ、チャットでリストルールを編集します。
 TQID: 'https://experienceleague.adobe.com/WFfKcQ3zfJmVDGstLmpPbC9iDF5JtBX67-izCC-CNds'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 1650dadf-b034-5ac9-a309-77ad1e2f5035id: 46e599c6-e20f-5f67-9824-93415016f66bid: 64b90904-e4f0-5c1b-a871-8c6a40b204a1id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
-topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+  - id: 46e599c6-e20f-5f67-9824-93415016f66b
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+  - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+topic_v2:
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 1464
@@ -14,7 +20,7 @@ ht-degree: 1%
 
 # プログラム用オーディエンスの作成
 
-[!DNL Adobe Marketo Optimizer]では、[_ユーザーリスト_](../audiences/people-lists.md)&#x200B;がユーザージャーニーのオーディエンスを定義します。これは、自動的に更新される動的フィルターベースのリストか、固定メンバーシップを持つ静的リストのいずれかです。 [ チャットインターフェイス ](./chat-interface.md)から、_オーディエンス作成_ [ スキル ](./skills.md)が、ガイド付きの会話を通じてユーザーリストを作成、適応、編集します。
+[!DNL Adobe Marketo Optimizer]では、[_ユーザーリスト_](../audiences/people-lists.md)&#x200B;がユーザージャーニーのオーディエンスを定義します。これは、自動的に更新される動的フィルターベースのリストか、固定メンバーシップを持つ静的リストのいずれかです。 [&#x200B; チャットインターフェイス &#x200B;](./chat-interface.md)から、_オーディエンス作成_ [&#x200B; スキル &#x200B;](./skills.md)が、ガイド付きの会話を通じてユーザーリストを作成、適応、編集します。
 
 * **スキル** - `audience-creation`および`people-list-comparison`
 * **Invocation** - オーディエンス条件を直接記述するか、[!DNL Marketo Engage] スマートリストをアップロードするか、編集する既存のリストに名前を付けます
@@ -95,7 +101,7 @@ _コンバージョンの概要_&#x200B;では、_N個の高い信頼性_&#x200B
 
 >[!NOTE]
 >
->スプレッドシートの列をフィールド（_Source列_、_ターゲットフィールド_、信頼率、および&#x200B;_マッピングされていない列_ リストを含むフィールドマッピングカード）にマッピングする場合は、オーディエンスの作成ではなく、リードの読み込みフローが使用されます。 [ リードの読み込みスキル ](./skills.md#audiences-people)を参照してください。
+>スプレッドシートの列をフィールド（_Source列_、_ターゲットフィールド_、信頼率、および&#x200B;_マッピングされていない列_ リストを含むフィールドマッピングカード）にマッピングする場合は、オーディエンスの作成ではなく、リードの読み込みフローが使用されます。 [&#x200B; リードの読み込みスキル &#x200B;](./skills.md#audiences-people)を参照してください。
 
 ## 既存リストのルールの編集 {#edit-rules}
 

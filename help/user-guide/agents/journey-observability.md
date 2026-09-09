@@ -2,8 +2,11 @@
 title: ジャーニーの進捗のモニタリングとデバッグ
 description: Adobe Customer Journey Analyticsのジャーニーオブザーバビリティ能力を活用して、従業員やリードがジャーニー、スプリットパスの意思決定、タイミングをどのように移動しているのかをデバッグおよびモニタリングする方法を解説します。
 TQID: 'https://experienceleague.adobe.com/Pnd1fVWUZ-g27UDE-y6Pc2Qwjsx-1pDSCaTGxjrBTRc'
-product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2: id: 1650dadf-b034-5ac9-a309-77ad1e2f5035id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 634
@@ -13,7 +16,7 @@ ht-degree: 0%
 
 # ジャーニーの進行状況の監視とデバッグ
 
-[!DNL Adobe Marketo Optimizer]の&#x200B;[_ジャーニーオブザーバビリティ_ スキル ](./skills.md#journeys)は、人とリードがジャーニーをどのように移動するかに関する自然言語の質問に答えます。 [同僚のチャットインターフェイス ](./chat-interface.md)で使用すると、進行状況の追跡、スプリットパスの決定の把握、ジャーニーノード内のユーザーの分析、タイミング指標の確認が可能です。 また、ジャーニー全体の行動パターンについても確認できます。
+[!DNL Adobe Marketo Optimizer]の&#x200B;[_ジャーニーオブザーバビリティ_ スキル &#x200B;](./skills.md#journeys)は、人とリードがジャーニーをどのように移動するかに関する自然言語の質問に答えます。 [同僚のチャットインターフェイス &#x200B;](./chat-interface.md)で使用すると、進行状況の追跡、スプリットパスの決定の把握、ジャーニーノード内のユーザーの分析、タイミング指標の確認が可能です。 また、ジャーニー全体の行動パターンについても確認できます。
 
 * **スキル** - `journey-observability`
 * **呼び出し** – 自然言語で質問するか、スラッシュコマンドを使用してジャーニーオブザーバビリティ スキルを実行します。 例：_「demo_ lead_24@company.comはLeadNurtureJourneyをどのように移動しましたか？」 _
@@ -71,7 +74,7 @@ ht-degree: 0%
 | 制限事項 | 詳細 |
 |---|---|
 | 個人またはリードの属性の編集 | サポートされていません。 [!DNL Marketo Engage]または[!DNL Marketo Optimizer]で個人とリードのレコードを直接更新します。 |
-| ジャーニーの作成、編集、一時停止、または再開 | サポートされていません。 代わりに、[ ジャーニーキャンバス ](../marketing/person-journeys.md)または[同僚スキル ](./skills.md#journeys)のジャーニー編集スキルを使用してください。 |
-| 分割ロジックまたはジャーニー設定の変更 | サポートされていません。 [ ジャーニーキャンバス ](../marketing/split-merge-paths-nodes.md)で、分割パスを直接編集します。 |
+| ジャーニーの作成、編集、一時停止、または再開 | サポートされていません。 代わりに、[&#x200B; ジャーニーキャンバス &#x200B;](../marketing/person-journeys.md)または[同僚スキル &#x200B;](./skills.md#journeys)のジャーニー編集スキルを使用してください。 |
+| 分割ロジックまたはジャーニー設定の変更 | サポートされていません。 [&#x200B; ジャーニーキャンバス &#x200B;](../marketing/split-merge-paths-nodes.md)で、分割パスを直接編集します。 |
 | 購買グループ構成またはアカウントレベルのロールアップ | 範囲外です。 ジャーニーオブザーバビリティは、個人レベルおよびリードレベルでのみレポートされます。 |
 | ジャーニーのスケジュールやタイミングの変更 | サポートされていません。 |
