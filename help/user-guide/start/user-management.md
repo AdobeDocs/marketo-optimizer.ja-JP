@@ -36,7 +36,7 @@ ht-degree: 45%
 
 ## 製品プロファイルの設定 {#config-profile}
 
-管理者は、Adobe製品のライセンスとユーザーを一元的に管理する[!DNL Adobe Admin Console]でこれらのタスクを実行できます。 Admin Console では、様々な個別のソリューション内ではなく、1 か所でユーザーを作成および管理できます。 その機能と機能について詳しくは、[Admin Consoleの概要](https://helpx.adobe.com/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html) ページを参照してください。
+管理者は、Adobe製品のライセンスとユーザーを一元的に管理する[!DNL Adobe Admin Console]でこれらのタスクを実行できます。 Admin Console では、様々な個別のソリューション内ではなく、1 か所でユーザーを作成および管理できます。 その機能と機能について詳しくは、[Admin Consoleの概要](https://helpx.adobe.com/jp/business/enterprise/plan-your-deployment/basic-concepts/admin-console.html) ページを参照してください。
 
 ### Admin Console へのアクセス {#admin-console}
 
@@ -72,7 +72,7 @@ Admin Consoleを使用してチーム内のユーザーを管理する前に、A
 
 Adobe ソリューションに対するアクセス権をユーザーに付与する場合、必ずしも完全なアクセス権を付与する必要はありません。 製品プロファイルを使用すると、ソリューションごとに独自のユーザー権限を設定できます。 Admin Consoleを使用して製品プロファイルを割り当てます。
 
-ユーザーの使用権限に製品プロファイルを使用する方法について詳しくは、Admin Console ドキュメントの [_エンタープライズユーザーの製品プロファイルの管理_](https://helpx.adobe.com/business/enterprise/manage-products-and-entitlements/manage-products-and-product-profiles/manage-product-profiles.html){target="_blank"} を参照してください。
+ユーザーの使用権限に製品プロファイルを使用する方法について詳しくは、Admin Console ドキュメントの [_エンタープライズユーザーの製品プロファイルの管理_](https://helpx.adobe.com/jp/business/enterprise/manage-products-and-entitlements/manage-products-and-product-profiles/manage-product-profiles.html){target="_blank"} を参照してください。
 
 ![管理者の役割の要件](../assets/do-not-localize/icon-admin-user.svg){width="30"} システム管理者または[!DNL Experience Platform]製品管理者は、[https://adminconsole.adobe.com](https://adminconsole.adobe.com)から次の手順を実行できます。
 
@@ -90,7 +90,7 @@ Adobe ソリューションに対するアクセス権をユーザーに付与�
 
 ユーザーグループは、共有された一連の権限を付与されたユーザーのコレクションです。 ユーザーグループのユーザーを追加または削除できます。 グループの権限は、グループ内のユーザーが変更されても、同じままです。
 
-ユーザーグループを使用して権限を管理する方法について詳しくは、Admin Console ドキュメントの [&#x200B; ユーザーグループの管理 &#x200B;](https://helpx.adobe.com/business/enterprise/manage-users/user-groups.html){target="_blank"} を参照してください。
+ユーザーグループを使用して権限を管理する方法について詳しくは、Admin Console ドキュメントの [&#x200B; ユーザーグループの管理 &#x200B;](https://helpx.adobe.com/jp/business/enterprise/manage-users/user-groups.html){target="_blank"} を参照してください。
 
 ![管理者の役割の要件](../assets/do-not-localize/icon-admin-user.svg){width="30"} システム管理者は、[https://adminconsole.adobe.com](https://adminconsole.adobe.com)から次の手順を実行できます。
 
@@ -125,7 +125,7 @@ Adobe ソリューションに対するアクセス権をユーザーに付与�
 
 ### 新しいグループにユーザーを追加 {#add-users}
 
-ユーザー管理について詳しくは、Admin Console ドキュメントの&#x200B;[_Adobe Admin Console ユーザー_](https://helpx.adobe.com/business/enterprise/manage-users/users.html){target="_blank"}を参照してください。
+ユーザー管理について詳しくは、Admin Console ドキュメントの&#x200B;[_Adobe Admin Console ユーザー_](https://helpx.adobe.com/jp/business/enterprise/manage-users/users.html){target="_blank"}を参照してください。
 
 ![管理者の役割の要件](../assets/do-not-localize/icon-admin-user.svg){width="30"} システム管理者または製品管理者は、[https://adminconsole.adobe.com](https://adminconsole.adobe.com)から次の手順を実行できます。 製品管理者は、組織に既に存在するユーザーのみを追加できます。
 
@@ -161,7 +161,7 @@ Adobe ソリューションに対するアクセス権をユーザーに付与�
 
 Adobe Experience Platformの _権限_ 領域では、管理者は、ユーザーの役割とアクセスポリシーを定義して、製品アプリケーション内の機能とオブジェクトのアクセス権限を管理できます。 このアプリでは、役割を作成および管理すると共に、それらの役割に対して必要なリソース権限を割り当てることができます。 また、権限では、特定の役割に関連付けられたサンドボックスとユーザーを管理することもできます。
 
-Experience Platformのロール権限について詳しくは、Experience Platform ドキュメントの [&#x200B; ロールの権限の管理 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} を参照してください。
+Experience Platformのロール権限について詳しくは、Experience Platform ドキュメントの [&#x200B; ロールの権限の管理 &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} を参照してください。
 
 1. [experience.adobe.com](https://experienceleague.adobe.com/ja) に移動します。
 
@@ -296,7 +296,7 @@ When your organization has [!DNL Journey Optimizer B2B Edition] provisioned, Exp
 
 ### 役割へのユーザーグループの追加 {#add-user-groups-to-a-role}
 
-ユーザー管理について詳しくは、Admin Console ドキュメントの&#x200B;[_Adobe Admin Console ユーザー_](https://helpx.adobe.com/business/enterprise/manage-users/users.html){target="_blank"}を参照してください。
+ユーザー管理について詳しくは、Admin Console ドキュメントの&#x200B;[_Adobe Admin Console ユーザー_](https://helpx.adobe.com/jp/business/enterprise/manage-users/users.html){target="_blank"}を参照してください。
 
 ![管理者の役割の要件](../assets/do-not-localize/icon-admin-user.svg){width="30"} システム管理者またはExperience Platform管理者は、次の手順を実行できます。
 

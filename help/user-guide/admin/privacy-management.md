@@ -36,7 +36,7 @@ ht-degree: 2%
 
 [!DNL Marketo Optimizer]個のプライバシーツールを使用すると、[!DNL Privacy Service]を通じて規制に準拠できます。 各規制は、関連する地域に居住している人々のデータを保持する場合に適用されます。
 
-サポートされている規制の最新の一覧については、Privacy Service ドキュメントの&#x200B;[_プライバシー規制の概要_](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/regulations/overview){target="_blank"}を参照してください。
+サポートされている規制の最新の一覧については、Privacy Service ドキュメントの&#x200B;[_プライバシー規制の概要_](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/regulations/overview){target="_blank"}を参照してください。
 
 ## リクエストタイプ {#access-and-delete-requests}
 
@@ -54,7 +54,7 @@ ht-degree: 2%
 * **[!UICONTROL Privacy Service権限]** - `Privacy Read Permission`および`Privacy Write Permission`
 * **[!UICONTROL データガバナンス]** - `View Privacy Console`
 
-詳しくは、[!DNL Privacy Service] ガイドの&#x200B;[_Privacy Service_](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/permissions){target="_blank"}の権限の管理を参照してください。
+詳しくは、[!DNL Privacy Service] ガイドの&#x200B;[_Privacy Service_](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/permissions){target="_blank"}の権限の管理を参照してください。
 
 >[!ENDSHADEBOX]
 
@@ -117,7 +117,7 @@ ht-degree: 2%
 | `users.action` | `access` または `delete` |
 | `users.userIDs.namespace` | `Email` |
 | `include` | `marketo`を使用して[!DNL Marketo Optimizer]と[!DNL Marketo Engage] データの両方を含める |
-| `regulation` | 例：`ccpa` <br/>一部のレギュレーション値に状態の略語が含まれるように変更されています（例：`ucpa_ut_usa`）。 古い値は、移行期間でも有効です。 これらの値に対する統合を構築する前に、現在のリストについては、[&#x200B; プライバシー規制の概要](https://experienceleague.adobe.com/en/docs/experience-platform/privacy/regulations/overview){target="_blank"}を参照してください。 |
+| `regulation` | 例：`ccpa` <br/>一部のレギュレーション値に状態の略語が含まれるように変更されています（例：`ucpa_ut_usa`）。 古い値は、移行期間でも有効です。 これらの値に対する統合を構築する前に、現在のリストについては、[&#x200B; プライバシー規制の概要](https://experienceleague.adobe.com/ja/docs/experience-platform/privacy/regulations/overview){target="_blank"}を参照してください。 |
 
 次の例では、[!DNL Marketo Optimizer] データを含むGDPR削除要求を送信します。
 

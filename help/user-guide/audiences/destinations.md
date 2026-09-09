@@ -86,7 +86,7 @@ ht-degree: 8%
 
 1. データガバナンスとマーケティングアクションの設定を確認し、**[!UICONTROL 保存]**&#x200B;をクリックします。
 
-完全な設定手順については、[!DNL Experience Platform] ドキュメントの[新しい宛先接続の作成](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/ui/connect-destination){target="_blank"}を参照してください。
+完全な設定手順については、[!DNL Experience Platform] ドキュメントの[新しい宛先接続の作成](https://experienceleague.adobe.com/ja/docs/experience-platform/destinations/ui/connect-destination){target="_blank"}を参照してください。
 
 設定すると、宛先はどこでもアクティブ化でき、[!DNL Marketo Optimizer]で宛先を選択できます。
 

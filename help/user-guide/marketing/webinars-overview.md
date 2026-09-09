@@ -41,7 +41,7 @@ ht-degree: 2%
 
 ## アセットとしてのウェビナー
 
-ウェビナーは、[&#x200B; プログラム &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/marketing-management/programs/programs)が所有するアセットです。メールやランディングページと同じです。 ウェビナーをプログラムに追加すると、そのプログラムに登録され、そのトークン、属性、アクティビティが、そのプログラム内のあらゆるジャーニーとアセットで利用できるようになります。
+ウェビナーは、[&#x200B; プログラム &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/prime/marketing-management/programs/programs)が所有するアセットです。メールやランディングページと同じです。 ウェビナーをプログラムに追加すると、そのプログラムに登録され、そのトークン、属性、アクティビティが、そのプログラム内のあらゆるジャーニーとアセットで利用できるようになります。
 
 >[!IMPORTANT]
 >
@@ -53,7 +53,7 @@ ht-degree: 2%
 
 | 状態 | 所有者 | 値 |
 |---|---|---|
-| プログラムメンバーのステータス | プログラム | [&#x200B; プログラムタイプ &#x200B;](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/admin/program-types)ごとに設定可能 |
+| プログラムメンバーのステータス | プログラム | [&#x200B; プログラムタイプ &#x200B;](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/prime/admin/program-types)ごとに設定可能 |
 | ウェビナーの状態 | ウェビナーアセット | Invited, Registered, Attended, No-Show, Attended on Demand |
 | ジャーニー状態 | ジャーニー | 現在のノード、一時停止、完了、その他のジャーニーランタイム状態 |
 
