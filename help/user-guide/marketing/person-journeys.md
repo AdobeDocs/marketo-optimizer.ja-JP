@@ -1,9 +1,12 @@
 ---
 title: ユーザージャーニー
 description: Marketo Optimizerで個人ジャーニーを作成、公開、管理する – ジャーニーリストを参照し、マルチステップのフローをデザインして、ジャーニーを複製または削除します。
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/RYzV8B9QTuGm1gGb2ZX6i3rc4TlACsM3LRwcnULgwV8'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4id: d4203578-d294-5145-b397-f26f4488a904
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: 1418
 ht-degree: 19%
 
 ---
@@ -14,7 +17,7 @@ ht-degree: 19%
 
 >[!NOTE]
 >
->各ジャーニーは、定義された[&#x200B; プログラム &#x200B;](./programs.md)内に存在します。 ジャーニーを作成する前に、親として使用するプログラムが少なくとも1つ必要です。
+>各ジャーニーは、定義された[ プログラム ](./programs.md)内に存在します。 ジャーニーを作成する前に、親として使用するプログラムが少なくとも1つ必要です。
 
 _新しいユーザーのジャーニーを構築するには&#x200B;:_
 
@@ -32,13 +35,13 @@ _新しいユーザーのジャーニーを構築するには&#x200B;:_
 
    リストの上部にある&#x200B;_検索_ ツールにテキストを入力すると、表示されるリストを名前でフィルタリングできます。
 
-   ![&#x200B; ユーザージャーニーリスト &#x200B;](./assets/person-journeys-list-search.png){width="800" zoomable="yes"}
+   ![ ユーザージャーニーリスト ](./assets/person-journeys-list-search.png){width="800" zoomable="yes"}
 
 1. リストツールを使用して、表示されるリストをカスタマイズします。
 
-   * _フィルター_ （![&#x200B; フィルターアイコン &#x200B;](../assets/do-not-localize/icon-react-filter.svg)）アイコンをクリックして、ステータスでリストをフィルタリングします。
-   * 表示される列を制御するには、「_テーブルをカスタマイズ_」（「![&#x200B; テーブルアイコン &#x200B;](../assets/do-not-localize/icon-falco-customize-table.svg)」）アイコンをクリックします。
-   * _列をリセット_ （![列幅をリセット アイコン &#x200B;](../assets/do-not-localize/icon-falco-reset-columns.svg)）アイコンをクリックして、列幅をリセットします。
+   * _フィルター_ （![ フィルターアイコン ](../assets/do-not-localize/icon-react-filter.svg)）アイコンをクリックして、ステータスでリストをフィルタリングします。
+   * 表示される列を制御するには、「_テーブルをカスタマイズ_」（「![ テーブルアイコン ](../assets/do-not-localize/icon-falco-customize-table.svg)」）アイコンをクリックします。
+   * _列をリセット_ （![列幅をリセット アイコン ](../assets/do-not-localize/icon-falco-reset-columns.svg)）アイコンをクリックして、列幅をリセットします。
 
 ### ジャーニーリストの列 {#journey-list-columns}
 
@@ -63,11 +66,11 @@ _新しいユーザーのジャーニーを構築するには&#x200B;:_
 
 | ステータス | 説明 | 使用可能なアクション |
 | ------ | ----------- | ----------------- |
-| _&#x200B;**ドラフト**&#x200B;_ | 編集可能な非公開のジャーニー。 | [公開](#publish-a-journey)、[重複](#duplicate-a-journey)、[削除](#delete-a-journey) |
-| _&#x200B;**ライブ**&#x200B;_ | ジャーニーを公開すると、ジャーニーのステータスが&#x200B;_ドラフト_&#x200B;から&#x200B;_ライブ_&#x200B;に変更されます。 この状態では、編集できなくなります。 | [重複](#duplicate-a-journey)、[新しいエントリに近い](#close-to-new-entries)、[中止](#abort-a-journey) |
-| _&#x200B;**新規エントリに対してクローズ済み**&#x200B;_ | ジャーニーヘッダーの&#x200B;**[!UICONTROL 新しいエントリに閉じる]**&#x200B;をクリックすると、ジャーニーステータスが&#x200B;_ライブ_&#x200B;から&#x200B;_新しいエントリに閉じる_&#x200B;に変更されます。 | [重複](#duplicate-a-journey)、[中止](#abort-a-journey) |
-| _&#x200B;**中止**&#x200B;_ | ジャーニーを中止すると、ジャーニーのステータスが&#x200B;_ライブ_&#x200B;または&#x200B;_新規エントリに対してクローズ済み_&#x200B;に変更されます。 中止したジャーニーは再開できません。 | [重複](#duplicate-a-journey)、[削除](#delete-a-journey) |
-| _&#x200B;**終了**&#x200B;_ | ジャーニー内のすべての人物オーディエンスメンバーがジャーニーを完了すると、ステータスが&#x200B;_ライブ_&#x200B;または&#x200B;_クローズから新規エントリ_&#x200B;から&#x200B;_終了_&#x200B;に変更されます。 | [重複](#duplicate-a-journey)、[削除](#delete-a-journey) |
+| _**ドラフト**_ | 編集可能な非公開のジャーニー。 | [公開](#publish-a-journey)、[重複](#duplicate-a-journey)、[削除](#delete-a-journey) |
+| _**ライブ**_ | ジャーニーを公開すると、ジャーニーのステータスが&#x200B;_ドラフト_&#x200B;から&#x200B;_ライブ_&#x200B;に変更されます。 この状態では、編集できなくなります。 | [重複](#duplicate-a-journey)、[新しいエントリに近い](#close-to-new-entries)、[中止](#abort-a-journey) |
+| _**新規エントリに対してクローズ済み**_ | ジャーニーヘッダーの&#x200B;**[!UICONTROL 新しいエントリに閉じる]**&#x200B;をクリックすると、ジャーニーステータスが&#x200B;_ライブ_&#x200B;から&#x200B;_新しいエントリに閉じる_&#x200B;に変更されます。 | [重複](#duplicate-a-journey)、[中止](#abort-a-journey) |
+| _**中止**_ | ジャーニーを中止すると、ジャーニーのステータスが&#x200B;_ライブ_&#x200B;または&#x200B;_新規エントリに対してクローズ済み_&#x200B;に変更されます。 中止したジャーニーは再開できません。 | [重複](#duplicate-a-journey)、[削除](#delete-a-journey) |
+| _**終了**_ | ジャーニー内のすべての人物オーディエンスメンバーがジャーニーを完了すると、ステータスが&#x200B;_ライブ_&#x200B;または&#x200B;_クローズから新規エントリ_&#x200B;から&#x200B;_終了_&#x200B;に変更されます。 | [重複](#duplicate-a-journey)、[削除](#delete-a-journey) |
 
 ## 個人ジャーニーの作成 {#create-a-person-journey}
 
@@ -77,13 +80,13 @@ _新しいユーザーのジャーニーを構築するには&#x200B;:_
 
 1. 一意の&#x200B;**[!UICONTROL 名前]** （必須）と&#x200B;**[!UICONTROL 説明]** （オプション）を入力してください。
 
-   ![&#x200B; ユーザージャーニーを作成ダイアログ &#x200B;](./assets/person-journey-create-dialog.png){width="400"}
+   ![ ユーザージャーニーを作成ダイアログ ](./assets/person-journey-create-dialog.png){width="400"}
 
 1. 「**[!UICONTROL 作成]**」をクリックします。
 
    ジャーニーキャンバスが開き、開始する人物オーディエンスノードが表示されます。
 
-   ![新しいユーザーのジャーニーのジャーニーキャンバス &#x200B;](./assets/person-journey-new.png){width="600" zoomable="yes"}
+   ![新しいユーザーのジャーニーのジャーニーキャンバス ](./assets/person-journey-new.png){width="600" zoomable="yes"}
 
 ### ジャーニーヘッダー {#journey-header}
 
@@ -91,14 +94,14 @@ _新しいユーザーのジャーニーを構築するには&#x200B;:_
 
 ![人物ジャーニーヘッダー](./assets/person-journey-header.png){width="600" zoomable="yes"}
 
-* 「_編集_」アイコン（![編集アイコン &#x200B;](../assets/do-not-localize/icon-react-edit.svg)）をクリックして、ジャーニー名または説明情報を変更します。
+* 「_編集_」アイコン（![編集アイコン ](../assets/do-not-localize/icon-react-edit.svg)）をクリックして、ジャーニー名または説明情報を変更します。
 * 「**[!UICONTROL ジャーニー設定]**」をクリックして、ジャーニーの開始と繰り返しを変更します。
-* **をクリック…ジャーニーアクションを適用するか、[&#x200B; ジャーニートラフィック制御](./journey-traffic-control.md)を有効/無効にして再エントリするにはさらに**&#x200B;個の操作が必要です。
+* **[!UICONTROL をクリック…ジャーニーアクションを適用するか、[ ジャーニートラフィック制御](./journey-traffic-control.md)を有効/無効にして再エントリするにはさらに]**&#x200B;個の操作が必要です。
 * すべてのエラーが解決され、ジャーニーをアクティブ化する場合は、**[!UICONTROL 公開]**&#x200B;をクリックします。
 
 ### ジャーニーのデザイン {#journey-design}
 
-_ジャーニーキャンバス_&#x200B;は、ジャーニーワークスペースの中央ゾーンです。 ジャーニーノードを追加して設定することができます。 ノードをクリックして、レイアウトの右側にあるパネルでプロパティを開き、デザインに応じて設定します。 ユーザージャーニーは常に[_[!UICONTROL 人物オーディエンス &#x200B;]_&#x200B;ノード &#x200B;](./person-audience-node.md)で始まり、ジャーニーの入力を定義できます。
+_ジャーニーキャンバス_&#x200B;は、ジャーニーワークスペースの中央ゾーンです。 ジャーニーノードを追加して設定することができます。 ノードをクリックして、レイアウトの右側にあるパネルでプロパティを開き、デザインに応じて設定します。 ユーザージャーニーは常に[_[!UICONTROL 人物オーディエンス ]_ノード ](./person-audience-node.md)で始まり、ジャーニーの入力を定義できます。
 
 個人ジャーニーを作成し、個人オーディエンスを定義したら、ノードを使用してジャーニーを構築します。 ジャーニーキャンバスでは、次のノードタイプを使用してマルチステップ B2B マーケティングのユースケースを構築し、ジャーニーを構築できるビジュアルデザイン空間を提供します。
 
@@ -136,7 +139,7 @@ _ジャーニーキャンバス_&#x200B;は、ジャーニーワークスペー�
 
 1. 必要に応じて、ジャーニーの&#x200B;**[!UICONTROL 終了日]**&#x200B;を指定します。
 
-   ![&#x200B; ジャーニー設定を確認ダイアログ &#x200B;](./assets/journey-publish-review-settings.png){width="400" zoomable="no"}
+   ![ ジャーニー設定を確認ダイアログ ](./assets/journey-publish-review-settings.png){width="400" zoomable="no"}
 
    開始日から最大3年間の期間を指定できます。 このフィールドは公開するために必要です。
 
@@ -152,7 +155,7 @@ _ジャーニーキャンバス_&#x200B;は、ジャーニーワークスペー�
 
 1. **[!UICONTROL をクリック…右上に]**&#x200B;個を追加し、**[!UICONTROL Abort]**&#x200B;を選択します。
 
-   ![&#x200B; ライブ人物ジャーニーヘッダー](./assets/person-journey-live-header.png){width="600" zoomable="yes"}
+   ![ ライブ人物ジャーニーヘッダー](./assets/person-journey-live-header.png){width="600" zoomable="yes"}
 
 1. 確認ダイアログで、「**[!UICONTROL 中止]**」をクリックします。
 
@@ -172,7 +175,7 @@ _ジャーニーキャンバス_&#x200B;は、ジャーニーワークスペー�
 
 1. _[!UICONTROL 人のジャーニー]_ リストで、ジャーニー名の横にある&#x200B;_詳細_ アイコン （**...**）をクリックし、**[!UICONTROL 重複]**&#x200B;を選択します。
 
-   ![&#x200B; ドラフトのユーザーのジャーニーの詳細メニュー](./assets/person-journey-draft-more-menu.png){width="400"}
+   ![ ドラフトのユーザーのジャーニーの詳細メニュー](./assets/person-journey-draft-more-menu.png){width="400"}
 
    ジャーニーのステータスに応じて、ジャーニーの詳細またはジャーニーキャンバスから重複アクションにアクセスすることもできます。
 
@@ -185,7 +188,7 @@ _ジャーニーキャンバス_&#x200B;は、ジャーニーワークスペー�
 
    デフォルトでは、ダイアログには元のジャーニーの名前と`_copy`が追加されています。 必要に応じて、ジャーニーの別の一意の名前を入力します。
 
-   ![&#x200B; ジャーニーダイアログを複製](./assets/journey-duplicate-dialog.png){width="370"}
+   ![ ジャーニーダイアログを複製](./assets/journey-duplicate-dialog.png){width="370"}
 
 1. 複製の&#x200B;**[!UICONTROL タイプ]**&#x200B;を選択します。
 

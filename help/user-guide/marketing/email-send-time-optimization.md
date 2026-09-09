@@ -1,9 +1,13 @@
 ---
 title: メール送信時間の最適化
 description: Marketo Optimizerの人物ジャーニーで、送信時間の最適化を設定します。 Coworkerで送信ウィンドウを設定し、待機ノードを追加し、STO レポートを表示します。
-source-git-commit: 75b481faf0d66210329f95c8afabdfa59e7bcb79
+TQID: 'https://experienceleague.adobe.com/7g2aCAhlDO17TNy-VZSsWZ2JKGFgE5MZT20zp7eC1WQ'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 3c1de303-7a7c-59a6-abca-8c534730e19cid: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+topic_v2: id: aa2f3246-cb95-4b30-8899-fdf7d73550ccid: cdd65e7e-8839-44a2-bc21-0e03623b5dd1id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: 759
 ht-degree: 0%
 
 ---
@@ -28,13 +32,13 @@ STOに対して計画されている&#x200B;**_今後の機能強化_**&#x200B;�
 
 ## 設定 {#configuration}
 
-[&#x200B; ユーザーのジャーニーに&#x200B;_[!UICONTROL アクション]_ ノード &#x200B;](./action-nodes.md)を追加し、**[!UICONTROL 電子メールを送信]** アクションを選択すると、送信時間の最適化を設定できます。
+[ ユーザーのジャーニーに&#x200B;_[!UICONTROL アクション]_ ノード ](./action-nodes.md)を追加し、**[!UICONTROL 電子メールを送信]** アクションを選択すると、送信時間の最適化を設定できます。
 
 1. 「_メールを送信_ ジャーニーアクションノード」を選択します。
 
 1. 右側のノードプロパティで、**[!UICONTROL 送信時間の最適化]** オプションを有効にします。
 
-   ![&#x200B; メールジャーニーノードの送信 – 送信時間の最適化オプション &#x200B;](./assets/email-node-send-time-optimization.png){width="450" zoomable="no"}
+   ![ メールジャーニーノードの送信 – 送信時間の最適化オプション ](./assets/email-node-send-time-optimization.png){width="450" zoomable="no"}
 
 1. ウィンドウとテスト配布を指定するには、STO オプションを設定します。
 
@@ -46,7 +50,7 @@ STOに対して計画されている&#x200B;**_今後の機能強化_**&#x200B;�
    >
    >強力なエンゲージメント履歴を持つプロファイルは、STOの影響を測定するために、コントロールグループとテストグループに均等に分割されます。 統計的に信頼性の高い結果を得るために、STOと非STOの分割は30%から70%の間で制限されています。 これにより、より小さなコホートで結果が歪むことを防ぎ、有意義な比較を実現できます。
 
-1. _[!UICONTROL メールを送信]_ ノードの直後に、[様が&#x200B;_待機_ ノード &#x200B;](./wait-nodes.md)を追加します。
+1. _[!UICONTROL メールを送信]_ ノードの直後に、[様が&#x200B;_待機_ ノード ](./wait-nodes.md)を追加します。
 
    待機ノードは、STO対応のメールアクションに直ちに従う必要があります。 このノードを追加すると、最適化ウィンドウ全体がクリアされ、すべてのSTO送信が完了するまで、プロファイルがジャーニーに残ります。 このノードを省略すると、システムは設定を無効としてフラグ付けします。
 
@@ -67,7 +71,7 @@ Coworkerを使用してSTO レポートを生成するには、次の3つの方�
 1. 共同作業者パネルで、`/`と入力して、使用可能なスキルのリストを表示します。
 1. リストから&#x200B;**[!UICONTROL send-time-report]**&#x200B;を選択し、上向き矢印をクリックしてクエリを送信します。
 
-   ![同僚の送信時間レポートのスキルクエリ &#x200B;](./assets/email-sto-reporting-coworker.png){width="700" zoomable="yes"}
+   ![同僚の送信時間レポートのスキルクエリ ](./assets/email-sto-reporting-coworker.png){width="700" zoomable="yes"}
 
    ジャーニーがエディターで開いている場合、Coworkerはそれをコンテキストとして自動的に使用します。 それ以外の場合は、ジャーニーの指定を求めるメッセージが表示されます。
 
@@ -103,4 +107,4 @@ Coworkerを使用してSTO レポートを生成するには、次の3つの方�
 
 _[!UICONTROL 詳細]_&#x200B;列で、**[!UICONTROL STO結果を表示]**&#x200B;をクリックしてポップアップウィンドウを開きます。 このウィンドウには、_パフォーマンス比較_、_送信時間ディストリビューション_、_データ整合性_&#x200B;の電子メールデータのビジュアライゼーションが表示されます。
 
-![送信時間最適化レポート – メールパフォーマンスデータ &#x200B;](./assets/email-sto-reporting-data.png){width="500" zoomable="yes"}
+![送信時間最適化レポート – メールパフォーマンスデータ ](./assets/email-sto-reporting-data.png){width="500" zoomable="yes"}

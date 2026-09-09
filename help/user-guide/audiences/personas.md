@@ -1,9 +1,13 @@
 ---
 title: 派生ペルソナ
 description: Marketo Optimizerで派生ペルソナを使用して、ピープルリストとジャーニーのパスをターゲットにする。 デフォルトのペルソナマッピングと派生ペルソナフィルターについて説明します。
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/5HAnnC6dbU-sE9dzBWs479z1H4LlNSkhhoNSrQxSfqI'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: 625
 ht-degree: 0%
 
 ---
@@ -25,12 +29,12 @@ Marketo OptimizerのBeta リリースでは、ジョブタイトル属性に従�
 | ------- | ---------- |
 | [!UICONTROL CXO / EVP] | CEO、CIO、CTO、CMO、CFO、戦略担当エグゼクティブバイスプレジデント |
 | [!UICONTROL SVP / VP] | マーケティング担当シニアバイスプレジデント、セールス担当バイスプレジデント、オペレーション担当シニアバイスプレジデント、製品担当バイスプレジデント、IT担当バイスプレジデント |
-| [!UICONTROL &#x200B; シニアマネージャー/マネージャー] | シニアマーケティングマネージャー、IT マネージャー、オペレーションマネージャー、セールスマネージャー、人事マネージャー |
+| [!UICONTROL  シニアマネージャー/マネージャー] | シニアマーケティングマネージャー、IT マネージャー、オペレーションマネージャー、セールスマネージャー、人事マネージャー |
 | [!UICONTROL 個人貢献者] | アカウントエグゼクティブ，ソフトウェアエンジニア，マーケティングスペシャリスト，カスタマーサクセス担当者 |
-| [!UICONTROL &#x200B; アナリスト &#x200B;] | ビジネスアナリスト、データアナリスト、市場調査アナリスト、金融アナリスト、オペレーションアナリスト |
+| [!UICONTROL  アナリスト ] | ビジネスアナリスト、データアナリスト、市場調査アナリスト、金融アナリスト、オペレーションアナリスト |
 | [!UICONTROL 開発者] | フロントエンド開発者、バックエンド開発者、フルスタック開発者、モバイルアプリ開発者、DevOps エンジニア |
-| [!UICONTROL &#x200B; プロフェッショナル スタッフ &#x200B;] | 人事スペシャリスト，法務顧問，コンプライアンス担当者，プロジェクトマネージャー，調達スペシャリスト |
-| [!UICONTROL &#x200B; コンサルタント &#x200B;] | 管理コンサルタント，IT コンサルタント，ビジネスプロセスコンサルタント，マーケティングコンサルタント |
+| [!UICONTROL  プロフェッショナル スタッフ ] | 人事スペシャリスト，法務顧問，コンプライアンス担当者，プロジェクトマネージャー，調達スペシャリスト |
+| [!UICONTROL  コンサルタント ] | 管理コンサルタント，IT コンサルタント，ビジネスプロセスコンサルタント，マーケティングコンサルタント |
 | [!UICONTROL その他] | 業界スペシャリスト、独立系アドバイザー、フリーランスコンサルタント、SME エキスパート |
 
 >[!NOTE]
@@ -45,9 +49,9 @@ _[!UICONTROL 派生ペルソナ]_ フィルターは、**[!UICONTROL 人物の�
 
 ### ユーザーリスト {#people-lists}
 
-[静的な人物リスト &#x200B;](./people-lists.md#static-lists)のメンバーを管理する場合、または[動的な人物リスト &#x200B;](./people-lists.md#dynamic-lists)のルールを定義する場合、_派生ペルソナ_&#x200B;でフィルタリングして、特定の設定されたペルソナに一致する属性を持つすべての人物をターゲットにすることができます。
+[静的な人物リスト ](./people-lists.md#static-lists)のメンバーを管理する場合、または[動的な人物リスト ](./people-lists.md#dynamic-lists)のルールを定義する場合、_派生ペルソナ_&#x200B;でフィルタリングして、特定の設定されたペルソナに一致する属性を持つすべての人物をターゲットにすることができます。
 
-![人物リストの派生ペルソナのフィルタリング &#x200B;](./assets/derived-persona-filter-people-list.png){width="750" zoomable="yes"}
+![人物リストの派生ペルソナのフィルタリング ](./assets/derived-persona-filter-people-list.png){width="750" zoomable="yes"}
 
 **静的リスト – メンバーを追加**
 
@@ -75,9 +79,9 @@ _[!UICONTROL 派生ペルソナ]_ フィルターは、**[!UICONTROL 人物の�
 
 ### 顧客ジャーニー {#person-journeys}
 
-[_分割パス_ ノード &#x200B;](../marketing/split-merge-paths-nodes.md)で個人ジャーニーのセグメント化を設定する場合、派生ペルソナを個人プロファイルフィルターとして使用して、ジャーニーパスに入るユーザーを制御できます。
+[_分割パス_ ノード ](../marketing/split-merge-paths-nodes.md)で個人ジャーニーのセグメント化を設定する場合、派生ペルソナを個人プロファイルフィルターとして使用して、ジャーニーパスに入るユーザーを制御できます。
 
-![分割パス条件の派生ペルソナ フィルタリング &#x200B;](./assets/derived-persona-filter-split-path.png){width="750" zoomable="yes"}
+![分割パス条件の派生ペルソナ フィルタリング ](./assets/derived-persona-filter-split-path.png){width="750" zoomable="yes"}
 
 1. ジャーニーキャンバスの「**[!UICONTROL パスを分割]**」ノードをクリックします。
 

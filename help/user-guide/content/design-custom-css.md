@@ -3,9 +3,12 @@ title: コンテンツのカスタム CSSの追加
 description: Marketo Optimizerの標準コンポーネントに留まることなく、メールやランディングページにカスタム CSSを追加して、高度なスタイル設定と正確なデザイン管理を実現します。
 feature: Content Design Tools, Email Authoring, Landing Pages
 role: User
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/RLYXBvEepwNcQ9B9W3Sao-RP49HtbxFomlgu7R8APAg'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+topic_v2: id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87cid: c1579802-ddd4-4214-8a91-97b2066abe11id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '561'
+source-wordcount: 561
 ht-degree: 9%
 
 ---
@@ -55,7 +58,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->カスタム CSSは、選択したコンポーネントの&#x200B;_[!UICONTROL スタイル]_ パネルで反映または検証されません。 これは完全に独立しており、Body コンポーネントレベルの[!UICONTROL &#x200B; カスタム CSS]を追加オプションでのみ変更できます。
+>カスタム CSSは、選択したコンポーネントの&#x200B;_[!UICONTROL スタイル]_ パネルで反映または検証されません。 これは完全に独立しており、Body コンポーネントレベルの[!UICONTROL  カスタム CSS]を追加オプションでのみ変更できます。
 
 ## カスタム CSSの追加
 
@@ -63,7 +66,7 @@ ht-degree: 9%
 
 1. 右側の「_スタイル_」タブを選択し、**[!UICONTROL カスタム CSSを追加]**&#x200B;をクリックします。
 
-   ![&#x200B; ボディスタイルにアクセス &#x200B;](assets/email-body-styles.png){width="800" zoomable="yes"}
+   ![ ボディスタイルにアクセス ](assets/email-body-styles.png){width="800" zoomable="yes"}
 
    >[!NOTE]
    >
@@ -75,13 +78,13 @@ ht-degree: 9%
 
    カスタム CSSが有効であり、適切な構文に従っていることを確認します。 入力したCSSが無効な場合は、エラーメッセージが表示され、CSSを保存できません。 詳しくは、[CSS validity](#css-validity)を参照してください。
 
-   ![&#x200B; エディターにカスタム CSSを入力](assets/content-design-add-custom-css.png){width="450"}
+   ![ エディターにカスタム CSSを入力](assets/content-design-add-custom-css.png){width="450"}
 
 1. 「**[!UICONTROL 保存]**」をクリックして、カスタム CSSを保存します。
 
-   カスタムスタイルシートが既存のコンテンツに適用されます。 必要に応じてカスタム CSSが適用されていることを確認できます。 スタイルシート アプリケーションを変更および調整する方法について詳しくは、[&#x200B; トラブルシューティング &#x200B;](#troubleshooting)を参照してください。
+   カスタムスタイルシートが既存のコンテンツに適用されます。 必要に応じてカスタム CSSが適用されていることを確認できます。 スタイルシート アプリケーションを変更および調整する方法について詳しくは、[ トラブルシューティング ](#troubleshooting)を参照してください。
 
-   ![&#x200B; コンテンツに適用されたカスタム CSS](assets/email-body-custom-css-applied.png){width="600" zoomable="yes"}
+   ![ コンテンツに適用されたカスタム CSS](assets/email-body-custom-css-applied.png){width="600" zoomable="yes"}
 
 ## CSSの有効性 {#css-validity}
 
@@ -189,9 +192,9 @@ body {
 
 メールやランディングページのデザイン空間にコンテンツを読み込んでカスタム CSSを使用する場合は、次の点を考慮してください。
 
-* CSSを含む外部のHTML コンテンツを読み込む場合、[!UICONTROL 互換性モード &#x200B;]に設定され、[!UICONTROL CSS スタイル &#x200B;] セクションは使用できません。
+* CSSを含む外部のHTML コンテンツを読み込む場合、[!UICONTROL 互換性モード ]に設定され、[!UICONTROL CSS スタイル ] セクションは使用できません。
 
-* [!UICONTROL &#x200B; カスタム CSS]を追加オプションを使用して、最初に電子メールまたはランディングページのデザインスペースで作成されたコンテンツを読み込む場合、適用されたCSSは同じオプションから表示され、編集可能になります。
+* [!UICONTROL  カスタム CSS]を追加オプションを使用して、最初に電子メールまたはランディングページのデザインスペースで作成されたコンテンツを読み込む場合、適用されたCSSは同じオプションから表示され、編集可能になります。
 
 ## トラブルシューティング {#troubleshooting}
 

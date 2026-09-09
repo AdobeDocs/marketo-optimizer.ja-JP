@@ -1,16 +1,20 @@
 ---
 title: 概要からプログラムを作成
 description: Marketo Optimizerのプログラム作成スキルを使用して、キャンペーン概要からプログラム、トークン、人物リスト、ジャーニーを構築できます。
-source-git-commit: 75b481faf0d66210329f95c8afabdfa59e7bcb79
+TQID: 'https://experienceleague.adobe.com/Bi7ZemHiGpKwxsYZkrfCyT5IzFAJ8ZTyFr8KxwO4z6w'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 1650dadf-b034-5ac9-a309-77ad1e2f5035id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+topic_v2: id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: 1107
 ht-degree: 4%
 
 ---
 
 # 概要からプログラムを作成する
 
-[!DNL Adobe Marketo Optimizer]では、[_プログラム_](../marketing/programs.md)&#x200B;は、キャンペーン内のジャーニー、ユーザーリスト、トークン、設定の最上位コンテナです。 [&#x200B; チャットインターフェイス &#x200B;](./chat-interface.md)から、プログラム作成スキルは、プログラム自体、サブフォルダー、トークン、人物リスト、人物ジャーニーなど、概要からエンドツーエンドで、単一のガイド付き会話で構造全体を構築します。
+[!DNL Adobe Marketo Optimizer]では、[_プログラム_](../marketing/programs.md)&#x200B;は、キャンペーン内のジャーニー、ユーザーリスト、トークン、設定の最上位コンテナです。 [ チャットインターフェイス ](./chat-interface.md)から、プログラム作成スキルは、プログラム自体、サブフォルダー、トークン、人物リスト、人物ジャーニーなど、概要からエンドツーエンドで、単一のガイド付き会話で構造全体を構築します。
 
 * **スキル** - `program-creation`
 * **招待状** – 概要をアップロードして&#x200B;_この概要からプログラムを作成_ / _概要からプログラムを作成_&#x200B;するか、キャンペーンを直接記述します
@@ -122,7 +126,7 @@ Coworkerは、ブリーフから次の要素を抽出し、欠けている要素
 | 事例 | 動作 |
 |---|---|
 | **複数のタイプが使用可能** | ブリーフの文言がタイプに一致します（例：tradeshow/booth/expo = *Tradeshow*/*Event*、ウェビナー= *ウェビナー*/*イベント*、ナーチャリング/ドリップ = *ナーチャリング*、明確なシグナル = *Default*）。 一致するものが見つからない場合、同僚は使用可能なタイプとタスクを一覧表示します。 |
-| **既定のみのテナント** | *Default*&#x200B;を使用し、管理者がカスタム [&#x200B; プログラムタイプ &#x200B;](../admin/program-types.md)を追加できることをメモします。 |
+| **既定のみのテナント** | *Default*&#x200B;を使用し、管理者がカスタム [ プログラムタイプ ](../admin/program-types.md)を追加できることをメモします。 |
 | **設定されたタイプはありません** | 停止 – 作成は失敗します。 管理者に、再試行する前にプログラムタイプをプロビジョニングするよう求めるメッセージを表示します。 |
 
 ## デフォルト

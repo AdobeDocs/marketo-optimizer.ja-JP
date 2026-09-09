@@ -3,16 +3,20 @@ title: アセット
 description: Marketo Optimizerで、電子メール、テンプレート、ビジュアルフラグメントの画像アセットを管理できます。
 feature: Assets, Content
 role: User
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/4Nggkg68RA3TQTYwhOG-2dOvmyXVvBqunBGC3fWRV-k'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1id: 8881ff95-1653-5fea-82af-ce1549c0d99d
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: 734
 ht-degree: 19%
 
 ---
 
 # アセット
 
-[!DNL Adobe Marketo Optimizer]では、アセットは通常、ジャーニーをサポートするコンテンツを設計する際に使用される画像です。 これらの画像は、[電子メール &#x200B;](email-authoring.md)、[電子メールテンプレート &#x200B;](templates.md)、[&#x200B; ビジュアルフラグメント &#x200B;](email-authoring.md#visual-fragments)のアセットセレクターまたはビジュアルデザイン空間内のシンプルなドラッグ&amp;ドロップインターフェイスで使用できます。
+[!DNL Adobe Marketo Optimizer]では、アセットは通常、ジャーニーをサポートするコンテンツを設計する際に使用される画像です。 これらの画像は、[電子メール ](email-authoring.md)、[電子メールテンプレート ](templates.md)、[ ビジュアルフラグメント ](email-authoring.md#visual-fragments)のアセットセレクターまたはビジュアルデザイン空間内のシンプルなドラッグ&amp;ドロップインターフェイスで使用できます。
 
 サポートされているファイル形式：JPG、JPEG、GIF、PNG、EPS、SVG、RGB
 
@@ -40,14 +44,14 @@ ht-degree: 19%
 
 _[!UICONTROL Assets]_ ライブラリに初めてアクセスする場合は、[_[!UICONTROL 生成AI利用条件&#x200B;]_](https://www.adobe.com/jp/legal/licenses-terms/adobe-gen-ai-user-guidelines.html)を確認し、契約書を確認してください。
 
-![Assets ライブラリの生成AI利用条件の契約書ダイアログ &#x200B;](./assets/dam-asset-library-gen-ai-agree.png){width="500"}
+![Assets ライブラリの生成AI利用条件の契約書ダイアログ ](./assets/dam-asset-library-gen-ai-agree.png){width="500"}
 
 >[!ENDSHADEBOX]
 
 ライブラリでは、次の2つのレイアウトオプションをサポートしています。
 
-* **[!UICONTROL リスト]** — _リストビュー_ （![&#x200B; リストビューアイコン &#x200B;](../assets/do-not-localize/icon-falco-list-view.svg)）アイコンをクリックすると、メタデータ列を含む並べ替え可能なテーブルにアセットが表示されます。
-* **[!UICONTROL ギャラリー]** — _ギャラリービュー_ （![&#x200B; ギャラリービューアイコン &#x200B;](../assets/do-not-localize/icon-falco-gallery-view.svg)）アイコンをクリックすると、アセットが視覚的なサムネールグリッドとして表示されます。
+* **[!UICONTROL リスト]** — _リストビュー_ （![ リストビューアイコン ](../assets/do-not-localize/icon-falco-list-view.svg)）アイコンをクリックすると、メタデータ列を含む並べ替え可能なテーブルにアセットが表示されます。
+* **[!UICONTROL ギャラリー]** — _ギャラリービュー_ （![ ギャラリービューアイコン ](../assets/do-not-localize/icon-falco-gallery-view.svg)）アイコンをクリックすると、アセットが視覚的なサムネールグリッドとして表示されます。
 
 ## アセットの検索 {#find-assets}
 
@@ -73,7 +77,7 @@ _[!UICONTROL 検索]_ フィールドを使用して、必要なアセットを�
 
 1. ダイアログで、ローカルシステムからファイルをドラッグ&amp;ドロップします。
 
-   ![画像アセットをアップロード &#x200B;](./assets/dam-upload-assets-dialog.png){width="450"}
+   ![画像アセットをアップロード ](./assets/dam-upload-assets-dialog.png){width="450"}
 
    または、**[!UICONTROL コンピューターからファイルを選択]**&#x200B;をクリックして、ローカルファイルシステムを使用してファイルを検索して選択することもできます。
 
@@ -81,7 +85,7 @@ _[!UICONTROL 検索]_ フィールドを使用して、必要なアセットを�
 
 アップロードが完了すると、システムは自動的に説明を生成し、タグとキーワードを割り当て、被写体や設定などの視覚属性を抽出します。 手作業によるタグ付けは必要ありません。 このプロセスが完了するまで、新しい画像は&#x200B;_[!UICONTROL 処理中]_&#x200B;のステータスで表示されます。
 
-![処理中の新しい画像アセット &#x200B;](./assets/dam-asset-library-upload-processing.png){width="700" zoomable="yes"}
+![処理中の新しい画像アセット ](./assets/dam-asset-library-upload-processing.png){width="700" zoomable="yes"}
 
 ## コンテンツのオーサリングでアセットを使用 {#assets-authoring}
 

@@ -1,9 +1,11 @@
 ---
 title: Personalizationのカスタムトークン
 description: マーケティングアーティファクトを動的にパーソナライズするためのカスタムのマイトークンを作成および管理する – Marketo Optimizerでプログラムのテキスト変数と数変数を定義します。
-topic_v2:
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/utVM69g7aQSuF-V3XQIdVBqvBXyiDz1ZWr0WtE67UCg'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 629
 ht-degree: 3%
@@ -32,7 +34,7 @@ ht-degree: 3%
 
 1. 「**[!UICONTROL トークン]**」タブをクリックします。
 
-   選択したプログラムの「![&#x200B; トークン」タブ &#x200B;](./assets/program-tokens-tab.png){width="800" zoomable="yes"}
+   選択したプログラムの「![ トークン」タブ ](./assets/program-tokens-tab.png){width="800" zoomable="yes"}
 
    このタブには、フォルダーまたはプログラム内で定義されているすべてのカスタムトークンと、親フォルダーまたはプログラムに定義されているすべてのカスタムトークンが表示されます。
 
@@ -48,7 +50,7 @@ _マイトークン_&#x200B;は、プログラムまたはフォルダー用に�
 | 数字 | この型は標準的な整数値を保持します。 |
 | メール | この種類には有効な電子メールアドレスが含まれています。 |
 | スコア | このトークンは、ジャーニーアクションノードのスコアの変更に使用します。 |
-| ブール値 | このタイプは、trueまたはfalseの標準ブール値を保持します。 |
+| ブール | このタイプは、trueまたはfalseの標準ブール値を保持します。 |
 | リッチテキスト | このタイプは、書式設定されたテキストを保持します。 |
 
 ### トークンネスティング
@@ -59,7 +61,7 @@ _マイトークン_&#x200B;は、プログラムまたはフォルダー用に�
 * 継承されたトークン – トークンは、親プログラムまたはフォルダー（現在のプログラムまたはフォルダーより1つ以上のレベル）で定義されます。
 * オーバーライドされたトークン – トークンは親プログラムまたはフォルダーで定義されますが、現在のプログラムまたはフォルダーでは別の値が定義されます。 トークンのステータスが&#x200B;_上書き_&#x200B;に変更され、子フォルダー、プログラム、マーケティングアーティファクトが新しい値を継承します。
 
-![&#x200B; トークンタイプと継承](./assets/program-tokens-inherited-overridden.png){width="600" zoomable="yes"}
+![ トークンタイプと継承](./assets/program-tokens-inherited-overridden.png){width="600" zoomable="yes"}
 
 ### トークンの作成
 
@@ -67,7 +69,7 @@ _マイトークン_&#x200B;は、プログラムまたはフォルダー用に�
 
 1. ダイアログで、トークンの&#x200B;**[!UICONTROL Name]**&#x200B;を入力します。
 
-   ![&#x200B; テキストトークンの名前と値を入力](./assets/token-create-dialog.png){width="400"}
+   ![ テキストトークンの名前と値を入力](./assets/token-create-dialog.png){width="400"}
 
    トークン名にはスペースや特殊文字を使用できません。 `EventType`などの&#x200B;_キャメルケース_&#x200B;を使用して、簡単に識別できるマルチワード名を使用できます。
 
@@ -87,7 +89,7 @@ _マイトークン_&#x200B;は、プログラムまたはフォルダー用に�
 
 1. フィールドで、必要に応じて値を変更します。
 
-   ![&#x200B; トークンの名前と値を変更](assets/my-tokens-edit-text-token-dialog.png){width="400"}
+   ![ トークンの名前と値を変更](assets/my-tokens-edit-text-token-dialog.png){width="400"}
 
 1. _保存_ アイコンをクリックします。
 

@@ -1,9 +1,12 @@
 ---
 title: 人物ジャーニーノード
 description: Marketo Optimizerのユーザージャーニーノード（オーディエンス、アクション、イベント、待機、パス分割、AIを活用した次善のパスルーティング）について説明します。
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/DXva-JytBjj7MHwYeeYfsR2GYomHdj5NZWZk0kgdv1M'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: 317
 ht-degree: 0%
 
 ---
@@ -17,7 +20,7 @@ _[!UICONTROL 人物オーディエンス]_ ノードは、自動的にジャー�
 :::: landing-cards-container
 
 :::
-<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg?lang=ja) -->
+<!-- ![Person audience node](https://cdn.experienceleague.adobe.com/icons/users.svg) -->
 
 人物オーディエンスノード
 
@@ -27,7 +30,7 @@ _[!UICONTROL 人物オーディエンス]_ ノードは、自動的にジャー�
 :::
 
 :::
-<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja) -->
+<!-- ![Action nodes](https://cdn.experienceleague.adobe.com/icons/circle-play.svg) -->
 
 アクションノード
 
@@ -37,7 +40,7 @@ _[!UICONTROL 人物オーディエンス]_ ノードは、自動的にジャー�
 :::
 
 :::
-<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg?lang=ja) -->
+<!-- ![Event nodes](https://cdn.experienceleague.adobe.com/icons/puzzle-piece.svg) -->
 
 イベントノード
 
@@ -47,7 +50,7 @@ _[!UICONTROL 人物オーディエンス]_ ノードは、自動的にジャー�
 :::
 
 :::
-<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg?lang=ja) -->
+<!-- ![Wait nodes](https://cdn.experienceleague.adobe.com/icons/clock.svg) -->
 
 待機ノード
 
@@ -57,7 +60,7 @@ _[!UICONTROL 人物オーディエンス]_ ノードは、自動的にジャー�
 :::
 
 :::
-<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja) -->
+<!-- ![Split and merge paths nodes](https://cdn.experienceleague.adobe.com/icons/code-branch.svg) -->
 
 パスノードの分割と結合
 
@@ -67,7 +70,7 @@ _[!UICONTROL 人物オーディエンス]_ ノードは、自動的にジャー�
 :::
 
 :::
-<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg?lang=ja) -->
+<!-- ![Next best path node](https://cdn.experienceleague.adobe.com/icons/lightbulb.svg) -->
 
 次善のパスノード
 

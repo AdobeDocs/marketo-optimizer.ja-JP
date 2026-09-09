@@ -3,9 +3,12 @@ title: Personalization エディター
 description: Marketo Optimizerのパーソナライゼーションエディターを使用して、メール、WhatsApp メッセージ、ランディングページ、URL フィールドのプロファイル属性トークンを選択、配置、カスタマイズ、検証する方法を説明します。
 feature: Content Design Tools
 role: User
-source-git-commit: 75b481faf0d66210329f95c8afabdfa59e7bcb79
+TQID: 'https://experienceleague.adobe.com/5aPDp4kMpQo7LtE6CEUQWf2IbyeSMoW6iN5ZR-f-kLI'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+topic_v2: id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '1002'
+source-wordcount: 1002
 ht-degree: 55%
 
 ---
@@ -27,11 +30,11 @@ ht-degree: 55%
 >
 >このBeta リリースのパーソナライゼーションエディターでは、プロファイル属性のみが使用できます。 アカウントレベルのパーソナライゼーションとカスタムオブジェクトデータは使用できません。 [現在の制限](../marketing/email-channel.md#limitations)を参照してください。
 
-_パーソナライズ_ （![&#x200B; パーソナライズ アイコン &#x200B;](../assets/do-not-localize/icon-personalize.svg)）アイコンを使用すると、任意のフィールドにパーソナライゼーションを追加できます。 詳しくは、次の節を展開します。
+_パーソナライズ_ （![ パーソナライズ アイコン ](../assets/do-not-localize/icon-personalize.svg)）アイコンを使用すると、任意のフィールドにパーソナライゼーションを追加できます。 詳しくは、次の節を展開します。
 
 +++メールとWhatsApp メッセージ
 
-[電子メール &#x200B;](./email-authoring.md#personalize-content)と[WhatsApp メッセージ &#x200B;](./whatsapp-authoring.md#personalize-message-content)では、パーソナライゼーションは、電子メールの&#x200B;**[!UICONTROL 件名]** フィールドや、承認済みのWhatsApp テンプレートの動的パラメーターなど、様々な場所に追加できます。
+[電子メール ](./email-authoring.md#personalize-content)と[WhatsApp メッセージ ](./whatsapp-authoring.md#personalize-message-content)では、パーソナライゼーションは、電子メールの&#x200B;**[!UICONTROL 件名]** フィールドや、承認済みのWhatsApp テンプレートの動的パラメーターなど、様々な場所に追加できます。
 
 また、メール本文のテキスト、プリヘッダー、ボタンのURLなど、コンテンツの他のセクションにも追加することができます。
 
@@ -130,7 +133,7 @@ _パーソナライズ_ （![&#x200B; パーソナライズ アイコン &#x200B
 
 式の検証は、**[!UICONTROL 確認]**&#x200B;または&#x200B;**[!UICONTROL 挿入]**&#x200B;をクリックしてエディターを閉じると自動的に実行されます。 また、**[!UICONTROL 検証]**&#x200B;をクリックして、パーソナライゼーションの構文を閉じる前に確認することもできます。
 
-ジャーニーのアクティベーションをブロックするコンテンツアラートについては、[&#x200B; メールコンテンツの検証](./email-authoring.md#validation)を参照してください。
+ジャーニーのアクティベーションをブロックするコンテンツアラートについては、[ メールコンテンツの検証](./email-authoring.md#validation)を参照してください。
 
 次の節を展開して、パーソナライゼーションの検証時に発生する可能性のある一般的なエラーを確認します。
 

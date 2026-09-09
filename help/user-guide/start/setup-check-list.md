@@ -1,9 +1,12 @@
 ---
 title: セットアップチェックリスト
 description: ユーザーアクセス設定やメール配信品質インフラストラクチャなど、Marketo Optimizer インスタンスの初期セットアップタスクを完了します。
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/XEPKIa88-L7mdPz1opKegY1pdEF4Qyls0nLVJBQSaJk'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 3cf5f37e-e87e-5179-812b-53ce05d7eebbid: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: 249
 ht-degree: 11%
 
 ---

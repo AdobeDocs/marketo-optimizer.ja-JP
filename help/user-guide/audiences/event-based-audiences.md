@@ -1,9 +1,12 @@
 ---
 title: イベントベースのオーディエンス
 description: Marketo Optimizerのイベントベースのオーディエンスを利用して、Marketo Engageのアクティビティにもとづいて、ほぼリアルタイムでカスタマージャーニーのエントリをトリガーできます。
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/pnXkfVhy4qJ4nsQJLjAXJR6cZA-1edr9LFpyvBo27Xo'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 46e599c6-e20f-5f67-9824-93415016f66bid: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: 320
 ht-degree: 0%
 
 ---
@@ -20,7 +23,7 @@ ht-degree: 0%
 
 _個人ジャーニーのイベントベースのオーディエンスを定義するには&#x200B;:_
 
-1. [_人物オーディエンス_ ノード &#x200B;](../marketing/person-audience-node.md)を選択します。
+1. [_人物オーディエンス_ ノード ](../marketing/person-audience-node.md)を選択します。
 
 1. 右側のノードプロパティで、エントリタイプとして「**[!UICONTROL イベントオーディエンス]**」を選択します。
 
@@ -40,7 +43,7 @@ _個人ジャーニーのイベントベースのオーディエンスを定義�
 
    各アクティビティの一致する演算子と値を設定します。
 
-   ![&#x200B; イベントベースのオーディエンスのアクティビティトリガー](./assets/event-based-audience-triggers.png){width="700" zoomable="yes"}
+   ![ イベントベースのオーディエンスのアクティビティトリガー](./assets/event-based-audience-triggers.png){width="700" zoomable="yes"}
 
    設定されたアクティビティのいずれかがリード用にログに記録されると、ジャーニーの対象となります。
 
@@ -49,7 +52,7 @@ _個人ジャーニーのイベントベースのオーディエンスを定義�
    * 「**[!UICONTROL フィルター]**」タブを選択します。
    * 各フィルターをドラッグして、一致する条件を設定します。
 
-   ![&#x200B; イベントベースのオーディエンスの人物フィルター](./assets/event-based-audience-filters.png){width="700" zoomable="yes"}
+   ![ イベントベースのオーディエンスの人物フィルター](./assets/event-based-audience-filters.png){width="700" zoomable="yes"}
 
    フィルターを追加する場合、ユーザーは少なくとも1つの設定されたアクティビティ条件と設定されたフィルターを満たす必要があります。
 

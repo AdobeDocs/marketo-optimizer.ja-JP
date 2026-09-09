@@ -1,9 +1,13 @@
 ---
 title: Formsの設定
 description: プレースホルダー
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/7X5-67hfrjRjWbGjq9duLu7mVjgfCs7tpAQLV8u6YKE'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: a659ad61-de21-559d-a901-02e2fb329ff5id: d4203578-d294-5145-b397-f26f4488a904
+topic_v2: id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: 541
 ht-degree: 30%
 
 ---
@@ -18,7 +22,7 @@ ht-degree: 30%
 
 ## 前提条件
 
-Web フォームを使用するには、Adobe Experience Platformで1つ以上の&#x200B;_&#x200B;**HTTP API ストリーミング接続**&#x200B;_&#x200B;を定義する必要があります。 使用する各接続が次の要件を満たしていることを確認します。
+Web フォームを使用するには、Adobe Experience Platformで1つ以上の&#x200B;_**HTTP API ストリーミング接続**_&#x200B;を定義する必要があります。 使用する各接続が次の要件を満たしていることを確認します。
 
 * データ型はXDMに設定する必要があります（Raw データではありません）
 * 認証は無効にする必要があります（認証されていない接続）
@@ -82,7 +86,7 @@ Forms channel configuration in Journey Optimizer B2B Edition requires the follow
 
    この接続は、web ビューアがフォームを送信するときにデータを送信するために使用されるストリーミングエンドポイントです。 必要なストリーミング接続がリストに表示されない場合は、要件が満たされていることを確認します。
 
-1. _データセットを選択_ （![&#x200B; データセットを選択アイコン &#x200B;](../assets/do-not-localize/icon-select-data.svg)）アイコンをクリックして、データセットをフォームにリンクします。
+1. _データセットを選択_ （![ データセットを選択アイコン ](../assets/do-not-localize/icon-select-data.svg)）アイコンをクリックして、データセットをフォームにリンクします。
 
    データセットは、フォームの応答が保存され、反映される場所です。 特定のデータセットを検索するためのテキスト文字列を入力するか、リストから選択できます。
 
@@ -90,7 +94,7 @@ Forms channel configuration in Journey Optimizer B2B Edition requires the follow
 
    >[!NOTE]
    >
-   >現在、選択できるのは、プロファイルが有効な[Adobe Experience Platform データセット &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/overview)とプロファイルが無効なデータセットのみです。 一度に1つのデータセットを選択できます。 フォームデータの保存にシステムデータセットは使用できません。
+   >現在、選択できるのは、プロファイルが有効な[Adobe Experience Platform データセット ](https://experienceleague.adobe.com/ja/docs/experience-platform/catalog/datasets/overview)とプロファイルが無効なデータセットのみです。 一度に1つのデータセットを選択できます。 フォームデータの保存にシステムデータセットは使用できません。
 
    データセットのチェックボックスを選択し、**[!UICONTROL 選択]**&#x200B;をクリックします。
 

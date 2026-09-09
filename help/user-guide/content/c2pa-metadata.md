@@ -3,9 +3,13 @@ title: C2PA メタデータ
 description: Adobe Marketo Optimizerが、生成AIで生成された画像にC2PA メタデータを自動的に適用する方法と、これがコンテンツにもたらす意味をご紹介します。
 feature: Assets, Content
 role: User
-source-git-commit: d1268dd4fadec58b5adedeaa295ca0624c2c2dcd
+TQID: 'https://experienceleague.adobe.com/DI9vJhE4EsGI4g4X5wz5-kqTjHOZqs6cvqo6Fke-4HU'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: d4203578-d294-5145-b397-f26f4488a904
+topic_v2: id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dcid: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '586'
+source-wordcount: 586
 ht-degree: 0%
 
 ---
@@ -22,11 +26,11 @@ ht-degree: 0%
 * 使用されているAI ツール：アセットの作成に生成AIを使用した場合、使用されているモデルの名前を含めることができます。
 * その他の関連情報 – アセットの履歴に関するより多くのコンテキストを提供するのに役立つ追加データも含まれています。
 
-アセット履歴の詳細については、Adobe Content Authenticity [&#x200B; インスペクションツール &#x200B;](https://contentauthenticity.adobe.com/inspect)を使用してください。
+アセット履歴の詳細については、Adobe Content Authenticity [ インスペクションツール ](https://contentauthenticity.adobe.com/inspect)を使用してください。
 
 C2PA メタデータは画像ファイルに保持されます。 生成AIで生成または編集された画像が[!DNL Adobe Marketo Optimizer]にアップロードされるか、またはから書き出されると、そのC2PA メタデータが保持されます。
 
-Adobe CX Enterprise アプリケーション全体でC2PA メタデータを自動的に添付する方法について詳しくは、CX Enterprise ガイドのAI ガイドの&#x200B;[_生成AI コンテンツの透明性_](https://experienceleague.adobe.com/ja/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"}を参照してください。
+Adobe CX Enterprise アプリケーション全体でC2PA メタデータを自動的に添付する方法について詳しくは、CX Enterprise ガイドのAI ガイドの&#x200B;[_生成AI コンテンツの透明性_](https://experienceleague.adobe.com/en/docs/cx-enterprise-ai/experience-cloud-ai/overview/content-transparency){target="_blank"}を参照してください。
 
 >[!NOTE]
 >

@@ -3,9 +3,11 @@ title: 構造コンポーネント
 description: メール、ランディングページ、フラグメントのレイアウトに構造コンポーネントを使用します。 Marketo Optimizerで列をドラッグし、スタイルを設定して、モバイル表示を設定します。
 feature: Content Design Tools
 role: User
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/eOGHy4YuwsQwVGCTF18v-os4TZAJhdAvoWoGBA7t3v4'
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '1645'
+source-wordcount: 1645
 ht-degree: 6%
 
 ---
@@ -40,15 +42,15 @@ _[!UICONTROL コンポーネント]_ ライブラリの上部にある&#x200B;**
 
 | アイコン | コンポーネント | 説明 |
 | ----- | ----------- | ----------- |
-| ![1:1列アイコン &#x200B;](../assets/do-not-localize/icon-design-structure-1-1.png) | [!UICONTROL 1:1列] | スペースの幅を埋める1列のコンテナ。 |
-| ![1:2列アイコン &#x200B;](../assets/do-not-localize/icon-design-structure-1-2.png) | [!UICONTROL 1:2列左] | 1:2の比率を使用してスペースの幅を埋める2列のコンテナ。 最初の（左）列は幅の3分の1を占め、2番目の（右）列は残りの3分の2を占めます。 |
-| ![1:3列アイコン &#x200B;](../assets/do-not-localize/icon-design-structure-1-3.png) | [!UICONTROL 1:3列左] | 1:3の比率を使用してスペースの幅を埋める2列のコンテナ。 第1の（左）列は幅の4分の1を占め、第2の（右）列は残りの3分の4を占める。 |
-| ![2:1列アイコン &#x200B;](../assets/do-not-localize/icon-design-structure-2-1.png) | [!UICONTROL 2:1列右] | 2:1の比率を使用してスペースの幅を埋める2列のコンテナ。 最初の（左）列は幅の3分の2を占め、2番目の（右）列は残りの3分の1を占めます。 |
-| ![2:2列アイコン &#x200B;](../assets/do-not-localize/icon-design-structure-2-2.png) | [!UICONTROL 2:2列] | 2:2の比率を使用してスペースの幅を埋める2列のコンテナ。 左右の列の幅は同じです。 |
-| ![3:1列アイコン &#x200B;](../assets/do-not-localize/icon-design-structure-3-1.png) | [!UICONTROL 3:1列右] | 3:1の比率を使用してスペースの幅を埋める2列のコンテナ。 最初の（左）列は幅の4分の3 （75%）を占め、2番目の（右）列は残りの4分の1 （25%）を占めます。 |
-| ![3:3列アイコン &#x200B;](../assets/do-not-localize/icon-design-structure-3-3.png) | [!UICONTROL 3:3列] | 3:3の比率を使用してスペースの幅を埋める3列コンテナ。 3つの列はすべて幅が同じです。 |
-| ![4:4列アイコン &#x200B;](../assets/do-not-localize/icon-design-structure-4-4.png) | [!UICONTROL 4:4列] | スペースの幅を埋めるために4:4の比率を使用する4列のコンテナ。 4つの列はすべて幅が同じです。 |
-| ![n:n列アイコン &#x200B;](../assets/do-not-localize/icon-design-structure-n-n.png) | [!UICONTROL n:n列] | 定義した列に従ってスペースを埋める、カスタマイズ可能な列構造。 列数（2から10の間）を設定し、各列の幅を個別に設定します。 [詳細情報](#change-nn-columns) |
+| ![1:1列アイコン ](../assets/do-not-localize/icon-design-structure-1-1.png) | [!UICONTROL 1:1列] | スペースの幅を埋める1列のコンテナ。 |
+| ![1:2列アイコン ](../assets/do-not-localize/icon-design-structure-1-2.png) | [!UICONTROL 1:2列左] | 1:2の比率を使用してスペースの幅を埋める2列のコンテナ。 最初の（左）列は幅の3分の1を占め、2番目の（右）列は残りの3分の2を占めます。 |
+| ![1:3列アイコン ](../assets/do-not-localize/icon-design-structure-1-3.png) | [!UICONTROL 1:3列左] | 1:3の比率を使用してスペースの幅を埋める2列のコンテナ。 第1の（左）列は幅の4分の1を占め、第2の（右）列は残りの3分の4を占める。 |
+| ![2:1列アイコン ](../assets/do-not-localize/icon-design-structure-2-1.png) | [!UICONTROL 2:1列右] | 2:1の比率を使用してスペースの幅を埋める2列のコンテナ。 最初の（左）列は幅の3分の2を占め、2番目の（右）列は残りの3分の1を占めます。 |
+| ![2:2列アイコン ](../assets/do-not-localize/icon-design-structure-2-2.png) | [!UICONTROL 2:2列] | 2:2の比率を使用してスペースの幅を埋める2列のコンテナ。 左右の列の幅は同じです。 |
+| ![3:1列アイコン ](../assets/do-not-localize/icon-design-structure-3-1.png) | [!UICONTROL 3:1列右] | 3:1の比率を使用してスペースの幅を埋める2列のコンテナ。 最初の（左）列は幅の4分の3 （75%）を占め、2番目の（右）列は残りの4分の1 （25%）を占めます。 |
+| ![3:3列アイコン ](../assets/do-not-localize/icon-design-structure-3-3.png) | [!UICONTROL 3:3列] | 3:3の比率を使用してスペースの幅を埋める3列コンテナ。 3つの列はすべて幅が同じです。 |
+| ![4:4列アイコン ](../assets/do-not-localize/icon-design-structure-4-4.png) | [!UICONTROL 4:4列] | スペースの幅を埋めるために4:4の比率を使用する4列のコンテナ。 4つの列はすべて幅が同じです。 |
+| ![n:n列アイコン ](../assets/do-not-localize/icon-design-structure-n-n.png) | [!UICONTROL n:n列] | 定義した列に従ってスペースを埋める、カスタマイズ可能な列構造。 列数（2から10の間）を設定し、各列の幅を個別に設定します。 [詳細情報](#change-nn-columns) |
 
 ## 構造コンポーネントを追加 {#add-structure-components}
 
@@ -77,7 +79,7 @@ _[!UICONTROL コンポーネント]_ ライブラリの上部にある&#x200B;**
 
 デスクトップまたはモバイルデバイスの表示からコンポーネントを除外する場合は、**[!UICONTROL 表示オプション]**&#x200B;設定を変更します。 デフォルトの&#x200B;_[!UICONTROL すべてのデバイスに表示]_&#x200B;では、すべてのデバイスで表示が有効になります。
 
-![構造コンポーネント &#x200B;](assets/content-components-display-options.png){width="400" zoomable="yes"}の表示オプション
+![構造コンポーネント ](assets/content-components-display-options.png){width="400" zoomable="yes"}の表示オプション
 
 別の設定を選択して、デバイスタイプ別にコンポーネントを排他的にします。
 
@@ -96,7 +98,7 @@ _[!UICONTROL コンポーネント]_ ライブラリの上部にある&#x200B;**
 
 小さい画面または表示ウィンドウの場合、デフォルト設定を変更しない限り、構造コンポーネントの列は積み重ねとして表示されます。 複数列構造コンポーネントを選択した状態で、切り替えスライダーを右に移動して、**[!UICONTROL モバイルで列をスタックしない]**&#x200B;設定を変更します。
 
-![&#x200B; モバイルで列をスタックしない](assets/structure-component-settings-stack-columns.png){width="250"}
+![ モバイルで列をスタックしない](assets/structure-component-settings-stack-columns.png){width="250"}
 
 ## コンポーネントスタイル {#component-styles}
 
@@ -116,9 +118,9 @@ _[!UICONTROL コンポーネント]_ ライブラリの上部にある&#x200B;**
 
 切り替えセレクターを移動して、背景画像の設定を有効にします。
 
-![&#x200B; アセットセレクターを使用した構造コンポーネントの背景画像設定](assets/structure-components-background-image-settings.png){width="250"}
+![ アセットセレクターを使用した構造コンポーネントの背景画像設定](assets/structure-components-background-image-settings.png){width="250"}
 
-「**[!UICONTROL アセットを選択]**」をクリックしてアセットセレクターを開き、[Assets ライブラリ &#x200B;](./digital-asset-management.md#assets-authoring)から画像を選択できます。
+「**[!UICONTROL アセットを選択]**」をクリックしてアセットセレクターを開き、[Assets ライブラリ ](./digital-asset-management.md#assets-authoring)から画像を選択できます。
 
 **[!UICONTROL 画像の配置]** オプションを使用して、画像が構造コンポーネントをどのように塗りつぶすかを選択します。 プレースメント設定は、標準の[HTML背景画像塗りつぶしと整列属性](https://www.w3schools.com/html/html_images_background.asp){target="_blank"}に従います。
 
@@ -126,7 +128,7 @@ _[!UICONTROL コンポーネント]_ ライブラリの上部にある&#x200B;**
 
 ### その他のスタイル {#other-styles}
 
-その他の構造コンポーネントスタイルを適用して、メールメッセージまたはランディングページでの表示を調整できます。 これらの組み込みオプション以外のスタイル設定については、[&#x200B; コンテンツのカスタム CSSの追加](./design-custom-css.md)を参照してください。
+その他の構造コンポーネントスタイルを適用して、メールメッセージまたはランディングページでの表示を調整できます。 これらの組み込みオプション以外のスタイル設定については、[ コンテンツのカスタム CSSの追加](./design-custom-css.md)を参照してください。
 
 +++境界
 
@@ -186,7 +188,7 @@ _[!UICONTROL コンポーネント]_ ライブラリの上部にある&#x200B;**
 
 * **[!UICONTROL 背景画像]** - トグルセレクターを移動して、背景画像設定を有効にします。
 
-  ![&#x200B; スタイルパネルの列の背景画像の設定](assets/structure-components-background-image-settings.png){width="250"}
+  ![ スタイルパネルの列の背景画像の設定](assets/structure-components-background-image-settings.png){width="250"}
 
   アセットソースタイプを選択し、[画像ファイルを選択](#background-image)。
 
@@ -218,10 +220,10 @@ _[!UICONTROL コンポーネント]_ ライブラリの上部にある&#x200B;**
 
 ## ナビゲーションツリー {#navigation-tree}
 
-ビジュアルデザイン空間では、ナビゲーションツリーを使用して、列やコンテンツなどの構造コンポーネントにアクセスできます。 左側の&#x200B;_[!UICONTROL ナビゲーションツリー]_ アイコン（![&#x200B; ナビゲーションツリーアイコン &#x200B;](../assets/do-not-localize/icon-navigation-tree.svg)）をクリックすると、ツリーが表示されます。
+ビジュアルデザイン空間では、ナビゲーションツリーを使用して、列やコンテンツなどの構造コンポーネントにアクセスできます。 左側の&#x200B;_[!UICONTROL ナビゲーションツリー]_ アイコン（![ ナビゲーションツリーアイコン ](../assets/do-not-localize/icon-navigation-tree.svg)）をクリックすると、ツリーが表示されます。
 
-![&#x200B; コンテンツレイヤーにアクセス &#x200B;](assets/content-design-layers.png){width="800" zoomable="yes"}
+![ コンテンツレイヤーにアクセス ](assets/content-design-layers.png){width="800" zoomable="yes"}
 
 _[!UICONTROL Body]_&#x200B;要素は、ツリー構造のルートです。 ツリー内のコンポーネントまたは列の子要素のいずれかをクリックして、キャンバス上で選択します。 右側の&#x200B;_[!UICONTROL 設定]_ タブと&#x200B;_[!UICONTROL スタイル]_ タブには、そのコンポーネントまたは列のパラメーターが表示されます。
 
-![&#x200B; ビジュアルデザインスペースに表示される列コンポーネント &#x200B;](assets/content-design-layers-column-select.png){width="800" zoomable="yes"}
+![ ビジュアルデザインスペースに表示される列コンポーネント ](assets/content-design-layers-column-select.png){width="800" zoomable="yes"}
