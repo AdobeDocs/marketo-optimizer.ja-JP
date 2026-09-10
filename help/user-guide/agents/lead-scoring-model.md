@@ -2,11 +2,9 @@
 title: カスタムスコアリングモデルの作成
 description: Adobe Marketo Optimizerで同僚のチャットインターフェイスのScoring Studio スキルを使用して、カスタムリードスコアリングモデルを構築、プレビュー、公開します。
 TQID: 'https://experienceleague.adobe.com/OAY0CzFPTyUi7NCPbRnxGkG6nnndPygbwGlbv9u2oeA'
-product_v2:
-  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
-feature_v2:
-  - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+product_v2: id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2: id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+source-git-commit: 96a923c923a6290b9d90e4ffc8e161d78f029c47
 workflow-type: tm+mt
 source-wordcount: 468
 ht-degree: 2%
@@ -20,7 +18,7 @@ ht-degree: 2%
 >title="スコアリングスタジオ"
 >abstract="スコアリングスタジオのスキルを使用して、同僚のチャットインターフェイスでカスタムリードスコアリングモデルを作成、設定、公開できます。"
 
-[!DNL Adobe Marketo Optimizer]の&#x200B;[_Scoring Studio_ スキル &#x200B;](./skills.md#scoring-signals)は、リードスコアリングモデルを作成、設定、公開できるAI ネイティブのリードスコアリングソリューションを提供します。 エージェント駆動型ワークフローとビジュアル UIを組み合わせたこのスタジオでは、[同僚のチャットインターフェイス &#x200B;](./chat-interface.md)で自然言語プロンプトを使用するか、UI コントロールと直接やり取りすることで、スコアリングモデルを構築できます。
+[!DNL Adobe Marketo Optimizer]の&#x200B;[_Scoring Studio_ スキル ](./skills.md#scoring-signals)は、リードスコアリングモデルを作成、設定、公開できるAI ネイティブのリードスコアリングソリューションを提供します。 エージェント駆動型ワークフローとビジュアル UIを組み合わせたこのスタジオでは、[同僚のチャットインターフェイス ](./chat-interface.md)で自然言語プロンプトを使用するか、UI コントロールと直接やり取りすることで、スコアリングモデルを構築できます。
 
 * **スキル** - `scoring-studio`
 * **Invocation** - スラッシュコマンドを使用してScoring Studioを開きます。 例：_&quot;open Scoring Studio.&quot;_
@@ -60,7 +58,7 @@ Scoring Studioを開くと、Coworkerは、静的リストと一連のスコア�
 モデルが完成したら、Coworkerに公開するように指示します。 公開プロセスでは、次の処理が自動的に行われます。
 
 | ステップ | 何が起こるか |
-|---|---|
+| --- | --- |
 | **ルールのコンパイル** | すべてのスコアリングルールがコンパイルされ、検証されます |
 | **スコアタスクの作成** | スケジュールされたスコアタスクが作成され、毎日実行するように設定されます |
 
