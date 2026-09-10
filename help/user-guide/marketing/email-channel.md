@@ -3,9 +3,17 @@ title: ジャーニーへのメールの追加
 description: Marketo Optimizerで、個人のジャーニーにメールアクションノードを追加し、ターゲットを絞ったコミュニケーション用に新しいメールを作成します。
 feature: Email Authoring, Person Journeys
 role: User
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/tCJStmR66eVoB8cvzcQWc5UO-klwTjnNfK-4K5Nz-S0'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: 1048
 ht-degree: 20%
 
 ---

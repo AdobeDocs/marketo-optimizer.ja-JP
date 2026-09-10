@@ -1,9 +1,14 @@
 ---
 title: 顧客の詳細
 description: AIが生成した人物のペルソナ、エンゲージメント、インテントの概要、アクティビティ履歴、プロファイル属性、企業の詳細を確認し、同僚にMarketo Optimizerのレコードについて質問することができます。
-source-git-commit: 75b481faf0d66210329f95c8afabdfa59e7bcb79
+TQID: 'https://experienceleague.adobe.com/uEaZcSheX-jfY-IFnVknekph3A-Iya1aEQqygLlxD5s'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: 690
 ht-degree: 8%
 
 ---
@@ -80,7 +85,7 @@ ht-degree: 8%
 * ミドルネーム
 * 姓
 * メール
-* 役職
+* Title
 * 電話
 * 住所
 * 市区町村
@@ -97,7 +102,7 @@ ht-degree: 8%
 「**[!UICONTROL 会社]**」タブには、個人の会社に関連付けられた企業特性データが表示されます。
 
 * 会社
-* 業種
+* 業界
 * 年間売上高
 * 課金街
 * 請求先住所 (市区町村)

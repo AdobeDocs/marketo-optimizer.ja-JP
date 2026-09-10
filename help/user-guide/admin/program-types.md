@@ -1,9 +1,17 @@
 ---
 title: プログラムタイプ
 description: Marketo Optimizerで、プログラムの属性とメンバーのステータスフローを定義するプログラムタイプを作成および管理します。
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/Eepcnc51p-P-yoyylXBr47SF0xR-3pvZab2aHf9jdew'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+  - id: a659ad61-de21-559d-a901-02e2fb329ff5
+topic_v2:
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '389'
+source-wordcount: 389
 ht-degree: 1%
 
 ---

@@ -1,9 +1,17 @@
 ---
 title: インテントの設定と分析
 description: インテントスコアモデルのアクティビティの重みづけを設定し、ランキング、プロファイル、トレンド、比較レポートを使用してリードレベルのインテントを分析する方法を説明します。
-source-git-commit: 8b3ea5f52fc50ea6c995ace44dece90247deff8b
+TQID: 'https://experienceleague.adobe.com/BNzbM6v6ADSKyPR6jQMj1QdWMnLQQX-j3PNk8gF6PxY'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 46e599c6-e20f-5f67-9824-93415016f66b
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+topic_v2:
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: 978
 ht-degree: 0%
 
 ---

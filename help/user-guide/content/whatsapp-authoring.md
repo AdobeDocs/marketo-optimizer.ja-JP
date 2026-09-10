@@ -1,9 +1,19 @@
 ---
 title: WhatsApp オーサリング
 description: Marketo Optimizerで承認済みのMetaテンプレート、パーソナライゼーショントークン、配信設定を使用して、カスタマージャーニー向けのWhatsApp メッセージを作成できます。
+TQID: 'https://experienceleague.adobe.com/BSXYq8UkffBwDDc4wVl4b2MPjNh83-8nrQx-YS57-9U'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 46e599c6-e20f-5f67-9824-93415016f66b
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+  - id: d4203578-d294-5145-b397-f26f4488a904
 level_v2:
   - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 801
 ht-degree: 20%

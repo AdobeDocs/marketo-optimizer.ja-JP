@@ -1,9 +1,16 @@
 ---
 title: インテント設定
 description: AIが提案するデフォルトからカスタム重み付けモデルのアクティブ化まで、人物のインテントスコアモデルを動かすアクティビティの重みを設定する方法を説明します。
-source-git-commit: 8b3ea5f52fc50ea6c995ace44dece90247deff8b
+TQID: 'https://experienceleague.adobe.com/ZL9RJqD-OZkIgFMpwJ4Cz-FW-463w6OJyEHAe5uJuec'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+topic_v2:
+  - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: 1322
 ht-degree: 2%
 
 ---

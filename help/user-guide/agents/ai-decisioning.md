@@ -1,9 +1,18 @@
 ---
 title: AIを活用した意思決定
 description: Marketo OptimizerのAI意思決定、ジャーニーのトラフィック制御の背後にあるインテリジェンスレイヤー、次善のパス、送信時間の最適化など、静的なルールを結果主導の自動化に置き換える機能を理解できます。
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/biPd2Zv3z75i7imGqRNuKXvgoD0sIcwrFrjWmSO7FpU'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+  - id: 5229c72e-d79b-574f-a03e-5c4bf48172c3
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+topic_v2:
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: 808
 ht-degree: 2%
 
 ---

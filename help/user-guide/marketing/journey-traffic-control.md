@@ -1,9 +1,19 @@
 ---
 title: ジャーニー交通制御
 description: Marketo Optimizerのジャーニートラフィック制御ツールが、7つの重み付けされたディメンションでAI スコアリングを使用して、オーディエンスが重複した場合に、各個人が単一の最適なジャーニーにのみ登録する方法をご確認ください。
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/MRPRSUHGHV9CZdp4ZIqxsIsIaB6U86DDiau7RE2r0ak'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
+  - id: 46e599c6-e20f-5f67-9824-93415016f66b
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+topic_v2:
+  - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '1543'
+source-wordcount: 1543
 ht-degree: 0%
 
 ---

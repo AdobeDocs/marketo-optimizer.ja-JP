@@ -1,9 +1,12 @@
 ---
 title: コンテンツ作成 – ナビゲーション
 description: コンテンツオーサリングでのナビゲーションツリーの使用に関する節を再利用しました
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/Loy7s-hTsh4eYrYdrxVPj0bjKy2bpHXjK-TGbilEcDo'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: 277
 ht-degree: 9%
 
 ---

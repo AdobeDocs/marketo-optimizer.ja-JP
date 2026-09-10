@@ -3,9 +3,12 @@ title: 構造コンポーネント
 description: メール、ランディングページ、フラグメントのレイアウトに構造コンポーネントを使用します。 Marketo Optimizerで列をドラッグし、スタイルを設定して、モバイル表示を設定します。
 feature: Content Design Tools
 role: User
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/eOGHy4YuwsQwVGCTF18v-os4TZAJhdAvoWoGBA7t3v4'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '1645'
+source-wordcount: 1645
 ht-degree: 6%
 
 ---

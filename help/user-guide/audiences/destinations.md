@@ -1,9 +1,16 @@
 ---
 title: 宛先
 description: 必要な権限、サポートされている宛先、Marketo Optimizerの宛先を接続して、静的な人物リストを広告およびソーシャルプラットフォームにアクティベートする方法について説明します。
-source-git-commit: c7d3546d075f5a58923134231217b2fd10fe4aca
+TQID: 'https://experienceleague.adobe.com/u5sWVDR0JaiX-YvlQ23l7mqoI9G95xS-uiKcqANwsnc'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+topic_v2:
+  - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: 643
 ht-degree: 8%
 
 ---
@@ -57,7 +64,7 @@ ht-degree: 8%
 >
 >このカタログは、完全な[!DNL Adobe Experience Platform]宛先カタログではありません。 [!DNL Experience Platform]から宛先に直接アクセスすると、大きなカタログが表示されますが、現在これらの宛先のみが[!DNL Marketo Optimizer]でアクティブ化できます。 今後のリリースのために、さらに宛先を追加する予定です。
 
-## 宛先の設定 {#set-up-destination}
+## 宛先を設定 {#set-up-destination}
 
 サポートされている各宛先カードには、**[!UICONTROL 新しい宛先の設定]**&#x200B;が表示されます。 宛先を設定することは、アクティベーションの前提条件です。
 

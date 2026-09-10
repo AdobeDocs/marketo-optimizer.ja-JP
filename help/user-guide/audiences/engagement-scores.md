@@ -1,9 +1,19 @@
 ---
 title: 人物エンゲージメントスコア
 description: Marketo Optimizerの重み付けアクティビティと30日間のスコアリングウィンドウを使用して、リードの個人エンゲージメントスコアを計算します。
-source-git-commit: 75b481faf0d66210329f95c8afabdfa59e7bcb79
+TQID: 'https://experienceleague.adobe.com/I3yy5e-o3lFJh8gHjJ7ZOGakEbD12RhAYenGzR2qZd0'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+  - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: 1515
 ht-degree: 8%
 
 ---

@@ -2,9 +2,21 @@
 title: 高度なアーキテクチャ
 description: 双方向同期、エンティティ待ち時間、テナントデータの分離など、Marketo OptimizerとMarketo Engageを接続するデータアーキテクチャについて説明します。
 role: User, Admin
-source-git-commit: ef30aa7a901c18c7b9b0919d537ad59db9a6c481
+TQID: 'https://experienceleague.adobe.com/oelEtys81g6TzM8bi-qy1nuWw6scOBry7tbZkMkZ6u0'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+  - id: d4203578-d294-5145-b397-f26f4488a904
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: 451
 ht-degree: 1%
 
 ---

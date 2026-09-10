@@ -1,9 +1,19 @@
 ---
 title: メール送信時間の最適化
 description: Marketo Optimizerの人物ジャーニーで、送信時間の最適化を設定します。 Coworkerで送信ウィンドウを設定し、待機ノードを追加し、STO レポートを表示します。
-source-git-commit: 75b481faf0d66210329f95c8afabdfa59e7bcb79
+TQID: 'https://experienceleague.adobe.com/7g2aCAhlDO17TNy-VZSsWZ2JKGFgE5MZT20zp7eC1WQ'
+product_v2:
+  - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+feature_v2:
+  - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
+  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+topic_v2:
+  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: 759
 ht-degree: 0%
 
 ---
