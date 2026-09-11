@@ -6,7 +6,7 @@ product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+source-git-commit: 96a923c923a6290b9d90e4ffc8e161d78f029c47
 workflow-type: tm+mt
 source-wordcount: 468
 ht-degree: 2%
@@ -60,7 +60,7 @@ Scoring Studioを開くと、Coworkerは、静的リストと一連のスコア�
 モデルが完成したら、Coworkerに公開するように指示します。 公開プロセスでは、次の処理が自動的に行われます。
 
 | ステップ | 何が起こるか |
-|---|---|
+| --- | --- |
 | **ルールのコンパイル** | すべてのスコアリングルールがコンパイルされ、検証されます |
 | **スコアタスクの作成** | スケジュールされたスコアタスクが作成され、毎日実行するように設定されます |
 
