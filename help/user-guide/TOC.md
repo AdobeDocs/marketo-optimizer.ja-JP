@@ -60,7 +60,7 @@ ht-degree: 45%
   + [概要](./reports/reports-overview.md)
   + [ユーザジャーニーの概要](./reports/person-journey-overview-report.md)
   + [エンゲージメント](./reports/engagement-report.md)
-  + {hide-from-toc}[ メールエンゲージメント ](./reports/email-engagement-report.md)
+  + {hide-from-toc}[&#x200B; メールエンゲージメント &#x200B;](./reports/email-engagement-report.md)
   + [web エンゲージメント](./reports/web-engagement-report.md)
 + オーディエンス {#audiences}
   + [ユーザーリスト](./audiences/people-lists.md)

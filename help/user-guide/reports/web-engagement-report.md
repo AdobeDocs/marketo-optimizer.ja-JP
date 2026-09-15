@@ -17,22 +17,22 @@ ht-degree: 1%
 
 <!-- SPHR-39571: Audience, Company Name, Company Industry, and Region filters, plus the report title/subtitle rename, are planned under SPHR-32471 (not yet shipped) and should be documented separately once delivered  -->
 
-[!UICONTROL Web エンゲージメント ] レポートを使用して、インスタンス全体で最も人気のあるインタラクティブなウェビナーのエンゲージメントを確認します。
+[!UICONTROL Web エンゲージメント &#x200B;] レポートを使用して、インスタンス全体で最も人気のあるインタラクティブなウェビナーのエンゲージメントを確認します。
 
 レポートを表示するには（_T） :_
 
 1. 左側のナビゲーションで、**[!UICONTROL レポート]**&#x200B;を選択します。
-1. _リスト_ アイコン （![ リストアイコン ](../assets/do-not-localize/icon-table-of-contents.svg)）をクリックし、_[!UICONTROL 目次]_ パネルで&#x200B;**[!UICONTROL Web エンゲージメント]**&#x200B;を選択します。
+1. _リスト_ アイコン （![&#x200B; リストアイコン &#x200B;](../assets/do-not-localize/icon-table-of-contents.svg)）をクリックし、_[!UICONTROL 目次]_ パネルで&#x200B;**[!UICONTROL Web エンゲージメント]**&#x200B;を選択します。
 
 ペルソナフィルター、過去30日間の日付範囲、最も閲覧された上位10 ページのテーブルを含む![Web エンゲージメントレポート。](./assets/reports-web-engagement.png){width="700" zoomable="yes"}
 
-レポートの日付範囲](./reports-overview.md#change-the-date-range)を[変更できます。
+レポートの日付範囲[&#128279;](./reports-overview.md#change-the-date-range)を変更できます。
 
 レポートの上部にある「**[!UICONTROL 共有]**」を選択して、すべてのレポートデータの書き出しをダウンロードまたはスケジュールします。 レポートの概要の「[_レポートの書き出し_](./reports-overview.md#export-a-report)」を参照してください。
 
 ## レポートテーブル {#report-table}
 
-[!UICONTROL Web エンゲージメント ] レポートには、インスタンスで最も閲覧された上位10 ページが表示され、次の行ディメンションが表示されます。
+[!UICONTROL Web エンゲージメント &#x200B;] レポートには、インスタンスで最も閲覧された上位10 ページが表示され、次の行ディメンションが表示されます。
 
 * **[!UICONTROL ページ名]** - web ページの名前。
 

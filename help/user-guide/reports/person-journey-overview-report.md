@@ -17,15 +17,15 @@ ht-degree: 0%
 
 <!-- SPHR-39570: total person journeys by status, People in Live Person Journeys, Person Journey Engagement, Person Journey Entries, Person Journey Failures (SPHR-32522), and the "Journeys by engagement type" and "Completion rate distribution" charts (SPHR-32523) are not documented here pending delivery. File a follow-up documentation ticket when those ship. -->
 
-[!UICONTROL  ユーザージャーニーの概要] レポートを使用して、選択した日付範囲のインスタンス全体でアクティブなユーザーのジャーニーの数を確認します。
+[!UICONTROL &#x200B; ユーザージャーニーの概要] レポートを使用して、選択した日付範囲のインスタンス全体でアクティブなユーザーのジャーニーの数を確認します。
 
 レポートを表示するには（_T） :_
 
 1. 左側のナビゲーションで、**[!UICONTROL レポート]**&#x200B;を選択します。
-1. _リスト_ アイコン （![ リストアイコン ](../assets/do-not-localize/icon-table-of-contents.svg)）をクリックし、_[!UICONTROL 目次]_ パネルで&#x200B;**[!UICONTROL 人物ジャーニーの概要]**&#x200B;を選択します。
+1. _リスト_ アイコン （![&#x200B; リストアイコン &#x200B;](../assets/do-not-localize/icon-table-of-contents.svg)）をクリックし、_[!UICONTROL 目次]_ パネルで&#x200B;**[!UICONTROL 人物ジャーニーの概要]**&#x200B;を選択します。
 
 アクティブなジャーニーの数と過去30日間の日付範囲を含むタイルを示す![人物ジャーニーの概要レポート。](./assets/reports-person-journey-overview.png){width="700" zoomable="yes"}
 
-レポートの日付範囲](./reports-overview.md#change-the-date-range)を[変更できます。
+レポートの日付範囲[&#128279;](./reports-overview.md#change-the-date-range)を変更できます。
 
 レポートの上部にある「**[!UICONTROL 共有]**」を選択して、すべてのレポートデータの書き出しをダウンロードまたはスケジュールします。 レポートの概要の「[_レポートの書き出し_](./reports-overview.md#export-a-report)」を参照してください。
