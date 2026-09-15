@@ -25,7 +25,7 @@ ht-degree: 6%
 
 <!-- A split based on a people filter is automatically closed with a merge paths node so that all people can move forward to the next step. Split by people paths can include only people actions. These paths cannot be split again and automatically join back. _not currently true_ -->
 
-_**スプリットパスノード関数**_&#x200B;の仕組み
+_&#x200B;**スプリットパスノード関数**&#x200B;_&#x200B;の仕組み
 
 * 各パスの評価は上から下まで行われます。 人が1番目と2番目のパスに一致した場合、最初のパスに沿ってのみ進みます。
 * ノードは、_その他のユーザー_ パスの定義をサポートしています。このパスでは、定義されたセグメントまたはパスのいずれかに一致しないユーザーのアクションまたはイベントを追加できます。
@@ -58,15 +58,15 @@ _**スプリットパスノード関数**_&#x200B;の仕組み
 次の[!DNL Marketo Engage] アクティビティに関する条件を作成できます。
 
 * [!UICONTROL Marketo Engage フォームに入力] – 特定の[!DNL Marketo Engage] フォームを完了したリードと、非エイジアウトのアクティビティログの任意の時点で一致します。
-* [!UICONTROL 訪問したMarketo Engageのweb ページ ] - web サイトまたは[!DNL Marketo Engage]のランディングページで特定のURLを閲覧したリードと一致します。 サイトにインストールされているMunchkinトラッキングコードを使用して直接機能します。
-* [!UICONTROL Marketo Engage web ページでリンクをクリック ] – 追跡されたページで特定のリンクまたはアセットをクリックしたリードと一致します。
+* [!UICONTROL 訪問したMarketo Engageのweb ページ &#x200B;] - web サイトまたは[!DNL Marketo Engage]のランディングページで特定のURLを閲覧したリードと一致します。 サイトにインストールされているMunchkinトラッキングコードを使用して直接機能します。
+* [!UICONTROL Marketo Engage web ページでリンクをクリック &#x200B;] – 追跡されたページで特定のリンクまたはアセットをクリックしたリードと一致します。
 * [!UICONTROL 様がMarketo Engageの電子メールを送信しました] - [!DNL Marketo Engage]様が特定の電子メールを送信しようとしたリードと一致し、ハードバウンスまたはサーバーの承認に先立つデプロイメントアクションを考慮します。
 * [!UICONTROL 様がMarketo Engage電子メールを配信されました] - メールサーバー（MX）が[!DNL Marketo Engage]送信元サーバーに成功応答（250 OK メッセージ）を返したリードと一致します。
-* [!UICONTROL Marketo Engage電子メールのバウンス ] – 特定の電子メール送信で、または特定の期間内にハードバウンス（永続的な配信エラー）が発生したリードと一致します。
-* [!UICONTROL Marketo Engage電子メールのバウンス率がソフト ] – 電子メールのハードバウンスが永続的ではなく、一時的な配信エラー（受信トレイがいっぱいになっている、オフラインのサーバーなど）が発生したリードと一致します。
+* [!UICONTROL Marketo Engage電子メールのバウンス &#x200B;] – 特定の電子メール送信で、または特定の期間内にハードバウンス（永続的な配信エラー）が発生したリードと一致します。
+* [!UICONTROL Marketo Engage電子メールのバウンス率がソフト &#x200B;] – 電子メールのハードバウンスが永続的ではなく、一時的な配信エラー（受信トレイがいっぱいになっている、オフラインのサーバーなど）が発生したリードと一致します。
 * [!UICONTROL Marketo Engage メールの購読解除] – 非運用マーケティングメールをオプトアウトしたリードと一致します。 これが発生すると、[!DNL Marketo Engage]はリードの`Unsubscribed` フィールド値を自動的に`true`に更新し、今後の標準メール送信からそれらを除外します。
 * [!UICONTROL Marketo Engage電子メールを開封] – 追跡された[!DNL Marketo Engage]電子メールを開封したリードと一致します。
-* [!UICONTROL Marketo Engage電子メール内のリンクをクリック ] - [!DNL Marketo Engage]電子メール内の任意のリンク（または特定のリンク）をクリックしたリードと一致します。
+* [!UICONTROL Marketo Engage電子メール内のリンクをクリック &#x200B;] - [!DNL Marketo Engage]電子メール内の任意のリンク（または特定のリンク）をクリックしたリードと一致します。
 
 >[!ENDSHADEBOX]
 
@@ -76,7 +76,7 @@ _**スプリットパスノード関数**_&#x200B;の仕組み
 
 1. パスのプラス（**+**）アイコンをクリックし、「**[!UICONTROL パスを分割]**」を選択します。
 
-   ![ ジャーニーパスの追加アイコンをクリック ](./assets/person-journey-canvas-add-node.png){width="200"}
+   ![&#x200B; ジャーニーパスの追加アイコンをクリック &#x200B;](./assets/person-journey-canvas-add-node.png){width="200"}
 
 1. _[!UICONTROL パス 1]_&#x200B;に適用できる条件を定義するには、「**[!UICONTROL 条件を適用]**」をクリックします。
 
@@ -86,7 +86,7 @@ _**スプリットパスノード関数**_&#x200B;の仕組み
 
    * フィルターの一致を絞り込むために使用する各制約の&#x200B;**[!UICONTROL 制約を追加]**&#x200B;をクリックします。
 
-     ![ パスを分割ノード – パス条件に一致する人物フィルター](./assets/journey-node-split-conditions-people.png){width="700" zoomable="yes"}
+     ![&#x200B; パスを分割ノード – パス条件に一致する人物フィルター](./assets/journey-node-split-conditions-people.png){width="700" zoomable="yes"}
 
    * 上部の&#x200B;**[!UICONTROL フィルターロジック]**&#x200B;を適用して、条件を絞り込みます。 すべての条件または1つの条件を一致させます。
 
