@@ -4,20 +4,24 @@ description: Marketo Optimizerで、ビジネスデータの収集に再利用�
 TQID: 'https://experienceleague.adobe.com/StexA1TJKaBYnAoIMcxnHIoUwzfMAnJrBO7FDLdLnMo'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
+    internal-label: Content Management
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: d3cdead0-685a-4489-9250-4bb709942f66
+    internal-label: Data collection
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
+    internal-label: Data management
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
-source-wordcount: 2434
+source-wordcount: '2434'
 ht-degree: 2%
-
 ---
-
 # フォーム
 
 web ページの訪問者から情報を取得するには、フォームを作成してランディングページに追加します。 フォームとは、訪問者が入力して送信する一連のフィールドのことで、ホワイトペーパー、オンデマンドウェビナー、無料トライアルなど、何らかのコンテンツやオファーを取得するためのものです。
