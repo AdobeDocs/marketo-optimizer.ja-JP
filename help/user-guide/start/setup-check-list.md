@@ -4,16 +4,17 @@ description: ユーザーアクセス設定やメール配信品質インフラ�
 TQID: 'https://experienceleague.adobe.com/XEPKIa88-L7mdPz1opKegY1pdEF4Qyls0nLVJBQSaJk'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Journeys
+source-git-commit: cf3d8c71c9301ee038cc1b31968d30aba34d1fc7
 workflow-type: tm+mt
-source-wordcount: 249
-ht-degree: 11%
-
+source-wordcount: '265'
+ht-degree: 10%
 ---
-
 # チェックリストを設定
 
 プロビジョニングされた[!DNL Marketo Optimizer] インスタンスで機能を有効にするには、次のタスクを実行します。
@@ -102,5 +103,10 @@ ht-degree: 11%
 <td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="タスクのチェックボックス"/></td>
 <td>メールチャネル設定の作成</td>
 <td><a href="../admin/email-channel-configuration.md#create-email-channel-configuration">メールチャネルの設定</a></td>
+</tr>
+<tr>
+<td><img src="../assets/do-not-localize/icon-checkbox.svg" width="25" alt="タスクのチェックボックス"/></td>
+<td>IT部門に送信IP アドレスの許可リストに加えるを依頼する</td>
+<td><a href="./email-deliverability.md#allowlist-ip-addresses">- IP アドレスの許可リストに加える</a></td>
 </tr>
 </tbody>
