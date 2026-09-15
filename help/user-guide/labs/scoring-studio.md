@@ -3,15 +3,15 @@ title: スコアリングスタジオ
 description: モデルリスト、キャンバス、ディメンション列、シグナルカード、リードセグメント、公開など、Adobe Marketo Optimizerのスコアリングスタジオについて説明します。
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
-source-git-commit: 96a923c923a6290b9d90e4ffc8e161d78f029c47
+    internal-label: Chat Interface
+source-git-commit: cc6a908809cfb91bf03157935737f4869761a7db
 workflow-type: tm+mt
-source-wordcount: 897
+source-wordcount: '897'
 ht-degree: 2%
-
 ---
-
 
 # スコアリングスタジオ
 
@@ -20,6 +20,8 @@ ht-degree: 2%
 ## モデルリスト {#model-list}
 
 モデルリストは、Scoring Studioのランディングビューです。 [!DNL Marketo Optimizer] インスタンス内のすべてのスコアリングモデルが、テーブル内の行として、またはグリッドビューに切り替えるとカードとして表示されます。
+
+![&#x200B; スコアリングスタジオのモデルリストには、ディメンション、シグナル、最終変更済みの詳細を含むアクティブなスコアリングモデルが表示されます。](./assets/scoring-studio-ui.png){width="800" zoomable="yes"}
 
 | 列 | 説明 |
 | --- | --- |
@@ -31,8 +33,6 @@ ht-degree: 2%
 | 最終更新者 | モデルを最後に変更した人物。 |
 | 作成日 | モデルの作成日。 |
 | 作成者 | モデルを作成した人物。 |
-
-![&#x200B; スコアリングスタジオのモデルリストには、ディメンション、シグナル、最終変更済みの詳細を含むアクティブなスコアリングモデルが表示されます。](./assets/scoring-studio-ui.png){width="800" zoomable="yes"}
 
 検索フィールドを使用して、名前でモデルを検索するか、ステータスでリストをフィルタリングします。 行の&#x200B;**[!UICONTROL 詳細メニュー]**&#x200B;から&#x200B;**[!UICONTROL 編集]**、**[!UICONTROL 複製]**、**[!UICONTROL アーカイブ]**&#x200B;または&#x200B;**[!UICONTROL 削除]**&#x200B;をモデルとして選択します。
 
