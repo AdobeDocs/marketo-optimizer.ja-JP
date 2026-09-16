@@ -39,7 +39,7 @@ ht-degree: 4%
 
 ## Adobe Experience Platform Query Serviceのクエリ機能 {#query-service}
 
-[!DNL Customer Journey Analytics]個のレポート以外で分析が必要な場合は、[!DNL Query Service]を使用して、これらのデータセットに対してアドホック SQL クエリを実行します。 クエリ アクセスには、サンドボックスに適切な[!DNL Experience Platform]権限が必要です。 一般的なクエリの構文と設定については、[ クエリサービス ](https://experienceleague.adobe.com/ja/docs/experience-platform/query/home){target="_blank"}を参照してください。
+[!DNL Customer Journey Analytics]個のレポート以外で分析が必要な場合は、[!DNL Query Service]を使用して、これらのデータセットに対してアドホック SQL クエリを実行します。 クエリ アクセスには、サンドボックスに適切な[!DNL Experience Platform]権限が必要です。 一般的なクエリの構文と設定については、[&#x200B; クエリサービス &#x200B;](https://experienceleague.adobe.com/ja/docs/experience-platform/query/home){target="_blank"}を参照してください。
 
 ![ajob2b_journey データセットに対するSELECT クエリと、結果のジャーニーレコードのテーブルを表示するクエリサービスエディター。](./assets/aep-query-service.png){width="800" zoomable="yes"}
 
