@@ -7,36 +7,36 @@ product_v2:
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 56f39b3c77bd13984cf72761621ac3b228f13abd
+source-git-commit: 32017a2577b7f31632080215ba91b9454c51b9ef
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '488'
 ht-degree: 2%
 ---
 
 # レポート
 
-「[!UICONTROL &#x200B; レポート &#x200B;]」タブには、ジャーニーエンゲージメント、メールパフォーマンス、web アクティビティなど、[!DNL Adobe Marketo Optimizer]全体のパフォーマンスインサイトが表示されます。 左側のナビゲーションで「**[!UICONTROL レポート]**」を選択して開きます。
+「[!UICONTROL  レポート ]」タブには、ジャーニーエンゲージメント、メールパフォーマンス、web アクティビティなど、[!DNL Adobe Marketo Optimizer]全体のパフォーマンスインサイトが表示されます。 左側のナビゲーションで「**[!UICONTROL レポート]**」を選択して開きます。
 
-各レポートは[!DNL Adobe Customer Journey Analytics]に基づいて作成され、[!DNL Marketo Optimizer]に直接埋め込まれます。 _リスト_ アイコン （![&#x200B; リストアイコン &#x200B;](../assets/do-not-localize/icon-table-of-contents.svg)）をクリックすると、左側の&#x200B;**[!UICONTROL 目次]** パネルを使用して、セクション間を移動できます。
+各レポートは[!DNL Adobe Customer Journey Analytics]に基づいて作成され、[!DNL Marketo Optimizer]に直接埋め込まれます。 _リスト_ アイコン （![ リストアイコン ](../assets/do-not-localize/icon-table-of-contents.svg)）をクリックすると、左側の&#x200B;**[!UICONTROL 目次]** パネルを使用して、セクション間を移動できます。
 
-![人物ジャーニーの概要、エンゲージメント、電子メールエンゲージメント、およびWeb エンゲージメントのセクションを一覧表示するレポートページ &#x200B;](./assets/reports-table-of-contents.png){width="800" zoomable="yes"}
+![人物ジャーニーの概要、エンゲージメント、電子メールエンゲージメント、およびWeb エンゲージメントのセクションを一覧表示するレポートページ ](./assets/reports-table-of-contents.png){width="800" zoomable="yes"}
 
 ## レポートセクション {#report-sections}
 
-「[!UICONTROL &#x200B; レポート &#x200B;]」タブでは、事前定義済みのレポートを4つのセクションに整理します。 各セクションには、1つ以上のダウンロード可能なアイテムと、その指標とビジュアライゼーションに関する詳細を含む独自のドキュメントページがあります。
+「[!UICONTROL  レポート ]」タブでは、事前定義済みのレポートを4つのセクションに整理します。 各セクションには、1つ以上のダウンロード可能なアイテムと、その指標とビジュアライゼーションに関する詳細を含む独自のドキュメントページがあります。
 
 | セクション | ダウンロード可能なアイテム | レポートページ |
 | --- | --- | --- |
-| [!UICONTROL 人物ジャーニーの概要] | アクティブなジャーニーの数 | [人物ジャーニーの概要レポート &#x200B;](./person-journey-overview-report.md) |
+| [!UICONTROL 人物ジャーニーの概要] | アクティブなジャーニーの数 | [人物ジャーニーの概要レポート ](./person-journey-overview-report.md) |
 | [!UICONTROL エンゲージメント] | 人物によるエンゲージメント、人物のエンゲージメントの推移 | [エンゲージメントレポート](./engagement-report.md) |
-| [!UICONTROL &#x200B; メールエンゲージメント &#x200B;] | メールエンゲージメント | [電子メールエンゲージメントレポート &#x200B;](./email-engagement-report.md) |
-| [!UICONTROL Web エンゲージメント &#x200B;] | 上位ページビュー数 | [Web エンゲージメントレポート &#x200B;](./web-engagement-report.md) |
+| [!UICONTROL  メールエンゲージメント ] | メールエンゲージメント | [電子メールエンゲージメントレポート ](./email-engagement-report.md) |
+| [!UICONTROL Web エンゲージメント ] | 上位ページビュー数 | [Web エンゲージメントレポート ](./web-engagement-report.md) |
 
 ## 個人レコードレポート {#individual-record-reports}
 
 一部のレポートは、セクション全体のビューではなく、単一のレコードに焦点を当て、アプリケーションの別の領域からアクセスされます。
 
-* メール送信時間の最適化パフォーマンスについては、[!UICONTROL 同僚]のチャットインターフェイスからレポートを開きます。 手順については、[&#x200B; メール送信時間の最適化](../marketing/email-send-time-optimization.md#reporting)を参照してください。
+* メール送信時間の最適化パフォーマンスについては、[!UICONTROL 同僚]のチャットインターフェイスからレポートを開きます。 手順については、[ メール送信時間の最適化](../marketing/email-send-time-optimization.md#reporting)を参照してください。
 * 単一のジャーニーを通じた個人の進捗状況について、そのジャーニー内からレポートを開きます。
 
 ## レポートの書き出し {#export-a-report}
@@ -57,7 +57,7 @@ ht-degree: 2%
 >
 >週単位または月単位で、すべてのレポートに対して最大10個のスケジュールされた書き出しを設定できます。 管理者でない場合は、自分のスケジュール済み書き出しのみを管理できます。 管理者は、組織内のすべてのスケジュール済み書き出しを表示および管理できます。
 
-## CJAでのレポートの分析 {#analyze-a-report-in-cja}
+## [!DNL Customer Journey Analytics]でのレポートの分析 {#analyze-a-report-in-cja}
 
 >[!AVAILABILITY]
 >
