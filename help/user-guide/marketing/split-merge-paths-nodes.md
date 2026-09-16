@@ -25,7 +25,7 @@ ht-degree: 2%
 
 <!-- A split based on a people filter is automatically closed with a merge paths node so that all people can move forward to the next step. Split by people paths can include only people actions. These paths cannot be split again and automatically join back. _not currently true_ -->
 
-_**スプリットパスノード関数**_&#x200B;の仕組み
+_&#x200B;**スプリットパスノード関数**&#x200B;_&#x200B;の仕組み
 
 * 各パスの評価は上から下まで行われます。 人が1番目と2番目のパスに一致した場合、最初のパスに沿ってのみ進みます。
 * ノードは、_その他のユーザー_ パスの定義をサポートしています。このパスでは、定義されたセグメントまたはパスのいずれかに一致しないユーザーのアクションまたはイベントを追加できます。
@@ -38,10 +38,10 @@ _**スプリットパスノード関数**_&#x200B;の仕組み
 | ------- | ----------- |
 | アクティビティ履歴 | 選択した1つ以上の項目を使用して評価される条件に基づくアクティビティ |
 | Brand Concierge | [!DNL Brand Concierge]とエンゲージするリードのアクティビティ。 |
-| 会社属性 | 会社/アカウントプロファイルの属性（以下を含む）: <li>[!UICONTROL 年間売上高] <li>[!UICONTROL 会社名] <li>[!UICONTROL 請求先の国] <li>[!UICONTROL 業界] <li>[!UICONTROL 従業員数] <li>[!UICONTROL SIC コード ] <li>[!UICONTROL 都道府県] |
+| 会社属性 | 会社/アカウントプロファイルの属性（以下を含む）: <li>[!UICONTROL 年間売上高] <li>[!UICONTROL 会社名] <li>[!UICONTROL 請求先の国] <li>[!UICONTROL 業界] <li>[!UICONTROL 従業員数] <li>[!UICONTROL SIC コード &#x200B;] <li>[!UICONTROL 都道府県] |
 | インテントデータ | 人物プロファイルに関連付けられたインテントデータにもとづく属性。 |
 | 商談 | 個人プロファイルに関連する機会に基づくステータスと属性（次を含む）: <li>[!UICONTROL 商談]あり <li>[!UICONTROL 商談件数] <li>[!UICONTROL 商談の合計金額] <li>[!UICONTROL が商談]に追加されました <li>[!UICONTROL が商談]から削除されました |
-| 顧客属性 | B2B人物プロファイルの属性（以下を含む）: <li>[!UICONTROL 都市] <li>[!UICONTROL 国] <li>[!UICONTROL 生年月日] <li>[!UICONTROL 電子メールアドレス ] <li>[!UICONTROL 電子メールが無効です] <li>[!UICONTROL 電子メールが停止されました] <li>[!UICONTROL 名] <li>[!UICONTROL 推測状態領域] <li>[!UICONTROL 役職] <li>[!UICONTROL 姓] <li>[!UICONTROL 携帯電話番号] <li>[!UICONTROL ユーザーエンゲージメントスコア] <li>[!UICONTROL 電話番号] <li>[!UICONTROL 郵便番号] <li>[!UICONTROL 都道府県] <li>[!UICONTROL 登録解除済み] <li>[!UICONTROL 登録解除の理由] |
+| 顧客属性 | B2B人物プロファイルの属性（以下を含む）: <li>[!UICONTROL 都市] <li>[!UICONTROL 国] <li>[!UICONTROL 生年月日] <li>[!UICONTROL 電子メールアドレス &#x200B;] <li>[!UICONTROL 電子メールが無効です] <li>[!UICONTROL 電子メールが停止されました] <li>[!UICONTROL 名] <li>[!UICONTROL 推測状態領域] <li>[!UICONTROL 役職] <li>[!UICONTROL 姓] <li>[!UICONTROL 携帯電話番号] <li>[!UICONTROL ユーザーエンゲージメントスコア] <li>[!UICONTROL 電話番号] <li>[!UICONTROL 郵便番号] <li>[!UICONTROL 都道府県] <li>[!UICONTROL 登録解除済み] <li>[!UICONTROL 登録解除の理由] |
 | セールスアプリ | [!DNL Sales Qualifier]または[!DNL Marketo Sales Insights]に関連するリード アクティビティ。 |
 | 特殊なフィルター | 定義済みのカテゴリに該当しない属性をフィルタリングして、カスタムまたは様々なフィルター条件に柔軟に対応できます。 |
 
@@ -76,7 +76,7 @@ _**スプリットパスノード関数**_&#x200B;の仕組み
 
 1. パスのプラス（**+**）アイコンをクリックし、「**[!UICONTROL パスを分割]**」を選択します。
 
-   ![ ジャーニーパスの追加アイコンをクリック ](./assets/person-journey-canvas-add-node.png){width="200"}
+   ![&#x200B; ジャーニーパスの追加アイコンをクリック &#x200B;](./assets/person-journey-canvas-add-node.png){width="200"}
 
 1. _[!UICONTROL パス 1]_&#x200B;に適用できる条件を定義するには、「**[!UICONTROL 条件を適用]**」をクリックします。
 
@@ -86,7 +86,7 @@ _**スプリットパスノード関数**_&#x200B;の仕組み
 
    * フィルターの一致を絞り込むために使用する各制約の&#x200B;**[!UICONTROL 制約を追加]**&#x200B;をクリックします。
 
-     ![ パスを分割ノード – パス条件に一致する人物フィルター](./assets/journey-node-split-conditions-people.png){width="700" zoomable="yes"}
+     ![&#x200B; パスを分割ノード – パス条件に一致する人物フィルター](./assets/journey-node-split-conditions-people.png){width="700" zoomable="yes"}
 
    * 上部の&#x200B;**[!UICONTROL フィルターロジック]**&#x200B;を適用して、条件を絞り込みます。 すべての条件または1つの条件を一致させます。
 
