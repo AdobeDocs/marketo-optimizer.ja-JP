@@ -4,24 +4,32 @@ description: Marketo Optimizerのサブドメインデリゲーション、DMARC
 TQID: 'https://experienceleague.adobe.com/-7yEXTaOrGIfCFw-UzanMqA9VJ1Nk-BmdmE2JJJSoB4'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
+    internal-label: Reporting
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Administration
+source-git-commit: cf3d8c71c9301ee038cc1b31968d30aba34d1fc7
 workflow-type: tm+mt
-source-wordcount: 2502
+source-wordcount: '2590'
 ht-degree: 1%
-
 ---
-
 # メールの配信品質
 
 次の情報は、マーケターとメールコンテンツ作成者をサポートするように送信インフラストラクチャを設定する管理者向けです。 配信品質の機能と、サブドメイン、認証、IP プールの設定方法について説明します。
@@ -34,6 +42,7 @@ ht-degree: 1%
 1. [各サブドメインでDMARC、SPF、DKIM レコード &#x200B;](#dmarc-spf-dkim)を設定します。
 1. [&#x200B; サブドメインのメール送信に使用するIP プール &#x200B;](#ip-pools)を確認します。
 1. [&#x200B; サブドメイン、IP プール、送信者IDをバインドする1つ以上の電子メールチャネル設定](../admin/email-channel-configuration.md#create-email-channel-configuration)を作成します。
+1. [送信元IP アドレス &#x200B;](#allowlist-ip-addresses)をIT部門と許可リストに加えるして、テストメールを受信トレイに届けます。
 
 ![Marketo Optimizerのメール配信品質の設定](./assets/email-deliverability-diagram.svg){width="600"}
 
@@ -361,6 +370,20 @@ IP プールは、メールの送信に使用されるIP アドレスの名前�
 >[!IMPORTANT]
 >
 >共有プールが利用可能な場合でも、同じIP プール上でマーケティングトラフィックとトランザクショントラフィックを混在させないでください。 チャネル設定（マーケティングタイプとトランザクションタイプの比較）のメールタイプ設定は、抑制の動作を制御しますが、チャネル設定では可能な限り異なるプールを使用する必要があります。
+
+## - IP アドレスの許可リストに加える {#allowlist-ip-addresses}
+
+企業の迷惑メール対策システムは、[!DNL Marketo Optimizer]から送信したテストメールをブロックすることがあります。 これらのシステムは、電子メールの有効性を検証するために送信者のIP アドレスに依存しています。 テストメールが確実に届くように、会社のメール許可リストに加えるに[!DNL Marketo Optimizer]を追加します。
+
+IT部門に、以下のIP アドレスを企業許可リストに追加するように依頼します。
+
+* 54.212.167.17
+* 35.165.244.220
+* 44.235.171.179
+
+>[!TIP]
+>
+>通常、企業のメール許可リストはIT部門が管理します。 このIP アドレスのリストを初期設定時に共有します。
 
 <!--
 

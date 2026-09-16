@@ -5,26 +5,32 @@ role: User, Admin
 TQID: 'https://experienceleague.adobe.com/oelEtys81g6TzM8bi-qy1nuWw6scOBry7tbZkMkZ6u0'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
+    internal-label: Reporting
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
+    internal-label: Optimization
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
+    internal-label: Customer journeys
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Security
+source-git-commit: 1524f9f9e63044a11cd54d3299fa4d1e49172cb1
 workflow-type: tm+mt
-source-wordcount: 451
+source-wordcount: '506'
 ht-degree: 1%
-
 ---
-
 
 # 高レベルのアーキテクチャ
 
-[!DNL Adobe Marketo Optimizer]は[!DNL Adobe Marketo Engage]と統合して、B2B リードの全体像を把握します。 双方向の信頼できる同期により、[!DNL Marketo Engage]と[!DNL Marketo Optimizer]の整合性が維持され、両方のプラットフォームで、人物、会社、カスタムオブジェクト、アクティビティの単一の共有ビューが提供されます。 高性能でほぼリアルタイムのデータフローにより、記録を最新かつ実用的なものに保つことができ、キャンペーンやジャーニーはリードがエンゲージした瞬間に対応することができます。
+[!DNL Adobe Marketo Optimizer]は[!DNL Adobe Marketo Engage]と統合して、B2B リードの包括的なビューを提供します。 双方向の信頼できる同期により、[!DNL Marketo Engage]と[!DNL Marketo Optimizer]の整合性が維持され、両方のプラットフォームで、人物、会社、カスタムオブジェクト、アクティビティの単一の共有ビューが提供されます。 高性能でほぼリアルタイムのデータフローにより、記録を最新かつ実用的なものに保つことができ、キャンペーンやジャーニーはリードがエンゲージした瞬間に対応することができます。
 
 ## データ基盤
 
@@ -52,9 +58,17 @@ ht-degree: 1%
 
 この遅延がほぼゼロの設計により、分析ダッシュボードと下流のシステムにほぼリアルタイムでデータを入力できるようになり、ライブキャンペーンの最適化と優先度の高いリードの迅速なフォローアップが可能になります。
 
+### ジャーニーでの[!DNL Marketo Engage]のアクティビティデータのサポート
+
+同期済み[!DNL Marketo Engage] アクティビティデータは、[!DNL Marketo Optimizer]のイベントベースのジャーニー構築を強化します。 フォーム入力、web訪問、電子メールのエンゲージメントなどのアクティビティを使用して、トリガー、フィルター、ブランチ担当者のジャーニーを作成できます。
+
+* [イベントトリガーの「リッスン」ノードのイベントノード](./marketing/listen-for-event-nodes.md#event-triggers)
+* [イベントノードの「リッスン」のイベントフィルター](./marketing/listen-for-event-nodes.md#event-filters)
+* [分割パスノードの一致する人物フィルター](./marketing/split-merge-paths-nodes.md#matched-person-filters)
+
 ### データの分離とテナント化
 
 * 顧客データは、製品データ同期と分析アーキテクチャの一部として、[!DNL Marketo Engage]、[!DNL Marketo Optimizer]、[!DNL Experience Platform]の間で共有されます。
 * データはテナントごとに論理的に分離され、Adobeのセキュリティ制御によって保護されます。
-* データは、暗号化された安全なチャネルを通じて転送され、業界標準の暗号化とアクセス制御を利用して、Adobe managed services内に保存されます。
+* データは、暗号化された安全なチャネルを通じて転送され、業界標準の暗号化とアクセス制御を利用して、Adobe-Managed Services内に保存されます。
 * データの種類によっては、セキュリティとテナントの分離を維持しながら、レポート機能と分析機能をサポートするために、[!DNL Marketo Engage]と[!DNL Marketo Optimizer]の間で情報を同期したり、[!DNL Experience Platform]にレプリケートしたりすることができます。
