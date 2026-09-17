@@ -3,10 +3,10 @@ user-guide-title: Marketo Optimizerのドキュメント
 user-guide-description: Adobe Marketo Optimizerの詳細と、AIを活用してパーソナライズされたコンテンツをB2B リードやアカウントに提供し、マーケティング部門とセールス部門の連携を強化する方法について解説します。
 hide: true
 nudge: red
-source-git-commit: b25a376b80aa6ee821f372398b77e5b6dd542e3c
+source-git-commit: 32017a2577b7f31632080215ba91b9454c51b9ef
 workflow-type: tm+mt
-source-wordcount: '243'
-ht-degree: 45%
+source-wordcount: '246'
+ht-degree: 44%
 ---
 
 # Marketo Optimizer ユーザーガイド {#user}
@@ -60,8 +60,9 @@ ht-degree: 45%
   + [概要](./reports/reports-overview.md)
   + [ユーザジャーニーの概要](./reports/person-journey-overview-report.md)
   + [エンゲージメント](./reports/engagement-report.md)
-  + {hide-from-toc}[&#x200B; メールエンゲージメント &#x200B;](./reports/email-engagement-report.md)
+  + [メールエンゲージメント](./reports/email-engagement-report.md)
   + [web エンゲージメント](./reports/web-engagement-report.md)
+  + [Experience Platform データセット](./reports/aep-datasets.md)
 + オーディエンス {#audiences}
   + [ユーザーリスト](./audiences/people-lists.md)
   + [顧客の詳細](./audiences/person-details.md)

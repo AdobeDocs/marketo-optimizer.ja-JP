@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 56f39b3c77bd13984cf72761621ac3b228f13abd
+source-git-commit: 32017a2577b7f31632080215ba91b9454c51b9ef
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '488'
 ht-degree: 2%
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 2%
 >
 >週単位または月単位で、すべてのレポートに対して最大10個のスケジュールされた書き出しを設定できます。 管理者でない場合は、自分のスケジュール済み書き出しのみを管理できます。 管理者は、組織内のすべてのスケジュール済み書き出しを表示および管理できます。
 
-## CJAでのレポートの分析 {#analyze-a-report-in-cja}
+## [!DNL Customer Journey Analytics]でのレポートの分析 {#analyze-a-report-in-cja}
 
 >[!AVAILABILITY]
 >
