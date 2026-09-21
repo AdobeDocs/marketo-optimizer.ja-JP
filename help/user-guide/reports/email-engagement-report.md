@@ -7,24 +7,24 @@ product_v2:
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 8c47a9c69c32ba0a37ba2efadb6ad4c1b796c21d
+source-git-commit: 6e919a66af259ea1f5facf7f5c3e811d76101e85
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '343'
 ht-degree: 3%
 ---
 
 # メールエンゲージメントレポート
 
-<!-- SPHR-39569: content drafted, but hide: true and hide-from-toc stay until eng confirms this shipped to production. Filter by Program, Filter by Audience, and the program data point from SPHR-32511 are not documented here pending delivery-state confirmation. -->
+<!-- SPHR-32511: Filter by Program, Filter by Audience, and the program data point for the email performance table are not documented here pending delivery. -->
 
-[!UICONTROL 電子メールエンゲージメント &#x200B;] レポートを使用して、電子メールとジャーニーごとに、インスタンス全体の電子メールの配信品質とエンゲージメントのパフォーマンスを確認します。
+[!UICONTROL 電子メールエンゲージメント ] レポートを使用して、電子メールとジャーニーごとに、インスタンス全体の電子メールの配信品質とエンゲージメントのパフォーマンスを確認します。
 
 レポートを表示するには（_T） :_
 
 1. 左側のナビゲーションで、**[!UICONTROL レポート]**&#x200B;を選択します。
-1. _リスト_ アイコン （![&#x200B; リストアイコン &#x200B;](../assets/do-not-localize/icon-table-of-contents.svg)）をクリックし、_[!UICONTROL 目次]_ パネルで&#x200B;**[!UICONTROL 電子メールエンゲージメント]**&#x200B;を選択します。
+1. _リスト_ アイコン （![ リストアイコン ](../assets/do-not-localize/icon-table-of-contents.svg)）をクリックし、_[!UICONTROL 目次]_ パネルで&#x200B;**[!UICONTROL 電子メールエンゲージメント]**&#x200B;を選択します。
 
-ジャーニー名とペルソナのフィルター、過去30日間の日付範囲、メールアクティビティ指標のテーブルを含む![&#x200B; メールエンゲージメントレポート。](./assets/reports-email-engagement.png){width="700" zoomable="yes"}
+ジャーニー名とペルソナのフィルター、過去30日間の日付範囲、メールアクティビティ指標のテーブルを含む![ メールエンゲージメントレポート。](./assets/reports-email-engagement.png){width="700" zoomable="yes"}
 
 他のレポートセクションで使用可能な同じ日付範囲ピッカーを使用して、[日付範囲](./reports-overview.md#change-the-date-range)を変更できます。
 
@@ -32,7 +32,7 @@ ht-degree: 3%
 
 ## レポートテーブル {#report-table}
 
-[!UICONTROL 電子メールエンゲージメント &#x200B;] レポートには、電子メールごとに1行が表示され、次の行のディメンションが表示されます。
+[!UICONTROL 電子メールエンゲージメント ] レポートには、電子メールごとに1行が表示され、次の行のディメンションが表示されます。
 
 * **[!UICONTROL Email Name]** - メールの名前。
 * **[!UICONTROL ジャーニー名]** – 電子メールを送信したジャーニーの名前。
@@ -50,17 +50,13 @@ ht-degree: 3%
 | [!UICONTROL %開封] | 配信されたメールのうち、開封された割合。 |
 | [!UICONTROL クリック済み] | 受信者がメール内のリンクをクリックした回数。 |
 | [!UICONTROL % クリックしました] | クリックを受け取った電子メールの割合。 |
-| [!UICONTROL &#x200B; クリックして比率を開く] | クリックを受け取った、開封された電子メールの割合。 |
+| [!UICONTROL  クリックして比率を開く] | クリックを受け取った、開封された電子メールの割合。 |
 | [!UICONTROL 登録解除済み] | メールの購読を解除した受信者の数。 |
 | [!UICONTROL %登録解除] | 配信されたメールのうち、配信停止に至った割合。 |
 
-<!--
+## フィルター {#filters}
 
-## Filters {#filters}
+フィルターを使用して、特定のジャーニーやペルソナにレポートを絞り込みます。 **[!UICONTROL すべてをリセット]**&#x200B;を選択して、すべてのフィルターをクリアし、デフォルトのビューに戻ります。
 
-Use filters to narrow the report to a specific journey, persona, or date range. Select **[!UICONTROL Reset all]** to clear every filter and return to the default view.
-
-* **[!UICONTROL Journey Name (Event)]** - Filter by the journey that sent the email. Default is [!UICONTROL No filter].
-* **[!UICONTROL Persona (Event)]** - Filter by the persona associated with the email. Default is [!UICONTROL No filter].
-* **[!UICONTROL Date range]** - Filter by a specific date span, shown as explicit start and end dates. Default is [!UICONTROL Last 30 days].
--->
+* **[!UICONTROL ジャーニー名（イベント）]** – 電子メールを送信したジャーニーでフィルタリングします。 デフォルトは[!UICONTROL  フィルターなし]。
+* **[!UICONTROL ペルソナ （イベント）]** – 電子メールに関連付けられているペルソナでフィルタリングします。 デフォルトは[!UICONTROL  フィルターなし]。
