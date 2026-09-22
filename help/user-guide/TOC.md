@@ -3,10 +3,10 @@ user-guide-title: Marketo Optimizerのドキュメント
 user-guide-description: Adobe Marketo Optimizerの詳細と、AIを活用してパーソナライズされたコンテンツをB2B リードやアカウントに提供し、マーケティング部門とセールス部門の連携を強化する方法について解説します。
 hide: true
 nudge: red
-source-git-commit: 32017a2577b7f31632080215ba91b9454c51b9ef
+source-git-commit: 24ee4148c4e755fe0f4f1231f342890c22e6b781
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 44%
+source-wordcount: '252'
+ht-degree: 43%
 ---
 
 # Marketo Optimizer ユーザーガイド {#user}
@@ -28,6 +28,7 @@ ht-degree: 44%
   + [ウェビナーの作成とプロモーション](./agents/webinar-creation.md)
   + [ジャーニーの進行状況の監視とデバッグ](./agents/journey-observability.md)
   + [インテントの設定と分析](./agents/intent.md)
+  + [分析レポートの生成](./agents/surface-analytics.md)
 + AIを活用した意思決定 {#ai-decisioning}
   + [概要](./agents/ai-decisioning.md)
   + [AIを活用した意思決定](./agents/ai-decisioning-health.md)
@@ -59,6 +60,7 @@ ht-degree: 44%
 + レポート {#reports}
   + [概要](./reports/reports-overview.md)
   + [ユーザジャーニーの概要](./reports/person-journey-overview-report.md)
+  + [個人ジャーニー](./reports/person-journey-individual-report.md)
   + [エンゲージメント](./reports/engagement-report.md)
   + [メールエンゲージメント](./reports/email-engagement-report.md)
   + [web エンゲージメント](./reports/web-engagement-report.md)

@@ -7,15 +7,15 @@ product_v2:
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 8c47a9c69c32ba0a37ba2efadb6ad4c1b796c21d
+source-git-commit: 6e919a66af259ea1f5facf7f5c3e811d76101e85
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '343'
 ht-degree: 3%
 ---
 
 # メールエンゲージメントレポート
 
-<!-- SPHR-39569: content drafted, but hide: true and hide-from-toc stay until eng confirms this shipped to production. Filter by Program, Filter by Audience, and the program data point from SPHR-32511 are not documented here pending delivery-state confirmation. -->
+<!-- SPHR-32511: Filter by Program, Filter by Audience, and the program data point for the email performance table are not documented here pending delivery. -->
 
 [!UICONTROL 電子メールエンゲージメント &#x200B;] レポートを使用して、電子メールとジャーニーごとに、インスタンス全体の電子メールの配信品質とエンゲージメントのパフォーマンスを確認します。
 
@@ -54,13 +54,9 @@ ht-degree: 3%
 | [!UICONTROL 登録解除済み] | メールの購読を解除した受信者の数。 |
 | [!UICONTROL %登録解除] | 配信されたメールのうち、配信停止に至った割合。 |
 
-<!--
+## フィルター {#filters}
 
-## Filters {#filters}
+フィルターを使用して、特定のジャーニーやペルソナにレポートを絞り込みます。 **[!UICONTROL すべてをリセット]**&#x200B;を選択して、すべてのフィルターをクリアし、デフォルトのビューに戻ります。
 
-Use filters to narrow the report to a specific journey, persona, or date range. Select **[!UICONTROL Reset all]** to clear every filter and return to the default view.
-
-* **[!UICONTROL Journey Name (Event)]** - Filter by the journey that sent the email. Default is [!UICONTROL No filter].
-* **[!UICONTROL Persona (Event)]** - Filter by the persona associated with the email. Default is [!UICONTROL No filter].
-* **[!UICONTROL Date range]** - Filter by a specific date span, shown as explicit start and end dates. Default is [!UICONTROL Last 30 days].
--->
+* **[!UICONTROL ジャーニー名（イベント）]** – 電子メールを送信したジャーニーでフィルタリングします。 デフォルトは[!UICONTROL &#x200B; フィルターなし]。
+* **[!UICONTROL ペルソナ （イベント）]** – 電子メールに関連付けられているペルソナでフィルタリングします。 デフォルトは[!UICONTROL &#x200B; フィルターなし]。

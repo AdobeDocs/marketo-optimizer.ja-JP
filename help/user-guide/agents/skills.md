@@ -1,6 +1,6 @@
 ---
 title: 共同作業スキル
-description: Marketo Optimizerの大規模な共同作業者のスキル（プログラム、ジャーニー、オーディエンス、スコアリング、コンテンツ、送信時間の最適化用にパッケージ化されたワークフロー）を確認できます。
+description: Adobe Marketo OptimizerのCX Enterprise Coworkerのスキルを確認しましょう。プログラム、ジャーニー、オーディエンス、スコアリング、コンテンツ、送信時間の最適化のためのパッケージワークフローです。
 TQID: 'https://experienceleague.adobe.com/nNFB9UEghfqVvnBrNtTDnpnLUKKKMAU2nY1Pqt0KkUQ'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
@@ -27,9 +27,9 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6e03e2dc6abb00d288f5684e9ea9b6489c6517e4
+source-git-commit: 1dcc3bcdc59114c7fc1e16178db8921ae173b955
 workflow-type: tm+mt
-source-wordcount: '568'
+source-wordcount: '633'
 ht-degree: 11%
 ---
 # 共同作業者のスキル
@@ -95,11 +95,17 @@ _スキル_&#x200B;は、共同作業者が実行方法を認識しているパ�
 | `send-time-optimization` | メールノードでSTO ステータスを確認し、有効/無効にします。 | 読み取り/書き込み | [!DNL Marketo Optimizer] | 読み取り+書き込み[!DNL Marketo Optimizer] |
 | `send-time-report` | STO パフォーマンスレポートを取得/表示します。 | 読み取り | [!DNL Marketo Optimizer] | [!DNL Marketo Optimizer]を読み取ります |
 
+## 分析とレポーティング {#analytics-reporting}
+
+| スキル | 機能 | アクセス | 製品 | バックエンド（データフロー） |
+|---|---|---|---|---|
+| `surface-analytics` | アクティビティのトレンド、メールのパフォーマンス、リードとアカウントのデータ、セグメントとリストメンバーシップ、ジャーニー指標をまたいで、グラフや表として返される分析レポートを自然言語から生成します。 レポートデータは2時間ごとに更新されます。 <p>_[分析レポートの生成](./surface-analytics.md)_&#x200B;を参照してください。</p> | 読み取り | [!DNL Marketo Optimizer] | [!DNL Marketo Optimizer] + [!DNL Marketo Engage]を読み取ります |
+
 ## 知識 {#knowledge}
 
 | スキル | 機能 | アクセス | 製品 | バックエンド（データフロー） |
 |---|---|---|---|---|
-| `product-knowledge` | Experience Leagueに関する[!DNL Marketo Optimizer] ドキュメントのハウツー/コンセプトに関する質問に答えます。 | 読み取り | 両方 | 外部ドキュメントを読み取り – 製品データなし |
+| `product-knowledge` | Experience Leagueで公開されている[!DNL Marketo Optimizer] ドキュメントのハウツー/コンセプトに関する質問に答えます。 | 読み取り | 両方 | 外部ドキュメントを読み取り – 製品データなし |
 
 ## クロスバックエンド {#cross-backend}
 
@@ -109,5 +115,6 @@ _スキル_&#x200B;は、共同作業者が実行方法を認識しているパ�
 - **`audience-creation`** — [!DNL Marketo Engage] スマートリスト （`get_smart_list` / `get_smart_campaign`）を読み取り、[!DNL Marketo Optimizer]人のユーザーリストを書き込みます。
 - **`journey-observability`** — [!DNL Marketo Optimizer]件の読み取りに加えて`check_lead_in_marketo_static_list` [!DNL Marketo Engage]件の読み取り。
 - **`scoring-studio`** — [!DNL Marketo Optimizer]個のスコアリングサービスと共に[!DNL Marketo Engage]個のリードフィールド/アクティビティタイプを読み取ります。
+- **`surface-analytics`** – 単一のクエリで、[!DNL Marketo Engage]と[!DNL Marketo Optimizer]の両方のデータにまたがるレポートに関する質問に答えることができます。
 
 すべての`falco-mcp_*`およびジャーニー/トークン/スコアリング/STO/FCS ツールが[!DNL Marketo Optimizer] サービスにヒットし、CSV/プログラム/リードツールが[!DNL Marketo Engage]にヒットしました。
