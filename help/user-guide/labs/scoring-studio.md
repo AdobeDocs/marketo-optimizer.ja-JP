@@ -1,16 +1,16 @@
 ---
 title: スコアリングスタジオ
-description: モデルリスト、キャンバス、ディメンション列、シグナルカード、リードセグメント、公開など、Adobe Marketo Optimizerのスコアリングスタジオについて説明します。
+description: モデルリスト、キャンバス、ディメンション列、シグナルカード、リードセグメント、パブリッシングなど、Adobe Marketo OptimizerのScoring Studioについて説明します。
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
     internal-label: Marketo Optimizer
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
     internal-label: Chat Interface
-source-git-commit: cc6a908809cfb91bf03157935737f4869761a7db
+source-git-commit: 7e3080b688415ef623cdbd57aa08ed43eb6fcd17
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 2%
+source-wordcount: '1410'
+ht-degree: 1%
 ---
 
 # スコアリングスタジオ
@@ -105,6 +105,84 @@ Coworkerが複数のアクティビティにまたがるパターンを検出す
 
 ## 公開とスケジュール {#publish-schedule}
 
-モデルの準備ができたら、**[!UICONTROL 公開]**&#x200B;を選択します。 モデルがオーディエンスをスコア化する頻度（日単位、週単位、月単位）を選択します。
+モデルの準備ができたら、**[!UICONTROL 公開]**&#x200B;をクリックします。
 
-スコアリングフィールドを[!DNL Marketo Optimizer]が自動的にプロビジョニングする方法など、完全な公開プロセスについては、[_スコアリングモデルの公開_](../agents/lead-scoring-model.md#publish-model)&#x200B;を参照してください。
+![&#x200B; ドラフトスコアリングモデルの「公開」ボタンが表示されます。](./assets/scoring-model-publish.png){width="700" zoomable="yes"}
+
+モデルがオーディエンスをスコア化する頻度（日単位、週単位、月単位）を選択します。 モデルを実行する手動オプションを選択することもできます。
+
+![&#x200B; スコアリングモデルを実行するためのスケジュールのオプションには、毎日、毎週、毎月、手動の繰り返しの選択肢が表示されます。](./assets/scoring-model-publish-schedule-options.png){width="420" zoomable="no"}
+
+[!DNL Marketo Optimizer]がスコアリングフィールドを自動的にプロビジョニングする方法など、[同僚チャットインターフェイス &#x200B;](../agents/chat-interface.md)を使用した完全な公開プロセスについては、[_スコアリングモデルの公開_](../agents/lead-scoring-model.md#publish-model)&#x200B;を参照してください。
+
+最新のスコアは、[!DNL Marketo Engage] インスタンスに同期されたプロビジョニング済みフィールドに保存されます。
+
+![Marketo Engage フィールド管理に表示されるプロビジョニングされたスコアフィールド &#x200B;](./assets/scoring-model-score-field-ame.png){width="800" zoomable="yes"}
+
+## フィルターでのスコアの使用 {#filter-score}
+
+モデル [&#128279;](#publish-schedule)を公開した後、イベントベースのオーディエンスを構築する際に、その結果のスコアをフィルターとして使用し、_イベント_ ノードをリッスンしたり、分割パスの条件として使用したり、人物リストメンバーシップを使用したりできます。
+
+スコアは、割り当てたモデル名またはカスタム [_スコアフィールド名_](#lead-segment)&#x200B;のラベルが付いた&#x200B;**[!UICONTROL 人物の属性]** カテゴリの下のフィルターパネルに表示されます。 その名前をフィルターパネルの検索フィールドに入力してスコアを見つけ、キャンバスにドラッグして基準を定義します。
+
+### イベントベースのオーディエンスとノード {#scoring-model-event-audience}
+
+スコアリングモデルの結果を使用して、[&#x200B; イベントベースのオーディエンス &#x200B;](../audiences/event-based-audiences.md)または&#x200B;[_イベント_ ノード &#x200B;](../marketing/listen-for-event-nodes.md)をリッスンする場合は、次の手順を実行します。
+
+1. 「**[!UICONTROL イベント条件を追加]**」をクリックします。
+
+1. _[!UICONTROL イベント条件を編集]_ ダイアログで、「**[!UICONTROL フィルター]**」タブを選択します。
+
+1. 検索フィールドにモデル名を入力し、スコアをキャンバスにドラッグします。
+
+   ![&#x200B; 「フィルター」タブには、検索フィールドに入力されたモデル名と、一致するスコアがキャンバスにドラッグされて表示されます。](./assets/scoring-model-event-filter.png){width="700" zoomable="yes"}
+
+1. 演算子と値を、ターゲットにするスコアと一致するように設定します。
+
+1. 「**[!UICONTROL 保存]**」をクリックします。
+
+### パス条件を分割 {#split-path-conditions}
+
+スコアリングモデルの結果を使用して、[_分割パス_ ノード &#x200B;](../marketing/split-merge-paths-nodes.md)のパス条件を定義するには：
+
+1. ノードパスの「**[!UICONTROL 条件を編集]**」をクリックします。
+
+1. _[!UICONTROL 条件]_ ダイアログで、検索フィールドにモデル名を入力し、一致するスコアをキャンバスにドラッグします。
+
+   ![条件ダイアログには、検索フィールドに入力されたモデル名と、一致するスコアがキャンバスにドラッグされて表示されます。](./assets/scoring-model-split-path-condition.png){width="700" zoomable="yes"}
+
+1. 演算子と値を、ターゲットにするスコアと一致するように設定します。
+
+1. パスの条件を保存するには、**[!UICONTROL 完了]**&#x200B;をクリックします。
+
+### ユーザーリストのメンバーシップ {#scoring-model-people-lists}
+
+スコアリングモデルの結果を使用して[&#x200B; ユーザーリスト &#x200B;](../audiences/people-lists.md)のメンバーシップを管理するには：
+
+**静的リスト – メンバーを追加**
+
+1. 静的リストを開き、**[!UICONTROL ユーザーを追加]**&#x200B;をクリックします。
+
+1. _[!UICONTROL 人物を追加]_ ダイアログで、検索フィールドにモデル名を入力し、一致するスコアをキャンバスにドラッグします。
+
+   ![人物を追加ダイアログには、検索フィールドに入力されたモデル名と、一致するスコアがキャンバスにドラッグされて表示されます。](./assets/scoring-model-static-list-add-people.png){width="700" zoomable="yes"}
+
+1. 演算子と値を、ターゲットにするスコアと一致するように設定します。
+
+1. 「**[!UICONTROL 完了]**」をクリックしてフィルターを適用し、一致するユーザーをリストに選定します。
+
+**動的リスト – メンバーシップルールの設定**
+
+1. 動的リストを開き、「**[!UICONTROL ルール]**」タブを選択します。
+
+1. 「**[!UICONTROL ルールを編集]**」をクリックします。
+
+1. _[!UICONTROL ルールを編集]_ ダイアログで、検索フィールドにモデル名を入力し、スコア項目をキャンバスにドラッグします。
+
+   ![&#x200B; ルールを編集ダイアログに、検索フィールドに入力されたモデル名と、一致するスコアがキャンバスにドラッグされて表示されます。](./assets/scoring-model-dynamic-list-rules.png){width="700" zoomable="yes"}
+
+1. 演算子と値を、ターゲットにするスコアと一致するように設定します。
+
+1. 「**[!UICONTROL 完了]**」をクリックして、ルールを保存します。
+
+   メンバーシップは、個人レコードがルールに対して評価されると自動的に更新されます。
