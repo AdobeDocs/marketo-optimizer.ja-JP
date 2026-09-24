@@ -42,7 +42,7 @@ When you add a custom token to an email, it is displayed as `{{my.TokenName}}`. 
 
 1. 「**[!UICONTROL トークン]**」タブをクリックします。
 
-   選択したプログラムの「![ トークン」タブ ](./assets/program-tokens-tab.png){width="800" zoomable="yes"}
+   選択したプログラムの「![&#x200B; トークン」タブ &#x200B;](./assets/program-tokens-tab.png){width="800" zoomable="yes"}
 
    このタブには、フォルダーまたはプログラム内で定義されているすべてのカスタムトークンと、親フォルダーまたはプログラムに定義されているすべてのカスタムトークンが表示されます。
 
@@ -69,7 +69,7 @@ _マイトークン_&#x200B;は、プログラムまたはフォルダー用に�
 * **継承されたトークン** - トークンは、親プログラムまたはフォルダーで定義され、現在のプログラムまたはフォルダーよりも1つ以上のレベルが上になっています。
 * **上書きトークン** - トークンは親プログラムまたはフォルダーで定義されますが、現在のプログラムまたはフォルダーで異なる値が定義されます。 トークンのステータスが&#x200B;_上書き_&#x200B;に変更され、子フォルダー、プログラム、マーケティングアーティファクトが新しい値を継承します。
 
-![ トークンタイプと継承](./assets/program-tokens-inherited-overridden.png){width="600" zoomable="yes"}
+![&#x200B; トークンタイプと継承](./assets/program-tokens-inherited-overridden.png){width="600" zoomable="yes"}
 
 ### トークンの作成 {#create}
 
@@ -77,7 +77,7 @@ _マイトークン_&#x200B;は、プログラムまたはフォルダー用に�
 
 1. ダイアログで、トークンの&#x200B;**[!UICONTROL Name]**&#x200B;を入力します。
 
-   ![ テキストトークンの名前と値を入力](./assets/token-create-dialog.png){width="400"}
+   ![&#x200B; テキストトークンの名前と値を入力](./assets/token-create-dialog.png){width="400"}
 
    トークン名にはスペースや特殊文字を使用できません。 `EventType`などの&#x200B;_キャメルケース_&#x200B;を使用して、簡単に識別できるマルチワード名を使用できます。
 
@@ -97,7 +97,7 @@ _マイトークン_&#x200B;は、プログラムまたはフォルダー用に�
 
 1. フィールドで、必要に応じて値を変更します。
 
-   ![ トークンの名前と値を変更](assets/my-tokens-edit-text-token-dialog.png){width="400"}
+   ![&#x200B; トークンの名前と値を変更](assets/my-tokens-edit-text-token-dialog.png){width="400"}
 
 1. _保存_ アイコンをクリックします。
 
@@ -111,11 +111,11 @@ _マイトークン_&#x200B;は、プログラムまたはフォルダー用に�
 
 ## 自動提案とプレビュー {#autosuggest}
 
-ジャーニーに&#x200B;_Change data value_ [ アクションノード ](./action-nodes.md)を含めると、**[!UICONTROL New value]** フィールドに`{{`と入力して、トークン _Autosuggest_ メニューを表示できます。 表示されるリストには、サポートされている名前空間と個々のトークンが表示されます。 互換性のあるデータタイプのトークンのみが一覧表示されます。
+ジャーニーに&#x200B;_Change data value_ [&#x200B; アクションノード &#x200B;](./action-nodes.md)を含めると、**[!UICONTROL New value]** フィールドに`{{`と入力して、トークン _Autosuggest_ メニューを表示できます。 表示されるリストには、サポートされている名前空間と個々のトークンが表示されます。 互換性のあるデータタイプのトークンのみが一覧表示されます。
 
 _マイトークン_&#x200B;の場合、トークン値のプレビューがトークン名で表示され、適切な値を簡単に選択できます。
 
-![ トークンの自動検索メニューを表示する新しい値フィールドの構文](./assets/program-tokens-change-data-value-autosuggest.png){width="500" zoomable="yes"}
+![&#x200B; トークンの自動検索メニューを表示する新しい値フィールドの構文](./assets/program-tokens-change-data-value-autosuggest.png){width="500" zoomable="yes"}
 
 <!--
 
