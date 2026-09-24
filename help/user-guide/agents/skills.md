@@ -1,120 +1,129 @@
 ---
 title: 共同作業スキル
-description: Adobe Marketo OptimizerのCX Enterprise Coworkerのスキルを確認しましょう。プログラム、ジャーニー、オーディエンス、スコアリング、コンテンツ、送信時間の最適化のためのパッケージワークフローです。
+description: Adobe Marketo Optimizerの共同作業スキルを確認して、ジャーニー、オーディエンス、プログラム、コンテンツ、分析、AIによる意思決定を強化しましょう。 それぞれのスキルで可能なことをご紹介します。
+autotag-review: '2026-09-22T14:02:17.516Z'
 TQID: 'https://experienceleague.adobe.com/nNFB9UEghfqVvnBrNtTDnpnLUKKKMAU2nY1Pqt0KkUQ'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
     internal-label: Marketo Optimizer
 feature_v2:
-  - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
-    internal-label: Setup
-  - id: 46e599c6-e20f-5f67-9824-93415016f66b
-    internal-label: Audiences
-  - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
-    internal-label: Journeys
-  - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
-    internal-label: Programs
-  - id: d4203578-d294-5145-b397-f26f4488a904
-    internal-label: Channels
+  - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+    internal-label: Chat Interface
+subfeature_v2:
+  - id: b9e5c7f3-be30-563c-9e41-cc8ea76e2fee
+    internal-label: Skills
 topic_v2:
-  - id: b4dd41a7-ccf8-4e9d-918e-acaab534a307
-    internal-label: Data quality
-  - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
-    internal-label: Implementation
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-    internal-label: Customer experience
-  - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-    internal-label: Optimization
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-    internal-label: Personalization
-source-git-commit: 1dcc3bcdc59114c7fc1e16178db8921ae173b955
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
+source-git-commit: 5334f0f5d9d958ea47b055b067a7308950352e9c
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 11%
+source-wordcount: '988'
+ht-degree: 7%
 ---
+
 # 共同作業者のスキル
 
-_スキル_&#x200B;は、共同作業者が実行方法を認識しているパッケージ化されたワークフローです。`/` メニューと自然言語リクエストの両方の背後にある構成要素です。 各スキルには、ステップバイステップの指示と、1つのジョブに必要な特定のツール（例えば、「ジャーニーの公開」、「2人のリストの比較」、「スコアリングモデルの構築」）がバンドルされています。
+_スキル_&#x200B;は、共同作業者が実行できるパッケージ化ワークフローです。 スキルは、`/` メニューと自然言語リクエストの両方の背後にあるコンポーネントです。 各スキルには、ステップバイステップの指示と、ジャーニーの公開、2人リストの比較、スコアリングモデルの構築など、1つのタスクに必要な特定のツールがバンドルされています。
 
->[!NOTE]
->
->各スキルは、スキルが[!DNL Marketo Optimizer]または[!DNL Marketo Engage]状態（**Write**）、クエリ/分析/生成（**Read**）のみか、同等クエリ+変異関数（**Read+Write**）のどちらに基づいて分類されます。
+各スキルの分類は、実行するアクションの種類を反映します。
 
-## プログラムとプランニング {#programs-planning}
-
-| スキル | 機能 | アクセス | 製品サーフェス | 影響/データフロー |
-|---|---|---|---|---|
-| `adapt-program` | [!DNL Marketo Optimizer]適応のために[!DNL Marketo Engage] プログラムから移行ストーリーを生成します。 | 読み取り | [!DNL Marketo Optimizer] | [!DNL Marketo Engage]を読み取り、[!DNL Marketo Optimizer]を書き込みます |
-| `folder-creation` | アセットツリーに組織フォルダーを作成します。 | 書き込み | [!DNL Marketo Optimizer] | 読み取り+書き込み[!DNL Marketo Optimizer] |
-| `program-creation` *（ビルド プログラム）* | キャンペーン概要からMarketoプログラムを作成します。  <p>_[概要からプログラムを作成](./program-from-brief.md)_&#x200B;を参照してください。 | 書き込み | [!DNL Marketo Engage] | 読み取り+書き込み[!DNL Marketo Engage] |
-| `program-planning` *（プラン キャンペーン）* | ブリーフを設定/実装ドキュメントに変換。 | 読み取り | [!DNL Marketo Engage] | [!DNL Marketo Engage]を読み取ります |
-| `program-qa` *（プログラムの検証）* | プログラムの検証/監査（ルールのみ、テスト計画、概要）。 | 読み取り | [!DNL Marketo Engage] | [!DNL Marketo Engage]を読み取ります |
+* _検索_ スキルは、既存のレコードを検索またはリストします。
+* _データを変更することなく、_ スキルのレビュー、比較、レポートを分析できます。
+* _表示_ スキルには、読み取り専用のレポートまたは指標が表示されます。
+* _編集_ スキルは、既存のオブジェクトの設定またはコンテンツを変更します。
+* _作成_ スキルが新しいオブジェクトを作成します。
 
 ## ジャーニー {#journeys}
 
-| スキル | 機能 | アクセス | 製品 | バックエンド（データフロー） |
-|---|---|---|---|---|
-| `journey-creation` | 自然言語からカスタマージャーニーを作成、編集。 | 書き込み | [!DNL Marketo Optimizer] | 読み取り+書き込み[!DNL Marketo Optimizer] |
-| `journey-edit-dates` | 公開せずにジャーニーの開始日/終了日を変更します。 | 書き込み | [!DNL Marketo Optimizer] | 読み取り+書き込み[!DNL Marketo Optimizer] |
-| `journey-publish` | ユーザージャーニーの公開/立ち上げ/スケジュール： | 書き込み | [!DNL Marketo Optimizer] | 読み取り+書き込み[!DNL Marketo Optimizer] |
-| `journey-stop` | ジャーニーを中断、閉じる、停止、停止、または終了します。 | 書き込み | [!DNL Marketo Optimizer] | 読み取り+書き込み[!DNL Marketo Optimizer] |
-| `journey-reentry` | 再エントリを設定：許可/禁止、クールダウン、最大エントリ。 | 書き込み | [!DNL Marketo Optimizer] | 読み取り+書き込み[!DNL Marketo Optimizer] |
-| `journey-trafficcontrol` | プロファイルのルーティングを示すトラフィック制御シミュレーションを実行します。 | 読み取り | [!DNL Marketo Optimizer] | [!DNL Marketo Optimizer] （シミュレーション）を読み取ります |
-| `journey-observability` | デバッグ/監視の進行状況 – パス、タイミング、分割、ストール、ドウェル。 <p>_[ジャーニーの進行状況のデバッグと監視](./journey-observability.md)_&#x200B;を参照してください。 | 読み取り | [!DNL Marketo Optimizer] | [!DNL Marketo Optimizer] + [!DNL Marketo Engage]を読み取ります（静的リスト チェック） |
+これらのスキルは、個人ジャーニーの作成、公開、デバッグ、管理に役立ちます。
 
-## オーディエンスと人 {#audiences-people}
+| スキル | 機能 | タイプ |
+| --- | --- | --- |
+| **ジャーニーオブザーバビリティ** | 経路、タイミング、分割、ストール、滞在時間など、ジャーニー内の人物の移動をデバッグおよび監視できます。 _[ジャーニーの進行状況のデバッグと監視](./journey-observability.md)_&#x200B;を参照してください。 | 分析 |
+| **ジャーニートラフィック制御** | アクティブなすべてのジャーニーをまたいでプロファイルがどのように分布するかをシミュレートします。 | 分析 |
+| **ジャーニー公開** | 開始モード、日付、確認を含め、ジャーニーを公開、開始、スケジュールします。 | 編集 |
+| **ジャーニー停止** | 実行中のジャーニーを中止してすぐに停止するか、閉じて適切に巻き込みます。 | 編集 |
+| **ジャーニーの編集日** | ドラフト、スケジュール済みまたはライブジャーニーの開始日または終了日を再公開せずに変更できます。 | 編集 |
+| **ジャーニー再入力** | 再入力が許可されているかどうか、クールダウン遅延、最大入力数など、ジャーニーの再入力設定を構成します。 | 編集 |
+| **ジャーニーの作成** | 自然言語のリクエストを使用して、個人のジャーニーを作成および編集します。 | 作成 |
+| **ジャーニーへのウェビナー** | ウェビナーの前にプロモーションジャーニーを設定し、その後にフォローアップジャーニーを設定します。 | 作成 |
 
-| スキル | 機能 | アクセス | 製品 | バックエンド（データフロー） |
-|---|---|---|---|---|
-| `audience-creation` | [!DNL Marketo Engage] スマートリストの適応、ユーザーリストの作成、ルールの追加/更新。 <p>「_[プログラムのオーディエンスを作成](./audience-creation.md)_」を参照してください。 | 書き込み | [!DNL Marketo Optimizer] | [!DNL Marketo Engage]を読み取り、[!DNL Marketo Optimizer]を読み取り/書き込みます。 |
-| `people-list-comparison` | 2つの人物リストを比較し、重複するメンバーを表示します。 | 読み取り | [!DNL Marketo Optimizer] | [!DNL Marketo Optimizer]を読み取ります |
-| `import-leads` | CSV データ品質を検査し、[!DNL Marketo Engage]へのインポートをコミットします。 | 読み取り/書き込み | 両方 | 読み取り+書き込み[!DNL Marketo Engage] |
-| `lead-investigation` *（リードの調査）* | リードのアクティビティ、スコアリング、クオリフィケーション、ライフサイクルを調査し、 | 読み取り | [!DNL Marketo Engage] | [!DNL Marketo Engage]を読み取ります |
+## オーディエンスと人物のリスト {#audience-people-lists}
 
-## コンテンツとチャネル {#content-channels}
+これらのスキルは、個人リストとオーディエンスの定義を構築および管理します。
 
-| スキル | 機能 | アクセス | 製品 | バックエンド（データフロー） |
-|---|---|---|---|---|
-| `content-personalization` | テンプレートの参照/プレビュー、コンテンツの編集/バリエーションの生成。 | 読み取り/書き込み | [!DNL Marketo Optimizer] | 読み取り+書き込み[!DNL Marketo Optimizer]。 _[ペルソナ別のメールコンテンツのパーソナライズ](./personalize-content.md)_&#x200B;を参照してください。 |
-| `asset-tokens` | プログラム/フォルダー/ジャーニーでの完全なトークン CRUD。 | 読み取り/書き込み | [!DNL Marketo Optimizer] | 読み取り+書き込み[!DNL Marketo Optimizer] |
-| `fcs-channels` | チャネル検索とCRUD + パブリッシュ/停止/削除。 | 読み取り/書き込み | [!DNL Marketo Optimizer] | 読み取り+書き込み[!DNL Marketo Optimizer] |
+| スキル | 機能 | タイプ |
+| --- | --- | --- |
+| **動的リストのメンバーを参照** | 動的または静的な人物リストのメンバーを参照してフィルタリングします。 | 検索 |
+| **人物リストの比較** | 2つの人物リストを比較し、重複するメンバーを表示します。 | 分析 |
+| **静的リストから削除** | 自然言語条件に一致するメンバーを静的リストから削除します。 | 編集 |
+| **オーディエンス作成** | [!DNL Marketo Engage] スマートリストの適応、ユーザーリストの作成、ルールの追加または更新。 「_[プログラムのオーディエンスを作成](./audience-creation.md)_」を参照してください。 | 作成 |
 
-## スコアリングとシグナル {#scoring-signals}
+## プログラム、フォルダー、チャネル {#programs-folders-channels}
 
-| スキル | 機能 | アクセス | 製品 | バックエンド（データフロー） |
-|---|---|---|---|---|
-| `scoring-studio` | スコアリングモデルのリスト作成/取得、構築/公開。 <p>_[カスタムスコアリングモデルの作成](./lead-scoring-model.md)_&#x200B;を参照してください。 | 読み取り/書き込み | [!DNL Marketo Optimizer] | 読み取り+書き込み[!DNL Marketo Optimizer] （スコアリングサービス）; [!DNL Marketo Engage]個のリードフィールド/アクティビティタイプを読み取ります。 |
-| `engagementconfiguration` | エンゲージメント設定とウェイトの編集/更新を表示します。 | 読み取り/書き込み | [!DNL Marketo Optimizer] | 読み取り+書き込み[!DNL Marketo Optimizer] |
-| `intentconfiguration` | インテント設定とウェイトの設定/更新を表示します。 | 読み取り/書き込み | [!DNL Marketo Optimizer] | 読み取り+書き込み[!DNL Marketo Optimizer] |
-| `intent-query` | 人物/セグメント/リスト別のインテントスコアのクエリと説明。 | 読み取り | [!DNL Marketo Optimizer] | [!DNL Marketo Optimizer]を読み取ります |
+これらのスキルは、プログラム構造、トークン、チャネル設定を管理します。
 
-## 送信時間の最適化 {#sto}
+| スキル | 機能 | タイプ |
+| --- | --- | --- |
+| **プログラムの作成** | キャンペーン概要からプログラムを作成します。 _[概要からプログラムを作成](./program-from-brief.md)_&#x200B;を参照してください。 | 分析 |
+| **プログラムの適応** | [!DNL Marketo Optimizer]適応のために[!DNL Marketo Engage] プログラムから移行ストーリーを生成します。 | 分析 |
+| **アセットトークン** | プログラム、フォルダー、ジャーニーで`{{my.token}}`値を作成および管理します。 | 編集 |
+| **FCS チャネル** | XDM スキーマとプロビジョニングを含む、チャネルサービスのチャネルを作成、公開、停止、複製します。 | 編集 |
+| **フォルダー作成** | アセットツリーに組織フォルダーを作成します。 | 作成 |
+| **WhatsApp インラインキャンペーン** | ジャーニーノードで[!DNL WhatsApp] インラインキャンペーンを作成して公開します。 | 作成 |
+| **マーケティングプログラム作成** | サブフォルダー、トークン、人物リスト、ジャーニーを含む完全なプログラムを作成します。 | 作成 |
+| **プログラムとジャーニーのバッチ作成** | 1回のバッチリクエストで、複数のプログラムとジャーニーのペアを作成できます。 | 作成 |
 
-| スキル | 機能 | アクセス | 製品 | バックエンド（データフロー） |
-|---|---|---|---|---|
-| `send-time-optimization` | メールノードでSTO ステータスを確認し、有効/無効にします。 | 読み取り/書き込み | [!DNL Marketo Optimizer] | 読み取り+書き込み[!DNL Marketo Optimizer] |
-| `send-time-report` | STO パフォーマンスレポートを取得/表示します。 | 読み取り | [!DNL Marketo Optimizer] | [!DNL Marketo Optimizer]を読み取ります |
+## メールとランディングページ {#email-landing-pages}
 
-## 分析とレポーティング {#analytics-reporting}
+これらのスキルは、メール、フォーム、ランディングページの作成と管理に役立ちます。
 
-| スキル | 機能 | アクセス | 製品 | バックエンド（データフロー） |
-|---|---|---|---|---|
-| `surface-analytics` | アクティビティのトレンド、メールのパフォーマンス、リードとアカウントのデータ、セグメントとリストメンバーシップ、ジャーニー指標をまたいで、グラフや表として返される分析レポートを自然言語から生成します。 レポートデータは2時間ごとに更新されます。 <p>_[分析レポートの生成](./surface-analytics.md)_&#x200B;を参照してください。</p> | 読み取り | [!DNL Marketo Optimizer] | [!DNL Marketo Optimizer] + [!DNL Marketo Engage]を読み取ります |
+| スキル | 機能 | タイプ |
+| --- | --- | --- |
+| **Formsを一覧表示** | フォームを一覧表示し、その詳細とフィールドを表示します。 | 検索 |
+| **ランディングページのリスト** | ランディングページのリスト、詳細の表示、ドラフトまたは公開済み状態の管理。 | 検索 |
+| **メール監査** | ペルソナの推論や、概要とセクションごとのレビューなど、ターゲットグループに対してメールを監査します。 | 分析 |
+| **電子メールオーサリング** | 概要やPDFからの作成、ノードへのリンク、コンテンツの作成など、ジャーニーメールノードを作成または更新します。 | 編集 |
+| **フォームのオーサリング** | スタンドアロンのリードキャプチャフォームを作成または更新し、公開し、必要に応じてランディングページに埋め込みます。 | 作成 |
+| **ランディングページのオーサリング** | コンテンツの計画、テンプレートの選択、スロットの入力、フォームの追加など、概要からランディングページを作成または更新してから、公開します。 また、公開したランディングページをメールのcall-to-action リンクとして添付します。 | 作成 |
+| **電子メールレンダリングチェック** | [!DNL Microsoft Outlook]件のレンダリングの問題について電子メールを確認し、可能な限り自動的に修正します。 | 編集 |
 
-## 知識 {#knowledge}
+## コンテンツのパーソナライゼーション {#content-personalization}
 
-| スキル | 機能 | アクセス | 製品 | バックエンド（データフロー） |
-|---|---|---|---|---|
-| `product-knowledge` | Experience Leagueで公開されている[!DNL Marketo Optimizer] ドキュメントのハウツー/コンセプトに関する質問に答えます。 | 読み取り | 両方 | 外部ドキュメントを読み取り – 製品データなし |
+このスキルは、テンプレートを閲覧し、様々なペルソナに合わせてメールコンテンツをパーソナライズします。
 
-## クロスバックエンド {#cross-backend}
+| スキル | 機能 | タイプ |
+| --- | --- | --- |
+| **Content Personalization** | テンプレートを参照およびプレビューしてから、コンテンツを編集するか、バリエーションを生成できます。 _[ペルソナ別のメールコンテンツのパーソナライズ](./personalize-content.md)_&#x200B;を参照してください。 | 作成 |
 
-これらのスキルは、複数のバックエンドにまたがっています。
+## 分析と最適化 {#analytics-optimization}
 
-- **`adapt-program`** — `gather_program_assets`は[!DNL Marketo Engage] （`get_program`、`get_smart_campaign`、`list_emails`）を読み取り、次に`falcomcp_create_journey`経由で書き込みます。従来のクロスバックエンドです。
-- **`audience-creation`** — [!DNL Marketo Engage] スマートリスト （`get_smart_list` / `get_smart_campaign`）を読み取り、[!DNL Marketo Optimizer]人のユーザーリストを書き込みます。
-- **`journey-observability`** — [!DNL Marketo Optimizer]件の読み取りに加えて`check_lead_in_marketo_static_list` [!DNL Marketo Engage]件の読み取り。
-- **`scoring-studio`** — [!DNL Marketo Optimizer]個のスコアリングサービスと共に[!DNL Marketo Engage]個のリードフィールド/アクティビティタイプを読み取ります。
-- **`surface-analytics`** – 単一のクエリで、[!DNL Marketo Engage]と[!DNL Marketo Optimizer]の両方のデータにまたがるレポートに関する質問に答えることができます。
+これらのスキルは、パフォーマンスに関するレポートを作成し、送信時間の最適化とスコアリングモデルを設定します。
 
-すべての`falco-mcp_*`およびジャーニー/トークン/スコアリング/STO/FCS ツールが[!DNL Marketo Optimizer] サービスにヒットし、CSV/プログラム/リードツールが[!DNL Marketo Engage]にヒットしました。
+| スキル | 機能 | タイプ |
+| --- | --- | --- |
+| **サーフェス分析** | アクティビティの傾向、メールのパフォーマンス、リードおよびアカウントのデータ、セグメントおよびリストメンバーシップ、ジャーニー指標などをカバーする分析レポートを自然言語で生成します。 レポートデータは2時間ごとに更新されます。 _[分析レポートの生成](./surface-analytics.md)_&#x200B;を参照してください。 | 分析 |
+| **時間レポートの送信** | ジャーニーレベルまたは個々のメールノードの送信時間最適化（STO）パフォーマンスレポートを表示します。 | 分析 |
+| **メール STO シミュレーション** | STOを有効にする前に、メールノードの予測送信時間、オーディエンス品質、エンゲージメントヒートマップをプレビューします。 | 分析 |
+| **送信時間の最適化** | ジャーニーメールノードでSTOを有効または無効にします。 | 編集 |
+| **エンゲージメント設定** | 人物エンゲージメントスコアモデルのアクティビティの重みを表示および編集します。 | 編集 |
+| **スコアリングスタジオ** | スコアリングモデルをリストおよび表示してから、新しいモデルを構築して公開できます。 _[カスタムスコアリングモデルの作成](./lead-scoring-model.md)_&#x200B;を参照してください。 | 作成 |
+
+## AIの意思決定と意図の段階 {#ai-decisioning-intent}
+
+これらのスキルは、AIによる意思決定のためのデータ準備状況を評価し、インテントスコアリングを設定するのに役立ちます。
+
+| スキル | 機能 | タイプ |
+| --- | --- | --- |
+| **AI Decisioning Health** | リードの可用性、ペルソナの分布、ストーリーの豊富さ、意図など、企業のデータがAIによる意思決定に適しているかどうかを確認できます。 | 分析 |
+| **インテントを分析** | リードレベルのインテントランキング、トレンド、製品とキーワードの分類法をクエリし、検証します。 | 分析 |
+| **インテント設定** | 人物インテントスコアモデルのアクティビティの重みを表示および編集します。 | 編集 |
+
+## 知識とスキルの管理 {#knowledge-skill-management}
+
+これらのスキルは製品に関する疑問の答えとなり、新しいカスタムスキルの構築に役立ちます。
+
+| スキル | 機能 | タイプ |
+| --- | --- | --- |
+| **製品ナレッジ** | Experience Leagueで公開されている[!DNL Marketo Optimizer] ドキュメントを使用して、ハウツーと概念に関する質問に答えます。 | 検索 |
+| **スキル作成** | 新しいカスタムスキルを作成、テスト、磨き上げる。 | 作成 |
