@@ -1,9 +1,7 @@
 ---
 user-guide-title: Marketo Optimizerのドキュメント
 user-guide-description: Adobe Marketo Optimizerの詳細と、AIを活用してパーソナライズされたコンテンツをB2B リードやアカウントに提供し、マーケティング部門とセールス部門の連携を強化する方法について解説します。
-hide: true
-nudge: red
-source-git-commit: 24ee4148c4e755fe0f4f1231f342890c22e6b781
+source-git-commit: 177e7c3d0806febd730104b19787ba3cbea2914a
 workflow-type: tm+mt
 source-wordcount: '252'
 ht-degree: 43%
