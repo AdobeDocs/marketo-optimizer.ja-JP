@@ -1,10 +1,10 @@
 ---
 user-guide-title: Marketo Optimizerのドキュメント
 user-guide-description: Adobe Marketo Optimizerの詳細と、AIを活用してパーソナライズされたコンテンツをB2B リードやアカウントに提供し、マーケティング部門とセールス部門の連携を強化する方法について解説します。
-source-git-commit: 177e7c3d0806febd730104b19787ba3cbea2914a
+source-git-commit: 7053281563adbce7b5eb6fd1669974bad15677cb
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 43%
+source-wordcount: '254'
+ht-degree: 44%
 ---
 
 # Marketo Optimizer ユーザーガイド {#user}
@@ -105,7 +105,4 @@ ht-degree: 43%
     + [フォームプリセット設定](./admin/configuration-presets-forms.md)
   + [ビジネスルール](./admin/business-rules.md)
   + [プログラムタイプ](./admin/program-types.md)
-
-<!--
-   + [Persona mapping](./admin/persona-mapping.md)
--->
+  + [ペルソナマッピング](./admin/persona-mapping.md)
