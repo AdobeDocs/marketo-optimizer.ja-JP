@@ -28,7 +28,7 @@ ht-degree: 1%
 
 ペルソナは、アカウントベースドマーケティング（ABM）アプローチの重要な側面です。マーケターが、ターゲットアカウント内の個人の特定のニーズ、好み、悩みに合わせて戦略を調整するのに役立ちます。 マーケターは、ペルソナの背景、責任、課題、好みのコミュニケーションチャネルなど、各ペルソナの詳細なプロファイルを作成できます。 これらの定義を使用すると、管理者は[!DNL Adobe Marketo Optimizer]のユーザー属性に従ってペルソナを設定できるため、ユーザーリストとユーザージャーニーは、これらのペルソナをキャプチャする合理化された一貫したフィルタリングを使用できます。
 
-[!DNL Marketo Optimizer]では、ペルソナマッピングは、役割テンプレートの条件を超える追加機能を提供します。**[!UICONTROL 派生ペルソナ]**&#x200B;をフィルター基準として使用して、[人物リスト ](../audiences/people-lists.md)および[人物ジャーニー](../marketing/person-journeys.md)をフィルターできます。 _派生ペルソナ_&#x200B;は、設定されたすべてのペルソナ定義に対して属性を評価することで、個人レコードに対して推測されるペルソナです。
+[!DNL Marketo Optimizer]では、ペルソナマッピングは、役割テンプレートの条件を超える追加機能を提供します。**[!UICONTROL 派生ペルソナ]**&#x200B;をフィルター基準として使用して、[人物リスト &#x200B;](../audiences/people-lists.md)および[人物ジャーニー](../marketing/person-journeys.md)をフィルターできます。 _派生ペルソナ_&#x200B;は、設定されたすべてのペルソナ定義に対して属性を評価することで、個人レコードに対して推測されるペルソナです。
 
 ペルソナの定義と使用に関する制限：
 
@@ -46,13 +46,13 @@ ht-degree: 1%
 
 ## 設定されたペルソナへのアクセス {#access}
 
-同僚[ チャットインターフェイス ](../agents/chat-interface.md)から&#x200B;_ペルソナマッピング_ パネルを開きます。
+同僚[&#x200B; チャットインターフェイス &#x200B;](../agents/chat-interface.md)から&#x200B;_ペルソナマッピング_ パネルを開きます。
 
 1. チャットパネルで「`/persona-mapping`」と入力し、**Enter**&#x200B;を押します。
 
    このコマンドは、スラッシュメニューの&#x200B;**[!UICONTROL ページを開く]**&#x200B;の下に表示されるナビゲーションショートカットです。
 
-   ![ ページを開く下の/persona-mapping コマンドを示すチャットインターフェイスのスラッシュメニューのスクリーンショット。](assets/persona-mapping-open-chat.png){width="800" zoomable="yes"}
+   ![&#x200B; ページを開く下の/persona-mapping コマンドを示すチャットインターフェイスのスラッシュメニューのスクリーンショット。](assets/persona-mapping-open-chat.png){width="800" zoomable="yes"}
 
 1. 共同作業者は、**[!UICONTROL ペルソナマッピング]** パネルをワークスペースタブとして開き、ペルソナのリストを表示します。
 
@@ -60,7 +60,7 @@ ht-degree: 1%
 
    ペルソナリストは、各ペルソナ名、作成日、最終変更日を示すテーブルとして整理されています。<!-- You can customize the displayed table by clicking the _Column settings_ ( ![Column settings](../assets/do-not-localize/icon-column-settings.svg) ) icon in the top-right corner and selecting or clearing the column checkboxes. --> チャットパネルを最小化して、_ペルソナマッピング_ パネルのサイズを増やすことができます。
 
-   ![ デフォルトのペルソナのテーブルと「ペルソナを作成」ボタンを表示するペルソナマッピングパネル。](assets/persona-mapping-list.png){width="700" zoomable="yes"}
+   ![&#x200B; デフォルトのペルソナのテーブルと「ペルソナを作成」ボタンを表示するペルソナマッピングパネル。](assets/persona-mapping-list.png){width="700" zoomable="yes"}
 
 1. ペルソナの詳細にアクセスするには、名前をクリックします。
 
@@ -85,7 +85,7 @@ _ペルソナマッピング_&#x200B;のリストには、役職の属性に従�
 
 目的のペルソナを見つけるには、検索バーにテキスト文字列を入力して、名前でペルソナを一致させます。
 
-![ ペルソナリストを名前でフィルタリングする検索フィールド。2つの一致する結果が表示されます。](assets/configuration-persona-mapping-search.png){width="680" zoomable="yes"}
+![&#x200B; ペルソナリストを名前でフィルタリングする検索フィールド。2つの一致する結果が表示されます。](assets/configuration-persona-mapping-search.png){width="680" zoomable="yes"}
 
 ## ペルソナの作成 {#create-a-persona}
 
@@ -103,9 +103,9 @@ _ペルソナマッピング_&#x200B;のリストには、役職の属性に従�
 
      右上隅の&#x200B;_列設定_ （![列設定](../assets/do-not-localize/icon-column-settings.svg)）アイコンをクリックすると、表示されるテーブルをカスタマイズできます。
 
-     属性リストを名前でフィルタリングするには、検索バーにテキスト文字列を入力します。 左上の&#x200B;_フィルター_ （![ フィルターアイコン ](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックして、表示されるリストをタイプ別、_標準_&#x200B;または&#x200B;_カスタム_&#x200B;でフィルタリングすることもできます。
+     属性リストを名前でフィルタリングするには、検索バーにテキスト文字列を入力します。 左上の&#x200B;_フィルター_ （![&#x200B; フィルターアイコン &#x200B;](../assets/do-not-localize/icon-filter.svg)）アイコンをクリックして、表示されるリストをタイプ別、_標準_&#x200B;または&#x200B;_カスタム_&#x200B;でフィルタリングすることもできます。
 
-     ![ チェックボックス、使用状況および属性タイプ列を含むユーザー属性を一覧表示するダイアログ。](assets/configuration-persona-mapping-select-attributes.png){width="450" zoomable="yes"}
+     ![&#x200B; チェックボックス、使用状況および属性タイプ列を含むユーザー属性を一覧表示するダイアログ。](assets/configuration-persona-mapping-select-attributes.png){width="450" zoomable="yes"}
 
    * 「**[!UICONTROL 完了]**」をクリックします。
 
