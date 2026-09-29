@@ -13,14 +13,14 @@ feature_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 055fd02e1007ba6d06e563dc931adffe6145bed6
+source-git-commit: c733fd2c334324d8666bac908e55a0780ede557e
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 0%
 ---
 # 次善のパスノード
 
-[!DNL Marketo Optimizer]では、*次善のパス* ノードは、AIによる分割パス決定をジャーニーキャンバスに直接取り込みます。 [分割パス &#x200B;](./split-merge-paths-nodes.md) ノードでフィルター条件を設定する代わりに、自然言語で意図を記述し、各ユーザーに最も関連性の高いパスをシステムに判断させます。
+[!DNL Marketo Optimizer]では、*次善のパス* ノードは、AIによる分割パス決定をジャーニーキャンバスに直接取り込みます。 [分割パス ](./split-merge-paths-nodes.md) ノードでフィルター条件を設定する代わりに、自然言語で意図を記述し、各ユーザーに最も関連性の高いパスをシステムに判断させます。
 
 B2B購入では、プロファイルは購買担当者のひとつに見えるかもしれませんが、その行動、企業特性データ、エンゲージメントのコンテキストは、より詳細なストーリーを明らかにします。 次善のパスノードは、そのコンテキストを評価してインテリジェントなルーティング決定を行い、ジャーニーをアクティブ化する前にAIの推奨事項をレビュー、変更、上書きできるようにします。
 
@@ -61,7 +61,7 @@ B2B購入では、プロファイルは購買担当者のひとつに見える�
 
 1. パスのプラス（**+**）アイコンをクリックし、**[!UICONTROL 次善のパス]**&#x200B;を選択します。
 
-   ![&#x200B; ジャーニーパスの追加アイコンをクリックした後、次に最適なパスが表示されたノードオプションのメニュー](./assets/person-journey-canvas-add-node.png){width="200"}
+   ![ ジャーニーパスの追加アイコンをクリックした後、次に最適なパスが表示されたノードオプションのメニュー](./assets/person-journey-canvas-add-node.png){width="200"}
 
    ノードがキャンバスに追加され、AI分割設定パネルが右側に開きます。 1つのパスとデフォルトの&#x200B;*その他*&#x200B;のパスから始まり、定義されたパスのどれにも該当しないユーザーをルーティングします。
 
@@ -75,11 +75,11 @@ B2B購入では、プロファイルは購買担当者のひとつに見える�
 
    * 自然言語で&#x200B;**[!UICONTROL プロンプト]**&#x200B;を入力し、このパスに属するユーザーを記述します。 特定の属性値ではなく、意図と結果に注目する：
 
-   ![&#x200B; ラベル フィールドと、そのパスのオーディエンスを説明するプロンプト フィールドを含むパス カード。](./assets/next-best-path-label-prompt.png){width="500"}
+   ![ ラベル フィールドと、そのパスのオーディエンスを説明するプロンプト フィールドを含むパス カード。](./assets/next-best-path-label-prompt.png){width="500"}
 
 1. 含める追加パスごとに「**[!UICONTROL パスを追加]**」をクリックします。
 
-   パスを削除するには、パスカードの&#x200B;*削除* （![削除アイコン &#x200B;](../assets/do-not-localize/icon-delete-2.svg)）アイコンをクリックします。
+   パスを削除するには、パスカードの&#x200B;*削除* （![削除アイコン ](../assets/do-not-localize/icon-delete-2.svg)）アイコンをクリックします。
 
    各パスのラベルとプロンプトを追加します。
 
@@ -89,7 +89,7 @@ B2B購入では、プロファイルは購買担当者のひとつに見える�
    * *パス 2 – 技術評価者：*&#x200B;製品アーキテクチャ、統合、実装コンテンツに関与する可能性が最も高い技術的関係者を特定します。
    * *パス 3 - ビジネス意思決定者：* ROI、ビジネス成果、ケーススタディのコンテンツに最も関与する可能性の高いビジネス関係者を特定します。
 
-   ![&#x200B; ジャーニーキャンバス上のプロンプトとデフォルトのその他のユーザーのパスを含む3つの定義されたパス。](./assets/next-best-path-three-defined-paths.png){width="600"}
+   ![ ジャーニーキャンバス上のプロンプトとデフォルトのその他のユーザーのパスを含む3つの定義されたパス。](./assets/next-best-path-three-defined-paths.png){width="600"}
 
 1. 必要に応じて、パスを並べ替えて、一致する優先順位を設定します。
 
@@ -129,24 +129,26 @@ AIを活用したパスの割り当ては、ジャーニーを公開するまで
 
 ### シミュレーションの実行 {#run-simulation}
 
-1. 次の最適なパスノードを選択し、右側のパネルの上部にある「*シミュレート*」（![&#x200B; シミュレーションアイコン &#x200B;](../assets/do-not-localize/icon-simulate.svg)）アイコンをクリックします。
+1. 次の最適なパスノードを選択し、右側のパネルの上部にある「*シミュレート*」（![ シミュレーションアイコン ](../assets/do-not-localize/icon-simulate.svg)）アイコンをクリックします。
 
 1. ダイアログで、シミュレーションオーディエンスに使用する動的リストを選択します。
 
-<!-- 
-   * **[!UICONTROL Original person lists]** – Use the audience from the audience node. Specify a sample size when the full audience exceeds the simulation threshold.
-   * **[!UICONTROL Dynamic and static lists]** – Use a [!DNL Marketo Engage] static or dynamic list.
-   * **[!UICONTROL Test records]** – Use AI-suggested test profiles.
--->
+   ![動的リストを選択した状態でパスをシミュレート ダイアログを表示し、ボタンをキャンセルしてシミュレートします。](./assets/next-best-path-simulate-paths.png){width="250"}
 
-![動的リストを選択した状態でパスをシミュレート ダイアログを表示し、ボタンをキャンセルしてシミュレートします。](./assets/next-best-path-simulate-paths.png){width="250"}
-
->[!NOTE]
->
->* 選択したオーディエンスがシミュレーションのしきい値を超えた場合、システムは100 プロファイルのサンプルに対してシミュレーションを実行します。 UIのインジケーターは、結果がサンプルベースであることを示しています。
->* 選択したオーディエンスがまだ実体化されていない場合、シミュレーションはブロックされます。 インライン警告は、オーディエンスを最初に実体化するよう指示します。
+   >[!NOTE]
+   >
+   >* 選択したオーディエンスがシミュレーションのしきい値を超えた場合、システムは100 プロファイルのサンプルに対してシミュレーションを実行します。 UIのインジケーターは、結果がサンプルベースであることを示しています。
+   >* 選択したオーディエンスがまだ実体化されていない場合、シミュレーションはブロックされます。 インライン警告は、オーディエンスを最初に実体化するよう指示します。
 
 1. 「**[!UICONTROL シミュレート]**」をクリックします。
+
+
+<!--
+after second step above...
+* **[!UICONTROL Original person lists]** – Use the audience from the audience node. Specify a sample size when the full audience exceeds the simulation threshold.
+* **[!UICONTROL Dynamic and static lists]** – Use a [!DNL Marketo Engage] static or dynamic list.
+* **[!UICONTROL Test records]** – Use AI-suggested test profiles.
+-->
 
 ### シミュレーション結果の確認 {#review-results}
 
@@ -160,7 +162,7 @@ AIを活用したパスの割り当ては、ジャーニーを公開するまで
 | **プロンプト** | パスに対して評価されたプロンプト。 |
 | **AIの推論** | プロファイルが全体でこのパスに割り当てられた理由を自然言語で説明します。 |
 
-![&#x200B; プロファイル数、分割率、信頼性スコア、AI推論をパスごとに示すシミュレーション結果](./assets/next-best-path-simulated-details.png){width="600"}
+![ プロファイル数、分割率、信頼性スコア、AI推論をパスごとに示すシミュレーション結果](./assets/next-best-path-simulated-details.png){width="600"}
 
 >[!NOTE]
 >
@@ -184,6 +186,6 @@ AIを活用したパスの割り当ては、ジャーニーを公開するまで
 * 各パス割り当ての信頼性スコア
 * パスレベルおよびプロファイルレベルの推論。個々のプロファイルの詳細を拡張できます
 
-![&#x200B; ライブプロファイル分布、信頼性スコア、およびパスごとのAI推論を示す最終レポートタブ。](./assets/next-best-path-final-report.png){width="600"}
+![ ライブプロファイル分布、信頼性スコア、およびパスごとのAI推論を示す最終レポートタブ。](./assets/next-best-path-final-report.png){width="600"}
 
-ライブ結果は、[Coworker チャットインターフェイス &#x200B;](../agents/chat-interface.md)のジャーニーオブザーバビリティ スキルからも確認できます。
+ライブ結果は、[Coworker チャットインターフェイス ](../agents/chat-interface.md)のジャーニーオブザーバビリティ スキルからも確認できます。
