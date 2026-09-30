@@ -13,7 +13,7 @@ feature_v2:
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
     internal-label: Implementation
-source-git-commit: 055fd02e1007ba6d06e563dc931adffe6145bed6
+source-git-commit: c733fd2c334324d8666bac908e55a0780ede557e
 workflow-type: tm+mt
 source-wordcount: '1556'
 ht-degree: 0%
@@ -133,20 +133,22 @@ AIを活用したパスの割り当ては、ジャーニーを公開するまで
 
 1. ダイアログで、シミュレーションオーディエンスに使用する動的リストを選択します。
 
-<!-- 
-   * **[!UICONTROL Original person lists]** – Use the audience from the audience node. Specify a sample size when the full audience exceeds the simulation threshold.
-   * **[!UICONTROL Dynamic and static lists]** – Use a [!DNL Marketo Engage] static or dynamic list.
-   * **[!UICONTROL Test records]** – Use AI-suggested test profiles.
--->
+   ![動的リストを選択した状態でパスをシミュレート ダイアログを表示し、ボタンをキャンセルしてシミュレートします。](./assets/next-best-path-simulate-paths.png){width="250"}
 
-![動的リストを選択した状態でパスをシミュレート ダイアログを表示し、ボタンをキャンセルしてシミュレートします。](./assets/next-best-path-simulate-paths.png){width="250"}
-
->[!NOTE]
->
->* 選択したオーディエンスがシミュレーションのしきい値を超えた場合、システムは100 プロファイルのサンプルに対してシミュレーションを実行します。 UIのインジケーターは、結果がサンプルベースであることを示しています。
->* 選択したオーディエンスがまだ実体化されていない場合、シミュレーションはブロックされます。 インライン警告は、オーディエンスを最初に実体化するよう指示します。
+   >[!NOTE]
+   >
+   >* 選択したオーディエンスがシミュレーションのしきい値を超えた場合、システムは100 プロファイルのサンプルに対してシミュレーションを実行します。 UIのインジケーターは、結果がサンプルベースであることを示しています。
+   >* 選択したオーディエンスがまだ実体化されていない場合、シミュレーションはブロックされます。 インライン警告は、オーディエンスを最初に実体化するよう指示します。
 
 1. 「**[!UICONTROL シミュレート]**」をクリックします。
+
+
+<!--
+after second step above...
+* **[!UICONTROL Original person lists]** – Use the audience from the audience node. Specify a sample size when the full audience exceeds the simulation threshold.
+* **[!UICONTROL Dynamic and static lists]** – Use a [!DNL Marketo Engage] static or dynamic list.
+* **[!UICONTROL Test records]** – Use AI-suggested test profiles.
+-->
 
 ### シミュレーション結果の確認 {#review-results}
 
