@@ -1,16 +1,18 @@
 ---
-user-guide-title: Marketo Optimizerのドキュメント
-user-guide-description: Adobe Marketo Optimizerの詳細と、AIを活用してパーソナライズされたコンテンツをB2B リードやアカウントに提供し、マーケティング部門とセールス部門の連携を強化する方法について解説します。
-source-git-commit: 7053281563adbce7b5eb6fd1669974bad15677cb
+user-guide-title: Marketo Optimizer Documentation
+user-guide-description: Adobe Adobe Marketo Optimizerの詳細と、AIを活用してパーソナライズされたコンテンツを提供し、マーケティング部門とセールス部門が連携してエンゲージメントを進めるために、B2Bのリードとアカウントにどのように役立つのかをご確認ください。
+source-git-commit: ef45be43f6fc08805ebb5b2824340c45d60996e8
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 44%
+source-wordcount: '260'
+ht-degree: 43%
 ---
 
 # Marketo Optimizer ユーザーガイド {#user}
 
-+ [Adobe Marketo Optimizerのドキュメント](guide-overview.md)
-+ [データアーキテクチャ](data-architecture.md)
++ [Adobe Marketo Optimizer ドキュメント](guide-overview.md)
++ データ基盤 {#data-foundation}
+  + [データアーキテクチャ](./data-architecture.md)
+  + [Marketo Engageとの相互運用性](./marketo-interoperability.md)
 + 基本を学ぶ {#start}
   + [チェックリストを設定](./start/setup-check-list.md)
   + [ユーザー管理](./start/user-management.md)
