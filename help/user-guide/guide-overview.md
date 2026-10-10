@@ -1,32 +1,42 @@
 ---
-title: Adobe Marketo Optimizerのドキュメント
-description: Marketo Optimizerの詳細に関するドキュメント – オンボーディング、AIを活用したマーケティングオートメーション、ユーザージャーニー、オーディエンス管理に関する利用可能なリソースをご確認ください。
+title: Adobe Marketo Optimizer Documentation
+description: Adobe Marketo Optimizerの完全なドキュメント – オンボーディング、AIを活用したマーケティングオートメーション、ユーザージャーニー、オーディエンス管理に関する利用可能なリソースをご確認ください。
 TQID: 'https://experienceleague.adobe.com/UefS41mK-pwG-bqv2d-6Qj6qH9ZPBf4AYK2uoKzzk6E'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+    internal-label: Chat Interface
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
   - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: da3860b0-d637-47df-bef0-273751180266
+    internal-label: Digital asset management
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
+    internal-label: Personalization
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Administration
+source-git-commit: 7a4e898b64751d5b912e6468d318083c571eff1b
 workflow-type: tm+mt
-source-wordcount: 423
+source-wordcount: '429'
 ht-degree: 3%
-
 ---
+# Adobe Marketo Optimizer Documentation
 
-# Adobe Marketo Optimizerのドキュメント
-
-[!DNL Adobe Marketo Optimizer]は、マーケターやビジネス開発担当者がプログラムを計画し、パーソナライズされた人物ジャーニーを編成して、見込み客を選定できるようにする、AIを活用したマーケティングオートメーションソリューションです。 会話型AIを使用して、B2B リードやアカウント向けにAIを活用してパーソナライズされたコンテンツを提供し、マーケティング部門とセールス部門の連携を強化するエンゲージメントを構築、実行します。
+[!DNL Adobe Marketo Optimizer]は、マーケターやビジネス開発担当者（BDR）がリード、アカウント、購買グループのジャーニーを強力なAI推論で結びつけ、継続的に更新されるセマンティックストーリーで顧客のコンテキストを強化し、マーケティング、ペイドメディア、BDR チャネルをまたいで次善のアクションでエンゲージメントを拡大できる、AIを活用したマーケティングオートメーションソリューションです。
 
 ## 基本について学ぶ {#basics}
 
