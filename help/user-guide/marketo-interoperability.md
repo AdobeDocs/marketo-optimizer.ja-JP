@@ -18,6 +18,11 @@ feature_v2:
     internal-label: Programs
   - id: d4203578-d294-5145-b397-f26f4488a904
     internal-label: Channels
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
@@ -27,7 +32,7 @@ topic_v2:
     internal-label: Optimization
   - id: d00e9f03-e50b-4162-b143-0c0817c937c2
     internal-label: Customer journeys
-source-git-commit: 518a807aeed2471772b4f0a4d6d8d525cd3e22fd
+source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%
@@ -43,7 +48,7 @@ ht-degree: 0%
 * ジャーニーは[!DNL Marketo Engage]件のアクティビティをリッスンできます。
 * イベントベースのオーディエンスには、[!DNL Marketo Engage]件のアクティビティを実行するユーザーを含めることができます。
 * ジャーニー操作は[!DNL Marketo Engage]とやり取りできます。 ユーザーを[!DNL Marketo Engage] リストに追加またはリストから削除し、[!DNL Marketo Engage] キャンペーンをリクエストできます。
-* [!UICONTROL &#x200B; スコアリングスタジオ &#x200B;]は、[!DNL Marketo Engage]および[!DNL Marketo Optimizer]のアクティビティに対してユーザーをスコアリングします。 [!DNL Marketo Engage]のスコアを使用できます。
+* [!UICONTROL  スコアリングスタジオ ]は、[!DNL Marketo Engage]および[!DNL Marketo Optimizer]のアクティビティに対してユーザーをスコアリングします。 [!DNL Marketo Engage]のスコアを使用できます。
 * どちらの製品もIP アドレスとサブドメインを共有します。
 * 統合された会話型レポートは両方の製品をカバーしています。
 
@@ -53,7 +58,7 @@ ht-degree: 0%
 * **アクティビティ：** [!DNL Marketo Optimizer]件のアクティビティが[!DNL Marketo Engage]に共有されません。
 * **フィールドと制限：**&#x200B;個のペルソナ フィールドは、[!DNL Marketo Optimizer]さんが取得するもので、[!DNL Marketo Engage]では使用できません。 通信制限は、各製品で個別に設定されます。
 
-同期の詳細については、[&#x200B; エンティティの同期](./data-architecture.md#entity-sync)を参照してください。
+同期の詳細については、[ エンティティの同期](./data-architecture.md#entity-sync)を参照してください。
 
 ## Marketo Engageからメールを送信 {#send-from-marketo}
 
@@ -63,7 +68,7 @@ ht-degree: 0%
 1. 各送信ステップについて、**[!UICONTROL Marketo Engage キャンペーンをリクエスト]** アクションを追加し、一致する[!DNL Marketo Engage] キャンペーンを選択します。
 1. オプション：ジャーニー全体の成功レポートを集計するために、[!DNL Marketo Engage]にデフォルトの包括的なプログラムを追加します。
 
-アクションの詳細については、[&#x200B; アクションノードの実行](./marketing/action-nodes.md)を参照してください。
+アクションの詳細については、[ アクションノードの実行](./marketing/action-nodes.md)を参照してください。
 
 [!DNL Marketo Engage]は、既存のチャネル設定を通じてメールを送信します。 [!DNL Marketo Engage]は電子メールを送信するので、[!DNL Marketo Optimizer]ではチャネルまたは電子メールを設定しません。 さらに：
 
@@ -77,11 +82,11 @@ ht-degree: 0%
 
 このアプローチを使用して、ジャーニーを構築し、完全に[!DNL Marketo Optimizer]でメールを送信します。 [!DNL Marketo Engage]は引き続き、顧客関係管理（CRM）システムへの引き渡しの記録システムです。
 
-1. メールチャネルの設定。 メールテンプレートの作成、IP アドレスとサブドメイン、登録解除リンク、ランディングページの設定。 [&#x200B; メール配信品質](./start/email-deliverability.md)を参照してください。
+1. メールチャネルの設定。 メールテンプレートの作成、IP アドレスとサブドメイン、登録解除リンク、ランディングページの設定。 [ メール配信品質](./start/email-deliverability.md)を参照してください。
 1. [!DNL Marketo Optimizer]で通信制限を設定します。 共有された通信制限は利用できません。
 1. オーディエンス、AIによる意思決定、次善のパスを通じて、ジャーニーを構築。
 1. [!DNL Marketo Optimizer]からメールを送信します。 [!DNL Marketo Optimizer]はアクティビティを記録します。
-1. [!UICONTROL &#x200B; スコアリングスタジオ &#x200B;]のユーザーをスコア付けして、[!DNL Marketo Engage]と[!DNL Marketo Optimizer]のアクティビティ全体で1つのモデルを作成します。 [&#x200B; スコアリングスタジオ &#x200B;](./labs/scoring-studio.md)を参照してください。
+1. [!UICONTROL  スコアリングスタジオ ]のユーザーをスコア付けして、[!DNL Marketo Engage]と[!DNL Marketo Optimizer]のアクティビティ全体で1つのモデルを作成します。 [ スコアリングスタジオ ](./labs/scoring-studio.md)を参照してください。
 
 購読解除は、共有フィールドを通じて自動的に[!DNL Marketo Engage]に同期されます。 [!DNL Marketo Optimizer]件のメールアクティビティは[!DNL Marketo Engage]に送信されませんが、[!UICONTROL Scoring Studio]は引き続きそれを使用します。
 
