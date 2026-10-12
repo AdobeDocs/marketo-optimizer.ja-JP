@@ -136,4 +136,4 @@ ht-degree: 0%
 
 チャットインターフェイスで、*「今後のウェビナーをすべて表示する」*&#x200B;または&#x200B;*「ウェビナー[name]&quot;*&#x200B;の詳細を指定する」などのレポートに関する質問を行うことができます。 エンゲージメントダッシュボードリンクと、ウェビナーの日付&#x200B;**に** デザイン **、**&#x200B;共同ホストの追加&#x200B;**、**&#x200B;公開などの次善のアクションが表示されます。
 
-より詳細な分析（出席、投票とアンケートのパフォーマンス、メンバーごとのデータ）を行うには、チャットインターフェイスからウェビナーの&#x200B;**Analytics** タブと&#x200B;**メンバー** タブ、および&#x200B;**ウェビナー管理**&#x200B;のプログラム間のロールアップにリンクします。<!-- See [Webinar reporting](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/marketing-management/webinars/webinar-reporting). -->
+より詳細な分析（出席、投票とアンケートのパフォーマンス、メンバーごとのデータ）を行うには、チャットインターフェイスからウェビナーの&#x200B;**Analytics** タブと&#x200B;**メンバー** タブ、および&#x200B;**ウェビナー管理**&#x200B;のプログラム間のロールアップにリンクします。<!-- See [Webinar reporting](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/prime/marketing-management/webinars/webinar-reporting). -->
