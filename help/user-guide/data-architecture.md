@@ -88,7 +88,7 @@ ht-degree: 1%
 1. **製品間の認知度：** [!DNL Marketo Engage]がアクティビティをアクティビティパイプラインに公開するため、[!DNL Marketo Optimizer]はすぐに受け取ります。
 1. **分析変換：** ジャーニーランタイムは、アクティビティを処理してSnowflakeに書き込み、運用データを分析対応データに変換します。 これまでのステージはすべてAmazon Web Services（AWS）で実行されます。
 1. **ダウンストリームの宛先：** [!DNL Marketo Optimizer]は、アクティビティを[!DNL Adobe Experience Platform]個のデータセットにレプリケートします。
-1. **レポート：** データセット フィードには[!DNL Adobe Customer Journey Analytics]件のレポートが埋め込まれています。 [!DNL Customer Journey Analytics]は、Microsoft AzureまたはAWSでホストできます。 [!DNL Query Service]を含むデータセットをクエリすることもできます。 [Experience Platform データセット ](./reports/aep-datasets.md)を参照してください。
+1. **レポート：** データセット フィードには[!DNL Adobe Customer Journey Analytics]件のレポートが埋め込まれています。 [!DNL Customer Journey Analytics]は、Microsoft AzureまたはAWSでホストできます。 [!DNL Query Service]を含むデータセットをクエリすることもできます。 [Experience Platform データセット &#x200B;](./reports/aep-datasets.md)を参照してください。
 
 ジャーニーとイベントオーディエンスは、[!DNL Marketo Optimizer] アクティビティと[!DNL Marketo Engage] アクティビティのサブセットの両方を使用できます。 両方のセットを同じように使用します。 [!DNL Marketo Optimizer]件のアクティビティが[!DNL Marketo Engage]に送り返されません。
 
@@ -107,7 +107,7 @@ ht-degree: 1%
 
 [!DNL Marketo Optimizer]は、組織に他のサンドボックスがある場合でも、このサンドボックスでのみ使用できます。
 
-プロビジョニングでは、サンドボックスアクセスは割り当てられません。 通常、役割はデフォルトの`prod` サンドボックスにアクセスできますが、[!DNL Marketo Optimizer]はそれを使用しません。 [!DNL Experience Platform]の役割ごとに専用サンドボックスを明示的に割り当てるか、ユーザーが[!DNL Marketo Optimizer]で作業できない。 ユーザーグループを使用して、役割の設定を繰り返さずにユーザーを追加および削除します。 完全な手順については、[ ユーザーアクセスと権限](./start/user-management.md)を参照してください。
+プロビジョニングでは、サンドボックスアクセスは割り当てられません。 通常、役割はデフォルトの`prod` サンドボックスにアクセスできますが、[!DNL Marketo Optimizer]はそれを使用しません。 [!DNL Experience Platform]の役割ごとに専用サンドボックスを明示的に割り当てるか、ユーザーが[!DNL Marketo Optimizer]で作業できない。 ユーザーグループを使用して、役割の設定を繰り返さずにユーザーを追加および削除します。 完全な手順については、[&#x200B; ユーザーアクセスと権限](./start/user-management.md)を参照してください。
 
 [!DNL Marketo Optimizer]は、バックグラウンドで[!DNL Experience Platform] サービスも使用しています。 これには、スキーマレジストリ、有料メディアの書き出し先、アクセス制御、および[!DNL Customer Journey Analytics]が含まれます。 スキーマや名前空間は設定しません。 [!DNL Marketo Optimizer]は、[!DNL Real-Time Customer Data Platform]、リアルタイム顧客プロファイル、またはセグメント化を必要としません。
 
