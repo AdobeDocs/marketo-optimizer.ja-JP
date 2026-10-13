@@ -1,20 +1,23 @@
 ---
 title: コンテンツコンポーネント
-description: コンテンツコンポーネントを使用して、電子メール、ランディングページ、フラグメントをデザインします。Marketo Optimizerでは、ボタン、テキスト、画像、フォーム、コンテナを追加します。
+description: コンテンツコンポーネントを使用して、電子メール、ランディングページ、フラグメントをデザインします。Marketo Optimizerでボタン、テキスト、画像、フォーム、コンテナを追加します。
 feature: Content Design Tools
 role: User
 TQID: 'https://experienceleague.adobe.com/Hn4e9lbl-jUJgsxVOwbTppfcphZqYGxvSrt-UMZDR0I'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Personalization
+source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
 workflow-type: tm+mt
-source-wordcount: 2828
+source-wordcount: '2828'
 ht-degree: 7%
-
 ---
-
 # コンテンツコンポーネント {#content-components}
 
 >[!CONTEXTUALHELP]

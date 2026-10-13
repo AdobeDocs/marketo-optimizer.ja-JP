@@ -1,22 +1,27 @@
 ---
 title: コンテンツのカスタム CSSの追加
-description: Marketo Optimizerの標準コンポーネントに留まることなく、メールやランディングページにカスタム CSSを追加して、高度なスタイル設定と正確なデザイン管理を実現します。
+description: カスタム CSSをメールやランディングページに追加して、Marketo Optimizerの標準コンポーネントを超えた、高度なスタイル設定と正確なデザイン管理を実現します。
 feature: Content Design Tools, Email Authoring, Landing Pages
 role: User
 TQID: 'https://experienceleague.adobe.com/RLYXBvEepwNcQ9B9W3Sao-RP49HtbxFomlgu7R8APAg'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: b5ce8718-c3af-4fdb-a1a9-fca32f83a87c
+    internal-label: Implementation
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Security
+source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
 workflow-type: tm+mt
-source-wordcount: 561
+source-wordcount: '561'
 ht-degree: 9%
-
 ---
-
 # コンテンツにカスタム CSSを追加する
 
 電子メールやランディングページのデザインスペース内に、独自のカスタム CSSを直接追加できます。 カスタム CSSを使用して、高度で特定のスタイルを適用し、コンテンツの外観をより柔軟に制御できます。

@@ -1,22 +1,26 @@
 ---
 title: ウェビナーの作成とデザイン
-description: プログラムにウェビナーアセットを追加し、 [!DNL Adobe Connect]でデザインし、共同ホストとプレゼンターを追加し、テストセッションを実行し、 [!DNL Marketo Optimizer]でライブウェビナーを編集します。
-keywords: 
+description: プログラムにウェビナーアセットを追加し、[!DNL Adobe Connect]でデザインし、共同ホストとプレゼンターを追加し、テストセッションを実行し、[!DNL Marketo Optimizer]でライブウェビナーを編集します。
+keywords:
 role: User
 feature: Channels
 TQID: 'https://experienceleague.adobe.com/fFvlOnp8hDF1RNOyohPWkc1whSG3T3deNrJ3RnEDzlo'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
   - id: d4203578-d294-5145-b397-f26f4488a904
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Channels
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
 workflow-type: tm+mt
-source-wordcount: 680
+source-wordcount: '680'
 ht-degree: 0%
-
 ---
-
 
 # ウェビナーの作成とデザイン
 
@@ -66,8 +70,8 @@ ht-degree: 0%
 
 1. **配信モード**&#x200B;を選択してください：
 
-   &#x200B;- **ライブ** - プレゼンターはセッションをリアルタイムでホストします。
-   &#x200B;- **シミュレートされたライブ** – 事前に録画されたコンテンツが、ライブチャット、投票、Q&amp;Aと共にスケジュールされた時間に再生されます。
+   - **ライブ** - プレゼンターはセッションをリアルタイムでホストします。
+   - **シミュレートされたライブ** – 事前に録画されたコンテンツが、ライブチャット、投票、Q&amp;Aと共にスケジュールされた時間に再生されます。
 
 1. **ウェビナールーム**&#x200B;を選択してください。
 
@@ -117,5 +121,5 @@ ht-degree: 0%
 
 登録開始後にウェビナーを編集することは可能ですが、慎重に行う必要があります。
 
-&#x200B;- スケジュールを編集すると、既に登録されているユーザーに更新通知をトリガーできます。 スケジュールされたウェビナーを編集する機能は設定可能です。
-&#x200B;- ライブメールでトークンによって参照されるフィールドは、送信済みのコンテンツが壊れるため、削除するには明示的な確認が必要です。
+- スケジュールを編集すると、既に登録されているユーザーに更新通知をトリガーできます。 スケジュールされたウェビナーを編集する機能は設定可能です。
+- ライブメールでトークンによって参照されるフィールドは、送信済みのコンテンツが壊れるため、削除するには明示的な確認が必要です。

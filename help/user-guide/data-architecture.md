@@ -18,6 +18,11 @@ feature_v2:
     internal-label: Journeys
   - id: d4203578-d294-5145-b397-f26f4488a904
     internal-label: Channels
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
@@ -27,7 +32,7 @@ topic_v2:
     internal-label: Customer journeys
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
     internal-label: Security
-source-git-commit: 518a807aeed2471772b4f0a4d6d8d525cd3e22fd
+source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
 workflow-type: tm+mt
 source-wordcount: '771'
 ht-degree: 1%

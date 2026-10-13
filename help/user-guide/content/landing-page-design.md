@@ -1,23 +1,28 @@
 ---
 title: ランディングページデザイン
-description: ビジュアルツールを利用して、ランディングページをデザインできます。Marketo Optimizerでは、コンテンツコンポーネント、フォーム、カスタム CSS、パーソナライゼーション、デバイスのプレビューを利用して、カスタマージャーニーを構築できます。
+description: ビジュアルツールを利用して、ランディングページをデザインできます。Marketo Optimizerでは、コンテンツコンポーネント、フォーム、カスタム CSS、パーソナライゼーション、デバイスプレビューを追加して、カスタマージャーニーを包括的に把握できます。
 feature: Landing Pages, Content Design Tools
 role: User
 TQID: 'https://experienceleague.adobe.com/zb7rXCj7iWnk8Src1sWLZaYgRa35GjqGxXXu0pTJ-ds'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Personalization
+source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
 workflow-type: tm+mt
-source-wordcount: 556
+source-wordcount: '556'
 ht-degree: 2%
-
 ---
-
 # ランディングページのデザイン
 
 [&#x200B; ランディングページを作成した後](./landing-pages-create-publish.md#create-landing-page)、ビジュアルデザインスペースを使用して、ページ内の構造コンポーネントとコンテンツコンポーネントをオーサリングします。

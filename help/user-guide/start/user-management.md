@@ -1,6 +1,6 @@
 ---
 title: ユーザーのアクセスと権限
-description: Adobe Admin Consoleでユーザーアクセスを管理する：Marketo Optimizerでユーザーグループを作成し、製品プロファイルを割り当て、ロールベースの権限を設定します。
+description: Adobe Admin Consoleでユーザーアクセスを管理する：ユーザーグループを作成し、製品プロファイルを割り当て、Marketo Optimizerのロールベースの権限を設定します。
 TQID: 'https://experienceleague.adobe.com/IY7Fvbk8GG2Xudh6vC4N9Bwk-sejvh-MMRIHHxvS-nc'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
@@ -9,7 +9,7 @@ feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
     internal-label: Setup
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
-    internal-label: Administration
+    internal-label: Audiences
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
     internal-label: Governance
@@ -17,7 +17,7 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 98214f502bba0efea89c7f36ac46e634e65cd0c9
+source-git-commit: c825d93cdf9754a516b2d930bbe8c1e2e8aeaea1
 workflow-type: tm+mt
 source-wordcount: '2474'
 ht-degree: 38%
@@ -204,7 +204,7 @@ Experience Platformのロール権限について詳しくは、Experience Platf
 | カテゴリ | 権限 | 説明 |
 | -------- | ----------- | ---------- |
 | ダッシュボード | 標準ダッシュボードを表示 | _プロファイル_、_宛先_、_セグメント_ ダッシュボードへの表示専用アクセス。 左側のナビゲーションの&#x200B;_ダッシュボード_&#x200B;と「_ダッシュボード_ インベントリと統合」タブへのアクセスも有効にします。 |
-| | 標準ダッシュボードの管理 | Data Warehouse にないカスタム属性の追加。 |
+| | 標準ダッシュボードの管理 | データウェアハウスにないカスタム属性の追加。 |
 | 宛先 | 宛先の表示 | _カタログ_ タブで利用可能な宛先を表示し、_参照_ タブで認証済みの宛先を表示するための表示専用アクセス権。 |
 | | 宛先の管理 | 宛先の接続と宛先アカウントを表示、作成、削除します。 |
 | | 宛先のアクティブ化 | アクティブな配信先へのデータのアクティベーション。 この関数にアクセスするには、_宛先の表示_&#x200B;または&#x200B;_宛先の管理_&#x200B;も必要です。 |

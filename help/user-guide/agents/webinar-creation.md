@@ -1,27 +1,36 @@
 ---
 title: ウェビナーの作成とプロモーション
 description: Marketo Optimizerのチャットインターフェイスを使用して、ウェビナーのスケジュール設定、共同ホストやプレゼンターの追加、プロモーションやナーチャリングのジャーニーの構築、レポートの確認などを自然言語で行うことができます。
-keywords: 
+keywords:
 role: User
 TQID: 'https://experienceleague.adobe.com/OKsYvVIcNN-GEMiMPW2mWomstM2MabYcK0jTColgxIQ'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+    internal-label: Chat Interface
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
+    internal-label: Reporting
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
+    internal-label: Reporting
   - id: d095671a-1355-40aa-8b5f-06c33c68080b
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Security
+source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
 workflow-type: tm+mt
-source-wordcount: 958
+source-wordcount: '958'
 ht-degree: 0%
-
 ---
-
 
 # ウェビナーの作成とプロモーション
 
@@ -127,4 +136,4 @@ ht-degree: 0%
 
 チャットインターフェイスで、*「今後のウェビナーをすべて表示する」*&#x200B;または&#x200B;*「ウェビナー[name]&quot;*&#x200B;の詳細を指定する」などのレポートに関する質問を行うことができます。 エンゲージメントダッシュボードリンクと、ウェビナーの日付&#x200B;**に** デザイン **、**&#x200B;共同ホストの追加&#x200B;**、**&#x200B;公開などの次善のアクションが表示されます。
 
-より詳細な分析（出席、投票とアンケートのパフォーマンス、メンバーごとのデータ）を行うには、チャットインターフェイスからウェビナーの&#x200B;**Analytics** タブと&#x200B;**メンバー** タブ、および&#x200B;**ウェビナー管理**&#x200B;のプログラム間のロールアップにリンクします。<!-- See [Webinar reporting](https://experienceleague.adobe.com/en/docs/journey-optimizer-b2b/prime/marketing-management/webinars/webinar-reporting). -->
+より詳細な分析（出席、投票とアンケートのパフォーマンス、メンバーごとのデータ）を行うには、チャットインターフェイスからウェビナーの&#x200B;**Analytics** タブと&#x200B;**メンバー** タブ、および&#x200B;**ウェビナー管理**&#x200B;のプログラム間のロールアップにリンクします。<!-- See [Webinar reporting](https://experienceleague.adobe.com/ja/docs/journey-optimizer-b2b/prime/marketing-management/webinars/webinar-reporting). -->
