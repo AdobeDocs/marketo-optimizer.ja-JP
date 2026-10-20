@@ -26,14 +26,14 @@ ht-degree: 34%
 
 プロビジョニングが完了し、サンドボックスがバインドされたら、次の手順を実行して、チームとユーザーに[!DNL Marketo Optimizer] アクセスを提供します。
 
-1. [Admin Consoleで [!DNL Marketo Optimizer] 製品プロファイル ](#create-profile)を作成します（1回限り/初期設定のみ）。
-1. Admin Consoleで [ ユーザーグループを追加 ](#add-user-group) します。
-1. [製品プロファイル ](#assign-profile)をAdmin Consoleのユーザーグループに割り当てます。
-1. [Admin Consoleの新しいグループ ](#add-users)にユーザーを追加します。
-1. [ ビルトインロールを編集](#edit-role-permissions)または[製品の権限と必要な[!DNL Marketo Optimizer] サンドボックスをExperience Platformで使用して、カスタムロール ](#create-a-custom-role)を作成します。
-1. [Adobe Experience Platformのロールにユーザー](#add-users-to-a-role)または[ グループ ](#add-user-groups-to-a-role)を追加します。
+1. [Admin Consoleで [!DNL Marketo Optimizer] 製品プロファイル &#x200B;](#create-profile)を作成します（1回限り/初期設定のみ）。
+1. Admin Consoleで [&#x200B; ユーザーグループを追加 &#x200B;](#add-user-group) します。
+1. [製品プロファイル &#x200B;](#assign-profile)をAdmin Consoleのユーザーグループに割り当てます。
+1. [Admin Consoleの新しいグループ &#x200B;](#add-users)にユーザーを追加します。
+1. [&#x200B; ビルトインロールを編集](#edit-role-permissions)または[製品の権限と必要な[!DNL Marketo Optimizer] サンドボックスをExperience Platformで使用して、カスタムロール &#x200B;](#create-a-custom-role)を作成します。
+1. [Adobe Experience Platformのロールにユーザー](#add-users-to-a-role)または[&#x200B; グループ &#x200B;](#add-user-groups-to-a-role)を追加します。
 
-管理者、すべてのアクセス権を持つユーザー、および読み取り専用ユーザーに推奨されるユーザーグループと役割を設定するには、[推奨ユーザータイプ ](./permissions-reference.md#suggested-user-types)および[推奨ユーザータイプのユーザーグループと役割を作成](#create-suggested-roles)を参照してください。
+管理者、すべてのアクセス権を持つユーザー、および読み取り専用ユーザーに推奨されるユーザーグループと役割を設定するには、[推奨ユーザータイプ &#x200B;](./permissions-reference.md#suggested-user-types)および[推奨ユーザータイプのユーザーグループと役割を作成](#create-suggested-roles)を参照してください。
 
 ## 製品プロファイルの設定 {#config-profile}
 
@@ -89,7 +89,7 @@ Adobe ソリューションに対するアクセス権をユーザーに付与�
 
 ユーザーグループは、共有された一連の権限を付与されたユーザーのコレクションです。 ユーザーグループのユーザーを追加または削除できます。 グループの権限は、グループ内のユーザーが変更されても、同じままです。
 
-ユーザーグループを使用して権限を管理する方法について詳しくは、Admin Console ドキュメントの [ ユーザーグループの管理 ](https://helpx.adobe.com/business/enterprise/users/users-and-groups/user-groups.html){target="_blank"} を参照してください。
+ユーザーグループを使用して権限を管理する方法について詳しくは、Admin Console ドキュメントの [&#x200B; ユーザーグループの管理 &#x200B;](https://helpx.adobe.com/business/enterprise/users/users-and-groups/user-groups.html){target="_blank"} を参照してください。
 
 ![この手順を完了するには管理者アクセスが必要であることを示すアイコン。](../assets/do-not-localize/icon-admin-user.svg){width="30"} システム管理者は、[https://adminconsole.adobe.com](https://adminconsole.adobe.com)から次の手順を実行できます。
 
@@ -101,7 +101,7 @@ Adobe ソリューションに対するアクセス権をユーザーに付与�
 
 1. _Optimizer users_&#x200B;など、ユーザーグループの名前を入力し、**[!UICONTROL Save]**&#x200B;をクリックします。
 
-   ![ グループ名が入力されたAdmin Consoleの新しいユーザーグループダイアログ。](./assets/admin-console-new-user-group.png){width="600" zoomable="yes"}
+   ![&#x200B; グループ名が入力されたAdmin Consoleの新しいユーザーグループダイアログ。](./assets/admin-console-new-user-group.png){width="600" zoomable="yes"}
 
 ### 製品プロファイルの割り当て {#assign-profile}
 
@@ -113,10 +113,10 @@ Adobe ソリューションに対するアクセス権をユーザーに付与�
 
 1. 「**+**」をクリックして、次の製品の各インスタンスを追加します。
 
-   * [!UICONTROL Adobe Marketo Optimizer - アクセス ]
+   * [!UICONTROL Adobe Marketo Optimizer - アクセス &#x200B;]
    * [!UICONTROL Adobe Experience Platform - AEP-Default-All-Users]
    * [!UICONTROL Adobe Experience Platform Data Collection - Default Data Collection All Access]
-   * [!UICONTROL Adobe Experience Platform - デフォルトの実稼動環境のすべてのアクセス ]
+   * [!UICONTROL Adobe Experience Platform - デフォルトの実稼動環境のすべてのアクセス &#x200B;]
 
    ![Admin Consoleの「割り当てられた製品プロファイル」タブに、ユーザーグループに追加されたプロファイルが表示されている。](./assets/admin-console-product-profiles.png){width="600" zoomable="yes"}
 
@@ -134,7 +134,7 @@ Adobe ソリューションに対するアクセス権をユーザーに付与�
 
    * ユーザーの電子メールアドレスを入力し、**[!UICONTROL 新しいユーザーとして追加]**&#x200B;をクリックします。
 
-     ![ メールアドレスを入力したAdmin Consoleの新規ユーザーダイアログを追加します。](./assets/admin-console-user-group-add-users.png){width="600" zoomable="yes"}
+     ![&#x200B; メールアドレスを入力したAdmin Consoleの新規ユーザーダイアログを追加します。](./assets/admin-console-user-group-add-users.png){width="600" zoomable="yes"}
 
    * 名と姓を入力し、**[!UICONTROL 保存]**&#x200B;をクリックします。
 
@@ -148,7 +148,7 @@ Adobe ソリューションに対するアクセス権をユーザーに付与�
 
    * **[!UICONTROL ユーザーグループ]**&#x200B;の下にある&#x200B;_追加_ （**+**）アイコンをクリックします。
 
-     ![ ユーザー用に選択されたユーザーグループを含むAdmin Consoleの「ユーザーグループを編集」ダイアログ。](./assets/admin-console-user-edit-user-groups.png){width="600" zoomable="yes"}
+     ![&#x200B; ユーザー用に選択されたユーザーグループを含むAdmin Consoleの「ユーザーグループを編集」ダイアログ。](./assets/admin-console-user-edit-user-groups.png){width="600" zoomable="yes"}
 
    * 以前に作成したユーザーグループを選択し、**[!UICONTROL 適用]**&#x200B;をクリックします。
 
@@ -160,7 +160,7 @@ Adobe ソリューションに対するアクセス権をユーザーに付与�
 
 Adobe Experience Platformの _権限_ 領域では、管理者は、ユーザーの役割とアクセスポリシーを定義して、製品アプリケーション内の機能とオブジェクトのアクセス権限を管理できます。 このアプリでは、役割を作成および管理すると共に、それらの役割に対して必要なリソース権限を割り当てることができます。 また、権限では、特定の役割に関連付けられたサンドボックスとユーザーを管理することもできます。
 
-Experience Platformのロール権限について詳しくは、Experience Platform ドキュメントの [ ロールの権限の管理 ](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} を参照してください。
+Experience Platformのロール権限について詳しくは、Experience Platform ドキュメントの [&#x200B; ロールの権限の管理 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/access-control/abac/permissions-ui/permissions){target="_blank"} を参照してください。
 
 1. [experience.adobe.com](https://experienceleague.adobe.com/ja) に移動します。
 
@@ -234,7 +234,7 @@ Experience Platformのロール権限について詳しくは、Experience Platf
 
 1. **[!UICONTROL ユーザーを追加]** をクリックします。
 
-   Experience Platformのロールの詳細ページの「![ ユーザー」タブで、「ユーザーを追加」が選択されています。](./assets/aep-permissions-role-prime-add-users.png){width="800" zoomable="yes"}
+   Experience Platformのロールの詳細ページの「![&#x200B; ユーザー」タブで、「ユーザーを追加」が選択されています。](./assets/aep-permissions-role-prime-add-users.png){width="800" zoomable="yes"}
 
 1. _[!UICONTROL ユーザーを追加]_ ダイアログで、役割に追加するユーザーを見つけて選択します。
 
@@ -258,7 +258,7 @@ Experience Platformのロール権限について詳しくは、Experience Platf
 
 1. **[!UICONTROL グループを追加]** をクリックします。
 
-   ![ グループを追加を選択したExperience Platformのロールの詳細ページの「ユーザーグループ」タブ。](./assets/aep-permissions-role-prime-add-groups.png){width="800" zoomable="yes"}
+   ![&#x200B; グループを追加を選択したExperience Platformのロールの詳細ページの「ユーザーグループ」タブ。](./assets/aep-permissions-role-prime-add-groups.png){width="800" zoomable="yes"}
 
 1. _[!UICONTROL グループを追加]_ ダイアログで、役割に追加するグループを見つけて選択します。
 
@@ -266,7 +266,7 @@ Experience Platformのロール権限について詳しくは、Experience Platf
 
    * 各ユーザーグループのチェックボックスを選択します。
 
-   ![ ユーザーグループのチェックボックスが選択された状態でExperience Platformでグループを追加ダイアログを表示して、ロールに追加します。](assets/aep-permissions-role-add-groups-dialog.png){width="600" zoomable="yes"}
+   ![&#x200B; ユーザーグループのチェックボックスが選択された状態でExperience Platformでグループを追加ダイアログを表示して、ロールに追加します。](assets/aep-permissions-role-add-groups-dialog.png){width="600" zoomable="yes"}
 
 1. 追加するすべてのグループを選択したら、**[!UICONTROL 保存]**&#x200B;をクリックします。
 
@@ -282,7 +282,7 @@ Experience Platformのロール権限について詳しくは、Experience Platf
 
 1. [!DNL Marketo Optimizer] アクセス用にプロビジョニングされたサンドボックス （`Mktoaep<Marketo subscription prefix>`）を選択します。
 
-   Marketo Optimizer サンドボックスが選択されたロールエディターの![ サンドボックス選択リスト。](./assets/aep-permissions-optimizer-sandbox.png){width="500" zoomable="yes"}
+   Marketo Optimizer サンドボックスが選択されたロールエディターの![&#x200B; サンドボックス選択リスト。](./assets/aep-permissions-optimizer-sandbox.png){width="500" zoomable="yes"}
 
 1. 製品権限を追加：
 
@@ -308,13 +308,13 @@ Experience Platformのロール権限について詳しくは、Experience Platf
 
 ### 提案されたユーザータイプのユーザーグループと役割の作成 {#create-suggested-roles}
 
-次の手順を使用して、_管理者_、_すべてのアクセス ユーザー_、_読み取り専用アクセス ユーザー_、[推奨ユーザータイプ ](./permissions-reference.md#suggested-user-types)を設定します。 ユーザータイプごとに、Admin Consoleでユーザーグループを作成し、Experience Platformでロールを作成してから、そのロールにグループを追加します。 各ユーザータイプに対する推奨される権限は、[_製品権限_](./permissions-reference.md)&#x200B;に一覧表示されます。
+次の手順を使用して、_管理者_、_すべてのアクセス ユーザー_、_読み取り専用アクセス ユーザー_、[推奨ユーザータイプ &#x200B;](./permissions-reference.md#suggested-user-types)を設定します。 ユーザータイプごとに、Admin Consoleでユーザーグループを作成し、Experience Platformでロールを作成してから、そのロールにグループを追加します。 各ユーザータイプに対する推奨される権限は、[_製品権限_](./permissions-reference.md)&#x200B;に一覧表示されます。
 
 #### 管理者ユーザーグループと役割の作成 {#create-admin-group}
 
 ![この手順を完了するには管理者アクセスが必要であることを示すアイコン。](../assets/do-not-localize/icon-admin-user.svg){width="30"} システム管理者は次の手順を実行できます。
 
-1. Admin Consoleで、[Marketo Optimizer Administrators Group _という名前のユーザーグループ ](#add-user-group)を追加し、[製品プロファイル ](#assign-profile)をそれに割り当てます。_
+1. Admin Consoleで、[Marketo Optimizer Administrators Group _という名前のユーザーグループ &#x200B;](#add-user-group)を追加し、[製品プロファイル &#x200B;](#assign-profile)をそれに割り当てます。_
 
 1. [!DNL Marketo Optimizer]を設定および管理するユーザーをグループに追加します。
 
@@ -366,9 +366,9 @@ Experience Platformのロール権限について詳しくは、Experience Platf
 
 ![この手順を完了するには管理者アクセスが必要であることを示すアイコン。](../assets/do-not-localize/icon-admin-user.svg){width="30"} システム管理者は次の手順を実行できます。
 
-1. Admin Consoleで、[ ユーザーグループ ](#add-user-group)を&#x200B;_Marketo Optimizer ユーザーグループ_&#x200B;という名前で追加し、[製品プロファイル ](#assign-profile)をそれに割り当て、[ ユーザー](#add-users)をグループに追加します。
+1. Admin Consoleで、[&#x200B; ユーザーグループ &#x200B;](#add-user-group)を&#x200B;_Marketo Optimizer ユーザーグループ_&#x200B;という名前で追加し、[製品プロファイル &#x200B;](#assign-profile)をそれに割り当て、[&#x200B; ユーザー](#add-users)をグループに追加します。
 
-1. Experience Platformの権限で、[Marketo Optimizer All Access User _という名前のカスタムロール ](#create-a-custom-role)を作成します。_
+1. Experience Platformの権限で、[Marketo Optimizer All Access User _という名前のカスタムロール &#x200B;](#create-a-custom-role)を作成します。_
 
 1. [!DNL Marketo Optimizer] アクセス用にプロビジョニングされたサンドボックス （`Mktoaep<Marketo subscription prefix>`）を選択します。
 
@@ -384,9 +384,9 @@ Experience Platformのロール権限について詳しくは、Experience Platf
 
 ![この手順を完了するには管理者アクセスが必要であることを示すアイコン。](../assets/do-not-localize/icon-admin-user.svg){width="30"} システム管理者は次の手順を実行できます。
 
-1. Admin Consoleで、[ ユーザーグループ ](#add-user-group)を&#x200B;_Marketo Optimizer読み取り専用ユーザーグループ_&#x200B;という名前で追加し、[製品プロファイル ](#assign-profile)をそれに割り当て、[ ユーザー](#add-users)をグループに追加します。
+1. Admin Consoleで、[&#x200B; ユーザーグループ &#x200B;](#add-user-group)を&#x200B;_Marketo Optimizer読み取り専用ユーザーグループ_&#x200B;という名前で追加し、[製品プロファイル &#x200B;](#assign-profile)をそれに割り当て、[&#x200B; ユーザー](#add-users)をグループに追加します。
 
-1. Experience Platform権限で、[Marketo Optimizer読み取り専用アクセス ユーザー&#x200B;_という名前のカスタムロール ](#create-a-custom-role)を作成します。_
+1. Experience Platform権限で、[Marketo Optimizer読み取り専用アクセス ユーザー&#x200B;_という名前のカスタムロール &#x200B;](#create-a-custom-role)を作成します。_
 
 1. [!DNL Marketo Optimizer] アクセス用にプロビジョニングされたサンドボックス （`Mktoaep<Marketo subscription prefix>`）を選択します。
 
