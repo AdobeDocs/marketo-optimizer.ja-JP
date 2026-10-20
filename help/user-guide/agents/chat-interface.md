@@ -19,14 +19,20 @@ topic_v2:
     internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
     internal-label: Optimization
-source-git-commit: e2577dd31c38f55f4dc2ce32119315ad7f9fe6f6
+source-git-commit: be5df9d4e4482516a60b652d9ec2f977eb29b520
 workflow-type: tm+mt
-source-wordcount: '859'
+source-wordcount: '955'
 ht-degree: 0%
 ---
 # チャットインターフェイス
 
 チャットパネルは[!DNL Adobe Marketo Optimizer]全体に埋め込まれています。 ここでは、平易な言語を使用してAI エージェントと対話し、プログラムやジャーニーの構築、人物リストの作成と比較、リードの調査、スコアリングの設定などをおこないます。
+
+>[!PREREQUISITES]
+>
+>[!DNL Marketo Optimizer]で同僚のチャットパネルを使用するには、**[!UICONTROL B2B会話体験の管理]** [権限](../start/permissions-reference.md)が必要です。
+>
+>この権限は、チャットパネルへのアクセス権を与えますが、機能へのアクセス権は与えません。 システムは、チャット内のすべてのスキルまたはアクションを、チャット以外の機能に必要な権限と同じ権限に照らし合わせてチェックします。作成、編集または公開する権限&#x200B;_Manage_、読み取り専用スキルの権限&#x200B;_View_。 機能の権限がない場合、アシスタントはそのアクションを実行できません。 例えば、ジャーニーを作成するには&#x200B;**[!UICONTROL B2B人物ジャーニーを管理]**&#x200B;する必要があり、フォームをリストするには&#x200B;**[!UICONTROL B2B Formsを表示]**&#x200B;する必要があります。
 
 左側のナビゲーションで「_同僚_」アイコンを選択して、パネルを開きます。 パネルヘッダーには、次の4つのコントロールがあります。
 

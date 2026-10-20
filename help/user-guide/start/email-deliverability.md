@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: cf3d8c71c9301ee038cc1b31968d30aba34d1fc7
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '2590'
+source-wordcount: '2694'
 ht-degree: 1%
 ---
 # メールの配信品質
@@ -38,11 +38,11 @@ ht-degree: 1%
 
 管理者が設定した次の構成要素を、通常は次の順序で使用します。
 
-1. [1つ以上のサブドメイン &#x200B;](#subdomain-delegation)をAdobeにデリゲートします。
-1. [各サブドメインでDMARC、SPF、DKIM レコード &#x200B;](#dmarc-spf-dkim)を設定します。
-1. [&#x200B; サブドメインのメール送信に使用するIP プール &#x200B;](#ip-pools)を確認します。
-1. [&#x200B; サブドメイン、IP プール、送信者IDをバインドする1つ以上の電子メールチャネル設定](../admin/email-channel-configuration.md#create-email-channel-configuration)を作成します。
-1. [送信元IP アドレス &#x200B;](#allowlist-ip-addresses)をIT部門と許可リストに加えるして、テストメールを受信トレイに届けます。
+1. [1つ以上のサブドメイン ](#subdomain-delegation)をAdobeにデリゲートします。
+1. [各サブドメインでDMARC、SPF、DKIM レコード ](#dmarc-spf-dkim)を設定します。
+1. [ サブドメインのメール送信に使用するIP プール ](#ip-pools)を確認します。
+1. [ サブドメイン、IP プール、送信者IDをバインドする1つ以上の電子メールチャネル設定](../admin/email-channel-configuration.md#create-email-channel-configuration)を作成します。
+1. [送信元IP アドレス ](#allowlist-ip-addresses)をIT部門と許可リストに加えるして、テストメールを受信トレイに届けます。
 
 ![Marketo Optimizerのメール配信品質の設定](./assets/email-deliverability-diagram.svg){width="600"}
 
@@ -53,8 +53,8 @@ ht-degree: 1%
 > メールチャネルについて詳しくは、次のトピックを参照してください。
 >
 >* 電子メールチャネルの設定 – [電子メールチャネル設定](../admin/email-channel-configuration.md)
->* メールの作成 – [&#x200B; ジャーニーにメールを追加](../marketing/email-channel.md)
->* 電子メールコンテンツのデザイン - [電子メールコンテンツのオーサリング &#x200B;](../content/email-authoring.md)
+>* メールの作成 – [ ジャーニーにメールを追加](../marketing/email-channel.md)
+>* 電子メールコンテンツのデザイン - [電子メールコンテンツのオーサリング ](../content/email-authoring.md)
 
 ## 現在の制限事項 {#limitations}
 
@@ -70,6 +70,18 @@ ht-degree: 1%
 | **_サブドメイン_** | 送信ドメインのデリゲートされた部分（例：`mail.contoso.com`）は、[!DNL Marketo Optimizer]を通じてメールを送信するために使用されます。 サブドメインは、B2B マーケティングのレピュテーションを企業メールやトランザクションメールから分離します。 |
 | **_IP プール_** | 1つ以上のサブドメインに関連付けられたIP アドレスのグループ。 [!DNL Marketo Optimizer]は、このリリースでAdobeが管理する共有IP プールをサポートしています。専用IP プールはGA ロードマップに掲載されています。 |
 | **_チャネル設定_** | ジャーニーのメールアクションに添付する、再利用可能なメール送信設定（送信者ID、返信先アドレス、サブドメイン、IP プール、メールタイプ、トラッキング）。 ブランド、事業部門、送信タイプごとに、複数の名前付きチャネル設定を使用できます。 |
+
+## 必要な権限 {#required-permissions}
+
+配信品質とチャネルの設定は、管理者レベルのタスクです。 _B2B チャネル設定_ カテゴリの次の権限は、アクセスを制御します。
+
+| 権限 | できること |
+| ---------- | -------------- |
+| B2B メール設定の表示 | メール設定（サブドメイン、PTR レコード、IP プール、抑制リスト、シードリスト、IP ウォームアッププラン）を表示します。 |
+| B2B メール設定の管理 | メール設定を行います。 これらの設定は、ユーザーがメールを送信する前に必要です。 |
+| B2B チャネル設定の管理 | 左側のナビゲーションおよびすべてのチャネル設定操作の&#x200B;_チャネル_ メニュー項目にアクセスします。 |
+
+すべての権限と各タイプのユーザーに対する推奨される権限について詳しくは、[製品権限](./permissions-reference.md)を参照してください。
 
 <!--
 
@@ -155,7 +167,7 @@ Channel configurations sit under **[!UICONTROL Channels]** → **[!UICONTROL Gen
 >* サブドメインの命名規則を決定します（たとえば、マーケティングの場合は`mail.contoso.com`、トランザクションの場合は`alerts.contoso.com`）。
 >* IT/DNS チームがサブドメイン（NS レコード）をAdobeにデリゲートできることを確認します。
 >* DNS プロバイダーで新しいサブドメインを作成してから、DNSの伝搬を24～48時間待ってから、Adobeにデリゲートします。
->* [!DNL Marketo Optimizer]に管理者の役割があることを確認してください。
+>* **[!UICONTROL B2B メール設定の管理]**&#x200B;権限があることを確認してください。 詳しくは、[必要な権限](#required-permissions)を参照してください。
 
 1. 左側の[!DNL Marketo Optimizer] ナビゲーションで、**[!UICONTROL 管理]**&#x200B;を展開し、**[!UICONTROL チャネル]**&#x200B;を選択します。
 1. パネルで、**[!UICONTROL メール設定]**&#x200B;を展開し、**[!UICONTROL サブドメイン]**&#x200B;を選択します。

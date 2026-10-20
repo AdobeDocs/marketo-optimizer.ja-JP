@@ -1,19 +1,20 @@
 ---
 title: メールテンプレート
-description: フォルダーを使用してテンプレートを整理する方法など、Marketo Optimizerでメールテンプレートにアクセスして管理する方法を説明します。
+description: フォルダーを使用してテンプレートを整理する方法など、Marketo Optimizerでメールテンプレートにアクセスして管理する方法について説明します。
 TQID: 'https://experienceleague.adobe.com/PS1sj99Udmajg2M4JadFQCGYF7DL9JkkdU9-7FG-OzY'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Content Management
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 483
+source-wordcount: '511'
 ht-degree: 1%
-
 ---
-
 
 # メールテンプレート
 
@@ -24,6 +25,13 @@ ht-degree: 1%
 >このBeta リリースでは、メールテンプレートのみがサポートされています。
 
 テンプレートが新しい電子メールに適用されると、その時点でコンテンツがコピーされます。 テンプレートを編集しても、テンプレートから以前に作成されたメールには影響しません。
+
+>[!PREREQUISITES]
+>
+>テンプレートを操作するには、次の[権限](../start/permissions-reference.md)が必要です。
+>
+>* **[!UICONTROL B2B テンプレートを表示]** - テンプレートのリストと詳細を表示するには必須です。
+>* **[!UICONTROL B2B テンプレートの管理]** - テンプレートの作成、編集、削除に必要です。
 
 ## メールテンプレートへのアクセス {#access}
 
@@ -80,4 +88,4 @@ ht-degree: 1%
 
 ## メールでのテンプレートの使用 {#use-in-journey}
 
-ジャーニーで電子メールを作成する場合、**[!UICONTROL デザインテンプレートを選択]** セクションでは、保存されたテンプレートまたはサンプルテンプレートから選択できます。 テンプレートのサムネールをクリックしてプレビューし、**[!UICONTROL このテンプレートを使用]**&#x200B;をクリックして適用します。 メール オーサリング ワークフローでテンプレートを使用する方法について詳しくは、[&#x200B; メール コンテンツ オーサリング &#x200B;](./email-authoring.md#templates)を参照してください。
+ジャーニーで電子メールを作成する場合、**[!UICONTROL デザインテンプレートを選択]** セクションでは、保存されたテンプレートまたはサンプルテンプレートから選択できます。 テンプレートのサムネールをクリックしてプレビューし、**[!UICONTROL このテンプレートを使用]**&#x200B;をクリックして適用します。 メール オーサリング ワークフローでテンプレートを使用する方法について詳しくは、[ メール コンテンツ オーサリング ](./email-authoring.md#templates)を参照してください。

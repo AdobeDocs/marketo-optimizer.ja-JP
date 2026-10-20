@@ -4,21 +4,23 @@ description: Marketo Optimizerで、プログラムの属性とメンバーの�
 TQID: 'https://experienceleague.adobe.com/Eepcnc51p-P-yoyylXBr47SF0xR-3pvZab2aHf9jdew'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
   - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Administration
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 389
+source-wordcount: '420'
 ht-degree: 1%
-
 ---
-
 # プログラムタイプ
 
-プログラムの種類は、[&#x200B; プログラム &#x200B;](../marketing/programs.md)とそのメンバーの重要な側面を定義し、異なる種類のマーケティングプログラムを区別します。 各プログラムタイプは、プログラムタイプを使用するプログラムに継承される次のプロパティを定義します。
+プログラムの種類は、[ プログラム ](../marketing/programs.md)とそのメンバーの重要な側面を定義し、異なる種類のマーケティングプログラムを区別します。 各プログラムタイプは、プログラムタイプを使用するプログラムに継承される次のプロパティを定義します。
 
 * **属性** – 属性は、イベントの日付や場所の属性など、プログラムの種類の重要な側面を表します。
 
@@ -30,17 +32,24 @@ ht-degree: 1%
 >
 >プログラムの種類が1つ以上のプログラムで使用されている場合、その種類を編集することはできません。
 
+>[!PREREQUISITES]
+>
+>プログラムの種類を操作するには、次の[権限](../start/permissions-reference.md)が必要です。
+>
+>* **[!UICONTROL B2B プログラムの種類を表示]** - マーケティング プログラムの種類を表示するには必須です。
+>* **[!UICONTROL B2B プログラムタイプの管理]** - マーケティングプログラムタイプの作成、編集、削除に必要です。
+
 _カスタムプログラムタイプを定義するには&#x200B;:_
 
 1. 左側の[!DNL Adobe Marketo Optimizer]のナビゲーションで、**[!UICONTROL 管理]**&#x200B;を展開し、**[!UICONTROL プログラムタイプ]**&#x200B;を選択します。
 
-   ![&#x200B; プログラムの種類リストにアクセス &#x200B;](./assets/program-types-list.png){width="800" zoomable="yes"}
+   ![ プログラムの種類リストにアクセス ](./assets/program-types-list.png){width="800" zoomable="yes"}
 
 1. 右上の「**[!UICONTROL タイプを作成]**」をクリックします。
 
 1. 一意の&#x200B;**[!UICONTROL 名前]** （必須）と&#x200B;**[!UICONTROL 説明]** （オプション）を入力してください。
 
-   ![&#x200B; プログラムの種類を作成](./assets/program-type-create.png){width="600" zoomable="yes"}
+   ![ プログラムの種類を作成](./assets/program-type-create.png){width="600" zoomable="yes"}
 
    >[!TIP]
    >
@@ -56,7 +65,7 @@ _カスタムプログラムタイプを定義するには&#x200B;:_
    * **[!UICONTROL API名]**&#x200B;を選択し、**[!UICONTROL 表示名]**&#x200B;を入力します。
    * 「**[!UICONTROL 保存]**」をクリックします。
 
-   ![&#x200B; プログラムタイプ属性](./assets/program-type-attributes.png){width="600" zoomable="yes"}
+   ![ プログラムタイプ属性](./assets/program-type-attributes.png){width="600" zoomable="yes"}
 
 1. **[!UICONTROL プログラムステータス]**&#x200B;の手順を定義します。
 
@@ -68,6 +77,6 @@ _カスタムプログラムタイプを定義するには&#x200B;:_
 
    プログラムの実行を成功として追跡する手順については、「**[!UICONTROL 成功としてマーク]**」チェックボックスをオンにします。
 
-   ![&#x200B; プログラムの種類のステータス &#x200B;](./assets/program-type-statuses.png){width="600" zoomable="yes"}
+   ![ プログラムの種類のステータス ](./assets/program-type-statuses.png){width="600" zoomable="yes"}
 
 1. 「**[!UICONTROL 完了]**」をクリックして変更を保存し、プログラムタイプリストに戻ります。

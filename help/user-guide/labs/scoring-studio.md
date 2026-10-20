@@ -7,21 +7,28 @@ product_v2:
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
     internal-label: Chat Interface
-source-git-commit: 7e3080b688415ef623cdbd57aa08ed43eb6fcd17
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1445'
 ht-degree: 1%
 ---
 
 # スコアリングスタジオ
 
-スコアリングスタジオには、モデルリスト、各モデルの編集可能なキャンバス、[同僚チャットインターフェイス &#x200B;](../agents/chat-interface.md)が含まれます。 カンバスを使用してディメンションやシグナルを直接確認または調整し、Coworkerは自然言語の変更を提案し続けます。 プロンプトからモデルを作成する方法について詳しくは、[_カスタムスコアリングモデルの作成_](../agents/lead-scoring-model.md)&#x200B;を参照してください。
+スコアリングスタジオには、モデルリスト、各モデルの編集可能なキャンバス、[同僚チャットインターフェイス ](../agents/chat-interface.md)が含まれます。 カンバスを使用してディメンションやシグナルを直接確認または調整し、Coworkerは自然言語の変更を提案し続けます。 プロンプトからモデルを作成する方法について詳しくは、[_カスタムスコアリングモデルの作成_](../agents/lead-scoring-model.md)&#x200B;を参照してください。
+
+>[!PREREQUISITES]
+>
+>スコアリングスタジオはラボ機能であり、次の[権限](../start/permissions-reference.md)が必要です。
+>
+>* **[!UICONTROL B2B ラボを表示]** – 使用可能で有効なラボ機能を表示するために必要です。
+>* **[!UICONTROL B2B ラボの管理]** - ラボ機能を有効にして設定するために必要です。
 
 ## モデルリスト {#model-list}
 
 モデルリストは、Scoring Studioのランディングビューです。 [!DNL Marketo Optimizer] インスタンス内のすべてのスコアリングモデルが、テーブル内の行として、またはグリッドビューに切り替えるとカードとして表示されます。
 
-![&#x200B; スコアリングスタジオのモデルリストには、ディメンション、シグナル、最終変更済みの詳細を含むアクティブなスコアリングモデルが表示されます。](./assets/scoring-studio-ui.png){width="800" zoomable="yes"}
+![ スコアリングスタジオのモデルリストには、ディメンション、シグナル、最終変更済みの詳細を含むアクティブなスコアリングモデルが表示されます。](./assets/scoring-studio-ui.png){width="800" zoomable="yes"}
 
 | 列 | 説明 |
 | --- | --- |
@@ -44,7 +51,7 @@ ht-degree: 1%
 
 **[!UICONTROL ルール]** タブでは、モデル内のすべてのディメンションがキャンバスの列になります。 各列ヘッダーには、ディメンション名とそのキャップに対するポイントの合計（例：`20 / 30 pts`）が表示され、信号の貢献度ポイントとして入力されるプログレスバーが表示されます。
 
-![&#x200B; 「ルール」タブのキャンバスには、3つのディメンション列（「電子メールのエンゲージメント」、「プロファイルの適合性」、「最近のアクティビティ」）が表示され、それぞれにシグナルカードとポイントが表示されます。](./assets/scoring-studio-model-rules-tab.png){width="700" zoomable="yes"}
+![ 「ルール」タブのキャンバスには、3つのディメンション列（「電子メールのエンゲージメント」、「プロファイルの適合性」、「最近のアクティビティ」）が表示され、それぞれにシグナルカードとポイントが表示されます。](./assets/scoring-studio-model-rules-tab.png){width="700" zoomable="yes"}
 
 各ディメンション内では、アクティビティに依存しない属性ベースのシグナルに対して、すべてのシグナルが、名前、ポイント値、および一致する頻度（例：`1 time / day`）または`Static`を示すカードとして表示されます。
 
@@ -60,9 +67,9 @@ Coworkerが複数のアクティビティにまたがるパターンを検出す
 
    プロパティパネルがカンバスの右側に開きます。
 
-   ![&#x200B; ルール タブ キャンバスには、選択した信号カードとそのプロパティ パネルが表示され、信号の種類、アクティビティの種類、条件、およびポイントが表示されます。](./assets/scoring-studio-model-selected-signal.png){width="700" zoomable="yes"}
+   ![ ルール タブ キャンバスには、選択した信号カードとそのプロパティ パネルが表示され、信号の種類、アクティビティの種類、条件、およびポイントが表示されます。](./assets/scoring-studio-model-selected-signal.png){width="700" zoomable="yes"}
 
-1. **[!UICONTROL 編集]** アイコン （![編集アイコン &#x200B;](../assets/do-not-localize/icon-react-edit.svg)）を選択し、信号プロパティを更新します。
+1. **[!UICONTROL 編集]** アイコン （![編集アイコン ](../assets/do-not-localize/icon-react-edit.svg)）を選択し、信号プロパティを更新します。
 
    * **[!UICONTROL Signal]**&#x200B;で、シグナルの種類（アクティビティまたは属性）と、スコアを算出する特定のアクティビティまたは属性を確認します。
 
@@ -90,7 +97,7 @@ Coworkerが複数のアクティビティにまたがるパターンを検出す
 
 リストを変更するには、「**[!UICONTROL リード]**」タブを選択し、リードセグメントの横にある「**[!UICONTROL 変更]**」を選択します。
 
-![&#x200B; 「リード」タブには、参照されている人物リスト、人物リストの表示リンク、および変更リンクが含まれているリードセグメントカードが表示されます。](./assets/scoring-studio-model-lead-tab.png){width="700" zoomable="yes"}
+![ 「リード」タブには、参照されている人物リスト、人物リストの表示リンク、および変更リンクが含まれているリードセグメントカードが表示されます。](./assets/scoring-studio-model-lead-tab.png){width="700" zoomable="yes"}
 
 リードセグメントは、次のいずれかのリストタイプを使用します。
 
@@ -107,27 +114,27 @@ Coworkerが複数のアクティビティにまたがるパターンを検出す
 
 モデルの準備ができたら、**[!UICONTROL 公開]**&#x200B;をクリックします。
 
-![&#x200B; ドラフトスコアリングモデルの「公開」ボタンが表示されます。](./assets/scoring-model-publish.png){width="700" zoomable="yes"}
+![ ドラフトスコアリングモデルの「公開」ボタンが表示されます。](./assets/scoring-model-publish.png){width="700" zoomable="yes"}
 
 モデルがオーディエンスをスコア化する頻度（日単位、週単位、月単位）を選択します。 モデルを実行する手動オプションを選択することもできます。
 
-![&#x200B; スコアリングモデルを実行するためのスケジュールのオプションには、毎日、毎週、毎月、手動の繰り返しの選択肢が表示されます。](./assets/scoring-model-publish-schedule-options.png){width="420" zoomable="no"}
+![ スコアリングモデルを実行するためのスケジュールのオプションには、毎日、毎週、毎月、手動の繰り返しの選択肢が表示されます。](./assets/scoring-model-publish-schedule-options.png){width="420" zoomable="no"}
 
-[!DNL Marketo Optimizer]がスコアリングフィールドを自動的にプロビジョニングする方法など、[同僚チャットインターフェイス &#x200B;](../agents/chat-interface.md)を使用した完全な公開プロセスについては、[_スコアリングモデルの公開_](../agents/lead-scoring-model.md#publish-model)&#x200B;を参照してください。
+[!DNL Marketo Optimizer]がスコアリングフィールドを自動的にプロビジョニングする方法など、[同僚チャットインターフェイス ](../agents/chat-interface.md)を使用した完全な公開プロセスについては、[_スコアリングモデルの公開_](../agents/lead-scoring-model.md#publish-model)&#x200B;を参照してください。
 
 最新のスコアは、[!DNL Marketo Engage] インスタンスに同期されたプロビジョニング済みフィールドに保存されます。
 
-![Marketo Engage フィールド管理に表示されるプロビジョニングされたスコアフィールド &#x200B;](./assets/scoring-model-score-field-ame.png){width="800" zoomable="yes"}
+![Marketo Engage フィールド管理に表示されるプロビジョニングされたスコアフィールド ](./assets/scoring-model-score-field-ame.png){width="800" zoomable="yes"}
 
 ## フィルターでのスコアの使用 {#filter-score}
 
-モデル [&#128279;](#publish-schedule)を公開した後、イベントベースのオーディエンスを構築する際に、その結果のスコアをフィルターとして使用し、_イベント_ ノードをリッスンしたり、分割パスの条件として使用したり、人物リストメンバーシップを使用したりできます。
+モデル ](#publish-schedule)を[公開した後、イベントベースのオーディエンスを構築する際に、その結果のスコアをフィルターとして使用し、_イベント_ ノードをリッスンしたり、分割パスの条件として使用したり、人物リストメンバーシップを使用したりできます。
 
 スコアは、割り当てたモデル名またはカスタム [_スコアフィールド名_](#lead-segment)&#x200B;のラベルが付いた&#x200B;**[!UICONTROL 人物の属性]** カテゴリの下のフィルターパネルに表示されます。 その名前をフィルターパネルの検索フィールドに入力してスコアを見つけ、キャンバスにドラッグして基準を定義します。
 
 ### イベントベースのオーディエンスとノード {#scoring-model-event-audience}
 
-スコアリングモデルの結果を使用して、[&#x200B; イベントベースのオーディエンス &#x200B;](../audiences/event-based-audiences.md)または&#x200B;[_イベント_ ノード &#x200B;](../marketing/listen-for-event-nodes.md)をリッスンする場合は、次の手順を実行します。
+スコアリングモデルの結果を使用して、[ イベントベースのオーディエンス ](../audiences/event-based-audiences.md)または&#x200B;[_イベント_ ノード ](../marketing/listen-for-event-nodes.md)をリッスンする場合は、次の手順を実行します。
 
 1. 「**[!UICONTROL イベント条件を追加]**」をクリックします。
 
@@ -135,7 +142,7 @@ Coworkerが複数のアクティビティにまたがるパターンを検出す
 
 1. 検索フィールドにモデル名を入力し、スコアをキャンバスにドラッグします。
 
-   ![&#x200B; 「フィルター」タブには、検索フィールドに入力されたモデル名と、一致するスコアがキャンバスにドラッグされて表示されます。](./assets/scoring-model-event-filter.png){width="700" zoomable="yes"}
+   ![ 「フィルター」タブには、検索フィールドに入力されたモデル名と、一致するスコアがキャンバスにドラッグされて表示されます。](./assets/scoring-model-event-filter.png){width="700" zoomable="yes"}
 
 1. 演算子と値を、ターゲットにするスコアと一致するように設定します。
 
@@ -143,7 +150,7 @@ Coworkerが複数のアクティビティにまたがるパターンを検出す
 
 ### パス条件を分割 {#split-path-conditions}
 
-スコアリングモデルの結果を使用して、[_分割パス_ ノード &#x200B;](../marketing/split-merge-paths-nodes.md)のパス条件を定義するには：
+スコアリングモデルの結果を使用して、[_分割パス_ ノード ](../marketing/split-merge-paths-nodes.md)のパス条件を定義するには：
 
 1. ノードパスの「**[!UICONTROL 条件を編集]**」をクリックします。
 
@@ -157,7 +164,7 @@ Coworkerが複数のアクティビティにまたがるパターンを検出す
 
 ### ユーザーリストのメンバーシップ {#scoring-model-people-lists}
 
-スコアリングモデルの結果を使用して[&#x200B; ユーザーリスト &#x200B;](../audiences/people-lists.md)のメンバーシップを管理するには：
+スコアリングモデルの結果を使用して[ ユーザーリスト ](../audiences/people-lists.md)のメンバーシップを管理するには：
 
 **静的リスト – メンバーを追加**
 
@@ -179,7 +186,7 @@ Coworkerが複数のアクティビティにまたがるパターンを検出す
 
 1. _[!UICONTROL ルールを編集]_ ダイアログで、検索フィールドにモデル名を入力し、スコア項目をキャンバスにドラッグします。
 
-   ![&#x200B; ルールを編集ダイアログに、検索フィールドに入力されたモデル名と、一致するスコアがキャンバスにドラッグされて表示されます。](./assets/scoring-model-dynamic-list-rules.png){width="700" zoomable="yes"}
+   ![ ルールを編集ダイアログに、検索フィールドに入力されたモデル名と、一致するスコアがキャンバスにドラッグされて表示されます。](./assets/scoring-model-dynamic-list-rules.png){width="700" zoomable="yes"}
 
 1. 演算子と値を、ターゲットにするスコアと一致するように設定します。
 
