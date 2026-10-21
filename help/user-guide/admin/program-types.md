@@ -4,18 +4,20 @@ description: Marketo Optimizerで、プログラムの属性とメンバーの�
 TQID: 'https://experienceleague.adobe.com/Eepcnc51p-P-yoyylXBr47SF0xR-3pvZab2aHf9jdew'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
   - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Administration
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 389
+source-wordcount: '420'
 ht-degree: 1%
-
 ---
-
 # プログラムタイプ
 
 プログラムの種類は、[&#x200B; プログラム &#x200B;](../marketing/programs.md)とそのメンバーの重要な側面を定義し、異なる種類のマーケティングプログラムを区別します。 各プログラムタイプは、プログラムタイプを使用するプログラムに継承される次のプロパティを定義します。
@@ -29,6 +31,13 @@ ht-degree: 1%
 >[!NOTE]
 >
 >プログラムの種類が1つ以上のプログラムで使用されている場合、その種類を編集することはできません。
+
+>[!PREREQUISITES]
+>
+>プログラムの種類を操作するには、次の[権限](../start/permissions-reference.md)が必要です。
+>
+>* **[!UICONTROL B2B プログラムの種類を表示]** - マーケティング プログラムの種類を表示するには必須です。
+>* **[!UICONTROL B2B プログラムタイプの管理]** - マーケティングプログラムタイプの作成、編集、削除に必要です。
 
 _カスタムプログラムタイプを定義するには&#x200B;:_
 

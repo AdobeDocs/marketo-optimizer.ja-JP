@@ -4,27 +4,29 @@ description: Meta Cloud APIを介してWhatsApp Business アカウントを接�
 TQID: 'https://experienceleague.adobe.com/y7rOywtyZ-OlupwLS-Fsjx72EVlaT7Vy-O1NEMwMO5E'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Administration
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 1469
+source-wordcount: '1510'
 ht-degree: 19%
-
 ---
-
 # WhatsApp チャネル設定
 
-Marketo Optimizerは、Meta APIを介してWhatsApp メッセージを送信します。 マーケターが個人のジャーニー用にWhatsApp メッセージを作成する前に、製品管理者がWhatsApp チャネルを設定する必要があります。
+Marketo Optimizerは、Meta Cloud APIを介してWhatsApp メッセージを送信します。 マーケターが個人のジャーニー用にWhatsApp メッセージを作成する前に、製品管理者がWhatsApp チャネルを設定する必要があります。
 
-Marketo Optimizerの![WhatsApp タスク フロー](assets/whatsapp-flow-diagram.png)
-
-## 前提条件 {#prerequisites}
+Marketo Optimizerの![WhatsApp タスクのフロー](assets/whatsapp-flow-diagram.png)
 
 WhatsApp チャネルを設定する前に、次のことを確認してください。
 
@@ -35,7 +37,7 @@ WhatsApp チャネルを設定する前に、次のことを確認してくだ�
 
 >[!IMPORTANT]
 >
->WhatsApp メッセージングサービスの使用には、Metaの利用条件が適用されます。 Marketo Optimizerを通じてWhatsApp メッセージにアクセスすることにより、お客様は[Meta WhatsApp ビジネス ポリシー](https://www.whatsapp.com/legal/business-policy/)を確認し、遵守することに同意したことになります。
+>WhatsApp メッセージングサービスの使用には、Metaの利用条件が適用されます。 Marketo Optimizerを通じてWhatsApp メッセージにアクセスすることにより、お客様は[Meta WhatsApp Business ポリシー](https://www.whatsapp.com/legal/business-policy/)を確認し、遵守することに同意したものとみなされます。
 
 ## 制限事項 {#limitations}
 
@@ -58,6 +60,14 @@ WhatsApp メッセージを送信する前に、Marketo Optimizer環境を設定
 1. [WhatsApp API資格情報の作成](#create-whatsapp-api-credentials)
 1. [WhatsApp Webhook を追加](#configure-webhooks)
 1. [WhatsApp チャネル設定の作成](#create-channel-configuration)
+
+>[!PREREQUISITES]
+>
+>[!DNL Marketo Optimizer]でこれらのタスクを完了するには、次の[権限](../start/permissions-reference.md)が必要です。
+>
+>* **[!UICONTROL B2B チャネル設定の管理]** - _[!UICONTROL チャネル]_ メニューにアクセスするには必須です。
+>* **[!UICONTROL B2B WhatsApp設定の管理]** - WhatsApp チャネルの設定に必要です。
+>* **[!UICONTROL B2B WhatsApp プリセットの管理]** - API資格情報とWebhookの作成に必要です。
 
 ### WhatsApp API 資格情報の作成 {#create-whatsapp-api-credentials}
 
@@ -145,7 +155,7 @@ WhatsApp API 資格情報の設定時に HTTP 500 エラーが発生した場合
 >title="トークンの検証"
 >abstract="検証プロセス中にコールバック URL を確認および検証するのに Meta がエコーバックするトークン。"
 
-Webhookを使用すると、Marketo Optimizerは、WhatsApp Business アカウントからインバウンドメッセージ、同意応答、配信通知を受け取ることができます。 Webhookを設定して、適切な同意管理とメッセージ追跡を確保します。
+Webhookを使用すると、Marketo OptimizerはWhatsApp Business アカウントからインバウンドメッセージ、同意応答、配信通知を受け取ることができます。 Webhookを設定して、適切な同意管理とメッセージ追跡を確保します。
 
 >[!NOTE]
 >
@@ -224,7 +234,7 @@ Webhookが送信されたら、トークンとURL値を取得し、Metaに登録
 
    ![WhatsApp チャネル設定の詳細](assets/config-whatsapp-channels-general-create.png){width="500" zoomable="yes"}
 
-1. （現在Marketo Optimizerには適用されません） **[!UICONTROL WhatsApp Execution フィールド]**&#x200B;で、受信者に複数の電話番号が使用可能な場合に優先電話番号として使用するプロファイル属性を選択します。
+1. （現在Marketo Optimizerには適用されません） **[!UICONTROL WhatsApp Execution フィールド]**&#x200B;で、受信者が複数の電話番号を使用できる場合に優先電話番号として使用するプロファイル属性を選択します。
 
 1. **[!UICONTROL 送信]**&#x200B;をクリックして保存するか、**[!UICONTROL ドラフトとして保存]**&#x200B;をクリックして、後で設定を完了して送信します。
 

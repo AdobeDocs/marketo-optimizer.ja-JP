@@ -1,6 +1,6 @@
 ---
 title: フォーム
-description: Marketo Optimizerで、ビジネスデータの収集に再利用できるフォームを作成、管理できます。フィールドをデザインし、サンキューページを設定し、公開および使用状況を追跡できます。
+description: Marketo Optimizerなら、ビジネスデータ収集に再利用できるフォームを作成、管理できます。フィールドをデザインし、サンキューページを設定して、公開および使用状況を追跡できます。
 TQID: 'https://experienceleague.adobe.com/StexA1TJKaBYnAoIMcxnHIoUwzfMAnJrBO7FDLdLnMo'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
@@ -17,9 +17,9 @@ topic_v2:
     internal-label: Data collection
   - id: ebde5b41-29c9-4f5e-9ef6-1197e85409e3
     internal-label: Data management
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '2434'
+source-wordcount: '2473'
 ht-degree: 2%
 ---
 # フォーム
@@ -31,14 +31,12 @@ web ページの訪問者から情報を取得するには、フォームを作�
 >[!PREREQUISITES]
 >
 >マーケティング部門がフォームを作成して使用し、情報を取得する前に、管理者が1つ以上のフォームプリセットを定義する必要があります。 詳しくは、[_Forms設定_](../admin/configuration-presets-forms.md)&#x200B;を参照してください。
-
-<!-- 
->Form creation in [!DNL Marketo Optimizer] requires the following [permissions](../start/user-management.md#b2b-product-permissions):
 >
->* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL Read B2C Forms]_ - Required to access and view forms.
->* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL Manage B2C Forms]_ - Required to create, update, and delete forms.
->* _[!UICONTROL Journey Optimizer Library]_ > _[!UICONTROL Publish B2C Forms]_ - Required to publish forms.
--->
+>[!DNL Marketo Optimizer]でのフォームの作成には、次の[権限](../start/permissions-reference.md)が必要です：
+>
+>* _[!UICONTROL B2B Assets]_ > _[!UICONTROL B2B Forms]_&#x200B;を表示 – フォームにアクセスして表示するために必要です。
+>* _[!UICONTROL B2B Assets]_ > _[!UICONTROL B2B Formsを管理]_ - フォームの作成、編集、削除に必要です。
+>* _[!UICONTROL B2B Assets]_ > _[!UICONTROL B2B Formsを公開]_ - フォームを公開するには必須です。
 
 ## フォームへのアクセスと管理 {#view-forms}
 

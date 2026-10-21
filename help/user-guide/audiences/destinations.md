@@ -1,20 +1,21 @@
 ---
 title: 宛先
-description: 必要な権限、サポートされている宛先、Marketo Optimizerの宛先を接続して、静的な人物リストを広告およびソーシャルプラットフォームにアクティベートする方法について説明します。
+description: 必要な権限、サポートされている宛先、Marketo Optimizerの宛先を接続して静的な人物リストを広告やソーシャルプラットフォームにアクティベートする方法について説明します。
 TQID: 'https://experienceleague.adobe.com/u5sWVDR0JaiX-YvlQ23l7mqoI9G95xS-uiKcqANwsnc'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
 topic_v2:
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Governance
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 643
+source-wordcount: '680'
 ht-degree: 8%
-
 ---
-
 # 宛先
 
 宛先は、[静的な人物リスト &#x200B;](./people-lists.md#static-lists)を[!DNL Marketo Optimizer]から外部の広告またはソーシャルプラットフォーム（LinkedIn キャンペーンオーディエンス、Google Customer Match オーディエンス、Facebook カスタムオーディエンスなど）に送信できる事前定義済みの統合です。 宛先に静的リストをアクティベートすると、メンバーシップが同期されます。ユーザーがリストに追加されたりリストから削除されたりすると、それに応じて宛先オーディエンスに追加されたり、オーディエンスがフィードするキャンペーンから削除されたりします。
@@ -28,11 +29,14 @@ ht-degree: 8%
 
 ## 必要な権限 {#required-permissions}
 
-完全な宛先機能を有効にするには、次の[!DNL Adobe Experience Platform]権限が必要です。
+完全な宛先機能を有効にするには、次の[!DNL Adobe Experience Platform]権限が必要です。 各タイプのユーザーの説明と推奨される権限については、[製品権限](../start/permissions-reference.md) ページと[外部宛先権限](../start/permissions-reference.md#external-destinations-permissions)を参照してください。
 
 | カテゴリ | 権限 | 必須 |
 |--- |--- |--- |
 | サンドボックス | サンドボックスアクセス _（デフォルトで有効）_ | はい |
+| B2B配信先 | B2B配信先の表示 | はい |
+| B2B配信先 | B2B配信先の管理 | はい |
+| B2B配信先 | B2B配信先のアクティベーション | はい |
 | ダッシュボード | 標準ダッシュボードを表示 | はい |
 | ダッシュボード | 標準ダッシュボードの管理 | はい |
 | 宛先 | 宛先の表示 | はい |

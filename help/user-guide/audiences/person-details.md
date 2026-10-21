@@ -132,4 +132,4 @@ ht-degree: 8%
 
 プロンプトを選択すると、複数のステップ [&#x200B; スキル &#x200B;](../agents/skills.md)が実行され、連続したステータスのステップとして表示されます（例：_IDでユーザーを検索_&#x200B;および&#x200B;_ユーザーのストーリーを取得_）。一方、同僚が回答を構成します。 応答は、プロファイルの詳細、エンゲージメント履歴、メールのパフォーマンスを含めることができる、構造化された要約です。
 
-サムズアップ/サムズダウンコントロールを使用して、応答を評価します。 すべての同僚の出力と同様に、使用する前に応答を確認してください。 詳しくは、[Adobe生成AI ユーザーガイドライン &#x200B;](https://www.adobe.com/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}を参照してください。
+サムズアップ/サムズダウンコントロールを使用して、応答を評価します。 すべての同僚の出力と同様に、使用する前に応答を確認してください。 詳しくは、[Adobe生成AI ユーザーガイドライン &#x200B;](https://www.adobe.com/jp/legal/licenses-terms/adobe-dx-gen-ai-user-guidelines.html){target="_blank"}を参照してください。

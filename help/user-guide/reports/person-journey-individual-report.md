@@ -1,15 +1,15 @@
 ---
 title: 個人ジャーニーレポート
-description: Adobe Marketo Optimizerの個人ジャーニーレポートについて説明します。このレポートでは、1つのジャーニーの完了率、エンゲージメント、メール指標を示します。
+description: Adobe Marketo Optimizerの個人ジャーニーレポートについて説明します。このレポートには、1つのジャーニーの完了率、エンゲージメント、メール指標が表示されます。
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
     internal-label: Marketo Optimizer
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 531dce4ffe6000efa0296f0e2393423f54124ea7
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '455'
 ht-degree: 0%
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 0%
 <!-- SPHR-39120: UX plans to move the Journey activity flow tile to the top of the report. Update the tile order in this page when that ships. -->
 
 ライブまたは完成した人物ジャーニーの&#x200B;**[!UICONTROL レポートを表示]**&#x200B;をクリックして、ステータス、エンゲージメント、メール指標、アクティビティフローなど、そのパフォーマンスを確認します。
+
+>[!PREREQUISITES]
+>
+>このレポートを表示するには、**[!UICONTROL B2B人物ジャーニーレポートを表示]** [権限](../start/permissions-reference.md)が必要です。
 
 レポートを表示するには（_T） :_
 

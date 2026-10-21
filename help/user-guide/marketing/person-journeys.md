@@ -4,17 +4,19 @@ description: Marketo Optimizerで個人ジャーニーを作成、公開、管�
 TQID: 'https://experienceleague.adobe.com/RYzV8B9QTuGm1gGb2ZX6i3rc4TlACsM3LRwcnULgwV8'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
   - id: d4203578-d294-5145-b397-f26f4488a904
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Channels
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 1418
-ht-degree: 19%
-
+source-wordcount: '1480'
+ht-degree: 18%
 ---
-
 # ユーザージャーニー
 
 [!DNL Adobe Marketo Optimizer]では、個人ジャーニーは、チャネルをまたいでパーソナライズされたエクスペリエンスを編成する、自動化されたマルチステップのリードベースのマーケティングプランです。 これらのジャーニーでは、Marketo Engageのデータを使用して、エンゲージメント、ビジネスイベント、スケジュールされたキャンペーンに応じたマーケティングプランを実施します。
@@ -22,6 +24,15 @@ ht-degree: 19%
 >[!NOTE]
 >
 >各ジャーニーは、定義された[&#x200B; プログラム &#x200B;](./programs.md)内に存在します。 ジャーニーを作成する前に、親として使用するプログラムが少なくとも1つ必要です。
+
+>[!PREREQUISITES]
+>
+>ユーザーのジャーニーを操作するには、次の[権限](../start/permissions-reference.md)が必要です。
+>
+>* **[!UICONTROL B2B人物ジャーニーを表示]** - _[!UICONTROL 人物ジャーニー]_ リストとジャーニーの詳細への読み取り専用アクセスに必要です。
+>* **[!UICONTROL B2B人物ジャーニーの管理]** - _[!UICONTROL 人物ジャーニー]_ リストにアクセスし、すべての人物ジャーニー操作を実行するために必要です。
+>* **[!UICONTROL B2B人物ジャーニーを公開]** – 人物ジャーニーを公開するために必要です。
+>* **[!UICONTROL B2B人物ジャーニーレポートを表示]** – 人物ジャーニーレポートを表示するには必須です。
 
 _新しいユーザーのジャーニーを構築するには&#x200B;:_
 

@@ -7,9 +7,9 @@ product_v2:
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 6e919a66af259ea1f5facf7f5c3e811d76101e85
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '508'
 ht-degree: 2%
 ---
 
@@ -20,6 +20,10 @@ ht-degree: 2%
 各レポートは[!DNL Adobe Customer Journey Analytics]に基づいて作成され、[!DNL Marketo Optimizer]に直接埋め込まれます。 _リスト_ アイコン （![&#x200B; リストアイコン &#x200B;](../assets/do-not-localize/icon-table-of-contents.svg)）をクリックすると、左側の&#x200B;**[!UICONTROL 目次]** パネルを使用して、セクション間を移動できます。
 
 ![人物ジャーニーの概要、エンゲージメント、電子メールエンゲージメント、およびWeb エンゲージメントのセクションを一覧表示するレポートページ &#x200B;](./assets/reports-table-of-contents.png){width="800" zoomable="yes"}
+
+>[!PREREQUISITES]
+>
+>「_[!UICONTROL レポート]_」タブでレポートを表示するには、**[!UICONTROL B2B埋め込みレポートの表示]** [権限](../start/permissions-reference.md)が必要です。
 
 ## レポートセクション {#report-sections}
 

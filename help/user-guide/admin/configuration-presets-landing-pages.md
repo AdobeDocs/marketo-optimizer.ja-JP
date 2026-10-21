@@ -4,19 +4,22 @@ description: プレースホルダー
 TQID: 'https://experienceleague.adobe.com/wowFSf32UsmDemN6Iy5-IgGOPmuocHHLRb4vvTUDt0U'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: a659ad61-de21-559d-a901-02e2fb329ff5
+    internal-label: Administration
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Administration
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 971
-ht-degree: 42%
-
+source-wordcount: '996'
+ht-degree: 39%
 ---
-
 
 # ランディングページの設定
 
@@ -59,7 +62,7 @@ ht-degree: 42%
 
 ランディングページのサブドメイン設定は、すべての環境に共通の&#x200B;**です**。 したがって、
 
-* ランディングページのサブドメインにアクセスして編集するには、本番稼働用サンドボックスにおける&#x200B;**[!UICONTROL ランディングページサブドメインの管理]**&#x200B;権限が必要です。
+* ランディングページサブドメインにアクセスして編集するには、実稼動サンドボックスで&#x200B;**[!UICONTROL B2B ランディングページ設定の管理]**&#x200B;権限が必要です。 左側のナビゲーションの&#x200B;_[!UICONTROL チャネル]_&#x200B;にアクセスするには、**[!UICONTROL B2B チャネル設定の管理]**&#x200B;権限も必要です。 詳しくは、[権限リソース &#x200B;](../start/permissions-reference.md)を参照してください。
 
 * ランディングページのサブドメインを変更すると、本番稼働用サンドボックスにも影響します。
 

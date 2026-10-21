@@ -29,9 +29,9 @@ topic_v2:
     internal-label: Reporting
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1131'
 ht-degree: 2%
 ---
 
@@ -143,14 +143,15 @@ ht-degree: 2%
 
 ### 権限
 
-ウェビナー機能へのアクセスは、ウェビナーに割り当てられた権限によって異なります。
+ウェビナー機能へのアクセスは、ウェビナーに割り当てられた権限によって異なります。 権限と推奨される役割の完全なリストについては、[&#x200B; ユーザーアクセスと権限](../start/permissions-reference.md)を参照してください。
 
-| 役割 | What it grants |
+| 権限 | What it grants |
 |---|---|
 | B2B ウェビナーを見る | ウェビナーのリスト、ウェビナーの設定、詳細、レポートを表示します。 この権限では、作成、デザイン、編集、および入力コントロールは使用できません。また、共同ホストまたはプレゼンターとしてウェビナーに割り当てることはできません。 |
+| B2B ウェビナーの管理 | フルライフサイクルアクセス：ウェビナーの作成、デザイン、設定、スケジュール設定、編集、配信、主催、削除を行います。 「作成」、「デザイン」、「編集」および「管理」のコントロールは、この権限を持つユーザーのみが使用できます。 |
 
 <!-- 
-| Manage B2B webinars | Full lifecycle access: create, design, configure, schedule, edit, deliver, host, and delete a webinar. The Create, Design, Edit, and Manage controls are available only for users with this role. |
+
 | Webinar co-host | After you are added as a co-host, this permission enables you to design and enter that webinar with co-host controls. |
 | Webinar presenter | After you are added as a presenter, this permission enables you to view and enter that webinar with presenter capabilities. It grants no authoring or design access on its own. |
 

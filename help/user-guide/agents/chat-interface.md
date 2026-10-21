@@ -1,27 +1,38 @@
 ---
 title: チャットインターフェイス
-description: Marketo Optimizerの同僚のチャットパネルを使用して、自然言語またはスラッシュ（/）メニューを使用してプログラム、ジャーニー、リストを構築します。
+description: Marketo Optimizerの同僚のチャットパネルを使用して、自然言語やスラッシュ（/）メニューを使用してプログラム、ジャーニー、リストを構築できます。
 TQID: 'https://experienceleague.adobe.com/5oj0glKEbJuzQFem-jxL4qjnzxVG4tlOaiHKM5SuiWQ'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+    internal-label: Chat Interface
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
   - id: d4203578-d294-5145-b397-f26f4488a904
+    internal-label: Channels
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Optimization
+source-git-commit: be5df9d4e4482516a60b652d9ec2f977eb29b520
 workflow-type: tm+mt
-source-wordcount: 928
-ht-degree: 1%
-
+source-wordcount: '955'
+ht-degree: 0%
 ---
-
 # チャットインターフェイス
 
 チャットパネルは[!DNL Adobe Marketo Optimizer]全体に埋め込まれています。 ここでは、平易な言語を使用してAI エージェントと対話し、プログラムやジャーニーの構築、人物リストの作成と比較、リードの調査、スコアリングの設定などをおこないます。
+
+>[!PREREQUISITES]
+>
+>[!DNL Marketo Optimizer]で同僚のチャットパネルを使用するには、**[!UICONTROL B2B会話体験の管理]** [権限](../start/permissions-reference.md)が必要です。
+>
+>この権限は、チャットパネルへのアクセス権を与えますが、機能へのアクセス権は与えません。 システムは、チャット内のすべてのスキルまたはアクションを、チャット以外の機能に必要な権限と同じ権限に照らし合わせてチェックします。作成、編集または公開する権限&#x200B;_Manage_、読み取り専用スキルの権限&#x200B;_View_。 機能の権限がない場合、アシスタントはそのアクションを実行できません。 例えば、ジャーニーを作成するには&#x200B;**[!UICONTROL B2B人物ジャーニーを管理]**&#x200B;する必要があり、フォームをリストするには&#x200B;**[!UICONTROL B2B Formsを表示]**&#x200B;する必要があります。
 
 左側のナビゲーションで「_同僚_」アイコンを選択して、パネルを開きます。 パネルヘッダーには、次の4つのコントロールがあります。
 
@@ -36,16 +47,6 @@ ht-degree: 1%
 
 * メッセージを追加し、**Enter**&#x200B;を押して送信します（**Shift+Enter**&#x200B;が改行を挿入）。
 * _添付_ アイコンを使用してファイルを添付します（サポートされている形式：`.txt`、`.md`、`.csv`、`.json`、`.xlsx`、`.docx`、`.pdf`）。 CSVおよびスプレッドシートのアップロードを使用して、リードのインポートを開始します。
-
->[!BEGINSHADEBOX]
-
-## 販売修飾子
-
-[!DNL Adobe Sales Qualifier]は、[!DNL Marketo Optimizer]と一緒に使用できるAI駆動型アプリケーションです。 Account Qualification Agentを実装し、Business Development Representatives （BDR）のワークフローを合理化するように設計されています。 [!DNL Sales Qualifier]は、見込み顧客の選定、アウトリーチ、バイヤーのエンゲージメントワークフローをチャネルをまたいで自動化します。 B2B企業は、手作業のBDR負荷を軽減し、パイプラインを高速化することで、パイプラインを高速化できます。
-
-詳しくは、[Sales Qualifier ドキュメント &#x200B;](https://experienceleague.adobe.com/ja/docs/sales-qualifier/using/home){target="_blank"}を参照してください。
-
->[!ENDSHADEBOX]
 
 ## 同僚に質問
 

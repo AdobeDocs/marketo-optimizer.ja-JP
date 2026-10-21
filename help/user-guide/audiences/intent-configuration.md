@@ -4,17 +4,18 @@ description: AIが提案するデフォルトからカスタム重み付けモ�
 TQID: 'https://experienceleague.adobe.com/ZL9RJqD-OZkIgFMpwJ4Cz-FW-463w6OJyEHAe5uJuec'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
+    internal-label: Chat Interface
 topic_v2:
   - id: f8667931-f646-4dd3-af2a-b9d0cb8098ad
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Taxonomy
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 1322
+source-wordcount: '1365'
 ht-degree: 2%
-
 ---
-
 
 # インテント設定
 
@@ -28,6 +29,14 @@ ht-degree: 2%
 * **[!UICONTROL +]**&#x200B;をクリックし、**[!UICONTROL エージェントスキルを使用]**&#x200B;を選択し、**[!UICONTROL インテント]** タブを選択してから、**[!UICONTROL インテント設定]**&#x200B;をクリックします。
 
 ![&#x200B; チャットインターフェイスからインテント設定パネルを開いた](./assets/intent-configuration-panel.png){width="700" zoomable="yes"}
+
+>[!PREREQUISITES]
+>
+>インテントの設定には、次の[権限](../start/permissions-reference.md)が必要です。
+>
+>* **[!UICONTROL B2B インテント設定を表示]** - インテント設定（インテント重み付けモデル）を表示するために必要です。
+>* **[!UICONTROL B2B インテント設定の管理]** - インテント設定の作成、編集、削除に必要です。
+>* **[!UICONTROL B2B会話体験を管理]** - チャットインターフェイスからパネルを開くために必要です。
 
 ## モデルリストビュー
 
@@ -114,7 +123,7 @@ AIの「提案」列は、訓練されたレコメンデーションではなく
 
 ステータスに基づいてモデルを管理できます。
 
-| アクション | 次で使用可能 | 何が起こるか |
+| アクション | 次で使用可能 | 処理される内容 |
 | --- | --- | --- |
 | **[!UICONTROL 複製]** | アクティブ、ドラフト | 「**[!UICONTROL 複製]**」というタイトルのモーダルを開きます。名前フィールドが事前入力され、**[!UICONTROL キャンセル]**&#x200B;および&#x200B;**[!UICONTROL 複製]** ボタンが表示されます。 確認すると、同じ重みを持つ新しい&#x200B;_[!UICONTROL ドラフト]_ モデルが作成され、詳細表示で直接開きます。 |
 | **[!UICONTROL アクティブ化]** | ドラフトのみ（保存の直後のプロンプトとしても提供） | ドラフトを&#x200B;_[!UICONTROL アクティブ]_&#x200B;に昇格し、以前にアクティブだったモデルを&#x200B;_[!UICONTROL アーカイブ]_&#x200B;に自動的に降格します。 |

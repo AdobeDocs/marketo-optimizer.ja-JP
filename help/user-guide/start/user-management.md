@@ -17,10 +17,10 @@ topic_v2:
     internal-label: Data collection
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: c825d93cdf9754a516b2d930bbe8c1e2e8aeaea1
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '2474'
-ht-degree: 38%
+source-wordcount: '2584'
+ht-degree: 34%
 ---
 # ユーザーのアクセスと権限
 
@@ -32,6 +32,8 @@ ht-degree: 38%
 1. [Admin Consoleの新しいグループ &#x200B;](#add-users)にユーザーを追加します。
 1. [&#x200B; ビルトインロールを編集](#edit-role-permissions)または[製品の権限と必要な[!DNL Marketo Optimizer] サンドボックスをExperience Platformで使用して、カスタムロール &#x200B;](#create-a-custom-role)を作成します。
 1. [Adobe Experience Platformのロールにユーザー](#add-users-to-a-role)または[&#x200B; グループ &#x200B;](#add-user-groups-to-a-role)を追加します。
+
+管理者、すべてのアクセス権を持つユーザー、および読み取り専用ユーザーに推奨されるユーザーグループと役割を設定するには、[推奨ユーザータイプ &#x200B;](./permissions-reference.md#suggested-user-types)および[推奨ユーザータイプのユーザーグループと役割を作成](#create-suggested-roles)を参照してください。
 
 ## 製品プロファイルの設定 {#config-profile}
 
@@ -172,65 +174,15 @@ Experience Platformのロール権限について詳しくは、Experience Platf
 
 ### 権限リソース {#permissions}
 
-次の権限リソースは、[!DNL Marketo Optimizer]のチャネル設定、コンテンツ管理、およびユーザーのジャーニー機能へのアクセスを制御します。
+[!DNL Marketo Optimizer]機能へのアクセスを制御する権限の完全なリスト（説明や各タイプのユーザーに推奨される権限など）については、[製品権限](./permissions-reference.md) ページを参照してください。
 
 >[!IMPORTANT]
 >
->[!DNL Marketo Optimizer] アクセスするには、次の命名規則を使用してプロビジョニングされた特定のサンドボックスを有効にする必要があります：`Mktoaep` + [!DNL Marketo Engage] サブスクリプション プレフィックス。 例えば、リンクされた[!DNL Marketo Engage] サブスクリプションのプレフィックスが&#x200B;_AcmeAssoc_&#x200B;の場合、[!DNL Marketo Optimizer] アクセスに必要なサンドボックスは&#x200B;_MktoaepAcmeAssoc_&#x200B;です。
+>[!DNL Marketo Optimizer] アクセスするには、次の命名規則を使用してプロビジョニングされた特定のサンドボックスを有効にする必要があります：`Mktoaep` + [!DNL Marketo Engage] サブスクリプション プレフィックス。 例えば、リンクされた[!DNL Marketo Engage] サブスクリプションのプレフィックスが&#x200B;_AcmeAssoc_&#x200B;の場合、[!DNL Marketo Optimizer] アクセスに必要なサンドボックスは&#x200B;_MktoaepAcmeAssoc_&#x200B;です。 このサンドボックスをすべての役割に追加します。
 
-| カテゴリ | 権限 | 説明 |
-| -------- | ----------- | ---------- |
-| B2B チャネル設定 | B2B メール設定の表示 | メール設定（サブドメイン、PTR レコード、IP プール、抑制リスト、シードリスト、IP ウォームアッププラン）を表示します。 |
-| | B2B メール設定の管理 | メール設定（サブドメイン、PTR レコード、IP プール、抑制リスト、シードリスト、IP ウォームアッププラン）を設定します。 これらの設定は、ユーザーがメールを送信する前に必要です。 |
-| | B2B チャネル設定の管理 | 左側のナビゲーションおよびすべてのチャネル設定操作の&#x200B;_チャネル_ メニュー項目にアクセスします。 |
-| | B2B WhatsApp プリセットの管理 | WhatsApp メッセージプリセットと関連するSMS設定を作成、表示、削除します。 |
-| B2B ジャーニー | B2B人物ジャーニーの管理 | _人物ジャーニー_ リストとすべての人物ジャーニー操作にアクセスします。 |
-| B2B Assets | コンテンツテンプレートを表示 | コンテンツテンプレートのリストと詳細を表示します。 |
-| | B2B テンプレートの管理 | コンテンツテンプレートを作成、編集、削除します。 |
-| | B2B フラグメントの表示 | コンテンツフラグメントのリストと詳細を表示します。 |
-| | B2B フラグメントの管理 | コンテンツフラグメントを作成、編集、削除します。 |
-| | B2B フラグメントの公開 | テンプレート、メール、ランディングページで使用するコンテンツフラグメントを公開します。 |
-| | B2B Assetsを見る | Assets ライブラリとアセットファイルの詳細を表示します。 |
-| | B2B Assetsの管理 | アセットファイルを作成、編集、削除します。 |
-| | B2B メールの表示 | 電子メールメッセージの表示。 |
-| | B2B メールの管理 | メールメッセージの作成、編集、削除。 |
-| | B2B メッセージ書き出しの管理 | 「メール」セクションでメッセージレポートを書き出します。 |
-| Journey Optimizer ライブラリ | B2B ライブラリアイテムの管理 | ライブラリに保存されたエクスプレッションを追加および削除します。 |
-| データガバナンス | B2B削除使用ラベルの管理 | データセットとスキーマに適用されたデータ使用ラベル（DULE）を表示、作成、削除します。 |
-| サンドボックス管理 | B2B パッケージの管理 | サンドボックスパッケージを作成、書き出し、読み込み、コピー、削除します。 |
-
-[!DNL Marketo Optimizer]の外部宛先のサポートを提供するには、次の権限が必要です。
-
-| カテゴリ | 権限 | 説明 |
-| -------- | ----------- | ---------- |
-| ダッシュボード | 標準ダッシュボードを表示 | _プロファイル_、_宛先_、_セグメント_ ダッシュボードへの表示専用アクセス。 左側のナビゲーションの&#x200B;_ダッシュボード_&#x200B;と「_ダッシュボード_ インベントリと統合」タブへのアクセスも有効にします。 |
-| | 標準ダッシュボードの管理 | データウェアハウスにないカスタム属性の追加。 |
-| 宛先 | 宛先の表示 | _カタログ_ タブで利用可能な宛先を表示し、_参照_ タブで認証済みの宛先を表示するための表示専用アクセス権。 |
-| | 宛先の管理 | 宛先の接続と宛先アカウントを表示、作成、削除します。 |
-| | 宛先のアクティブ化 | アクティブな配信先へのデータのアクティベーション。 この関数にアクセスするには、_宛先の表示_&#x200B;または&#x200B;_宛先の管理_&#x200B;も必要です。 |
-| | マッピングなしでセグメントをアクティブ化 | マッピング手順を表示せずに、既存の宛先にオーディエンスをアクティベートできます。 ユーザーは、アクティベーションワークフローでオーディエンスを追加および削除できますが、マッピングされた属性や ID を追加または削除することはできません。 この関数にアクセスするには、_宛先を表示_&#x200B;権限も必要です。 |
-| | データセット宛先の管理とアクティブ化 | データセットのエクスポートフローを表示、作成、編集、無効化したり、アクティブなデータセットにデータをアクティベートしたりできます。 この関数にアクセスするには、_宛先を表示_&#x200B;権限も必要です。 |
-| | 宛先オーサリング | Adobe Experience Platform Destination SDKを使用して宛先を作成する機能。 |
-| データガバナンス | データ使用ポリシーの表示 | 組織に属するデータ使用ポリシーの表示専用アクセス。 |
-| | データ使用ポリシーの管理 | データ使用ポリシーの表示、作成、編集、削除。 |
-| データ取り込み | ソースの表示 | _カタログ_ タブの利用可能なソースと&#x200B;_参照_ タブの認証済みソースへの表示専用アクセス。 |
-| | ソースの管理 | ソースの表示、作成、編集、および無効化。 |
-| プロファイル管理 | プロファイル設定の表示 | すべてのプロファイル設定への表示専用アクセス。 |
-| | プロファイル設定の管理 | すべてのプロファイル設定を表示および編集します。 |
-
-<!--
-
-### B2B built-in roles {#b2b-built-in-roles}
-
-When your organization has [!DNL Marketo Optimizer] provisioned, Experience Platform includes a set of built-in (default, read-only) roles that you can use to manage access to the product capabilities:
-
-| Role | Permissions |
-| ---- | ----------- |
-| B2B Journey Manager | <li>Manage B2B Journeys <li>Manage B2B Buying Groups <li>Manage B2B Account Lists <li>View B2B Engagement Dashboard <li>View B2B Insights Dashboard |
-| B2B Channel Manager | <li>Manage B2B Assets <li>Manage B2B Templates <li>Manage B2B Fragments |
-| B2B System Administrator | <li>Manage B2B Channels Configurations <li>Manage B2B Admin Configurations |
-
--->
+>[!NOTE]
+>
+>Experience Platformで&#x200B;_[!UICONTROL 権限]_ タイルを表示するには、システム管理者である必要があります。
 
 ### 役割の権限の編集 {#edit-role-permissions}
 
@@ -334,7 +286,7 @@ When your organization has [!DNL Marketo Optimizer] provisioned, Experience Plat
 
 1. 製品権限を追加：
 
-   役割に必要な製品機能を決定するには、[製品権限](#permissions)のリストを参照してください。
+   役割に必要な製品機能を決定するには、[製品権限](./permissions-reference.md)のリストを参照してください。
 
    左側の&#x200B;_[!UICONTROL リソース]_ リストで、B2B アイテムを見つけ、_追加_ （**+**）アイコンをクリックして、役割に対して有効にする各属性を追加します。
 
@@ -353,3 +305,95 @@ When your organization has [!DNL Marketo Optimizer] provisioned, Experience Plat
 1. 「**[!UICONTROL 保存]**」をクリックします。
 
 カスタムの役割が設定され、割り当てられたグループのユーザーは、選択した[!DNL Marketo Optimizer]機能にアクセスできるようになりました。
+
+### 提案されたユーザータイプのユーザーグループと役割の作成 {#create-suggested-roles}
+
+次の手順を使用して、_管理者_、_すべてのアクセス ユーザー_、_読み取り専用アクセス ユーザー_、[推奨ユーザータイプ &#x200B;](./permissions-reference.md#suggested-user-types)を設定します。 ユーザータイプごとに、Admin Consoleでユーザーグループを作成し、Experience Platformでロールを作成してから、そのロールにグループを追加します。 各ユーザータイプに対する推奨される権限は、[_製品権限_](./permissions-reference.md)&#x200B;に一覧表示されます。
+
+#### 管理者ユーザーグループと役割の作成 {#create-admin-group}
+
+![この手順を完了するには管理者アクセスが必要であることを示すアイコン。](../assets/do-not-localize/icon-admin-user.svg){width="30"} システム管理者は次の手順を実行できます。
+
+1. Admin Consoleで、[Marketo Optimizer Administrators Group _という名前のユーザーグループ &#x200B;](#add-user-group)を追加し、[製品プロファイル &#x200B;](#assign-profile)をそれに割り当てます。_
+
+1. [!DNL Marketo Optimizer]を設定および管理するユーザーをグループに追加します。
+
+1. ユーザーとグループを管理できるように、ユーザーに製品管理者を設定します。
+
+1. [!UICONTROL Experience Platform] _[!UICONTROL 権限]_&#x200B;で、**[!UICONTROL 役割]** > **[!UICONTROL 役割を作成]**&#x200B;を選択します
+
+1. _Marketo Optimizer Administrator_&#x200B;などの名前を入力し、**[!UICONTROL 確認]**&#x200B;をクリックします。
+
+1. [!DNL Marketo Optimizer] アクセス用にプロビジョニングされたサンドボックス （`Mktoaep<Marketo subscription prefix>`）を選択します。
+
+   >[!IMPORTANT]
+   >
+   >このステップは適切なアクセスに非常に重要です。
+
+1. 次の各カテゴリについて、_Add_ （**+**） アイコンをクリックし、**[!UICONTROL Add all]** アイコンを選択します。
+
+   * _[!UICONTROL B2B管理者設定]_
+   * _[!UICONTROL B2B Assets]_
+   * _[!UICONTROL B2B チャネル設定]_
+   * _[!UICONTROL B2B会話体験]_
+   * _[!UICONTROL B2B宛先]_
+   * _[!UICONTROL B2B フォルダートークン]_
+   * _[!UICONTROL B2B フォルダー]_
+   * _[!UICONTROL B2B インテント設定]_
+   * _[!UICONTROL B2B ジャーニー]_
+   * _[!UICONTROL B2B ラボ]_
+   * _[!UICONTROL B2B組織ルール]_
+   * _[!UICONTROL B2B人物リスト]_
+   * _[!UICONTROL B2B プログラムトークン]_
+   * _[!UICONTROL B2B プログラムの種類]_
+   * _[!UICONTROL B2B プログラム]_
+   * _[!UICONTROL B2B レポート]_
+   * _[!UICONTROL ダッシュボード]_
+   * _[!UICONTROL 宛先]_
+   * _[!UICONTROL データガバナンス]_
+   * _[!UICONTROL データ取り込み]_
+   * _[!UICONTROL プロファイル管理]_
+
+   >[!TIP]
+   >
+   >管理者の役割に対してのみ&#x200B;**[!UICONTROL すべて追加]**&#x200B;を使用します。 新しい機能がリリースされると、その機能に対して準備された権限が自動的に管理者の役割に適用されるので、役割を編集する必要はありません。 その他のユーザータイプの場合は、[_製品権限_](./permissions-reference.md)&#x200B;でそのタイプに推奨される権限のみを選択します。
+
+1. 「**[!UICONTROL 保存]**」をクリックします。
+
+1. 役割の詳細で、「**[!UICONTROL ユーザーグループ]**」タブを選択し、「**[!UICONTROL グループを追加]**」をクリックし、「_Marketo Optimizer管理者グループ_」を選択して、「**[!UICONTROL 保存]**」をクリックします。
+
+#### すべてのアクセス ユーザーのグループと役割の作成 {#create-all-access-group}
+
+![この手順を完了するには管理者アクセスが必要であることを示すアイコン。](../assets/do-not-localize/icon-admin-user.svg){width="30"} システム管理者は次の手順を実行できます。
+
+1. Admin Consoleで、[&#x200B; ユーザーグループ &#x200B;](#add-user-group)を&#x200B;_Marketo Optimizer ユーザーグループ_&#x200B;という名前で追加し、[製品プロファイル &#x200B;](#assign-profile)をそれに割り当て、[&#x200B; ユーザー](#add-users)をグループに追加します。
+
+1. Experience Platformの権限で、[Marketo Optimizer All Access User _という名前のカスタムロール &#x200B;](#create-a-custom-role)を作成します。_
+
+1. [!DNL Marketo Optimizer] アクセス用にプロビジョニングされたサンドボックス （`Mktoaep<Marketo subscription prefix>`）を選択します。
+
+1. [製品の権限](./permissions-reference.md)の各カテゴリについて、_追加_ （**+**）アイコンをクリックし、すべてのアクセス ユーザーに推奨される権限のみを選択します。
+
+   すべてのアクセス ユーザーは、すべての機能を毎日使用できますが、管理者、チャネル、設定の権限は付与されません。
+
+1. 「**[!UICONTROL 保存]**」をクリックします。
+
+1. 役割の詳細で、「**[!UICONTROL ユーザーグループ]**」タブを選択し、**[!UICONTROL グループを追加]**&#x200B;をクリックし、_Marketo Optimizer ユーザーグループ_&#x200B;を選択して、**[!UICONTROL 保存]**&#x200B;をクリックします。
+
+#### 読み取り専用アクセス ユーザーグループと役割の作成 {#create-read-only-group}
+
+![この手順を完了するには管理者アクセスが必要であることを示すアイコン。](../assets/do-not-localize/icon-admin-user.svg){width="30"} システム管理者は次の手順を実行できます。
+
+1. Admin Consoleで、[&#x200B; ユーザーグループ &#x200B;](#add-user-group)を&#x200B;_Marketo Optimizer読み取り専用ユーザーグループ_&#x200B;という名前で追加し、[製品プロファイル &#x200B;](#assign-profile)をそれに割り当て、[&#x200B; ユーザー](#add-users)をグループに追加します。
+
+1. Experience Platform権限で、[Marketo Optimizer読み取り専用アクセス ユーザー&#x200B;_という名前のカスタムロール &#x200B;](#create-a-custom-role)を作成します。_
+
+1. [!DNL Marketo Optimizer] アクセス用にプロビジョニングされたサンドボックス （`Mktoaep<Marketo subscription prefix>`）を選択します。
+
+1. [製品の権限](./permissions-reference.md)の各カテゴリについて、_追加_ （**+**）アイコンをクリックし、読み取り専用アクセス ユーザーに推奨される権限のみを選択します。
+
+   読み取り専用アクセス ユーザーは機能のみを表示できます。
+
+1. 「**[!UICONTROL 保存]**」をクリックします。
+
+1. 役割の詳細で、「**[!UICONTROL ユーザーグループ]**」タブを選択し、「**[!UICONTROL グループを追加]**」をクリックし、「_Marketo Optimizer読み取り専用ユーザーグループ_」を選択して、「**[!UICONTROL 保存]**」をクリックします。

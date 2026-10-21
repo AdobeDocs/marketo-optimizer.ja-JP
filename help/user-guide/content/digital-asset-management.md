@@ -18,10 +18,10 @@ role_v2:
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
     internal-label: Metadata
-source-git-commit: cd171c6ec89301ed315d8b882ac0fccac745809f
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '734'
-ht-degree: 19%
+source-wordcount: '765'
+ht-degree: 18%
 ---
 # アセット
 
@@ -61,6 +61,13 @@ _[!UICONTROL Assets]_ ライブラリに初めてアクセスする場合は、[
 
 * **[!UICONTROL リスト]** — _リストビュー_ （![&#x200B; リストビューアイコン &#x200B;](../assets/do-not-localize/icon-falco-list-view.svg)）アイコンをクリックすると、メタデータ列を含む並べ替え可能なテーブルにアセットが表示されます。
 * **[!UICONTROL ギャラリー]** — _ギャラリービュー_ （![&#x200B; ギャラリービューアイコン &#x200B;](../assets/do-not-localize/icon-falco-gallery-view.svg)）アイコンをクリックすると、アセットが視覚的なサムネールグリッドとして表示されます。
+
+>[!PREREQUISITES]
+>
+>アセットを操作するには、次の[権限](../start/permissions-reference.md)が必要です。
+>
+>* **[!UICONTROL B2B Assetsを表示]** - _[!UICONTROL Assets]_ ライブラリとアセットファイルの詳細を表示するために必要です。
+>* **[!UICONTROL B2B Assetsの管理]** - アセットファイルの作成、編集、削除に必要です。
 
 ## アセットの検索 {#find-assets}
 

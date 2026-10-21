@@ -1,24 +1,29 @@
 ---
 title: メールコンテンツ
-description: ビジュアルキャンバス、ドラッグ&ドロップツール、HTMLの読み込み、再利用可能なテンプレートを使用して、Adobe Marketo Optimizerでメールコンテンツを作成およびデザインする方法を説明します。
+description: ビジュアルキャンバス、ドラッグ&ドロップツール、Adobe Marketo Optimizerの読み込み、再利用可能なテンプレートを使用して、HTMLでメールコンテンツを作成およびデザインする方法を説明します。
 TQID: 'https://experienceleague.adobe.com/uNzBQk1fXPZchQna577-bUQtqRRRiqEVPI3jzZKgGKw'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: c1579802-ddd4-4214-8a91-97b2066abe11
+    internal-label: Troubleshooting
   - id: c7d04a2c-412a-4c9d-9d7a-4456eaa5adeb
+    internal-label: Governance
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
+    internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Personalization
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 2287
+source-wordcount: '2325'
 ht-degree: 5%
-
 ---
-
 # メールコンテンツ作成
 
 [!DNL Adobe Marketo Optimizer]では、電子メール デザイン スペースは、マーケターが電子メールを構成する視覚的なキャンバスを提供します。 左側と上部のパネル（構造、コンテンツコンポーネント、テンプレート、フラグメントなど）のメールデザインツールは、ドラッグ&amp;ドロップでゼロから作成できる機能をサポートしています。 また、テンプレートから開始、生のHTMLをペースト、再利用可能なビジュアルフラグメントからメッセージを組み立てることもできます。
@@ -26,6 +31,14 @@ ht-degree: 5%
 >[!IMPORTANT]
 >
 >サブドメイン、認証、IP プール、および電子メールチャネル設定の管理者による設定については、[電子メールの配信品質](../start/email-deliverability.md)および[電子メールチャネルの設定](../admin/email-channel-configuration.md)を参照してください。
+
+>[!PREREQUISITES]
+>
+>メール作成には、次の[権限](../start/permissions-reference.md)が必要です。
+>
+>* **[!UICONTROL B2B メールを表示]** - メール メッセージを表示するには必須です。
+>* **[!UICONTROL B2B メールの管理]** - メールメッセージの作成、編集、および削除に必要です。
+>* **[!UICONTROL B2B人物ジャーニーの管理]** – 電子メールを人物ジャーニーに追加するために必要です。
 
 [!DNL Marketo Optimizer]では、すべての電子メールは、個人ジャーニー内の&#x200B;_[!UICONTROL 電子メールを送信]_ アクションに関連付けられます。 ジャーニーの設計から電子メールの定義に至るまでのワークフロー全体が、ひとつの連続的な体験で実現されます。 [&#x200B; ユーザーのジャーニーに&#x200B;_メール送信_ ノード &#x200B;](../marketing/action-nodes.md#add-an-action-node)を追加する場合、「**[!UICONTROL メール作成]**」をクリックしてプロセスを開始します。 まず、メールのアクションとコンテンツ設定を定義します。 「**[!UICONTROL メール本文を編集]**」をクリックして、メールコンテンツデザインスペースを起動します。ここでは、次のオプションからメールのデザイン方法を選択できます。
 

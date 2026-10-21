@@ -7,15 +7,22 @@ product_v2:
 feature_v2:
   - id: 1650dadf-b034-5ac9-a309-77ad1e2f5035
     internal-label: Chat Interface
-source-git-commit: 7e3080b688415ef623cdbd57aa08ed43eb6fcd17
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1445'
 ht-degree: 1%
 ---
 
 # スコアリングスタジオ
 
 スコアリングスタジオには、モデルリスト、各モデルの編集可能なキャンバス、[同僚チャットインターフェイス &#x200B;](../agents/chat-interface.md)が含まれます。 カンバスを使用してディメンションやシグナルを直接確認または調整し、Coworkerは自然言語の変更を提案し続けます。 プロンプトからモデルを作成する方法について詳しくは、[_カスタムスコアリングモデルの作成_](../agents/lead-scoring-model.md)&#x200B;を参照してください。
+
+>[!PREREQUISITES]
+>
+>スコアリングスタジオはラボ機能であり、次の[権限](../start/permissions-reference.md)が必要です。
+>
+>* **[!UICONTROL B2B ラボを表示]** – 使用可能で有効なラボ機能を表示するために必要です。
+>* **[!UICONTROL B2B ラボの管理]** - ラボ機能を有効にして設定するために必要です。
 
 ## モデルリスト {#model-list}
 

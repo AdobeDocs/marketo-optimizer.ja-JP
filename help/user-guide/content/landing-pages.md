@@ -1,19 +1,20 @@
 ---
 title: ランディングページ
-description: 個人向けジャーニーのランディングページを作成、デザイン、公開します。Marketo Optimizerでは、ゼロから作成、HTMLをインポートし、フォームを追加、コンテンツをパーソナライズし、メールからリンクできます。
+description: 個人向けジャーニーのランディングページを作成、デザイン、公開します。Marketo Optimizerでは、ゼロから作成、HTMLをインポート、フォームを追加、コンテンツをパーソナライズし、メールからリンクできます。
 TQID: 'https://experienceleague.adobe.com/2eRB0eqgUbOrzaRTnWWy--Fjb4e5-qopiOMZWmr-sa4'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Content Management
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 1589
+source-wordcount: '1627'
 ht-degree: 2%
-
 ---
-
 # ランディングページ
 
 ランディングページとは、電子メール、SMS メッセージ、デジタル位置情報でリンクされたアイテムをクリックした後、連絡先や顧客を誘導できるスタンドアロンのweb ページです。 これらのページをジャーニーに組み込むことで、見込み客や顧客にweb上でメッセージを表示してもらい、ジャーニーを進めることができます。
@@ -25,6 +26,14 @@ ht-degree: 2%
 * ランディングページでフォームを使用して、プロファイルデータ（プログレッシブプロファイリング、嗜好、登録、類似のシナリオ）を取得または更新します。
 * ジャーニーオーケストレーションに合わせて設計された、キャンペーン固有の情報に人物を誘導します。
 * [!DNL Marketo Optimizer]以外の外部ページを作成せずに、ユーザーを専用のweb フォームにリダイレクトします。
+
+>[!PREREQUISITES]
+>
+>ランディングページを操作するには、次の[権限](../start/permissions-reference.md)が必要です。
+>
+>* **[!UICONTROL B2B ランディングページを表示]** - ランディングページを表示するには必須です。
+>* **[!UICONTROL B2B ランディングページの管理]** - ランディングページの作成、編集、削除に必要です。
+>* **[!UICONTROL B2B ランディングページの公開]** - ランディングページの公開に必要です。
 
 ## ランディングページワークフロー {#workflow}
 
@@ -200,7 +209,7 @@ _コンテンツを更新するには&#x200B;:_
 
 1. **[!UICONTROL ランディングページ]** オプションで、_ページを選択_ アイコン （![&#x200B; リンクを表示アイコン &#x200B;](../assets/do-not-localize/icon-landing-page-select.svg)）をクリックします。
 
-1. ランディングページを選択ダイアログで、**[!UICONTROL ランディングページソース]**&#x200B;を&#x200B;**[!UICONTROL Journey Optimizer B2B edition]**&#x200B;として設定し、公開されたページのリストからランディングページのチェックボックスをオンにして、**[!UICONTROL 選択]**&#x200B;をクリックします。
+1. ランディングページを選択ダイアログで、**[!UICONTROL ランディングページソース]**&#x200B;を&#x200B;**[!UICONTROL Journey Optimizer B2B Edition]**&#x200B;として設定し、公開されたページのリストからランディングページのチェックボックスを選択して、**[!UICONTROL 選択]**&#x200B;をクリックします。
 
    ![&#x200B; ランディングページのリンクオプション &#x200B;](assets/content-design-link-landing-page-select.png){width="600" zoomable="yes"}
 

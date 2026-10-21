@@ -1,23 +1,27 @@
 ---
 title: ジャーニー交通制御
-description: Marketo Optimizerのジャーニートラフィック制御ツールが、7つの重み付けされたディメンションでAI スコアリングを使用して、オーディエンスが重複した場合に、各個人が単一の最適なジャーニーにのみ登録する方法をご確認ください。
+description: Marketo Optimizerのジャーニートラフィック管理ツールで、7つの重み付けされたディメンションでAI スコアリングを使用して、オーディエンスが重複した場合に、各個人が単一の最適なジャーニーにのみ登録する方法をご確認ください。
 TQID: 'https://experienceleague.adobe.com/MRPRSUHGHV9CZdp4ZIqxsIsIaB6U86DDiau7RE2r0ak'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
+    internal-label: Reporting
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
 topic_v2:
   - id: a004cc84-67b9-4a33-a3a7-8ec7273ef4dc
+    internal-label: Metadata
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Reporting
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 1543
+source-wordcount: '1582'
 ht-degree: 0%
-
 ---
-
 # ジャーニー交通制御
 
 ジャーニー交通制御（JTC）では、オーディエンスが重複した場合に、最適なジャーニーを優先します。 JTCが有効な複数のジャーニーの資格を得ると、AI モデルはそれらを各候補に対して評価し、最適なジャーニーに追加して、他の候補から除外します。
@@ -56,6 +60,7 @@ ht-degree: 0%
 
 ジャーニーのトラフィック制御が結果を生成する前に、次の点に留意してください。
 
+* **権限。** ジャーニーのトラフィック制御の設定を表示するには、**[!UICONTROL B2B ジャーニーのトラフィック制御を表示]**&#x200B;権限と、効果のシミュレーションを含むジャーニーのトラフィック制御を設定する&#x200B;**[!UICONTROL B2B ジャーニーのトラフィック制御を管理]**&#x200B;権限が必要です。 詳しくは、[権限リソース &#x200B;](../start/permissions-reference.md)を参照してください。
 * **レポートには、公開されたJTC対応ジャーニーが必要です。** 「_[!UICONTROL レポート]_」タブには、ジャーニートラフィック制御が有効になっているジャーニーが少なくとも1つ公開されるまで、データが表示されません。
 * **シミュレーションには、インスタンス内に少なくとも1つの公開されたジャーニーが必要です。** シミュレーションでは、既にライブジャーニーにある[&#x200B; プロファイル &#x200B;](../audiences/people-lists.md)が評価されるので、プロファイルを描画するには、インスタンス内の少なくとも1つの公開されたジャーニーが必要です。 シミュレーション自体は、JTCを有効にする必要はありません（[_スコアリングのシミュレーション_](#simulate-scoring)&#x200B;を参照）。
 

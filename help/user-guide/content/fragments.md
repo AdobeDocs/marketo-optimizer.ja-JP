@@ -4,15 +4,15 @@ description: 電子メールやテンプレート用のビジュアルコンテ�
 TQID: 'https://experienceleague.adobe.com/dxPI12xu0thTB3eYJiyCY3OtLIxX-8IKKeXitH4C0Ws'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 8881ff95-1653-5fea-82af-ce1549c0d99d
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Content Management
+source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
 workflow-type: tm+mt
-source-wordcount: 2634
-ht-degree: 6%
-
+source-wordcount: '2677'
+ht-degree: 5%
 ---
-
 # フラグメント
 
 フラグメントは、再利用可能なコンポーネントで、[!DNL Marketo Optimizer]の1つ以上のメールとメールテンプレートで参照できます。 通常は、コンテンツのブロック（テキスト、画像、またはその両方）を作成し、メールやメールテンプレートにすばやく挿入できます。 この機能を利用すれば、マーケティング部門のメンバーが使用するために複数のカスタムコンテンツブロックを事前に構築し、デザインプロセスを向上させるためにメールコンテンツを作成できます。 一般的なユースケースには、電子メールのヘッダー/フッターコンテンツブロック、イベント招待バナー、季節ごとの挨拶などがあります。
@@ -33,6 +33,14 @@ ht-degree: 6%
 
 * _独自のフラグメントを作成_ - ビジュアルコンテンツデザイン空間からコンテンツをフラグメントとして保存するか、ゼロからビジュアルフラグメントを作成します。
 * _フラグメントを再利用_ – 電子メールまたは電子メールテンプレートコンテンツで必要な回数だけフラグメントを使用します。
+
+>[!PREREQUISITES]
+>
+>フラグメントを操作するには、次の[権限](../start/permissions-reference.md)が必要です。
+>
+>* **[!UICONTROL B2B フラグメントを表示]** - フラグメントのリストと詳細を表示するには必須です。
+>* **[!UICONTROL B2B フラグメントの管理]** - フラグメントの作成、編集、削除に必要です。
+>* **[!UICONTROL B2B フラグメントの公開]** - テンプレート、メール、ランディングページで使用するフラグメントを公開するために必要です。
 
 ## フラグメントへのアクセスと管理 {#access-manage-fragments}
 
