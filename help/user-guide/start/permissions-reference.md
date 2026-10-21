@@ -22,16 +22,16 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 autotag-review: '2026-10-20T17:03:48.312Z'
-source-git-commit: e80513284d179a9b27d0505463d07d5e15facabb
+source-git-commit: a33f749c32631dcd77ecf2892bdc3b1a5e06cd66
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1556'
 ht-degree: 6%
 ---
 # 製品の権限
 
 次の権限は、[!DNL Adobe Marketo Optimizer]の機能へのアクセスを制御します。 [!DNL Adobe Experience Platform]の&#x200B;_[!UICONTROL 権限]_&#x200B;領域の役割に追加します。 役割の作成とユーザーへの割り当てについて詳しくは、[_ユーザーのアクセスと権限_](./user-management.md)&#x200B;を参照してください。
 
-最後の3つの列には、[推奨ユーザータイプ &#x200B;](#suggested-user-types)のそれぞれに対して推奨される権限（管理者、すべてのアクセスユーザー、読み取り専用アクセスユーザー）が表示されます。 チェックマーク （✔）は、そのユーザータイプに対して権限が推奨されていることを意味し、ダッシュ （ – ）は、そうでないことを意味します。 組織に合わせてレコメンデーションを調整する：
+最後の3つの列には、[推奨ユーザータイプ ](#suggested-user-types)のそれぞれに対して推奨される権限（管理者、すべてのアクセスユーザー、読み取り専用アクセスユーザー）が表示されます。 チェックマーク （✔）は、そのユーザータイプに対して権限が推奨されていることを意味し、ダッシュ （ – ）は、そうでないことを意味します。 組織に合わせてレコメンデーションを調整する：
 
 >[!IMPORTANT]
 >
@@ -135,7 +135,7 @@ ht-degree: 6%
 
 | カテゴリ | 権限 | 説明 | 管理 | すべてのアクセス | 読み取り専用 |
 | -------- | ---------- | ----------- | :---: | :--------: | :-------: |
-| B2Bの会話体験 | B2B会話体験の管理 | チャットパネルとアシスタントへのアクセス： パネル内のアクションには、一致する機能の権限も必要です。 例えば、ジャーニーを作成するには、_B2B人物ジャーニーの管理_&#x200B;が必要です。 [&#x200B; チャット権限](#chat-permissions)を参照してください。 | ✔ | ✔ | ✔ |
+| B2Bの会話体験 | B2B会話体験の管理 | チャットパネルとアシスタントへのアクセス： パネル内のアクションには、一致する機能の権限も必要です。 例えば、ジャーニーを作成するには、_B2B人物ジャーニーの管理_&#x200B;が必要です。 [ チャット権限](#chat-permissions)を参照してください。 | ✔ | ✔ | ✔ |
 | B2B Labs | B2B Labsの管理 | ラボ機能を有効にして設定します。 | ✔ | ✔ | - |
 | | B2B Labsの事例を見る | 利用可能で有効なラボ機能を表示します。 | ✔ | ✔ | ✔ |
 | B2B レポート | B2B埋め込みレポートを表示 | 「_レポート_」タブでレポートを表示します。 | ✔ | ✔ | ✔ |
@@ -143,11 +143,18 @@ ht-degree: 6%
 
 ## チャット権限 {#chat-permissions}
 
-チャットの権限は、機能レベルの権限に従います。 _Manage B2B Conversational Experience_&#x200B;は、[!DNL CX Coworker] チャットパネルへのアクセス権を付与しますが、機能機能へのアクセス権は付与しません。 共同作業者は、チャット内のすべてのスキルまたはアクションを、チャット外で機能に必要な権限と同じ権限に照らし合わせてチェックします。作成、編集、公開する権限&#x200B;_管理_、読み取り専用スキルの権限&#x200B;_表示_。 ユーザーに機能の権限がない場合、[!DNL Coworker]はそのアクションを実行できません。 例えば、ジャーニーを作成するには&#x200B;_B2B人物ジャーニーを管理_&#x200B;する必要があり、フォームをリストするには&#x200B;_B2B Formsを表示_&#x200B;する必要があります。
+チャットの権限は、機能レベルの権限に従います。 [!DNL Coworker for Marketo Optimizer]は、チャット内のすべてのスキルまたはアクションを、チャット以外の機能に必要な権限と同じ権限に照らし合わせてチェックします。作成、編集、公開する&#x200B;_管理_&#x200B;権限と、読み取り専用スキルの&#x200B;_表示_&#x200B;権限です。 ユーザーに機能の権限がない場合、[!DNL Coworker]はそのアクションを実行できません。 例えば、ジャーニーを作成するには&#x200B;_B2B人物ジャーニーを管理_&#x200B;する必要があり、フォームをリストするには&#x200B;_B2B Formsを表示_&#x200B;する必要があります。
+
+<!--
+_Manage B2B Conversational Experience_ gives access to the [!DNL CX Coworker] chat panel, but it does not grant access to any feature functions.
+
+Per wiki: 
+Update 10/02: We are no longer mapping b2b-conversational-experience read or write to any tools. It was decided that chat will be available for all users without permissions, but what they can do within the chat (i.e. tools they can use) will be defined by other permissions.
+-->
 
 ## 外部宛先権限 {#external-destinations-permissions}
 
-[!DNL Marketo Optimizer]のユーザーに外部宛先へのアクセスを提供するには、次の権限が必要です。 列は、[推奨ユーザータイプ &#x200B;](#suggested-user-types)で説明されている各ユーザータイプに対して同じ推奨事項に従います。
+[!DNL Marketo Optimizer]のユーザーに外部宛先へのアクセスを提供するには、次の権限が必要です。 列は、[推奨ユーザータイプ ](#suggested-user-types)で説明されている各ユーザータイプに対して同じ推奨事項に従います。
 
 | カテゴリ | 権限 | 説明 | 管理 | すべてのアクセス | 読み取り専用 |
 | -------- | ---------- | ----------- | :---: | :--------: | :-------: |
