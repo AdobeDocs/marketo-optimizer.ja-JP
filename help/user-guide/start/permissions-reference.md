@@ -22,9 +22,9 @@ topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
 autotag-review: '2026-10-20T17:03:48.312Z'
-source-git-commit: e80513284d179a9b27d0505463d07d5e15facabb
+source-git-commit: a33f749c32631dcd77ecf2892bdc3b1a5e06cd66
 workflow-type: tm+mt
-source-wordcount: '1577'
+source-wordcount: '1556'
 ht-degree: 6%
 ---
 # 製品の権限
@@ -143,7 +143,14 @@ ht-degree: 6%
 
 ## チャット権限 {#chat-permissions}
 
-チャットの権限は、機能レベルの権限に従います。 _Manage B2B Conversational Experience_&#x200B;は、[!DNL CX Coworker] チャットパネルへのアクセス権を付与しますが、機能機能へのアクセス権は付与しません。 共同作業者は、チャット内のすべてのスキルまたはアクションを、チャット外で機能に必要な権限と同じ権限に照らし合わせてチェックします。作成、編集、公開する権限&#x200B;_管理_、読み取り専用スキルの権限&#x200B;_表示_。 ユーザーに機能の権限がない場合、[!DNL Coworker]はそのアクションを実行できません。 例えば、ジャーニーを作成するには&#x200B;_B2B人物ジャーニーを管理_&#x200B;する必要があり、フォームをリストするには&#x200B;_B2B Formsを表示_&#x200B;する必要があります。
+チャットの権限は、機能レベルの権限に従います。 [!DNL Coworker for Marketo Optimizer]は、チャット内のすべてのスキルまたはアクションを、チャット以外の機能に必要な権限と同じ権限に照らし合わせてチェックします。作成、編集、公開する&#x200B;_管理_&#x200B;権限と、読み取り専用スキルの&#x200B;_表示_&#x200B;権限です。 ユーザーに機能の権限がない場合、[!DNL Coworker]はそのアクションを実行できません。 例えば、ジャーニーを作成するには&#x200B;_B2B人物ジャーニーを管理_&#x200B;する必要があり、フォームをリストするには&#x200B;_B2B Formsを表示_&#x200B;する必要があります。
+
+<!--
+_Manage B2B Conversational Experience_ gives access to the [!DNL CX Coworker] chat panel, but it does not grant access to any feature functions.
+
+Per wiki: 
+Update 10/02: We are no longer mapping b2b-conversational-experience read or write to any tools. It was decided that chat will be available for all users without permissions, but what they can do within the chat (i.e. tools they can use) will be defined by other permissions.
+-->
 
 ## 外部宛先権限 {#external-destinations-permissions}
 

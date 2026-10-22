@@ -1,28 +1,35 @@
 ---
 title: AIを活用した意思決定
-description: Marketo OptimizerのAI意思決定、ジャーニーのトラフィック制御の背後にあるインテリジェンスレイヤー、次善のパス、送信時間の最適化など、静的なルールを結果主導の自動化に置き換える機能を理解できます。
+description: Marketo OptimizerのAIを利用した意思決定、カスタマージャーニーのトラフィック制御の背後にあるインテリジェンスレイヤー、次善のパス、送信時間の最適化など、静的なルールを成果に基づく自動化に置き換える機能を理解できます。
 TQID: 'https://experienceleague.adobe.com/biPd2Zv3z75i7imGqRNuKXvgoD0sIcwrFrjWmSO7FpU'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 3cf5f37e-e87e-5179-812b-53ce05d7eebb
+    internal-label: Setup
   - id: 5229c72e-d79b-574f-a03e-5c4bf48172c3
+    internal-label: AI Decisioning
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Optimization
+source-git-commit: 8a41dd1e42f5c39a2e9a5b54518fb88392776afe
 workflow-type: tm+mt
-source-wordcount: 808
+source-wordcount: '829'
 ht-degree: 2%
-
 ---
-
 
 # AIを活用した意思決定
 
 AI意思決定は、Adobe Marketo Optimizerの背後にあるインテリジェンスレイヤーです。 AIによる意思決定では、あらゆるブランチを静的なルールとして事前に構築するのではなく、ジャーニーメンバーシップ、エンゲージメント履歴、インテントスコア、リアルタイムの行動など、プロファイルのコンテキストを継続的に評価し、次善のアクションやパスを決定します。
 
 この継続的な評価により、オーケストレーションは静的なルールから成果に基づく自動化に移行します。つまり、事前にあらゆる条件を定義するのではなく、望む結果を記述し、システムが一人ひとりに対してそこにたどり着く方法を決定します。
+
+[!DNL Adobe Marketo Optimizer]のAI推論が、Marketo Engage データを活用してワークフローと成果をどのように最適化するのかをご覧ください。
+
+>[!VIDEO](https://video.tv.adobe.com/v/3504789?quality=12)
 
 ## 機能 {#capabilities}
 
