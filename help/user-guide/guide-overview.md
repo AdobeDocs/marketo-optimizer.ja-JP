@@ -42,7 +42,7 @@ ht-degree: 2%
 
 この簡単な概要では、[!DNL Adobe Marketo Optimizer]がAIの推論を利用して、各リードに最適な次善のアクションを提供する方法を説明します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3504788?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3504790?captions=jpn&quality=12)
 
 ## 基本について学ぶ {#basics}
 
