@@ -29,7 +29,7 @@ AI意思決定は、Adobe Marketo Optimizerの背後にあるインテリジェ�
 
 [!DNL Adobe Marketo Optimizer]のAI推論が、Marketo Engage データを活用してワークフローと成果をどのように最適化するのかをご覧ください。
 
->[!VIDEO](https://video.tv.adobe.com/v/3504789?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/3504799?captions=jpn&quality=12)
 
 ## 機能 {#capabilities}
 
