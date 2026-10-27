@@ -25,7 +25,7 @@ ht-degree: 3%
 ---
 # ホームページ
 
-[!DNL Adobe Marketo Optimizer]の[!UICONTROL  ホーム ] ページを使用して、AIの会話を開始し、スキルを起動し、マーケティングワークスペースを開きます。 ナビゲーションで「**[!UICONTROL ホーム]**」を選択して、このページに戻ります。
+[!DNL Adobe Marketo Optimizer]の[!UICONTROL &#x200B; ホーム &#x200B;] ページを使用して、AIの会話を開始し、スキルを起動し、マーケティングワークスペースを開きます。 ナビゲーションで「**[!UICONTROL ホーム]**」を選択して、このページに戻ります。
 
 パーソナライズされたウェルカムメッセージでは、現在のタスクについて質問されます。 会話の入力、インテントオプション、クイックアクセスカード、スキルカードの開始方法を選択します。
 
@@ -45,36 +45,36 @@ ht-degree: 3%
 
 | オプション | ゴール |
 | -------- | ------ |
-| [!UICONTROL  プラン ] | マーケティング活動の計画。 |
+| [!UICONTROL &#x200B; プラン &#x200B;] | マーケティング活動の計画。 |
 | [!UICONTROL 作成] | マーケティングコンテンツやリソースの制作。 |
 | [!UICONTROL 測定] | マーケティングパフォーマンスのレビュー。 |
 | [!UICONTROL 最適化] | 既存のマーケティング活動を改善。 |
 
-詳しくは、[ チャットインターフェイス ](/help/user-guide/agents/chat-interface.md)を参照してください。
+詳しくは、[&#x200B; チャットインターフェイス &#x200B;](/help/user-guide/agents/chat-interface.md)を参照してください。
 
 ## クイックアクセス
 
-[!UICONTROL  クイックアクセス ] カードを選択してワークスペースを開くか、AI意思決定の正常性を確認します。
+[!UICONTROL &#x200B; クイックアクセス &#x200B;] カードを選択してワークスペースを開くか、AI意思決定の正常性を確認します。
 
 | カード | アクセスできること |
 | ------ | --------------------- |
 | [AI決定の正常性](/help/user-guide/agents/ai-decisioning-health.md) | ストーリーの量とペルソナごとに分類された人々の割合。 |
-| [ マーケティング ](/help/user-guide/marketing/marketing-management.md) | マーケティングワークスペース内のプログラム、人物ジャーニー、人物リスト。 |
+| [&#x200B; マーケティング &#x200B;](/help/user-guide/marketing/marketing-management.md) | マーケティングワークスペース内のプログラム、人物ジャーニー、人物リスト。 |
 | [!UICONTROL Assets] | メールとページ用のコンテンツアセット： |
 | [!UICONTROL レポート] | パフォーマンスレポートとエンゲージメントレポート： |
 
 ## スキル
 
-[!UICONTROL  スキル ]のカードを選択して、特定のAI ワークフローを開始します。
+[!UICONTROL &#x200B; スキル &#x200B;]のカードを選択して、特定のAI ワークフローを開始します。
 
 | スキル | ゴール |
 | ------- | ------ |
-| [!UICONTROL  ペルソナベースのオーディエンスの作成] | ペルソナのシグナルと企業特性に即したコンテンツを使用して、オーディエンスを生成。 |
-| [!UICONTROL  オムニチャネルプログラムの構築] | 電子メール、web サイト、配信先をまたいでプログラムを作成。 |
+| [!UICONTROL &#x200B; ペルソナベースのオーディエンスの作成] | ペルソナのシグナルと企業特性に即したコンテンツを使用して、オーディエンスを生成。 |
+| [!UICONTROL &#x200B; オムニチャネルプログラムの構築] | 電子メール、web サイト、配信先をまたいでプログラムを作成。 |
 | [!UICONTROL 詳細にパーソナライズされたメールの作成] | トークンと動的コンテンツブロックを使用して、パーソナライズされたメールを作成。 |
 | [!UICONTROL 適合およびインテントベースのジャーニートラフィック制御] | アカウントの適合シグナルとインテントシグナルを使用して、ジャーニーをまたいで連絡先をルーティングします。 |
 
-[!UICONTROL 同僚]からエージェントのスキルを参照することもできます。 このビデオは、検索フィールドとカテゴリフィルターを含む[!UICONTROL  エージェントのスキル ]を使用ダイアログを示しています。 詳しくは、「[担当者のスキル ](/help/user-guide/agents/skills.md)」を参照してください。
+[!UICONTROL 同僚]からエージェントのスキルを参照することもできます。 このビデオは、検索フィールドとカテゴリフィルターを含む[!UICONTROL &#x200B; エージェントのスキル &#x200B;]を使用ダイアログを示しています。 詳しくは、「[担当者のスキル &#x200B;](/help/user-guide/agents/skills.md)」を参照してください。
 
 ## ワークスペースへの移動
 
@@ -82,13 +82,13 @@ ht-degree: 3%
 
 | ワークエリア | アクセスできること |
 | ----------- | --------------------- |
-| [!UICONTROL  マーケティング管理] | プログラム、人物ジャーニー、人物リスト。 |
+| [!UICONTROL &#x200B; マーケティング管理] | プログラム、人物ジャーニー、人物リスト。 |
 | [!UICONTROL ジャーニートラフィック制御] | [ジャーニートラフィック制御](/help/user-guide/marketing/journey-traffic-control.md)。 |
 | [!UICONTROL レポート] | マーケティングパフォーマンスレポート： |
-| [!UICONTROL コンテンツ管理] | [!UICONTROL  テンプレート ]、[!UICONTROL Assets]、[!UICONTROL  フラグメント ]、[!UICONTROL Forms]、[!UICONTROL  ランディングページ ]および[!UICONTROL  ウェビナー]。 |
+| [!UICONTROL コンテンツ管理] | [!UICONTROL &#x200B; テンプレート &#x200B;]、[!UICONTROL Assets]、[!UICONTROL &#x200B; フラグメント &#x200B;]、[!UICONTROL Forms]、[!UICONTROL &#x200B; ランディングページ &#x200B;]および[!UICONTROL &#x200B; ウェビナー]。 |
 | [!UICONTROL 接続] | [宛先](/help/user-guide/audiences/destinations.md)。 |
-| [!UICONTROL Labs] | [ スコアリングスタジオ ](/help/user-guide/labs/scoring-studio.md)。 |
-| [!UICONTROL 管理] | [!UICONTROL  チャネル ]および[!UICONTROL  プログラムタイプ ]。 |
+| [!UICONTROL Labs] | [&#x200B; スコアリングスタジオ &#x200B;](/help/user-guide/labs/scoring-studio.md)。 |
+| [!UICONTROL 管理] | [!UICONTROL &#x200B; チャネル &#x200B;]および[!UICONTROL &#x200B; プログラムタイプ &#x200B;]。 |
 
 ## マーケティングワークスペースの詳細
 
@@ -100,4 +100,4 @@ ht-degree: 3%
 
 [!UICONTROL 同僚] パネルには、開いているリソースが反映されます。 プロンプトは、選択したプログラム、人物リスト、人物をターゲットにできます。 たとえば、個人レコードを開くと、その個人のペルソナとエンゲージメントアクティビティを探索するためのプロンプトが表示されます。
 
-**[!UICONTROL 折りたたみ]**&#x200B;を選択して[!UICONTROL 同僚] パネルを非表示にするか、**[!UICONTROL パネルを入れ替えて]**&#x200B;配置を変更します。 詳しくは、[ マーケティング管理](/help/user-guide/marketing/marketing-management.md)および[人物の詳細](/help/user-guide/audiences/person-details.md)を参照してください。
+**[!UICONTROL 折りたたみ]**&#x200B;を選択して[!UICONTROL 同僚] パネルを非表示にするか、**[!UICONTROL パネルを入れ替えて]**&#x200B;配置を変更します。 詳しくは、[&#x200B; マーケティング管理](/help/user-guide/marketing/marketing-management.md)および[人物の詳細](/help/user-guide/audiences/person-details.md)を参照してください。
