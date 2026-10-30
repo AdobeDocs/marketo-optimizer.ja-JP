@@ -1,22 +1,25 @@
 ---
 title: アクションノードを作成
-description: Marketo Optimizerでアクションノードを設定して、ユーザー、リスト、プログラム、宛先を追加、削除、更新するか、ユーザーのジャーニーでノードに到達したときにメッセージを送信します。
+description: Marketo Optimizerの「アクションを実行」ノードを設定して、ユーザー、リスト、プログラム、宛先を追加、削除、更新するか、ユーザーのジャーニーでノードに到達したときにメッセージを送信します。
 TQID: 'https://experienceleague.adobe.com/KmYvfJm9d5YZdC7ZWQiybjNsFmnt0GLReJIL8nDQF-k'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 feature_v2:
   - id: 46e599c6-e20f-5f67-9824-93415016f66b
+    internal-label: Audiences
   - id: 64b90904-e4f0-5c1b-a871-8c6a40b204a1
+    internal-label: Journeys
   - id: a29661b8-f7a4-53d1-a9ac-fdec08c092e4
+    internal-label: Programs
 topic_v2:
   - id: cdd65e7e-8839-44a2-bc21-0e03623b5dd1
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Optimization
+source-git-commit: d46d6ad64726b6a4fb07e10c081b08e7336f151a
 workflow-type: tm+mt
-source-wordcount: 1145
+source-wordcount: '1167'
 ht-degree: 0%
-
 ---
-
 # アクションノードを作成
 
 個人ジャーニーでは、ノードパス上のすべてのユーザーに変更を適用する場合に、人物に対するアクションを使用します。
@@ -149,7 +152,7 @@ Marketo Engage プログラムのユーザーのステータスを変更する�
 
 +++[!UICONTROL &#x200B; リストから削除]
 
-Marketo Optimizerの静的リストからユーザーを削除するには、このアクションを使用します。 ユーザーが現在リストのメンバーではない場合、そのユーザーのアクションはスキップされます。
+Marketo Optimizerの静的リストからユーザーを削除するには、この操作を使用します。 ユーザーが現在リストのメンバーではない場合、そのユーザーのアクションはスキップされます。
 
 ![&#x200B; アクションを実行 – リストから削除](./assets/person-action-node-remove-from-list.png){width="450"}
 
@@ -183,9 +186,9 @@ Marketo Engageの静的リストからユーザーを削除するには、この
 
 このアクションを使用して、オプトインしたユーザーにメールを送信します。 購読解除、リストへの登録をブロック、メール配信の停止、マーケティング配信の停止を受けたユーザーは、このアクションをスキップします。
 
-![&#x200B; アクションを実行 – メールを送信](./assets/person-action-node-send-email.png){width="450"}
+![&#x200B; アクションを実行 – メールを送信](./assets/person-action-node-email-source.png){width="450"}
 
-電子メールを作成したり、既存の電子メールを編集したり、AIによってパーソナライズされた電子メールを使用したりできます。 電子メールの作成と編集について詳しくは、[電子メールチャネル &#x200B;](./email-channel.md)を参照してください。 既存のメールのペルソナベースのバリエーションを生成するには、[&#x200B; ペルソナ別のメールコンテンツのパーソナライズ &#x200B;](../agents/personalize-content.md)を参照してください。
+プログラムツリーから公開されたメールを選択して、メールのコピーをジャーニーに追加するか、AIによってパーソナライズされたメールを使用することができます。 コピーは読み取り専用です。 メールの作成、公開、複製について詳しくは、[_メールの作成とジャーニーへの追加_](./email-channel.md)&#x200B;を参照してください。 下書きメールのペルソナベースのバリエーションを生成するには、[_ペルソナ別のメールコンテンツのパーソナライズ_](../agents/personalize-content.md)&#x200B;を参照してください。
 
 [送信時間の最適化](./email-send-time-optimization.md)を使用して、各プロファイルがエンゲージする可能性が最も高いタイミングを予測し、メール配信のタイミングをパーソナライズできます。
 

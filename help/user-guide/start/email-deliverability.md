@@ -25,9 +25,9 @@ topic_v2:
     internal-label: Personalization
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: 6311ce00a5c7666c07fb1a523c954637d2e86e46
 workflow-type: tm+mt
-source-wordcount: '2694'
+source-wordcount: '2697'
 ht-degree: 1%
 ---
 # メールの配信品質
@@ -53,7 +53,7 @@ ht-degree: 1%
 > メールチャネルについて詳しくは、次のトピックを参照してください。
 >
 >* 電子メールチャネルの設定 – [電子メールチャネル設定](../admin/email-channel-configuration.md)
->* メールの作成 – [&#x200B; ジャーニーにメールを追加](../marketing/email-channel.md)
+>* メールの作成 – [&#x200B; メールを作成してジャーニーに追加](../marketing/email-channel.md)
 >* 電子メールコンテンツのデザイン - [電子メールコンテンツのオーサリング &#x200B;](../content/email-authoring.md)
 
 ## 現在の制限事項 {#limitations}

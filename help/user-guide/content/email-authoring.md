@@ -19,18 +19,14 @@ topic_v2:
     internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: f65df8d5e83eca29ffaaabf51e7c80ed223d175a
+source-git-commit: 6311ce00a5c7666c07fb1a523c954637d2e86e46
 workflow-type: tm+mt
-source-wordcount: '2325'
+source-wordcount: '2402'
 ht-degree: 5%
 ---
 # メールコンテンツ作成
 
 [!DNL Adobe Marketo Optimizer]では、電子メール デザイン スペースは、マーケターが電子メールを構成する視覚的なキャンバスを提供します。 左側と上部のパネル（構造、コンテンツコンポーネント、テンプレート、フラグメントなど）のメールデザインツールは、ドラッグ&amp;ドロップでゼロから作成できる機能をサポートしています。 また、テンプレートから開始、生のHTMLをペースト、再利用可能なビジュアルフラグメントからメッセージを組み立てることもできます。
-
->[!IMPORTANT]
->
->サブドメイン、認証、IP プール、および電子メールチャネル設定の管理者による設定については、[電子メールの配信品質](../start/email-deliverability.md)および[電子メールチャネルの設定](../admin/email-channel-configuration.md)を参照してください。
 
 >[!PREREQUISITES]
 >
@@ -38,9 +34,10 @@ ht-degree: 5%
 >
 >* **[!UICONTROL B2B メールを表示]** - メール メッセージを表示するには必須です。
 >* **[!UICONTROL B2B メールの管理]** - メールメッセージの作成、編集、および削除に必要です。
->* **[!UICONTROL B2B人物ジャーニーの管理]** – 電子メールを人物ジャーニーに追加するために必要です。
 
-[!DNL Marketo Optimizer]では、すべての電子メールは、個人ジャーニー内の&#x200B;_[!UICONTROL 電子メールを送信]_ アクションに関連付けられます。 ジャーニーの設計から電子メールの定義に至るまでのワークフロー全体が、ひとつの連続的な体験で実現されます。 [&#x200B; ユーザーのジャーニーに&#x200B;_メール送信_ ノード &#x200B;](../marketing/action-nodes.md#add-an-action-node)を追加する場合、「**[!UICONTROL メール作成]**」をクリックしてプロセスを開始します。 まず、メールのアクションとコンテンツ設定を定義します。 「**[!UICONTROL メール本文を編集]**」をクリックして、メールコンテンツデザインスペースを起動します。ここでは、次のオプションからメールのデザイン方法を選択できます。
+[!DNL Marketo Optimizer]では、メールは独立したアセットであり、[&#x200B; プログラムまたはフォルダーで作成してから](../marketing/email-channel.md#create-email-from-programs)、[&#x200B; ジャーニーで公開して選択します](../marketing/email-channel.md#lifecycle)。 最初に、_プロパティ_&#x200B;と&#x200B;_アクション_&#x200B;を定義します。 そしてコンテンツを定義します。
+
+「**[!UICONTROL メール本文を編集]**」をクリックしてメール本文デザインスペースを起動します。このスペースでは、次のオプションからメールのデザイン方法を選択できます。
 
 * ビジュアルデザインインターフェイスを使用して[&#x200B; メールをゼロからデザイン &#x200B;](#design-from-scratch)。 空白のキャンバスにドラッグ&amp;ドロップして、コンポーネントごとにメールレイアウトコンポーネントを作成します。 この方法は、新しいテンプレートや単発のメールを作成するのに最適です。
 
@@ -83,15 +80,14 @@ HTMLとCSSのベストプラクティスに従うことで、メールクライ�
 
 1. _[!UICONTROL メールをデザイン]_ ページから、**[!UICONTROL ゼロからデザイン]** オプションを選択します。
 
-<!-- 
 
-1. In the _[!UICONTROL Create email]_ dialog, choose the type of email content that you want to author.
+1. _[!UICONTROL メールを作成]_ ダイアログで、作成するメールコンテンツのタイプを選択します。
 
-   * **[!UICONTROL Use Themes]** - Choose this option to create the email in _Theme mode_. In this mode, you can use a defined brand theme to streamline the content authoring process and make sure that the design aligns with defined standards.
+   * **[!UICONTROL テーマを使用]** – このオプションを選択すると、_テーマモード_&#x200B;で電子メールを作成できます。 このモードでは、定義済みのブランドテーマを使用して、コンテンツのオーサリングプロセスを効率化し、定義された標準に合わせてデザインを調整できます。
 
-   * **[!UICONTROL Manual Styling]** - Choose this option to create the email in _Manual mode_. In this mode, you manually set the styling for all structure and content components that you add to the blank canvas.
+   * **[!UICONTROL 手動スタイル設定]** – このオプションを選択すると、_手動モード_&#x200B;で電子メールを作成できます。 このモードでは、空白のカンバスに追加するすべての構造およびコンテンツコンポーネントのスタイル設定を手動で設定します。
 
--->
+   ![電子メールダイアログの作成](./assets/email-design-create-your-email-dialog.png){width="450"}
 
 1. [&#x200B; キャンバスに構造とコンテンツのコンポーネント &#x200B;](#structure-content)を追加します。
 
@@ -102,8 +98,6 @@ HTMLとCSSのベストプラクティスに従うことで、メールクライ�
 コンテンツに問題がなければ、**[!UICONTROL 保存]**&#x200B;をクリックします。
 
 ## 既存のHTML コンテンツのインポート {#import-html-content}
-
-<!-- originally  from   /help/_includes/content-design-import.md but copied and revised to omit the part about Marketo Engage assets and AEM assets -->
 
 読み込むコンテンツは次のとおりです。
 
@@ -140,17 +134,27 @@ _HTML コンテンツを含むファイルを読み込むには&#x200B;:_
 
 ビジュアルメールエディターを使用して、メールメッセージを作成します。 プリヘッダーを追加し、列と区切り記号でレイアウトを構成してから、画像、ボタン、テキストなどのコンテンツコンポーネントを配置します。 また、カスタム CSSを適用して高度なスタイル設定を行い、ダークモードでデザインがレンダリングされる方法をプレビューすることもできます。
 
-### プリヘッダーの設定 {#preheader}
+### 本文の設定を定義 {#body-settings}
 
-プリヘッダーは、受信トレイのプレビューで件名の後に表示されるテキストのスニペットです。 [!DNL Marketo Optimizer]では、プリヘッダーは、電子メールデザインスペースのビジュアルキャンバスで設定されます。件名と一緒に電子メールプロパティ画面で設定されません。
+本文の設定により、メールのプリヘッダー、ドキュメントのタイトル、ドキュメントの言語が定義されます。 このメタデータは、電子メールの件名とは別に、電子メールデザインスペースで設定します。
 
-左側のナビゲーションツリーで&#x200B;**[!UICONTROL Body]**&#x200B;を選択した状態で、右側の&#x200B;**[!UICONTROL 設定]** パネルを開きます。
+1. 左側のナビゲーションツリーで「**[!UICONTROL Body]**」を選択し、右側のパネルで「**[!UICONTROL 設定]**」タブを選択します。
 
-「**[!UICONTROL プリヘッダー]**」テキスト領域をクリックし、プリヘッダーコピーを入力します。 「_パーソナライゼーションを追加_」（![&#x200B; パーソナライゼーションアイコン &#x200B;](../assets/do-not-localize/icon-personalization-field.svg)）アイコンをクリックして、必要に応じて書式と[&#x200B; パーソナライゼーショントークン &#x200B;](#personalize-content)をリッチテキストコントロールを使用して適用します。
+   ![右側のパネルの本文の設定](./assets/email-body-settings.png){width="800" zoomable="yes"}
 
->[!TIP]
->
->プリヘッダーは40～100文字の範囲に収めます。 件名を補完し（繰り返さず）、受信者が電子メールを開くための追加の理由を提供する必要があります。
+1. 以下のフィールドに入力します。
+
+   * **[!UICONTROL プリヘッダー]** – 件名の後に表示されるテキストのスニペットを受信トレイのプレビューに入力します。
+
+     >[!TIP]
+     >
+     >プリヘッダーは40～100文字の範囲に収めます。 件名を補完し（繰り返さず）、受信者が電子メールを開くための追加の理由を提供する必要があります。
+
+   * **[!UICONTROL ドキュメントのタイトル]** - メール HTML ドキュメントのタイトルを入力します。 件名とは異なります。
+
+   * **[!UICONTROL ドキュメント言語]** - メールドキュメントの言語を指定します。
+
+   フィールドの横にある「_パーソナライゼーションを追加_」（![&#x200B; パーソナライゼーションアイコン &#x200B;](../assets/do-not-localize/icon-personalization-field.svg)）アイコンをクリックして、[&#x200B; パーソナライゼーショントークン &#x200B;](#personalize-content)を挿入できます。
 
 ### ダークモード {#dark-mode}
 
@@ -163,6 +167,8 @@ _HTML コンテンツを含むファイルを読み込むには&#x200B;:_
 [構造コンポーネント &#x200B;](./structure-components.md)と[&#x200B; コンテンツコンポーネント &#x200B;](./content-components.md)をキャンバスに追加して、メールレイアウトを構築します。
 
 左側のパネルの&#x200B;**[!UICONTROL 構造]**&#x200B;および&#x200B;**[!UICONTROL コンテンツ]** セクションから項目をドラッグし、右側の&#x200B;_[!UICONTROL 設定]_&#x200B;および&#x200B;_[!UICONTROL スタイル]_ タブで各コンポーネントを設定します。
+
+![構造コンポーネントとコンテンツ要素をページにドラッグ&amp;ドロップします](./assets/content-components-add.png){width="700" zoomable="yes"}
 
 ### カスタム CSS を追加 {#custom-css}
 
@@ -252,7 +258,7 @@ A visual fragment can include editable fields that you can customize. Custom fie
 [!DNL Marketo Optimizer]は、パーソナライゼーションにHandlebars構文を使用しています。 トークンは、送信時に各受信者のプロファイルデータの値に置き換えられます。 メール内でパーソナライゼーションを使用できる場所は複数あります。
 
 * **件名** – 最も一般的なパーソナライゼーションポイント。
-* **Preheader** — ビジュアルキャンバス内で設定します。プロファイル属性トークンをサポートします。
+* **Body metadata** — ビジュアルキャンバス内で設定します。プロファイル属性トークンをサポートします。
 * **Email body text** — インラインで挿入された名とその他のプロファイル属性。
 * **ボタン URL** – 受信者ごとのパラメーターを追加します。
 
@@ -293,7 +299,7 @@ _パーソナライゼーションを追加するには&#x200B;:_
 
 +++AI支援の式{#ai-personalization}
 
-パーソナライゼーションエディターの同僚は、平易な言語の説明からHandlebars式を生成し、既存の式の機能を説明し、潜在的な問題を特定できます。 式のオーサリングを高速化するために使用します。特に、条件付きロジックや日付形式のヘルパーで使用します。
+パーソナライゼーションエディターの[!DNL Coworker]は、平易な言語の説明からHandlebars式を生成し、既存の式の機能を説明し、潜在的な問題を特定できます。 式のオーサリングを高速化するために使用します。特に、条件付きロジックや日付形式のヘルパーで使用します。
 
 +++
 

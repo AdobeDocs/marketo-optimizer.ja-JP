@@ -22,9 +22,9 @@ role_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: b6253400e2c9fc5b7f277add102367743981ce8a
+source-git-commit: d46d6ad64726b6a4fb07e10c081b08e7336f151a
 workflow-type: tm+mt
-source-wordcount: '638'
+source-wordcount: '641'
 ht-degree: 0%
 ---
 # メールチャネル設定
@@ -89,7 +89,7 @@ ht-degree: 0%
 >
 >チャネル設定の削除は永続的です。 アクティブなジャーニーが参照する設定は削除できません。 最初にすべてのメールアクションを削除または再割り当てします。
 
-設定を削除するには、まず、[&#x200B; ジャーニーにメールを追加](../marketing/email-channel.md#define-email-properties)で設定を参照するすべてのメールアクションを削除または更新します。 [!DNL Marketo Optimizer]は、アクティブなジャーニーで現在使用されている設定を削除しません。
+設定を削除するには、まず、[&#x200B; メールを作成してジャーニー](../marketing/email-channel.md#define-email-properties)に追加するメール アクションをすべて削除または更新します。 [!DNL Marketo Optimizer]は、アクティブなジャーニーで現在使用されている設定を削除しません。
 
 ## 複数のチャネル設定 {#multiple-channel-configurations}
 

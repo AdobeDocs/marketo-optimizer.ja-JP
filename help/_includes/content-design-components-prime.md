@@ -4,6 +4,7 @@ description: Marketo Optimizerでのコンテンツオーサリングでのコ�
 TQID: 'https://experienceleague.adobe.com/7EU78PMciq8nvrkohzXERfWQMCqpHDse7gfaM-A8U0w'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
 workflow-type: tm+mt
 source-wordcount: 245

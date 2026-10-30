@@ -4,15 +4,15 @@ description: Marketo Optimizerのダークモードのメールデザインに�
 TQID: 'https://experienceleague.adobe.com/IFAOy7HJQ93uT4Mz70dC-RPHPaWhUhE9T0d5dEgJYgk'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
+    internal-label: Marketo Optimizer
 topic_v2:
   - id: cc72dcf1-72e1-48cc-b434-e7c27d62d67c
-source-git-commit: 43b1b5ba8415d7a7f3291c12c3db4cc333b673c4
+    internal-label: Accessibility
+source-git-commit: d46d6ad64726b6a4fb07e10c081b08e7336f151a
 workflow-type: tm+mt
-source-wordcount: 1476
+source-wordcount: '1476'
 ht-degree: 19%
-
 ---
-
 # メールコンテンツのダークモード {#dark-mode}
 
 >[!CONTEXTUALHELP]
@@ -158,7 +158,7 @@ _ダークモードのカスタム設定を定義するには&#x200B;:_
 
 ダークモードでは、色、背景、画像が変更される可能性があり、場合によってはデザインの選択が上書きされることもあります。 視覚的な一貫性、アクセシビリティ、ブランドの整合性を確保するには、次のベストプラクティスに従います。
 
-| 実践 |            |
+| 実践 | |
 | -------- | ---------- |
 | 画像とロゴの最適化 | チェックリスト：<ul><li>ロゴやアイコンを、透明な背景のPNG ファイルとして保存して、暗いモードで白いボックスが表示されないようにします。 <li>白色の背景または明るい背景がハードコードされた画像は回避します。 <li>透明な背景を使用できない場合は、不自然な色の反転を防ぐために、デザイン内でベタ塗りの背景の上に画像を配置します。 |
 | 背景を見る | チェックリスト：<ul><li>ライトモードとダークモードの両方で読みやすくするには、テキストと背景色の間に十分なコントラストを確保します。 <li>重要なコンテンツについては、背景色だけに頼らないようにします。 一部のクライアントでは、ダークモードで背景色を上書きするので、重要な情報が表示されたままになります。 |
