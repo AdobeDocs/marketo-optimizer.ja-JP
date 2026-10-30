@@ -27,7 +27,7 @@ ht-degree: 7%
 
 [!DNL Adobe Marketo Optimizer]では、最新のエンタープライズ向けメール作成および配信エクスペリエンスをB2B マーケターに提供しています。これにより、プログラムやジャーニーからメールを作成、公開、送信できます。
 
-メールは独立したアセットなので、ジャーニーを作成する必要はありません。 プログラムまたはそのフォルダーの1つの中に[&#x200B; メール &#x200B;](#create-email-from-programs)を作成し、準備ができたら[&#x200B; メールを公開](#publish-email)し、そのプログラムの任意のジャーニーから[&#x200B; メールを送信します](#add-email-from-journey)。
+メールは独立したアセットなので、ジャーニーを作成する必要はありません。 プログラムまたはそのフォルダーの1つの中に[ メール ](#create-email-from-programs)を作成し、準備ができたら[ メールを公開](#publish-email)し、そのプログラムの任意のジャーニーから[ メールを送信します](#add-email-from-journey)。
 
 ## メールのライフサイクル {#lifecycle}
 
@@ -41,7 +41,7 @@ ht-degree: 7%
 
 電子メールを公開すると、電子メールがドラフトから公開に移動します。 _メール送信_ アクションノードに対して選択すると、コピーがジャーニーに存在します。 公開した電子メールを変更するには、[複製します](#duplicate-email)。 複製は、同じコンテンツと設定を持つドラフトとして作成されます。
 
-![&#x200B; メールのライフサイクル：下書きを公開するか、公開済みのメールを選択して読み取り専用のジャーニーコピーを作成するか、公開済みのメールを複製して新しい下書きを作成します。](./assets/email-lifecycle-diagram.svg){width="800" zoomable="yes"}
+![ メールのライフサイクル：下書きを公開するか、公開済みのメールを選択して読み取り専用のジャーニーコピーを作成するか、公開済みのメールを複製して新しい下書きを作成します。](./assets/email-lifecycle-diagram.svg){width="800" zoomable="yes"}
 
 メールの状態によって、アクションの可用性が決まります。
 
@@ -80,7 +80,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->初めて電子メールを送信する場合は、[電子メールの配信品質](../start/email-deliverability.md)と必要な[電子メールチャネル &#x200B;](../admin/email-channel-configuration.md)が設定されていることを確認してください。
+>初めて電子メールを送信する場合は、[電子メールの配信品質](../start/email-deliverability.md)と必要な[電子メールチャネル ](../admin/email-channel-configuration.md)が設定されていることを確認してください。
 
 <!-- 
 * **Email channel configurations** - Manage the sender identity, reply behavior, marketing vs. transactional message types, and tracking.
@@ -138,13 +138,13 @@ ht-degree: 7%
 
 1. プログラムツリーで、_詳細_ アイコン （**...**）をクリックします 電子メールを作成するプログラムまたはフォルダーの横にある「**[!UICONTROL 電子メールを作成]**」を選択します。
 
-   ![&#x200B; プログラムツリーからメールを作成](./assets/email-create-from-programs-tree.png){width="400"}
+   ![ プログラムツリーからメールを作成](./assets/email-create-from-programs-tree.png){width="400"}
 
 1. _[!UICONTROL メールを作成]_ ダイアログで、次のフィールドに入力します。
 
    * **[!UICONTROL 親]** - （必須）電子メールが保存されるプログラムまたはフォルダー。 開始したプログラムに設定され、別のプログラムまたはプログラムのフォルダーのいずれかに変更できます。
 
-   * **[!UICONTROL メールの種類]** - **[!UICONTROL マーケティング]**&#x200B;または&#x200B;**[!UICONTROL トランザクション]**&#x200B;を選択します（[&#x200B; メールの種類](#email-types)を参照）。
+   * **[!UICONTROL メールの種類]** - **[!UICONTROL マーケティング]**&#x200B;または&#x200B;**[!UICONTROL トランザクション]**&#x200B;を選択します（[ メールの種類](#email-types)を参照）。
 
    * **[!UICONTROL 名前]** - （必須） プログラムツリーに、メールを識別する名前を入力します。
 
@@ -156,7 +156,7 @@ ht-degree: 7%
 
 メールは独自のタブで開き、プログラムツリーのプログラムの下にドラフトとして表示されます。 電子メールが開いている間は、[!DNL Coworker]個のプロンプトはその電子メールの範囲に含まれます。
 
-次に、[電子メールを設定](#define-email-properties)、[&#x200B; アラートを解決](#alerts)、[公開](#publish-email)します。
+次に、[電子メールを設定](#define-email-properties)、[ アラートを解決](#alerts)、[公開](#publish-email)します。
 
 ### メールのプロパティとアクションを定義 {#define-email-properties}
 
@@ -166,7 +166,7 @@ ht-degree: 7%
 
 1. （オプション）「**[!UICONTROL プロパティ]**」タブに、**[!UICONTROL 説明]**&#x200B;およびメール用に取得するその他の記述情報を入力します。
 
-   ![電子メールのプロパティ タブ &#x200B;](./assets/email-properties-tab.png){width="800" zoomable="yes"}
+   ![電子メールのプロパティ タブ ](./assets/email-properties-tab.png){width="800" zoomable="yes"}
 
 1. 「**[!UICONTROL アクション]**」タブを選択し、メールの機能設定を完了します。
 
@@ -182,25 +182,25 @@ ht-degree: 7%
 
    * **[!UICONTROL アクションの追跡]** – 電子メールで追跡するアクションのチェックボックスをオンにします。
 
-   ![電子メールチャネル – 「アクション」タブ &#x200B;](./assets/email-channel-actions-tab.png){width="600" zoomable="yes"}
+   ![電子メールチャネル – 「アクション」タブ ](./assets/email-channel-actions-tab.png){width="600" zoomable="yes"}
 
 #### 件名と内容を追加 {#content-tab}
 
 1. 「**[!UICONTROL コンテンツを編集]**」をクリックするか、「**[!UICONTROL コンテンツ]**」タブを選択します。
 
-   ![電子メールコンテンツタブ &#x200B;](./assets/email-content-tab.png){width="500" zoomable="yes"}
+   ![電子メールコンテンツタブ ](./assets/email-content-tab.png){width="500" zoomable="yes"}
 
 1. 電子メールの件名フィールドに表示する&#x200B;**[!UICONTROL 件名]** テキストを入力します。
 
    件名は必須です。
 
-   _パーソナライズ_ アイコン（![&#x200B; パーソナライズアイコン &#x200B;](../assets/do-not-localize/icon-personalize.svg)）をクリックして、フィールドでパーソナライゼーショントークンを使用します。
+   _パーソナライズ_ アイコン（![ パーソナライズアイコン ](../assets/do-not-localize/icon-personalize.svg)）をクリックして、フィールドでパーソナライゼーショントークンを使用します。
 
 1. （オプション）公開プロセス中にメール HTMLのサイズを小さくするには、「**[!UICONTROL HTML サイズを最適化]**」チェックボックスをオンにします。
 
    これにより、Gmailなどのクライアントでのメールクリッピングを防ぐことができます。 Gmailでは、100 KBを超えるメッセージが切り捨てられます。 詳しくは、[_電子メールのHTML サイズの最適化_](#optimize-html-size)&#x200B;を参照してください。
 
-1. **[!UICONTROL メール本文を編集]**&#x200B;をクリックしてビジュアルデザインツールにアクセスし、[&#x200B; コンテンツの作成を開始](../content/email-authoring.md)します。
+1. **[!UICONTROL メール本文を編集]**&#x200B;をクリックしてビジュアルデザインツールにアクセスし、[ コンテンツの作成を開始](../content/email-authoring.md)します。
 
    または、**[!UICONTROL コードエディター]**&#x200B;をクリックして、プレーンHTMLで独自のコンテンツをコーディングすることもできます。 既存のHTMLをメールデザインに再利用する場合は、それをコピーしてエディターに貼り付けることができます。
 
@@ -233,7 +233,7 @@ ht-degree: 7%
 
 電子メールは、エンベロープのアイコンが付いたプログラムツリーに表示されます。 赤い封筒が下書きを示す。 緑色の封筒は、公開された電子メールをマークします。 _詳細_ アイコン （**...**）をクリックします 電子メールの横に配置して管理します。
 
-![&#x200B; プログラムツリーの「その他のメール」メニュー](./assets/email-tree-more-menu.png){width="400"}
+![ プログラムツリーの「その他のメール」メニュー](./assets/email-tree-more-menu.png){width="400"}
 
 下書きメールのメニューには、**[!UICONTROL 公開]**、**[!UICONTROL 電子メールのパーソナライズ]**、**[!UICONTROL 電子メールの分析]**、**[!UICONTROL 重複]**、**[!UICONTROL 名前変更]**、**[!UICONTROL 削除]**&#x200B;が含まれます。
 
@@ -245,21 +245,21 @@ ht-degree: 7%
 
 * **[!UICONTROL 電子メールをパーソナライズ]** – 電子メールが読み込まれた状態で[!DNL Coworker]を開きます。 パーソナライズされたコンテンツをメールに追加するには、ターゲットグループを記述します。 詳しくは、[_ペルソナ別のメールコンテンツのパーソナライズ_](../agents/personalize-content.md)&#x200B;を参照してください。
 
-  ![同僚のメールのパーソナライズ &#x200B;](./assets/email-personalize-coworker.png){width="700" zoomable="yes"}
+  ![同僚のメールのパーソナライズ ](./assets/email-personalize-coworker.png){width="700" zoomable="yes"}
 
 * **[!UICONTROL メールを分析]** – 既に作成したコンテンツを確認します。 [既存の電子メールの分析](../agents/personalize-content.md#analyze-existing-email)を参照してください。
 
 ### メールの公開 {#publish-email}
 
-送信する準備ができたらメールを公開します。 ジャーニー[&#128279;](#add-email-from-journey)で電子メールを選択すると、公開された電子メールのみが一覧表示されます。
+送信する準備ができたらメールを公開します。 ジャーニー](#add-email-from-journey)で電子メールを[選択すると、公開された電子メールのみが一覧表示されます。
 
-1. 電子メールにブロッキング [&#x200B; アラート &#x200B;](#alerts)がないことを確認してください。
+1. 電子メールにブロッキング [ アラート ](#alerts)がないことを確認してください。
 
 1. プログラムツリーで、_詳細_ アイコン （**...**）をクリックします 電子メールの横にある「**[!UICONTROL 公開]**」を選択します。
 
 1. _[!UICONTROL メールを公開]_&#x200B;確認ダイアログで、**[!UICONTROL 公開]**&#x200B;をクリックします。
 
-   ![電子メールを公開ダイアログ &#x200B;](./assets/email-publish-dialog.png){width="400"}
+   ![電子メールを公開ダイアログ ](./assets/email-publish-dialog.png){width="400"}
 
 電子メールアイコンが緑色に変わります。 メールを選択すると、そのコンテンツ、プロパティ、アクションを要約した読み取り専用ビューが開きます。
 
@@ -267,7 +267,7 @@ ht-degree: 7%
 
 >[!IMPORTANT]
 >
->公開は永続的です。 公開された電子メールは、編集、名前の変更、削除、ドラフトに戻すことはできません。 変更を加えるには、[電子メール &#x200B;](#duplicate-email)を複製します。
+>公開は永続的です。 公開された電子メールは、編集、名前の変更、削除、ドラフトに戻すことはできません。 変更を加えるには、[電子メール ](#duplicate-email)を複製します。
 
 ### メールの複製 {#duplicate-email}
 
@@ -293,7 +293,7 @@ ht-degree: 7%
 
 ### メールを送信アクションのメールを選択 {#select-email-in-journey}
 
-1. ジャーニーを開き、[_アクションを実行_ ノード &#x200B;](action-nodes.md#add-an-action-node)を選択または追加します。
+1. ジャーニーを開き、[_アクションを実行_ ノード ](action-nodes.md#add-an-action-node)を選択または追加します。
 
 1. _[!UICONTROL アクションを選択]_&#x200B;で、**[!UICONTROL 電子メールを送信]**&#x200B;を選択します。
 
@@ -303,7 +303,7 @@ ht-degree: 7%
 
    * **[!UICONTROL AIでパーソナライズされた電子メールを使用]** - AIで生成された電子メールを使用するには、このオプションを選択します。 これらのメールは、AIを活用して受信トレイを最適化されており、オファーやCTAにおいて、顧客の要約と回答が反映されています。
 
-   ![&#x200B; アクションを実行 – メール ソース &#x200B;](./assets/person-action-node-email-source.png){width="600"}
+   ![ アクションを実行 – メール ソース ](./assets/person-action-node-email-source.png){width="600"}
 
    ノードには、電子メールを選択するまで空白の電子メール名が表示されます。
 
@@ -335,7 +335,7 @@ ht-degree: 7%
 
 コピーがジャーニーに追加され、公開され、オレンジ色のアイコンが付いたプログラムツリーのジャーニーの下に表示されます。 独自のアクション IDがあり、読み取り専用です。
 
-![&#x200B; プログラムツリー内のメールのジャーニーコピー](./assets/email-journey-copy-tree.png){width="700" zoomable="yes"}
+![ プログラムツリー内のメールのジャーニーコピー](./assets/email-journey-copy-tree.png){width="700" zoomable="yes"}
 
 ジャーニーは独自のコピーを保持します。 コンテンツと設定は、メールを選択した時点でコピーされます。 後で元のジャーニーを複製して修正した場合、既存のジャーニーはコピーしたバージョンを引き続き送信します。
 
