@@ -17,14 +17,14 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 1dcc3bcdc59114c7fc1e16178db8921ae173b955
+source-git-commit: 8c2e4b17decc42fe5efe36f5bd50ebceacb5d8a1
 workflow-type: tm+mt
 source-wordcount: '419'
-ht-degree: 0%
+ht-degree: 1%
 ---
 # 分析レポートの生成
 
-[!DNL Adobe Marketo Optimizer]の&#x200B;[_Surface Analytics_ スキル &#x200B;](./skills.md#analytics-reporting)は、データに関する自然言語の質問に回答します。 [同僚のチャットインターフェイス &#x200B;](./chat-interface.md)で使用すると、アクティビティの傾向、メールのパフォーマンス、リードとアカウントのデータ、セグメントとリストのメンバーシップ、ジャーニー指標を確認できます。 結果はグラフや表として返されるため、クエリやダッシュボードを手動で作成する必要はありません。
+[!DNL Adobe Marketo Optimizer]の&#x200B;[_Surface Analytics_ スキル ](./skills.md#analytics-reporting)は、データに関する自然言語の質問に回答します。 [同僚のチャットインターフェイス ](./chat-interface.md)で使用すると、アクティビティの傾向、メールのパフォーマンス、リードとアカウントのデータ、セグメントとリストのメンバーシップ、ジャーニー指標を確認できます。 結果はグラフや表として返されるため、クエリやダッシュボードを手動で作成する必要はありません。
 
 * **スキル** - `surface-analytics`
 * **呼び出し** – 自然言語で質問するか、スラッシュコマンドを使用してSurface Analytics スキルを実行します。 例：_「過去30日間の毎日のアクティビティ数を表示する」_
@@ -81,7 +81,7 @@ Surface Analyticsは、[!DNL Marketo Engage]と[!DNL Marketo Optimizer]の両方
 ## 制限事項 {#limitations}
 
 | 制限事項 | 詳細 |
-|---|---|
+| --- | --- |
 | レコードの編集または作成 | サポートされていません。 Surface Analyticsは、既存のデータの読み取りとレポートのみを行います。 |
 | 結果に人間が読み取れる名前 | 必ずしも利用可能ではありません。 一部のレポートでは、名前の代わりにジャーニーIDや電子メール IDなどの内部IDが表示されます。 |
 | レポートカードの重複 | 1つの質問で、同じ結果に対して複数のレポートカードが返されることがあります。 |
