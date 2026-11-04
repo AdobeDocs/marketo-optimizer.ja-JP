@@ -104,7 +104,7 @@ web ページの訪問者から情報を取得するには、フォームを作�
 >id="ajo-b2b-prime_lp_form_preset"
 >title="プリセットを選択"
 >abstract="使用する接続を含む事前定義済みプリセットと、フォームの事前定義済みデータセットを選択します。"
->additional-url="https://experienceleague.adobe.com/en/docs/marketo-optimizer/user/admin/channels/configuration-presets-forms#create-preset" text="フォームプリセットを作成"
+>additional-url="https://experienceleague.adobe.com/ja/docs/marketo-optimizer/user/admin/channels/configuration-presets-forms#create-preset" text="フォームプリセットを作成"
 
 プログラム内のフォームまたはフォルダーを&#x200B;_[!UICONTROL プログラム]_ ツリー構造から作成します。
 
