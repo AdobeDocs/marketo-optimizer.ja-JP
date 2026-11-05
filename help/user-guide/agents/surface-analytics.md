@@ -17,10 +17,10 @@ subfeature_v2:
 topic_v2:
   - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
     internal-label: Reporting
-source-git-commit: 1dcc3bcdc59114c7fc1e16178db8921ae173b955
+source-git-commit: 8c2e4b17decc42fe5efe36f5bd50ebceacb5d8a1
 workflow-type: tm+mt
 source-wordcount: '419'
-ht-degree: 0%
+ht-degree: 1%
 ---
 # 分析レポートの生成
 
@@ -81,7 +81,7 @@ Surface Analyticsは、[!DNL Marketo Engage]と[!DNL Marketo Optimizer]の両方
 ## 制限事項 {#limitations}
 
 | 制限事項 | 詳細 |
-|---|---|
+| --- | --- |
 | レコードの編集または作成 | サポートされていません。 Surface Analyticsは、既存のデータの読み取りとレポートのみを行います。 |
 | 結果に人間が読み取れる名前 | 必ずしも利用可能ではありません。 一部のレポートでは、名前の代わりにジャーニーIDや電子メール IDなどの内部IDが表示されます。 |
 | レポートカードの重複 | 1つの質問で、同じ結果に対して複数のレポートカードが返されることがあります。 |

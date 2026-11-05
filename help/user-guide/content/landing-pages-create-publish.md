@@ -17,10 +17,10 @@ feature_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: b6253400e2c9fc5b7f277add102367743981ce8a
+source-git-commit: 407092d59071fb4fdf49de4ed91455637979643b
 workflow-type: tm+mt
-source-wordcount: '1554'
-ht-degree: 18%
+source-wordcount: '1571'
+ht-degree: 17%
 ---
 # ランディングページの作成と公開
 
@@ -57,11 +57,17 @@ ht-degree: 18%
 
 _ランディングページを作成するには&#x200B;:_
 
-1. 左側のナビゲーションに移動し、**[!UICONTROL コンテンツ管理]**/**[!UICONTROL ランディングページ]**&#x200B;を選択します。
+1. 左側のナビゲーションで、**[!UICONTROL マーケティング管理]**&#x200B;を展開し、**[!UICONTROL プログラム]**&#x200B;を選択します。
 
-1. ランディングページのリストから、「**[!UICONTROL ランディングページの作成]**」をクリックします。
+1. _[!UICONTROL プログラム]_ ツリー構造で、ランディングページを作成するプログラム内のプログラムまたはフォルダーを見つけます。
 
-1. **[!UICONTROL タイトル]** （必須）と&#x200B;**[!UICONTROL 説明]** （オプション）を入力します。
+   必要に応じて、まず[&#x200B; プログラム &#x200B;](../marketing/programs.md#create-program)を作成します。
+
+1. _詳細_ アイコン （**...**）をクリックします プログラムまたはフォルダー名の横にある「**[!UICONTROL ランディングページを作成]**」を選択します。
+
+   ![&#x200B; プログラムツリーから新しいランディングページを作成](../marketing/assets/email-create-from-programs-tree.png){width="400"}
+
+1. _[!UICONTROL ランディングページを作成]_ ダイアログで、**[!UICONTROL タイトル]** （必須）と&#x200B;**[!UICONTROL 説明]** （オプション）を入力します。
 
    タイトルと説明基準：
 
@@ -70,7 +76,7 @@ _ランディングページを作成するには&#x200B;:_
    * Alpha、数値、特殊文字は使用できます。
    * 予約済みの文字は&#x200B;**_許可されていません_**: `\ / : * ? " < > |`
 
-   ![&#x200B; ランディングページの作成](assets/landing-page-create.png){width="600"}
+   ![&#x200B; ランディングページの作成](assets/landing-page-create.png){width="425"}
 
 1. **[!UICONTROL プリセット]**&#x200B;を選択します。
 
@@ -82,11 +88,13 @@ _ランディングページを作成するには&#x200B;:_
 
    ![新しいランディングページ – プライマリページのプロパティ &#x200B;](assets/landing-page-primary-new-properties.png){width="700" zoomable="yes"}
 
-1. サブページ（例えば、感謝ページやエラーページ）を追加するには、**+** アイコンをクリックします。
+<!--
+1. To add a subpage (for example, a thank-you or error page), click the **+** icon.
 
-   ランディングページごとに最大2つのサブページを追加できます。
+   You can add up to two subpages per landing page.
+-->
 
-プライマリページとサブページを設定およびデザインしたら、ランディングページを公開する前に[&#x200B; テスト &#x200B;](#test-landing-page)します。
+ページを設定およびデザインしたら、ランディングページを公開する前に[&#x200B; テスト &#x200B;](#test-landing-page)します。
 
 >[!CAUTION]
 >
@@ -147,7 +155,7 @@ _プライマリページ設定を定義するには&#x200B;:_
 
 ### ゼロからデザイン {#design-from-scratch}
 
-ビジュアルコンテンツデザイン機能を使用して、ランディングページの構造とコンテンツを定義します。 シンプルなドラッグ&amp;ドロップ操作で構造コンポーネントを追加、移動することで、ページコンテンツのレイアウトや整理を数秒でデザインできます。
+ビジュアルコンテンツデザイン機能を使用して、ランディングページの構造とコンテンツを定義します。 シンプルなドラッグ&amp;ドロップ操作で構造コンポーネントを追加および移動することで、ページコンテンツのレイアウトと整理をすばやくデザインできます。
 
 1. デザインホームページから、「**[!UICONTROL ゼロからデザイン]**」オプションを選択します。
 
@@ -235,11 +243,11 @@ _HTML コンテンツを含むファイルを読み込むには&#x200B;:_
 
    +++テストプロファイルの追加
 
-   **[!UICONTROL ID名前空間]**&#x200B;の場合、_選択_ アイコン （![選択アイコン &#x200B;](../assets/do-not-localize/icon-select-data.svg)）をクリックし、プロファイルのテストに使用する`Email`名前空間を選択します。
+   **[!UICONTROL ID名前空間]**&#x200B;の場合、_選択_ （![&#x200B; アイコンを選択](../assets/do-not-localize/icon-select-data.svg)）アイコンをクリックし、`Email`名前空間を選択してプロファイルをテストします。
 
    ![&#x200B; テストプロファイルを管理してメール ID名前空間を設定](assets/manage-test-profiles.png){width="700" zoomable="yes"}
 
-   「**[!UICONTROL ID値]**」フィールドに、テストプロファイルを識別する電子メールアドレスを入力し、**[!UICONTROL プロファイルを追加]**&#x200B;をクリックします。 これを繰り返して複数のプロファイルを追加できます。
+   「**[!UICONTROL ID値]**」フィールドに、テストプロファイルを識別する電子メールアドレスを入力し、**[!UICONTROL プロファイルを追加]**&#x200B;をクリックします。 複数のプロファイルを追加するには、これを繰り返します。
 
    ![&#x200B; テストプロファイルの管理プロファイルの追加](assets/manage-test-profiles-add.png){width="700" zoomable="yes"}
 

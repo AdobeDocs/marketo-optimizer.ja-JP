@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Optimization
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 6311ce00a5c7666c07fb1a523c954637d2e86e46
+source-git-commit: 8c2e4b17decc42fe5efe36f5bd50ebceacb5d8a1
 workflow-type: tm+mt
 source-wordcount: '2734'
 ht-degree: 7%
