@@ -42,9 +42,9 @@ web ページの訪問者から情報を取得するには、フォームを作�
 
 [!DNL Marketo Optimizer]のフォームにアクセスするには、左側のナビゲーションに移動し、**[!UICONTROL Content Management]**/**[!UICONTROL Forms]**&#x200B;をクリックします。 このアクションは、インスタンスで作成されたすべてのフォームを表示するリストページを開きます。
 
-このリストを使用して、既存のフォームにアクセスし、管理します。 [&#x200B; フォームを作成するには、_[!UICONTROL プログラム]_ ツリー構造を使用します。](#new-form)
+このリストを使用して、既存のフォームにアクセスし、管理します。 [ フォームを作成するには、_[!UICONTROL プログラム]_ ツリー構造を使用します。](#new-form)
 
-![&#x200B; フォームライブラリにアクセス &#x200B;](./assets/forms-list.png){width="800" zoomable="yes"}
+![ フォームライブラリにアクセス ](./assets/forms-list.png){width="800" zoomable="yes"}
 
 システムはテーブルを&#x200B;_[!UICONTROL 変更済み]_&#x200B;列で並べ替え、デフォルトで最も最近更新されたフォームを上部に表示します。 列のタイトルをクリックして、昇順と降順を変更します。
 
@@ -58,17 +58,17 @@ web ページの訪問者から情報を取得するには、フォームを作�
 | 公開日 | フォームを公開すると、ランディングページまたはランディングページテンプレートで使用できるようになります。 公開されたフォームコンテンツは、ビジュアルデザイン空間で変更できません。 使用可能なアクション：<br/><ul><li>名前、説明またはサンキューページの編集<li>ランディングページまたはランディングページテンプレートへの追加<li>ドラフトバージョンを作成<li>複製<li>削除（使用中でない場合）<li>埋め込みコード |
 | 公開済み下書きあり | 公開済みフォームからドラフトを作成しても、公開済みバージョンはランディングページまたはテンプレートで使用できます。 ドラフトコンテンツは、ビジュアルデザインスペースで変更できます。 ドラフトバージョンを公開すると、現在の公開済みバージョンが置き換えられ、コンテンツは使用されているランディングページまたはランディングページテンプレートで更新されます。 使用可能なアクション：<br/><ul><li>名前、説明またはサンキューページの編集<li>ランディングページまたはランディングページテンプレートへの追加<li>ビジュアルデザインスペースでのドラフトバージョンの編集<li>ドラフトバージョンを公開<li>複製<li>削除（使用中でない場合）<li>埋め込みコード |
 
-![&#x200B; フォームの状態ライフサイクル &#x200B;](assets/status-lifecycle-diagram.png){zoomable="yes"}
+![ フォームの状態ライフサイクル ](assets/status-lifecycle-diagram.png){zoomable="yes"}
 
 ### フォームリストのフィルタリング {#filter-list}
 
-名前でフォームを検索するには、検索バーにテキスト文字列を入力して一致を検索します。 _フィルター_ アイコン （![&#x200B; フィルターの表示または非表示アイコン &#x200B;](../assets/do-not-localize/icon-filter.svg)）をクリックして、使用可能なフィルターオプションを表示し、設定を変更して、指定した条件に従って表示される項目をフィルタリングします。
+名前でフォームを検索するには、検索バーにテキスト文字列を入力して一致を検索します。 _フィルター_ アイコン （![ フィルターの表示または非表示アイコン ](../assets/do-not-localize/icon-filter.svg)）をクリックして、使用可能なフィルターオプションを表示し、設定を変更して、指定した条件に従って表示される項目をフィルタリングします。
 
-![表示されたフォームをフィルタリング &#x200B;](assets/forms-list-filtered.png){width="700" zoomable="yes"}
+![表示されたフォームをフィルタリング ](assets/forms-list-filtered.png){width="700" zoomable="yes"}
 
 ### 列表示のカスタマイズ {#column-display}
 
-右上の&#x200B;_テーブルをカスタマイズ_ アイコン （![&#x200B; テーブルをカスタマイズ アイコン &#x200B;](../assets/do-not-localize/icon-column-settings.svg)）をクリックして、テーブルに表示する列をカスタマイズします。
+右上の&#x200B;_テーブルをカスタマイズ_ アイコン （![ テーブルをカスタマイズ アイコン ](../assets/do-not-localize/icon-column-settings.svg)）をクリックして、テーブルに表示する列をカスタマイズします。
 
 ダイアログで、表示する列を選択し、**[!UICONTROL 適用]**&#x200B;をクリックします。
 
@@ -104,7 +104,7 @@ web ページの訪問者から情報を取得するには、フォームを作�
 >id="ajo-b2b-prime_lp_form_preset"
 >title="プリセットを選択"
 >abstract="使用する接続を含む事前定義済みプリセットと、フォームの事前定義済みデータセットを選択します。"
->additional-url="https://experienceleague.adobe.com/ja/docs/marketo-optimizer/user/admin/channels/configuration-presets-forms#create-preset" text="フォームプリセットを作成"
+>additional-url="https://experienceleague.adobe.com/en/docs/marketo-optimizer/user/admin/channels/configuration-presets-forms#create-preset" text="フォームプリセットを作成"
 
 プログラム内のフォームまたはフォルダーを&#x200B;_[!UICONTROL プログラム]_ ツリー構造から作成します。
 
@@ -112,11 +112,11 @@ web ページの訪問者から情報を取得するには、フォームを作�
 
 1. フォームを作成するプログラムまたはプログラム内のフォルダーを見つけます。
 
-   必要に応じて、まず[&#x200B; プログラム &#x200B;](../marketing/programs.md#create-program)を作成します。
+   必要に応じて、まず[ プログラム ](../marketing/programs.md#create-program)を作成します。
 
 1. _詳細_ アイコン （**...**）をクリックします プログラムまたはフォルダー名の横にある「**[!UICONTROL フォームを作成]**」を選択します。
 
-   ![&#x200B; プログラムツリーから新しいフォームを作成](../marketing/assets/email-create-from-programs-tree.png){width="425"}
+   ![ プログラムツリーから新しいフォームを作成](../marketing/assets/email-create-from-programs-tree.png){width="425"}
 
 1. _[!UICONTROL フォームを作成]_ ダイアログで、便利な&#x200B;**[!UICONTROL 名前]** （必須）と&#x200B;**[!UICONTROL 説明]** （オプション）を入力します。
 
@@ -127,9 +127,9 @@ web ページの訪問者から情報を取得するには、フォームを作�
    * Alpha、数値、特殊文字は使用できます
    * 予約済みの文字は&#x200B;**_許可されていません_**: `\ / : * ? " < > |`
 
-   ![&#x200B; フォームダイアログの作成](assets/forms-create-dialog.png){width="400"}
+   ![ フォームダイアログの作成](assets/forms-create-dialog.png){width="400"}
 
-1. **[!UICONTROL プリセット]**&#x200B;の場合、_データを選択_ （![&#x200B; データアイコンを選択](../assets/do-not-localize/icon-select-data.svg)）アイコンをクリックして、設定されたフォームプリセットをフォームにリンクします。
+1. **[!UICONTROL プリセット]**&#x200B;の場合、_データを選択_ （![ データアイコンを選択](../assets/do-not-localize/icon-select-data.svg)）アイコンをクリックして、設定されたフォームプリセットをフォームにリンクします。
 
    プリセットによって、フォームの応答の保存場所と反射場所が決まります。 特定のプリセットを検索するためのテキスト文字列を入力するか、リストから選択できます。
 
@@ -137,7 +137,7 @@ web ページの訪問者から情報を取得するには、フォームを作�
 
    フォームの詳細ページが開きます。
 
-   ![既定のフォーム コンテンツ &#x200B;](assets/form-new-default-content.png){width="700" zoomable="yes"}
+   ![既定のフォーム コンテンツ ](assets/form-new-default-content.png){width="700" zoomable="yes"}
 
 1. 「**[!UICONTROL フォームを編集]**」をクリックし、ビジュアルデザインツールを使用して、必要に応じてフォームコンテンツを定義します。
 
@@ -165,7 +165,7 @@ web ページの訪問者から情報を取得するには、フォームを作�
 
 ランディングページまたはランディングページテンプレートでフォームを使用できるようにする準備ができたら、**[!UICONTROL 公開]**&#x200B;をクリックします。
 
-![&#x200B; フォームの公開ダイアログ &#x200B;](assets/form-publish-dialog.png){width="400"}
+![ フォームの公開ダイアログ ](assets/form-publish-dialog.png){width="400"}
 
 このアクションを実行すると、確認ダイアログが開きます。 公開プロセスを中止するには、**[!UICONTROL キャンセル]**&#x200B;をクリックするか、**[!UICONTROL 公開]**&#x200B;をクリックして確認します。
 
@@ -191,7 +191,7 @@ web ページの訪問者から情報を取得するには、フォームを作�
 >
 >ランディングページまたはランディングページテンプレートで現在使用されているフォームは削除できません。
 
-![&#x200B; フォームの参照で使用](assets/form-used-by-published.png){width="600" zoomable="yes"}
+![ フォームの参照で使用](assets/form-used-by-published.png){width="600" zoomable="yes"}
 
 参照は、カテゴリ _ランディングページ_&#x200B;または&#x200B;_ランディングページテンプレート_&#x200B;に従って表示されます。 リンクをクリックして、フォームが使用されている対応するページまたはテンプレートを開きます。
 
@@ -206,11 +206,11 @@ web ページの訪問者から情報を取得するには、フォームを作�
 
 このアクションを実行すると、確認ダイアログが開きます。 「**[!UICONTROL キャンセル]**」をクリックするか、「**[!UICONTROL 削除]**」をクリックして削除を確認することで、プロセスを中止できます。
 
-![&#x200B; フォームダイアログの削除](assets/form-delete-dialog.png){width="400"}
+![ フォームダイアログの削除](assets/form-delete-dialog.png){width="400"}
 
 フォームが現在使用中の場合、アクションは情報ダイアログを開き、削除できないことを警告します。 削除アクションを中止する&#x200B;**[!UICONTROL OK]**&#x200B;をクリックします。
 
-![&#x200B; フォームダイアログを削除 – 使用中のフォームを削除できません](assets/form-delete-dialog-in-use.png){width="400"}
+![ フォームダイアログを削除 – 使用中のフォームを削除できません](assets/form-delete-dialog-in-use.png){width="400"}
 
 ## フォームの複製 {#duplicate-forms}
 
@@ -221,7 +221,7 @@ web ページの訪問者から情報を取得するには、フォームを作�
 * フォームの詳細ページの右上にある「**[!UICONTROL ...」をクリックします。詳細]**&#x200B;を選択し、**[!UICONTROL 複製]**&#x200B;を選択します。
 * _[!UICONTROL Forms]_ リストページから、_詳細_ （**...**）をクリックします フォーム名の横にあるアイコンをクリックし、**[!UICONTROL 複製]**&#x200B;を選択します。
 
-![&#x200B; フォームを複製](assets/form-list-page-duplicate.png){width="450"}
+![ フォームを複製](assets/form-list-page-duplicate.png){width="450"}
 
 ダイアログで、便利な名前（一意）と説明を入力します。 「**[!UICONTROL 複製]**」をクリックして、アクションを完了します。
 
@@ -247,7 +247,7 @@ web ページの訪問者から情報を取得するには、フォームを作�
 
 1. 名前や説明などの詳細を変更します。
 
-   ![&#x200B; ドラフトステータスを持つフォームの詳細](assets/form-details-draft.png){width="600" zoomable="yes"}
+   ![ ドラフトステータスを持つフォームの詳細](assets/form-details-draft.png){width="600" zoomable="yes"}
 
 1. ビジュアルデザイン空間でフォームに変更を加えるには、**[!UICONTROL フォームを編集]**&#x200B;をクリックします。
 
@@ -273,7 +273,7 @@ web ページの訪問者から情報を取得するには、フォームを作�
 
 1. ダイアログで「**[!UICONTROL ドラフトバージョンを作成]**」をクリックして、ビジュアルデザインスペースでドラフトバージョンを開きます。
 
-   ![下書きバージョンの作成ダイアログ &#x200B;](assets/form-published-edit-create-draft-dialog.png){width="400"}
+   ![下書きバージョンの作成ダイアログ ](assets/form-published-edit-create-draft-dialog.png){width="400"}
 
 1. 必要に応じてビジュアルデザインツールを使用して、フォームコンテンツを更新します。
 
@@ -296,7 +296,7 @@ web ページの訪問者から情報を取得するには、フォームを作�
 
    下書きバージョンのフォームコンテンツのプレビューが表示され、フォームの詳細が右側に表示されます。
 
-   ![&#x200B; フォームドラフトバージョンを編集](assets/form-published-with-draft-edit.png){width="700" zoomable="yes"}
+   ![ フォームドラフトバージョンを編集](assets/form-published-with-draft-edit.png){width="700" zoomable="yes"}
 
 1. 右側の&#x200B;_[!UICONTROL 概要]_ ペインで「**[!UICONTROL フォームを編集]**」をクリックし、必要に応じてビジュアルデザインツールを使用します。
 
@@ -316,7 +316,7 @@ web ページの訪問者から情報を取得するには、フォームを作�
 
 ## ランディングページまたはテンプレートへのフォームの追加 {#insert-forms}
 
-Formsは再利用を目的として設計されており、[&#x200B; ランディングページ &#x200B;](./landing-pages.md)をデザインするときに挿入できます。
+Formsは再利用を目的として設計されており、[ ランディングページ ](./landing-pages.md)をデザインするときに挿入できます。
 
 <!-- or [landing page template](./landing-page-templates.md). -->
 
