@@ -31,7 +31,7 @@ ht-degree: 3%
 
 ホームページとマーケティングワークスペースの概要については、動画をご覧ください。 次の節では、書面による指示を示します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3505360/?quality=12&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3505362/?captions=jpn&quality=12&learn=on)
 
 ## AIとの会話を開始
 
