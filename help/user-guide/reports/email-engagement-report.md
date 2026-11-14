@@ -17,16 +17,16 @@ ht-degree: 3%
 
 <!-- SPHR-32511: Filter by Program, Filter by Audience, and the program data point for the email performance table are not documented here pending delivery. -->
 
-[!UICONTROL 電子メールエンゲージメント ] レポートを使用して、電子メールとジャーニーごとに、インスタンス全体の電子メールの配信品質とエンゲージメントのパフォーマンスを確認します。
+[!UICONTROL 電子メールエンゲージメント &#x200B;] レポートを使用して、電子メールとジャーニーごとに、インスタンス全体の電子メールの配信品質とエンゲージメントのパフォーマンスを確認します。
 
 レポートを表示するには（_T） :_
 
 1. 左側のナビゲーションで、**[!UICONTROL レポート]**&#x200B;を選択します。
-1. _リスト_ アイコン （![ リストアイコン ](../assets/do-not-localize/icon-table-of-contents.svg)）をクリックし、_[!UICONTROL 目次]_ パネルで&#x200B;**[!UICONTROL 電子メールエンゲージメント]**&#x200B;を選択します。
+1. _リスト_ アイコン （![&#x200B; リストアイコン &#x200B;](../assets/do-not-localize/icon-table-of-contents.svg)）をクリックし、_[!UICONTROL 目次]_ パネルで&#x200B;**[!UICONTROL 電子メールエンゲージメント]**&#x200B;を選択します。
 
 ![ジャーニー名（イベント）およびペルソナ（イベント）フィルター、過去30日間の日付範囲、メールアクティビティ指標のテーブルを含むメールエンゲージメントレポート。](./assets/reports-email-engagement.png){width="700" zoomable="yes"}
 
-レポートの上部にある&#x200B;**[!UICONTROL ジャーニー名（Event）]**&#x200B;および&#x200B;**[!UICONTROL ペルソナ（Event）]** フィルターを使用して、メールデータを絞り込みます。 フィルターリストを開き、含める値を選択します。 [ フィルター](#filters)を参照してください。
+レポートの上部にある&#x200B;**[!UICONTROL ジャーニー名（Event）]**&#x200B;および&#x200B;**[!UICONTROL ペルソナ（Event）]** フィルターを使用して、メールデータを絞り込みます。 フィルターリストを開き、含める値を選択します。 [&#x200B; フィルター](#filters)を参照してください。
 
 他のレポートセクションで使用可能な同じ日付範囲ピッカーを使用して、[日付範囲](./reports-overview.md#change-the-date-range)を変更できます。
 
@@ -34,7 +34,7 @@ ht-degree: 3%
 
 ## レポートテーブル {#report-table}
 
-[!UICONTROL 電子メールエンゲージメント ] レポートには、電子メールごとに1行が表示され、次の行のディメンションが表示されます。
+[!UICONTROL 電子メールエンゲージメント &#x200B;] レポートには、電子メールごとに1行が表示され、次の行のディメンションが表示されます。
 
 * **[!UICONTROL Email Name]** - メールの名前。
 * **[!UICONTROL ジャーニー名]** – 電子メールを送信したジャーニーの名前。
@@ -52,7 +52,7 @@ ht-degree: 3%
 | [!UICONTROL %開封] | 配信されたメールのうち、開封された割合。 |
 | [!UICONTROL クリック済み] | 受信者がメール内のリンクをクリックした回数。 |
 | [!UICONTROL % クリックしました] | クリックを受け取った電子メールの割合。 |
-| [!UICONTROL  クリックして比率を開く] | クリックを受け取った、開封された電子メールの割合。 |
+| [!UICONTROL &#x200B; クリックして比率を開く] | クリックを受け取った、開封された電子メールの割合。 |
 | [!UICONTROL 登録解除済み] | メールの購読を解除した受信者の数。 |
 | [!UICONTROL %登録解除] | 配信されたメールのうち、配信停止に至った割合。 |
 
@@ -60,9 +60,9 @@ ht-degree: 3%
 
 フィルターを使用して、ジャーニーやペルソナごとにレポートを絞り込みます。
 
-* **[!UICONTROL ジャーニー名（イベント）]** – 電子メールを送信したジャーニーでフィルタリングします。 デフォルトは[!UICONTROL  フィルターなし]。
-* **[!UICONTROL ペルソナ （イベント）]** – 電子メールに関連付けられている[派生ペルソナ ](../audiences/personas.md#filter-by-derived-persona)でフィルタリングします。 デフォルトは[!UICONTROL  フィルターなし]。
+* **[!UICONTROL ジャーニー名（イベント）]** – 電子メールを送信したジャーニーでフィルタリングします。 デフォルトは[!UICONTROL &#x200B; フィルターなし]。
+* **[!UICONTROL ペルソナ （イベント）]** – 電子メールに関連付けられている[派生ペルソナ &#x200B;](../audiences/personas.md#filter-by-derived-persona)でフィルタリングします。 デフォルトは[!UICONTROL &#x200B; フィルターなし]。
 
-![ メールエンゲージメントレポートは、4つのジャーニーを選択し、ペルソナ（イベント）フィルターリストを開いて、使用可能なペルソナを表示してフィルターします。](./assets/reports-email-engagement-filters.png){width="500" zoomable="yes"}
+![&#x200B; メールエンゲージメントレポートは、4つのジャーニーを選択し、ペルソナ（イベント）フィルターリストを開いて、使用可能なペルソナを表示してフィルターします。](./assets/reports-email-engagement-filters.png){width="500" zoomable="yes"}
 
 **[!UICONTROL すべてをリセット]**&#x200B;を選択して、すべてのフィルターをクリアし、デフォルトのビューに戻ります。

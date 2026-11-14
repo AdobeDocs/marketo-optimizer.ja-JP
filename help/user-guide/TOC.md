@@ -10,7 +10,7 @@ ht-degree: 42%
 # Marketo Optimizer ユーザーガイド {#user}
 
 + [Adobe Marketo Optimizer ドキュメント](guide-overview.md)
-+ {hide-from-toc}[Lighthouse プログラム ](./lighthouse-program.md)
++ {hide-from-toc}[Lighthouse プログラム &#x200B;](./lighthouse-program.md)
 + データ基盤 {#data-foundation}
   + [データアーキテクチャ](./data-architecture.md)
   + [Marketo Engageとの相互運用性](./marketo-interoperability.md)

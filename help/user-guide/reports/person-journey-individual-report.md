@@ -28,20 +28,20 @@ ht-degree: 0%
 1. _[!UICONTROL 人のジャーニー]_ リストから&#x200B;**[!UICONTROL ライブ]**&#x200B;または&#x200B;**[!UICONTROL 完了した]**&#x200B;人のユーザージャーニーを開きます。
 1. ジャーニーヘッダーで、「**[!UICONTROL レポートを表示]**」を選択します。
 
-   ![ ジャーニーヘッダーで「レポートを表示」ボタンがハイライト表示された人物ジャーニーキャンバス。](./assets/reports-person-journey-view-report.png){width="600" zoomable="yes"}
+   ![&#x200B; ジャーニーヘッダーで「レポートを表示」ボタンがハイライト表示された人物ジャーニーキャンバス。](./assets/reports-person-journey-view-report.png){width="600" zoomable="yes"}
 
-レポートの日付範囲](./reports-overview.md#change-the-date-range)を[変更できます。
+レポートの日付範囲[&#128279;](./reports-overview.md#change-the-date-range)を変更できます。
 
 レポートの上部にある「**[!UICONTROL 共有]**」を選択して、データの書き出しをダウンロードまたはスケジュールします。 レポートの概要の「[_レポートの書き出し_](./reports-overview.md#export-a-report)」を参照してください。
 
-![ ジャーニーのステータス、完了傾向、エンゲージメントタイルの上に、ジャーニー名（イベント）とペルソナ（イベント）フィルターを含む人物ジャーニー個人レポート。](./assets/reports-individual-journey.png){width="700" zoomable="yes"}
+![&#x200B; ジャーニーのステータス、完了傾向、エンゲージメントタイルの上に、ジャーニー名（イベント）とペルソナ（イベント）フィルターを含む人物ジャーニー個人レポート。](./assets/reports-individual-journey.png){width="700" zoomable="yes"}
 
 ## フィルター {#filters}
 
 このレポートには、最初に開いたジャーニーが表示されます。 レポートの上部にあるフィルターを使用して、含めるジャーニーとペルソナを変更します。
 
 * **[!UICONTROL ジャーニー名（イベント）]** - レポートを開いたジャーニーに事前設定します。 フィルターリストを開き、含めるジャーニーを選択します。 複数のジャーニーを選択できます。
-* **[!UICONTROL ペルソナ （イベント）]** – 特定の[派生ペルソナ ](../audiences/personas.md#filter-by-derived-persona)に一致するユーザーにレポートをフィルタリングします。 デフォルトは[!UICONTROL  フィルターなし]。
+* **[!UICONTROL ペルソナ （イベント）]** – 特定の[派生ペルソナ &#x200B;](../audiences/personas.md#filter-by-derived-persona)に一致するユーザーにレポートをフィルタリングします。 デフォルトは[!UICONTROL &#x200B; フィルターなし]。
 
 ![ジャーニー名（イベント）フィルターリストが開き、3つのジャーニーが選択された人物ジャーニーレポートが、ペルソナ（イベント）フィルターと共に表示されます。](./assets/reports-person-journey-details-filters.png){width="700" zoomable="yes"}
 
@@ -60,11 +60,11 @@ ht-degree: 0%
 
 ## メールパフォーマンス {#email-performance}
 
-[!UICONTROL 電子メールパフォーマンス ] テーブルには、ジャーニーで送信された各電子メールの配信とエンゲージメントの指標が表示されます。 すべてのジャーニーで同じメール指標については、[ メールエンゲージメントレポート ](./email-engagement-report.md)を参照してください。
+[!UICONTROL 電子メールパフォーマンス &#x200B;] テーブルには、ジャーニーで送信された各電子メールの配信とエンゲージメントの指標が表示されます。 すべてのジャーニーで同じメール指標については、[&#x200B; メールエンゲージメントレポート &#x200B;](./email-engagement-report.md)を参照してください。
 
 ![3通のメールの送信、配信、開封、クリックの指標を示すメールパフォーマンステーブル。](./assets/reports-individual-journey-email-performance.png){width="700" zoomable="yes"}
 
-[!UICONTROL 電子メールパフォーマンス ]のテーブル列：
+[!UICONTROL 電子メールパフォーマンス &#x200B;]のテーブル列：
 
 * [!UICONTROL Email Name] - メールの名前。
 * [!UICONTROL 送信済み] – 送信されたメール数。
@@ -72,7 +72,7 @@ ht-degree: 0%
 * [!UICONTROL %配信済み] – 配信済みメールの数を送信済みメール数で割った数。
 * [!UICONTROL 開封済み] – 受信者が電子メールを開封した回数。
 * [!UICONTROL %開封済み] – 開封された電子メールの数を、配信数で割った数。
-* [!UICONTROL  クリック数] – 受信者がメール内のリンクをクリックした回数。
+* [!UICONTROL &#x200B; クリック数] – 受信者がメール内のリンクをクリックした回数。
 * [!UICONTROL % クリック済み] - クリック済み電子メールの数を、配信数で割った数。
 
 ## ジャーニーアクティビティフロー {#journey-activity-flow}
