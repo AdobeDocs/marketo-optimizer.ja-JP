@@ -1,15 +1,15 @@
 ---
 title: メールエンゲージメントレポート
-description: Adobe Marketo Optimizerの「電子メールエンゲージメントレポート」では、電子メールとジャーニーごとに電子メールの配信品質とエンゲージメント指標を確認できます。
+description: Adobe Marketo Optimizerの「メールエンゲージメントレポート」では、電子メールとジャーニーごとに電子メールの配信品質とエンゲージメント指標を確認できます。
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
     internal-label: Marketo Optimizer
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 6e919a66af259ea1f5facf7f5c3e811d76101e85
+source-git-commit: 84abcbf4ddf114898768766d6e91ec855e3f979f
 workflow-type: tm+mt
-source-wordcount: '343'
+source-wordcount: '394'
 ht-degree: 3%
 ---
 
@@ -24,7 +24,9 @@ ht-degree: 3%
 1. 左側のナビゲーションで、**[!UICONTROL レポート]**&#x200B;を選択します。
 1. _リスト_ アイコン （![&#x200B; リストアイコン &#x200B;](../assets/do-not-localize/icon-table-of-contents.svg)）をクリックし、_[!UICONTROL 目次]_ パネルで&#x200B;**[!UICONTROL 電子メールエンゲージメント]**&#x200B;を選択します。
 
-ジャーニー名とペルソナのフィルター、過去30日間の日付範囲、メールアクティビティ指標のテーブルを含む![&#x200B; メールエンゲージメントレポート。](./assets/reports-email-engagement.png){width="700" zoomable="yes"}
+![ジャーニー名（イベント）およびペルソナ（イベント）フィルター、過去30日間の日付範囲、メールアクティビティ指標のテーブルを含むメールエンゲージメントレポート。](./assets/reports-email-engagement.png){width="700" zoomable="yes"}
+
+レポートの上部にある&#x200B;**[!UICONTROL ジャーニー名（Event）]**&#x200B;および&#x200B;**[!UICONTROL ペルソナ（Event）]** フィルターを使用して、メールデータを絞り込みます。 フィルターリストを開き、含める値を選択します。 [&#x200B; フィルター](#filters)を参照してください。
 
 他のレポートセクションで使用可能な同じ日付範囲ピッカーを使用して、[日付範囲](./reports-overview.md#change-the-date-range)を変更できます。
 
@@ -56,7 +58,11 @@ ht-degree: 3%
 
 ## フィルター {#filters}
 
-フィルターを使用して、特定のジャーニーやペルソナにレポートを絞り込みます。 **[!UICONTROL すべてをリセット]**&#x200B;を選択して、すべてのフィルターをクリアし、デフォルトのビューに戻ります。
+フィルターを使用して、ジャーニーやペルソナごとにレポートを絞り込みます。
 
 * **[!UICONTROL ジャーニー名（イベント）]** – 電子メールを送信したジャーニーでフィルタリングします。 デフォルトは[!UICONTROL &#x200B; フィルターなし]。
-* **[!UICONTROL ペルソナ （イベント）]** – 電子メールに関連付けられているペルソナでフィルタリングします。 デフォルトは[!UICONTROL &#x200B; フィルターなし]。
+* **[!UICONTROL ペルソナ （イベント）]** – 電子メールに関連付けられている[派生ペルソナ &#x200B;](../audiences/personas.md#filter-by-derived-persona)でフィルタリングします。 デフォルトは[!UICONTROL &#x200B; フィルターなし]。
+
+![&#x200B; メールエンゲージメントレポートは、4つのジャーニーを選択し、ペルソナ（イベント）フィルターリストを開いて、使用可能なペルソナを表示してフィルターします。](./assets/reports-email-engagement-filters.png){width="500" zoomable="yes"}
+
+**[!UICONTROL すべてをリセット]**&#x200B;を選択して、すべてのフィルターをクリアし、デフォルトのビューに戻ります。

@@ -1,15 +1,15 @@
 ---
 title: web エンゲージメントレポート
-description: Adobe Marketo Optimizerの「web エンゲージメント」レポートについて説明します。このレポートでは、インスタンスで最も閲覧されたページと訪問者エンゲージメントの上位10件を表示します。
+description: Adobe Marketo Optimizerのweb エンゲージメントレポートについて説明します。このレポートには、インスタンスで最も閲覧されたページと訪問者エンゲージメントの上位10件が表示されます。
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
     internal-label: Marketo Optimizer
 feature_v2:
   - id: 3c1de303-7a7c-59a6-abca-8c534730e19c
     internal-label: Reporting
-source-git-commit: 64d70f192f1ef972590aef2811e2e91908691196
+source-git-commit: 84abcbf4ddf114898768766d6e91ec855e3f979f
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '281'
 ht-degree: 1%
 ---
 
@@ -44,9 +44,13 @@ ht-degree: 1%
 
 ## フィルター {#filters}
 
-次のフィルターを使用して、レポートを特定のペルソナに絞り込みます。
+レポートの上部にある&#x200B;**[!UICONTROL ペルソナ （イベント）]** フィルターを使用して、ページビューデータを絞り込みます。 フィルターリストを開き、含める値を選択します。
 
-* **[!UICONTROL ペルソナ]** - ページビューに関連付けられているペルソナでフィルタリングします。
+* **[!UICONTROL ペルソナ （イベント）]** - ページビューに関連付けられている[派生ペルソナ &#x200B;](../audiences/personas.md#filter-by-derived-persona)でフィルタリングします。 デフォルトは[!UICONTROL &#x200B; フィルターなし]。
+
+ペルソナ （イベント） フィルターリストが開いている![Web エンゲージメントレポート。使用可能なペルソナと「すべてをリセット」コントロールが表示されます。](./assets/reports-web-engagement-filters.png){width="500" zoomable="yes"}
+
+**[!UICONTROL すべてをリセット]**&#x200B;を選択してフィルターをクリアし、デフォルトのビューに戻ります。
 
 >[!NOTE]
 >
