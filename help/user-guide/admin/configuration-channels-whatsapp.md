@@ -143,7 +143,7 @@ WhatsApp API 資格情報の設定時に HTTP 500 エラーが発生した場合
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_admin_whatsapp-webhook-inbound-keyword"
 >title="キーワードの入力"
->abstract="ユーザーがテキスト入力した内容に基づいて特定の自動応答をトリガーするキーワードを定義できます。 キーワードでは、大文字と小文字は区別されません（stop と STOP は同じように処理されます）。"
+>abstract="ユーザーがテキスト入力した内容に基づいて特定の自動応答をトリガーするキーワードを定義できます。 キーワードでは、大文字と小文字を区別しません（stop と STOP は同じように処理されます）。"
 
 >[!CONTEXTUALHELP]
 >id="ajo-b2b-prime_admin-whatsapp-webhook-webhook-url"
