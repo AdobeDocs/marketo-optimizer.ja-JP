@@ -1,16 +1,16 @@
 ---
 user-guide-title: Marketo Optimizer Documentation
 user-guide-description: Adobe Adobe Marketo Optimizerの詳細と、AIを活用してパーソナライズされたコンテンツを提供し、マーケティング部門とセールス部門が連携してエンゲージメントを進めるために、B2Bのリードとアカウントにどのように役立つのかをご確認ください。
-source-git-commit: e4b0bd62a974e32297b11177d13a783c631597fb
+source-git-commit: e48e778c3a62154297e2c4464f49c3010917d984
 workflow-type: tm+mt
-source-wordcount: '265'
-ht-degree: 42%
+source-wordcount: '267'
+ht-degree: 41%
 ---
 
 # Marketo Optimizer ユーザーガイド {#user}
 
 + [Adobe Marketo Optimizer ドキュメント](guide-overview.md)
-+ {hide-from-toc}[Lighthouse プログラム &#x200B;](./lighthouse-program.md)
++ {hide-from-toc}[Lighthouse プログラム ](./lighthouse-program.md)
 + データ基盤 {#data-foundation}
   + [データアーキテクチャ](./data-architecture.md)
   + [Marketo Engageとの相互運用性](./marketo-interoperability.md)
@@ -95,6 +95,7 @@ ht-degree: 42%
   + [パーソナライズ機能](./content/personalization-expressions.md)
   + [条件付きコンテンツ](./content/conditional-content.md)
   + コンテンツデザインツール {#content-design}
+    + [コンテンツモジュール](./content/content-modules.md)
     + [構造コンポーネント](./content/structure-components.md)
     + [コンテンツコンポーネント](./content/content-components.md)
     + [カスタム CSS](./content/design-custom-css.md)
