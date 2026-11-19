@@ -19,9 +19,9 @@ topic_v2:
     internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: 8c2e4b17decc42fe5efe36f5bd50ebceacb5d8a1
+source-git-commit: e48e778c3a62154297e2c4464f49c3010917d984
 workflow-type: tm+mt
-source-wordcount: '2583'
+source-wordcount: '2590'
 ht-degree: 4%
 ---
 # メールコンテンツ作成
@@ -52,7 +52,7 @@ ht-degree: 4%
 ## メールデザインツール {#email-design-tools}
 
 * **一番上のツールバー：**&#x200B;保存、戻る、コードエディターに切り替える、プレビューコントロール。
-* **左パネル：**&#x200B;構造（列レイアウト）、コンテンツ（テキスト、ボタン、画像、ディバイダー、ソーシャル、HTML）、フラグメント、テンプレート、ナビゲーションツリー（メールのDOM スタイル階層）。
+* **左側のパネル：** モジュール（準備済みセクション）、構造（列レイアウト）、コンテンツ（テキスト、ボタン、画像、区切り記号、ソーシャル、HTML）、フラグメント、テンプレート、ナビゲーションツリー（メールのDOM スタイル階層）。
 * **センターキャンバス：** デスクトップとモバイルのプレビューが表示されたWYSIWYG エディター。
 * **右側のパネル：** コンテンツプロパティ、背景、境界線、パディング、パーソナライゼーションなど、現在選択されているコンポーネントの設定とスタイル。
 
@@ -88,7 +88,7 @@ HTMLとCSSのベストプラクティスに従うことで、メールクライ�
 
    ![電子メールダイアログの作成](./assets/email-design-create-your-email-dialog.png){width="450"}
 
-1. [&#x200B; キャンバスに構造とコンテンツのコンポーネント &#x200B;](#structure-content)を追加します。
+1. [&#x200B; キャンバスにモジュール &#x200B;](#add-modules)または[構造とコンテンツコンポーネント &#x200B;](#structure-content)を追加します。
 
 1. [&#x200B; リンクのレビューと更新](#preview-and-edit-linked-urls)。
 
@@ -159,6 +159,10 @@ _[!UICONTROL メールを作成]_ ページで、_[!UICONTROL サンプルテン
 ![Adobeが提供するテンプレートを選択](./assets/templates-design-samples.png){width="800" zoomable="yes"}
 
 >[!ENDTABS]
+
+## モジュールを追加 {#add-modules}
+
+{{$include /help/_includes/content-design-modules.md}}
 
 ## 構造とコンテンツの追加 {#structure-content}
 

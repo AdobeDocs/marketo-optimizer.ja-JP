@@ -1,6 +1,6 @@
 ---
 title: メールテンプレートの作成
-description: Marketo Optimizerでメールテンプレートを作成する方法（新規作成、ジャーニーからのメールをテンプレートとして保存、デザインイメージをメールテンプレートに変換）を説明します。
+description: Marketo Optimizerでメールテンプレートを作成する方法、コンテンツモジュールをカスタマイズする方法、テンプレートとしてメールを保存する方法、またはデザインイメージをメールテンプレートに変換する方法を説明します。
 TQID: 'https://experienceleague.adobe.com/Hag-o6Hu-82rqnWHnDBgPD-dKApy5JGsPMD5cGFOCfA'
 product_v2:
   - id: a8deb403-4b0c-4f5a-95c6-5e5bedc292ed
@@ -15,30 +15,32 @@ topic_v2:
     internal-label: Accessibility
   - id: e0eb8757-182f-49f3-94a4-1587d16f5094
     internal-label: Personalization
-source-git-commit: b6253400e2c9fc5b7f277add102367743981ce8a
+source-git-commit: e48e778c3a62154297e2c4464f49c3010917d984
 workflow-type: tm+mt
-source-wordcount: '876'
-ht-degree: 1%
+source-wordcount: '937'
+ht-degree: 2%
 ---
 
 # メールテンプレートの作成
 
-[!DNL Adobe Marketo Optimizer]でメールテンプレートを作成するには、次の3つの方法があります。
+ビジュアルデザインスペースを使用して、[!DNL Adobe Marketo Optimizer]でメールテンプレートを作成します。 メールテンプレートでは、用意されたコンテンツモジュールと個々の構造やコンテンツのコンポーネントをサポートします。
+
+>[!NOTE]
+>
+>現在サポートされているのはメールテンプレートのみです。 ランディングページテンプレートは現在利用できません。
+
+メールテンプレートの場合、次の3つの方法から始めることができます。
 
 * **新しいテンプレートを作成** – ビジュアルメールデザインスペースを使用して、テンプレートライブラリにテンプレートを作成します。
 * **ジャーニーメールから保存** — ジャーニーで作成したメールを再利用可能なテンプレートとして保存します。
 * **画像を変換** — デザイン画像をアップロードし、生成AIを使用して編集可能なメールテンプレートに変換します。
 
-## 新しいテンプレートを作成する {#build-new}
+## 新しいメールテンプレートの作成 {#build-new}
 
 1. 左側のナビゲーションで、**[!UICONTROL コンテンツ管理]**&#x200B;を展開し、**[!UICONTROL テンプレート]**&#x200B;を選択します。
 1. 「**[!UICONTROL テンプレートを作成]**」をクリックします。
 1. **[!UICONTROL テンプレート名]**&#x200B;とオプションの&#x200B;**[!UICONTROL 説明]**&#x200B;を入力します。
-1. テンプレートの&#x200B;**[!UICONTROL チャネル]** （タイプ）を設定します。
-
-   >[!NOTE]
-   >
-   >このBeta リリースでは、メールテンプレートのみがサポートされています。
+1. **[!UICONTROL Channel]**&#x200B;を電子メールに設定します。
 
    <!-- 1. Optionally add **[!UICONTROL Tags]** to categorize the template. -->
 
@@ -46,11 +48,23 @@ ht-degree: 1%
 
 1. 「**[!UICONTROL メール本文を編集]**」をクリックして、コンテンツデザインスペースにアクセスします。
 
-   コンテンツデザインについて詳しくは、[電子メールオーサリング &#x200B;](email-authoring.md)を参照してください。
+   コンテンツデザインの詳細については、[&#x200B; モジュール &#x200B;](#add-modules)を追加するか、[電子メールオーサリング &#x200B;](email-authoring.md)を使用してください。
 
 1. オプションで&#x200B;**[!UICONTROL ガバナンス]**&#x200B;を有効にし、[&#x200B; コンテンツロック &#x200B;](template-content-governance.md)を設定して、テンプレート作成者がテンプレートを適用する際に編集できる部分を制限します。
 
 1. 「**[!UICONTROL 保存]**」をクリックします。
+
+## モジュールを追加 {#add-modules}
+
+メールテンプレートで、モジュールを使用して準備されたセクションから始め、コンテンツとスタイルをカスタマイズします。
+
+{{$include /help/_includes/content-design-modules.md}}
+
+### 構造とコンテンツの追加
+
+セクションをゼロから構築したり、モジュールを拡張したりするには、構造コンポーネントとコンテンツコンポーネントを追加します。
+
+{{$include /help/_includes/content-design-components-prime.md}}
 
 ## メールをテンプレートとして保存 {#save-as-template}
 
