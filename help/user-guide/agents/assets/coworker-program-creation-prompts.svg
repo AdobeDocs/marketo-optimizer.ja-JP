@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="1340" viewBox="0 0 1000 1340" role="img" aria-labelledby="title description">
+  <title id="title">Example program creation: eight prompt sections</title>
+  <desc id="description">Build a program brief by specifying the goal, audience, journey, email content, LinkedIn activation, registration handling, post-event follow-up, and settings. The journey splits by intent, sends personalized invitations, merges and waits, then branches by engagement. Registered members exit the invitation journey. These are prompt sections, not a journey execution sequence.</desc>
+  <defs>
+    <style>
+      text { font-family: Arial, Helvetica, sans-serif; fill: #243746; }
+      .title { font-size: 30px; font-weight: 700; }
+      .heading { font-size: 22px; font-weight: 700; }
+      .body { font-size: 18px; }
+      .small { font-size: 16px; }
+      .number { font-size: 20px; font-weight: 700; fill: #ffffff; text-anchor: middle; }
+      .card { fill: #ffffff; stroke: #c9d5df; stroke-width: 1.5; }
+      .badge { fill: #126b78; }
+      .line { fill: none; stroke: #126b78; stroke-width: 2; }
+      .chip { fill: #e8f4f5; stroke: #126b78; }
+      .center { text-anchor: middle; }
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 Z" fill="#126b78"/>
+    </marker>
+  </defs>
+  <rect width="1000" height="1340" rx="16" fill="#f3f6f9"/>
+  <text x="36" y="49" class="title">From campaign goal to program brief</text>
+  <text x="36" y="81" class="body">Eight prompt sections to describe the program you want to create</text>
+  <path d="M 52 146 V 1172" stroke="#a9c7cd" stroke-width="3" fill="none"/>
+
+  <rect x="92" y="112" width="872" height="112" rx="12" class="card"/>
+  <circle cx="52" cy="146" r="20" class="badge"/>
+  <text x="52" y="153" class="number">1</text>
+  <text x="116" y="146" class="heading">Program goal</text>
+  <text x="116" y="177" class="body">Experience Cloud Leadership Forum - AI-Powered Experience Summit</text>
+  <text x="116" y="204" class="body">August 3 to December 3 | Email + LinkedIn | Venue, time, and start mode</text>
+  <rect x="92" y="246" width="872" height="100" rx="12" class="card"/>
+  <circle cx="52" cy="280" r="20" class="badge"/>
+  <text x="52" y="287" class="number">2</text>
+  <text x="116" y="280" class="heading">Audience</text>
+  <text x="116" y="311" class="body">Experience Cloud product intent + engagement score greater than 1</text>
+  <text x="116" y="336" class="body">Exclude unsubscribed and marketing-suspended profiles.</text>
+  <rect x="92" y="368" width="872" height="208" rx="12" class="card"/>
+  <circle cx="52" cy="402" r="20" class="badge"/>
+  <text x="52" y="409" class="number">3</text>
+  <text x="116" y="402" class="heading">Journey</text>
+  <text x="116" y="432" class="body">Next Best Path: split by Experience Cloud intent</text>
+  <rect x="116" y="448" width="248" height="36" rx="8" class="chip"/>
+  <rect x="400" y="448" width="248" height="36" rx="8" class="chip"/>
+  <rect x="684" y="448" width="248" height="36" rx="8" class="chip"/>
+  <text x="240" y="472" class="body center">High: tailored invitation</text>
+  <text x="524" y="472" class="body center">Medium: tailored invitation</text>
+  <text x="808" y="472" class="body center">Low: tailored invitation</text>
+  <path d="M 240 484 V 496 H 808 V 484 M 524 484 V 511" class="line" marker-end="url(#arrow)"/>
+  <text x="524" y="533" class="body center">Merge + wait 2 days, then check engagement and registrations</text>
+  <text x="116" y="561" class="small">Engaged: agenda preview | Non-engaged: LinkedIn + wait 2 days | Reminder: 10 days before event</text>
+  <rect x="92" y="598" width="872" height="128" rx="12" class="card"/>
+  <circle cx="52" cy="632" r="20" class="badge"/>
+  <text x="52" y="639" class="number">4</text>
+  <text x="116" y="632" class="heading">Email content</text>
+  <text x="116" y="663" class="body">Executive Invitation + Agenda Preview + Final Registration Reminder</text>
+  <text x="116" y="690" class="body">Define subject lines, preheaders, calls to action, and image requirements.</text>
+  <text x="116" y="715" class="body">Personalize using person, persona, industry, interest, and engagement data.</text>
+  <rect x="92" y="748" width="872" height="100" rx="12" class="card"/>
+  <circle cx="52" cy="782" r="20" class="badge"/>
+  <text x="52" y="789" class="number">5</text>
+  <text x="116" y="782" class="heading">LinkedIn activation</text>
+  <text x="116" y="813" class="body">Reach non-engaged members with sponsored content about</text>
+  <text x="116" y="838" class="body">customer experience transformation and AI personalization.</text>
+  <rect x="92" y="870" width="872" height="112" rx="12" class="card"/>
+  <circle cx="52" cy="904" r="20" class="badge"/>
+  <text x="52" y="911" class="number">6</text>
+  <text x="116" y="904" class="heading">Registration handling</text>
+  <text x="116" y="935" class="body">Immediately exit registered members from the invitation journey.</text>
+  <text x="116" y="962" class="body">Send preparation email: personalized agenda, venue, sessions, and calendar link.</text>
+  <rect x="92" y="1004" width="872" height="112" rx="12" class="card"/>
+  <circle cx="52" cy="1038" r="20" class="badge"/>
+  <text x="52" y="1045" class="number">7</text>
+  <text x="116" y="1038" class="heading">Post-event follow-up</text>
+  <text x="116" y="1069" class="body">Attendees: follow-up program with recap, recordings, and sales review.</text>
+  <text x="116" y="1096" class="body">No-shows: summit highlights, on-demand content, and future invitations.</text>
+  <rect x="92" y="1138" width="872" height="112" rx="12" class="card"/>
+  <circle cx="52" cy="1172" r="20" class="badge"/>
+  <text x="52" y="1179" class="number">8</text>
+  <text x="116" y="1172" class="heading">Settings</text>
+  <text x="116" y="1203" class="body">Set reply-to and sender tokens. Enable Send Time Optimization for all emails.</text>
+  <text x="116" y="1230" class="body">Reuse a template; vary city, venue, keynote topics, and industry focus.</text>
+
+  <text x="36" y="1290" class="small">Use these sections in a brief or a direct request. They are not a journey execution sequence.</text>
+  <text x="36" y="1317" class="small">Review the generated program and approve the result.</text>
+</svg>
