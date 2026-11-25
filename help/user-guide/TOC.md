@@ -1,16 +1,16 @@
 ---
 user-guide-title: Marketo Optimizer Documentation
 user-guide-description: Adobe Adobe Marketo Optimizerの詳細と、AIを活用してパーソナライズされたコンテンツを提供し、マーケティング部門とセールス部門が連携してエンゲージメントを進めるために、B2Bのリードとアカウントにどのように役立つのかをご確認ください。
-source-git-commit: e48e778c3a62154297e2c4464f49c3010917d984
+source-git-commit: 418b81a0a39eca0ca7b537c76da972df7eefd09f
 workflow-type: tm+mt
-source-wordcount: '267'
+source-wordcount: '271'
 ht-degree: 41%
 ---
 
 # Marketo Optimizer ユーザーガイド {#user}
 
 + [Adobe Marketo Optimizer ドキュメント](guide-overview.md)
-+ {hide-from-toc}[Lighthouse プログラム &#x200B;](./lighthouse-program.md)
++ {hide-from-toc}[Lighthouse プログラム ](./lighthouse-program.md)
 + データ基盤 {#data-foundation}
   + [データアーキテクチャ](./data-architecture.md)
   + [Marketo Engageとの相互運用性](./marketo-interoperability.md)
@@ -19,8 +19,9 @@ ht-degree: 41%
   + [ユーザー管理](./start/user-management.md)
   + [メールの配信品質](./start/email-deliverability.md)
 + [ホームページ](./home-insights/home-page.md)
-+ 共同作業者の能力 {#coworker}
-  + [チャットインターフェイス](./agents/chat-interface.md)
++ Marketo OptimizerのCX Coworker {#coworker}
+  + [概要](./agents/coworker-overview.md)
+  + [チャットパネル](./agents/chat-interface.md)
   + [スキル](./agents/skills.md)
   + [概要からプログラムを作成](./agents/program-from-brief.md)
   + [プログラム用オーディエンスの作成](./agents/audience-creation.md)
