@@ -46,8 +46,8 @@ ht-degree: 2%
 詳しくは、次を参照してください。
 
 * [[!DNL Adobe CX Enterprise Coworker] チャットの概要](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview)
-* [ [!DNL Marketo Optimizer]のチャット インターフェイス](./chat-interface.md)
-* [ [!DNL Marketo Optimizer]の[!DNL Coworker] スキル](./skills.md)
+* [&#x200B; [!DNL Marketo Optimizer]のチャット インターフェイス](./chat-interface.md)
+* [&#x200B; [!DNL Marketo Optimizer]の[!DNL Coworker] スキル](./skills.md)
 
 ## [!DNL CX Enterprise Coworker]の[!DNL Marketo Optimizer] スキル {#skills}
 
@@ -65,7 +65,7 @@ ht-degree: 2%
 
 次の図は、次の例のプロンプトの節をまとめたものです。 ストーリーを進める順序ではなく、リクエストを整理する方法を示します。
 
-![ プログラム作成プロンプトの8つのセクション：プログラム目標、オーディエンス、インテントベースの招待を伴うジャーニー、メールコンテンツ、LinkedIn アクティベーション、登録処理、イベント後のフォローアップ、設定](./assets/coworker-program-creation-prompts.svg){width="800" zoomable="yes"}
+![&#x200B; プログラム作成プロンプトの8つのセクション：プログラム目標、オーディエンス、インテントベースの招待を伴うジャーニー、メールコンテンツ、LinkedIn アクティベーション、登録処理、イベント後のフォローアップ、設定](./assets/coworker-program-creation-prompts.svg){width="800" zoomable="yes"}
 
 各セクションを展開して、サンプルプロンプトを表示します。
 
@@ -125,7 +125,7 @@ _my.replyToEmailを`events@example.com`に、my.senderNameをExperience Cloud Ev
 
 マーケティングオペレーション部門の責任者は、新しいアカウントベースのプログラムを構築する前に、テナントがAIによる意思決定を行う準備ができていることを把握したいと考えています。
 
-1. ストーリーのカバー範囲、特性の豊富さ、ペルソナのカバー範囲を確認するには、[AIによる意思決定のヘルスチェック ](./ai-decisioning-health.md)を実行します。 例えば、_AIの意思決定に利用されたMarketo データを表示します。_
+1. ストーリーのカバー範囲、特性の豊富さ、ペルソナのカバー範囲を確認するには、[AIによる意思決定のヘルスチェック &#x200B;](./ai-decisioning-health.md)を実行します。 例えば、_AIの意思決定に利用されたMarketo データを表示します。_
 1. レポートで特定されたギャップに対処します。
 1. キャンペーン概要をアップロードして、次の質問を行います。_添付された概要を使用してプログラムを作成します。_
 1. [!DNL Coworker]さんが結果を提示したときに、プログラムをレビューして承認します。
