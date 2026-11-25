@@ -45,7 +45,7 @@ ht-degree: 2%
 
 詳しくは、次を参照してください。
 
-* [[!DNL Adobe CX Enterprise Coworker] チャットの概要](https://experienceleague.adobe.com/en/docs/coworker/content/chat/overview)
+* [[!DNL Adobe CX Enterprise Coworker] チャットの概要](https://experienceleague.adobe.com/ja/docs/coworker/content/chat/overview)
 * [&#x200B; [!DNL Marketo Optimizer]のチャット インターフェイス](./chat-interface.md)
 * [&#x200B; [!DNL Marketo Optimizer]の[!DNL Coworker] スキル](./skills.md)
 
